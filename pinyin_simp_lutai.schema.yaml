@@ -62,7 +62,7 @@ speller:
     - derive/ong$/on/
     - derive/ao$/oa/
     - derive/([iu])a(o|ng?)$/a$1$2/
-    - xlit/ex/ds
+    - xlit/e/d
 
 translator:
   dictionary: pinyin_simp

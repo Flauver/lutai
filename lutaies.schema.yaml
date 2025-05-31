@@ -1,6 +1,6 @@
 schema:
-  schema_id: lutai
-  name: 露台
+  schema_id: lutaies
+  name: 露台・二四顶
   version: "0.1.0"
   author:
     - 深白
@@ -21,7 +21,9 @@ switches:
 engine:
   processors:
     - ascii_composer
+    - lua_processor@*lutai.key_binder
     - key_binder
+    - lua_processor@*lutai.popping
     - recognizer
     - speller
     - punctuator
@@ -40,16 +42,21 @@ engine:
     - reverse_lookup_translator
 
 translator:
-  dictionary: lutai       # 設定 table_translator 使用的詞典名
+  dictionary: lutaies       # 設定 table_translator 使用的詞典名
   enable_sentence: false
   enable_user_dict: false
   enable_completion: false
 
 speller:
-  alphabet: "qwrtyuoipasdfghjklzcvbnme"
-  max_code_length: 4
+  alphabet: "qwrtyuiopasdfghjklzcvbnme_/"
+  max_code_length: 5
   auto_select: true
-  auto_select_pattern: "^e.+"
+  auto_select_pattern: ^e.+
+  popping:
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+      accept: "[^_#x;']"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
+      accept: "[^ ]"
 
 reverse_lookup:
   dictionary: pinyin_simp
@@ -63,10 +70,15 @@ recognizer:
 
 key_binder:
   bindings:
-    - when: has_menu
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+      accept: " "
+      send_sequence: "_"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+      accept: "/"
+      send_sequence: " "
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 4}"
       accept: "e"
-      send: "#"
-
+      send_sequence: "#"
 menu:
   page_size: 8
   alternative_select_keys: "_#x;'789"
@@ -98,7 +110,6 @@ punctuator:
     '_' : ——
     '+' : '+'
     '=' : [ '=', 々, 〃 ]
-    '[' : [ 「, 【, 〔, ［, 〚, 〘 ]
     ']' : [ 」, 】, 〕, ］, 〛, 〙 ]
     '{' : [ 『, 〖, ｛ ]
     '}' : [ 』, 〗, ｝ ]

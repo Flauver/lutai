@@ -6,9 +6,9 @@ schema:
     - 深白
   description: |
     单简爽码
-    `全拼反查
+    `全拼反查，但是e移位到d
   dependencies:
-    - pinyin_simp
+    - pinyin_simp_lutai
 
 switches:
   - name: ascii_mode

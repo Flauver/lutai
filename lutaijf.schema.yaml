@@ -1,6 +1,6 @@
 schema:
-  schema_id: lutai
-  name: 露台
+  schema_id: lutaijf
+  name: 露台・简繁通打
   version: "0.1.0"
   author:
     - 深白
@@ -40,7 +40,7 @@ engine:
     - reverse_lookup_translator
 
 translator:
-  dictionary: lutai       # 設定 table_translator 使用的詞典名
+  dictionary: lutaijf       # 設定 table_translator 使用的詞典名
   enable_sentence: false
   enable_user_dict: false
   enable_completion: false
