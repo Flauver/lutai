@@ -9,13 +9,11 @@ sort: original
 ...
 
 了	a
+的时候	a
 ①	a
-②	a
 什么	a
-今天	a
+但是	a
 候	aa
-你们	aa
-他们	aa
 任何	aa
 到了	aa
 羴	aa_a
@@ -260,8 +258,6 @@ sort: original
 侦	af_z
 侦	/afzb
 何	ag
-他的	ag
-你的	ag
 伯	ag_b
 伯	/agbr
 侲	ag_c
@@ -515,6 +511,7 @@ sort: original
 酓	/akyj
 韽	/akyy
 着	al
+你们	al
 了	al_a
 偓	/alai
 偅	al_b
@@ -1006,6 +1003,7 @@ sort: original
 贷	at_z
 贷	/atzb
 便	au
+今天	au
 俹	au_a
 僫	/auag
 傌	/auan
@@ -1242,7 +1240,6 @@ sort: original
 儨	az_z
 儨	/azzm
 里	b
-①	b
 ①	b
 月	b
 应该	b
@@ -1651,7 +1648,6 @@ sort: original
 脄	/bknf
 庾	/bknr
 腴	/bknr
-穴	bk_p
 穴	bk_p
 脖	/bkph
 胈	bk_q
@@ -2224,7 +2220,6 @@ sort: original
 廐	bz_u
 廐	/bzuu
 几	c
-①	c
 ①	c
 种	c
 几个	c
@@ -4851,8 +4846,8 @@ sort: original
 时候	f
 出来	f
 题	fa
-遇到	fa
 得到	fa
+遇到	fa
 最差	fa
 峳	fa_a
 迧	/faak
@@ -7190,8 +7185,9 @@ sort: original
 赖	gm_z
 赖	/gmzb
 并	gn
-就会	gn
+整个	gn
 的人	gn
+就会	gn
 怍	gn_a
 怍	/gnai
 愉	gn_b
@@ -7457,8 +7453,8 @@ sort: original
 忚	/gsyi
 驰	/gsym
 必	gt
-自我	gt
 熟悉	gt
+自我	gt
 恤	gt_d
 恤	/gtdm
 惐	/gtdu
@@ -7559,8 +7555,8 @@ sort: original
 𫘦	/guyf
 怲	/guyn
 鼻	gv
-情况	gv
 自然	gv
+情况	gv
 悑	gv_f
 悑	/gvfi
 愢	gv_g
@@ -7906,6 +7902,7 @@ sort: original
 锵	hf_v
 锵	/hfvk
 原	hg
+爱情	hg
 铂	hg_b
 铂	/hgbj
 習	/hgbv
@@ -8331,8 +8328,8 @@ sort: original
 孑	ho_u
 子	ho_u
 辎	ho_v
-辎	/hovt
 锱	/hovt
+辎	/hovt
 钮	ho_w
 钮	/howh
 钖	/howl
@@ -9597,6 +9594,7 @@ sort: original
 湳	/ikya
 酒	/ikys
 放	il
+注	il
 渥	il_a
 渥	/ilai
 湩	il_b
@@ -9681,6 +9679,7 @@ sort: original
 汪	il_w
 汪	/ilws
 豆	im
+以前	im
 逗	im_a
 逗	/imak
 湔	im_b
@@ -10415,6 +10414,7 @@ sort: original
 副	iv
 世界	iv
 以来	iv
+复杂	iv
 逼	iv_a
 逼	/ivak
 渭	iv_b
@@ -12133,8 +12133,8 @@ sort: original
 鴯	/jtyn
 薁	/jtys
 著	ju
-带走	ju
 这一	ju
+带走	ju
 罵	ju_a
 罵	/juan
 萇	/juap
@@ -12241,8 +12241,8 @@ sort: original
 萄	/juyf
 苪	/juyn
 罗	jv
-当然	jv
 这些	jv
+当然	jv
 带来	jv
 逻	jv_a
 逻	/jvak
@@ -13191,11 +13191,13 @@ sort: original
 𫗴	/kzou
 他	l
 你	l
-你	l
 现	l
 现在	l
 睡觉	l
 特	la
+他们	la
+①	la
+迟	la
 羼	la_a
 羼	/laaa
 遅	/laak
@@ -13529,6 +13531,8 @@ sort: original
 詘	/lfyk
 鶌	/lfyn
 光	lg
+他的	lg
+你的	lg
 珀	lg_b
 矈	/lgbi
 矏	/lgbi
@@ -14563,6 +14567,7 @@ sort: original
 鳲	/ltyn
 鳿	/ltyn
 环	lu
+属于	lu
 眄	lu_a
 瑪	/luan
 眄	/luao
@@ -14643,6 +14648,7 @@ sort: original
 眪	lu_y
 眪	/luyn
 备	lv
+尽	lv
 居然	lv
 瞇	lv_a
 瞇	/lvak
@@ -16402,7 +16408,7 @@ sort: original
 蜹	/njyn
 煐	/njys
 蝧	/njys
-乡	nk
+宝	nk
 螋	nk_a
 螋	/nkaq
 烠	nk_b
@@ -16897,6 +16903,7 @@ sort: original
 蜥	nr_z
 蜥	/nrzj
 谁	ns
+全部	ns
 创造	ns
 燯	ns_a
 燯	/nsap
@@ -17797,6 +17804,7 @@ sort: original
 圁	ol_y
 圁	/olyk
 主	om
+简单	om
 艴	om_a
 艴	/omab
 箭	om_b
@@ -19683,6 +19691,8 @@ sort: original
 麼	/qfym
 阿	qg
 限	qg
+①	qg
+艰	qg
 鲌	qg_b
 鲌	/qgbv
 陙	qg_c
@@ -20286,6 +20296,7 @@ sort: original
 感觉	r
 想要	r
 样	ra
+相信	ra
 樇	ra_a
 樇	/raab
 樤	/raar
@@ -20726,6 +20737,7 @@ sort: original
 椶	/rhyl
 櫾	/rhym
 感	ri
+枝	ri
 欜	ri_a
 欜	/riap
 朼	ri_b
@@ -21246,6 +21258,7 @@ sort: original
 櫛	ro_z
 櫛	/rozq
 极	rp
+成为	rp
 述	rp_a
 樎	/rpag
 榁	/rpai
@@ -21853,8 +21866,8 @@ sort: original
 大	s
 也	s
 ①	s
-大家	s
 需要	s
+大家	s
 达	sa
 达到	sa
 夿	sa_b
@@ -22027,9 +22040,9 @@ sort: original
 牰	/sdyn
 鼬	/sdys
 站	sf
-路上	sf
-特点	sf
 也是	sf
+特点	sf
+路上	sf
 氠	sf_a
 踶	/sfao
 氠	/sfas
@@ -22932,6 +22945,7 @@ sort: original
 霌	/sywd
 跟	sz
 也许	sz
+告诉	sz
 蹆	sz_a
 蹆	/szak
 赏	sz_b
@@ -23302,6 +23316,7 @@ sort: original
 挼	/thyb
 摇	/thyf
 指	ti
+技	ti
 攮	ti_a
 攮	/tiap
 挴	ti_c
@@ -24290,7 +24305,6 @@ sort: original
 一	u
 不	u
 要	u
-要	u
 一个	u
 不是	u
 还	ua
@@ -25133,8 +25147,8 @@ sort: original
 于	uk
 还有	uk
 一直	uk
-都在	uk
 都有	uk
+都在	uk
 迂	uk_a
 迂	/ukak
 髄	uk_b
@@ -25471,8 +25485,8 @@ sort: original
 髗	uq_v
 髗	/uqvd
 越	ur
-不能	ur
 一样	ur
+不能	ur
 不想	ur
 唜	ur_d
 唜	/urdi
@@ -25725,12 +25739,12 @@ sort: original
 礓	/uuvu
 歪	/uuvw
 正	uv
-起来	uv
-一般	uv
 一些	uv
+一般	uv
+起来	uv
 下来	uv
-不止	uv
 更多	uv
+不止	uv
 𬒔	uv_b
 𬒔	/uvbi
 靕	uv_c
@@ -25967,7 +25981,7 @@ sort: original
 然	v
 ②	v
 然后	v
-名字	v
+为什么	v
 冷	va
 来到	va
 粑	va_b
@@ -26426,8 +26440,8 @@ sort: original
 粬	/vlqm
 欫	/vlqw
 艉	vl_r
-栥	/vlrl
 槃	/vlrl
+栥	/vlrl
 艉	/vlrm
 般	vl_s
 般	/vlso
@@ -26610,6 +26624,7 @@ sort: original
 粈	/vowh
 断	/vozj
 久	vp
+名字	vp
 粽	vp_c
 粽	/vpcs
 糦	vp_d
@@ -27558,6 +27573,7 @@ sort: original
 槷	/wmwr
 摰	/wmwt
 闪	wn
+尤其	wn
 堬	wn_b
 堬	/wnbo
 闽	wn_c
@@ -29059,8 +29075,8 @@ sort: original
 姃	/yuvw
 婳	/yuvy
 妹	yv
-如此	yv
 竟然	yv
+如此	yv
 媦	yv_b
 媦	/yvbi
 姳	yv_d
@@ -29204,7 +29220,6 @@ sort: original
 彤	yz_w
 彤	/yzwl
 说	z
-①	z
 ①	z
 话	z
 记得	z
@@ -30462,6 +30477,8 @@ sort: original
 鋾	/zuyf
 鈵	/zuyn
 谓	zv
+许多	zv
+既然	zv
 谜	zv_a
 谜	/zvak
 錹	zv_b

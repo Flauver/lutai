@@ -56,10 +56,10 @@ speller:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
       accept: "[^_#x;']"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
-      accept: "[^ ]"
+      accept: "[^ #x;']"
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: pinyin_simp_lutai
   prefix: "`"
   tips: 〔全拼〕
 
@@ -76,9 +76,9 @@ key_binder:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
       accept: "/"
       send_sequence: " "
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 4}"
+    - when: has_menu
       accept: "e"
-      send_sequence: "#"
+      send: "#"
 menu:
   page_size: 8
   alternative_select_keys: "_#x;'789"

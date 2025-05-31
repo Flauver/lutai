@@ -62,10 +62,9 @@ speller:
     - derive/ong$/on/
     - derive/ao$/oa/
     - derive/([iu])a(o|ng?)$/a$1$2/
-    - xlit/e/d
 
 translator:
-  dictionary: pinyin_simp
+  dictionary: pinyin_simp_lutai
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

@@ -52,7 +52,7 @@ speller:
   auto_select_pattern: "^e.+"
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: pinyin_simp_lutai
   prefix: "`"
   tips: 〔全拼〕
 

@@ -1,8 +1,8 @@
-他	l
-你	le
+他	l	1
+你	l	2
 中	ld
-到	m
-要	ux
+到	m	1
+要	u	3
 们	oj
 开	vz
 主	om
@@ -25,9 +25,13 @@
 确	ya
 根	to
 读	zvs
-标	rse
-完	phe
-限	qge
-艰	qg;
-技	tie
-枝	rie
+标	rs
+完	ph
+限	qg
+艰	qg
+宝	nk
+枝	ri
+技	ti
+尽	lv
+迟	la	4
+注	il
