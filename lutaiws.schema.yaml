@@ -16,14 +16,14 @@ switches:
     states: ["中文", "西文"]
   - name: full_shape
     reset: 0
-    states: ["全角", "半角"]
+    states: ["半角", "全角"]
 
 engine:
   processors:
     - ascii_composer
-    - lua_processor@*sbxlm.key_binder
+    - lua_processor@*lutai.key_binder
     - key_binder
-    - lua_processor@*sbxlm.popping
+    - lua_processor@*lutai.popping
     - recognizer
     - speller
     - punctuator
@@ -69,7 +69,7 @@ recognizer:
 
 key_binder:
   bindings:
-    - match: "[qwrtyuioasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: " "
       send_sequence: "{Left}{space}{space}"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
@@ -85,7 +85,7 @@ key_binder:
       accept: "'"
       send_sequence: "{Left}{space}'"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
-      accept: "."
+      accept: "/"
       send_sequence: "{space}"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "2"

@@ -3,8 +3,8 @@
 -- 本处理器能够支持所有的规则顶功模式
 -- 根据当前编码和新输入的按键来决定是否将当前编码或其一部分的首选顶上屏
 
-local rime = require("lib")
-local core = require("sbxlm.core")
+local rime = require("lutai.lib")
+local core = require("lutai.core")
 
 local this = {}
 
@@ -99,9 +99,9 @@ function this.func(key_event, env)
   end
   local incoming = utf8.char(key_event.keycode)
   if core.fm(schema_id) and context:get_option("delayed_pop") and seg:has_tag("paging") then
-    if rime.match(incoming, "[aeuio]") then
+    if rime.match(incoming, "[]") then
       return rime.process_results.kNoop
-    elseif rime.match(incoming, "[bpmfdtnlgkhjqxzcsrywv]") then
+    elseif rime.match(incoming, "[a-z]") then
       context:commit()
       return rime.process_results.kNoop
     end
@@ -133,7 +133,7 @@ function this.func(key_event, env)
       end
       context:pop_input(1)
     end
-    local index = string.find(string.reverse(input), "[bpmfdtnlgkhjqxzcsrywv]")
+    local index = string.find(string.reverse(input), "[a-z]")
     if rule.prefix and index then
       if rule.prefix > 0 then
         context:pop_input(input:len() - rule.prefix)

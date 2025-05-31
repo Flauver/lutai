@@ -16,7 +16,7 @@ switches:
     states: ["中文", "西文"]
   - name: full_shape
     reset: 0
-    states: ["全角", "半角"]
+    states: ["半角", "全角"]
 
 engine:
   processors:

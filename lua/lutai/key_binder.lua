@@ -11,8 +11,8 @@ local XK_4 = 0x0034
 local XK_5 = 0x0035
 local XK_6 = 0x0036
 
-local rime = require "lib"
-local core = require "sbxlm.core"
+local rime = require "lutai.lib"
+local core = require "lutai.core"
 
 local this = {}
 
