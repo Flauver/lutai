@@ -6800,7 +6800,7 @@ sort: original
 檖	rmya
 檗	ldjr
 檘	rldj
-檙	rloo
+檙	rljf
 檚	rrra
 檛	ryoa
 檜	rnvf
@@ -8103,20 +8103,20 @@ sort: original
 濨	imfg
 濩	ijqq
 濪	icba
-鼎	louo
+鼎	ljfp
 濬	ifpl
 濭	ijwd
 濮	iaob
 濯	ihqi
 濰	ifoq
-鼏	ploo
+鼏	pljf
 濲	iwul
 濳	ishf
 濴	inni
 濵	iplm
 濶	iyop
 濷	iiin
-鼐	oloo
+鼐	oljf
 濹	ivwh
 濺	ilmt
 濻	iqnm
@@ -8126,12 +8126,12 @@ sort: original
 濿	ihjn
 瀀	iutl
 瀁	ibpz
-鼑	floo
+鼑	fljf
 瀃	ilmj
 瀄	iozq
 瀅	innp
 瀆	iwjm
-鼒	ktlo
+鼒	ktlf
 瀈	ihpk
 瀉	ipkn
 瀊	ivld
@@ -12847,7 +12847,7 @@ sort: original
 薞	jwps
 薟	jndn
 薠	jnum
-薡	jloo
+薡	jljf
 薢	jmgs
 薣	jpci
 薤	jwyu
@@ -15597,7 +15597,7 @@ sort: original
 鐡	zktm
 鐢	rhhz
 鐣	zsts
-鐤	zloo
+鐤	zljf
 鐥	zamd
 鐦	zyoj
 鐧	zyof
@@ -17408,7 +17408,7 @@ sort: original
 澼	ildj
 澽	iqys
 濅	ipcq
-濎	iloo
+濎	iljf
 濐	ifuq
 濓	ishm
 濔	iumh
@@ -20413,7 +20413,7 @@ sort: original
 佝	anj
 佞	aoy
 佟	alv
-你	am
+您	am
 佣	agy
 佥	nhd
 佦	aus
@@ -20780,7 +20780,6 @@ sort: original
 击	tyk
 凼	iyk
 函	aiy
-凿	oay
 刃	mpf
 分	mm
 切	qm
@@ -20804,7 +20803,7 @@ sort: original
 刬	uto
 刭	qjo
 刮	pod
-到	ao
+仍	ao
 刱	nmm
 刴	oro
 制	sy
@@ -21235,7 +21234,6 @@ sort: original
 唁	dly
 唆	dro
 必	gd
-唇	gdi
 唉	dru
 唍	dpo
 唏	dhk
@@ -21944,7 +21942,6 @@ sort: original
 娅	yuo
 娆	ytu
 明	yt
-娇	yts
 娊	ylh
 娌	ybl
 娍	yro
@@ -22260,7 +22257,6 @@ sort: original
 尶	uhj
 麸	clp
 与	ls
-尸	lst
 尹	ctp
 尺	lpf
 尻	lvj
@@ -24600,7 +24596,6 @@ sort: original
 湷	ikf
 湹	ihb
 湻	igf
-湾	izo
 湿	ifo
 溃	inz
 溅	izu
@@ -25618,7 +25613,7 @@ sort: original
 瞍	lka
 瞎	lpc
 瞒	ljd
-瞙	ljf
+鼎	ljf
 瞟	ldc
 瞠	lsw
 瞡	lpl
@@ -26709,7 +26704,6 @@ sort: original
 膵	bjz
 膷	bnp
 膻	bzo
-臂	ldj
 臃	bzn
 臆	byg
 臌	bpc
@@ -27954,7 +27948,6 @@ sort: original
 軇	hwo
 軈	hba
 輋	fsu
-轧	hot
 轨	hvj
 轩	hng
 轫	hmp
@@ -29120,7 +29113,6 @@ sort: original
 鱾	qij
 鱿	qwy
 鲁	qfo
-鲂	qif
 鲃	qab
 鲄	qgk
 鲆	qnm
@@ -29249,7 +29241,6 @@ sort: original
 会	n
 么	t
 也	s
-他	a
 地	w
 又	q
 后	h
@@ -30308,7 +30299,7 @@ sort: original
 风	chqj
 飞	ofp
 餐	wqps
-#简词
+#多重
 ①	dd
 ②	dd
 哭	dd
@@ -30317,6 +30308,10 @@ sort: original
 臂	ld
 壁	ld
 幕	jf
+①	cf
+②	cf
+神	cf
+#简词
 ①	q
 ①	w
 ①	r
@@ -30637,10 +30632,16 @@ sort: original
 早点	jf
 不止	uv
 更多	uv
+比较	ih
+生活	mi
+出发	fj
+原因	ho
+其实	np
 #快符
 ？	ew
 ！	ea
 ；	el
+：“	eq
 “	ej
 ”	ek
 。”	eu

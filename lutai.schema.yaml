@@ -43,6 +43,7 @@ translator:
   dictionary: lutai       # 設定 table_translator 使用的詞典名
   enable_sentence: false
   enable_user_dict: false
+  enable_completion: false
 
 speller:
   alphabet: "qwrtyuoipasdfghjklzcvbnme"

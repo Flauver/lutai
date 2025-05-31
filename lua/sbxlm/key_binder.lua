@@ -3,7 +3,16 @@
 -- 本处理器在 Rime 标准库的按键绑定处理器（key_binder）的基础上增加了用正则表达式判断当前输入的编码的功能
 -- 也即，在输入编码不同时，可以将按键绑定到不同的功能
 
-local rime = require "sbxlm.lib"
+local XK_semicolon = 0x003b
+local XK_Tab = 0xff09
+local XK_0 = 0x0030
+local XK_1 = 0x0031
+local XK_4 = 0x0034
+local XK_5 = 0x0035
+local XK_6 = 0x0036
+
+local rime = require "lib"
+local core = require "sbxlm.core"
 
 local this = {}
 
@@ -57,23 +66,38 @@ end
 ---@param key_event KeyEvent
 ---@param env KeyBinderEnv
 function this.func(key_event, env)
-  -- local input = rime.current(env.engine.context)
-  local input = rime.input(env.engine.context)
-  -- log.info("key_binder"..input)
+  local context = env.engine.context
+  local segment = env.engine.context.composition:back()
+  local schema_id = env.engine.schema.schema_id
+  local ascii_mode = context:get_option("ascii_mode")
+  local delayed_pop = context:get_option("delayed_pop")
   if env.redirecting then
     return rime.process_results.kNoop
   end
-
-
+  local input = rime.current(context)
   if not input then
     return rime.process_results.kNoop
   end
-  if env.engine.context == nil or env.engine.context.composition == nil or env.engine.context.composition:back() == nil then
+  if not segment:has_tag("abc") then
     return rime.process_results.kNoop
   end
-  if not env.engine.context.composition:back():has_tag("abc") then
-    return rime.process_results.kNoop
+
+  -- 飞码延顶四码加分号特殊处理
+  if (key_event.keycode == XK_semicolon or key_event.keycode == XK_Tab) 
+  and not ascii_mode and not key_event:shift() and not key_event:ctrl()
+  and core.fm(schema_id) and delayed_pop and core.sxsx(input) then
+    env.redirecting = true
+    env.engine:process_key(rime.KeyEvent("Page_Down"))
+    env.engine:process_key(rime.KeyEvent("Page_Up"))
+    if key_event.keycode == XK_semicolon then
+      env.engine:process_key(rime.KeyEvent("a"))
+    else
+      env.engine:process_key(rime.KeyEvent("e"))
+    end
+    env.redirecting = false
+    return rime.process_results.kAccepted
   end
+
   for _, binding in ipairs(env.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then
@@ -84,6 +108,13 @@ function this.func(key_event, env)
       env.redirecting = false
       return rime.process_results.kAccepted
     end
+  end
+
+  if core.yp(schema_id) and input:sub(-2,-1) == "''"
+  and (key_event.keycode == XK_1 or key_event.keycode == XK_4
+  or key_event.keycode == XK_5 or key_event.keycode == XK_6
+  or key_event.keycode == XK_0) then
+    env.engine:process_key(rime.KeyEvent("BackSpace"))
   end
   return rime.process_results.kNoop
 end

@@ -45,14 +45,15 @@ translator:
   dictionary: lutai       # 設定 table_translator 使用的詞典名
   enable_sentence: false
   enable_user_dict: false
+  enable_completion: false
 
 speller:
-  alphabet: "qwrtyuoipasdfghjklzcvbnme"
-  max_code_length: 4
+  alphabet: "qwrtyuiopasdfghjklzcvbnme"
+  max_code_length: 5
   auto_select: true
   auto_select_pattern: ^e.+
   popping:
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ #x;']"
       prefix: 3
 
@@ -68,37 +69,37 @@ recognizer:
 
 key_binder:
   bindings:
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuioasdfghjklzcvbnm]{4}"
       accept: " "
       send_sequence: "{Left}{space}{space}"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "e"
       send_sequence: "{Left}{space}#"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "x"
       send_sequence: "{Left}{space}x"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: ";"
       send_sequence: "{Left}{space};"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}" #五三顶
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}" #五三顶
       accept: "'"
       send_sequence: "{Left}{space}'"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "."
       send_sequence: "{space}"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "2"
       send_sequence: "#"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "3"
       send_sequence: "x"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "4"
       send_sequence: ";"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{4}" #上屏四码
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}" #上屏四码
       accept: "5"
       send_sequence: "'"
-    - match: "[qwrtyuoipasdfghjklzcvbnm]{1, 3}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
       accept: "e"
       send_sequence: "#"
 menu:

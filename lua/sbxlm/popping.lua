@@ -3,7 +3,8 @@
 -- 本处理器能够支持所有的规则顶功模式
 -- 根据当前编码和新输入的按键来决定是否将当前编码或其一部分的首选顶上屏
 
-local rime = require("sbxlm.lib")
+local rime = require("lib")
+local core = require("sbxlm.core")
 
 local this = {}
 
@@ -15,7 +16,8 @@ local this = {}
 local strategies = {
   pop = "pop",
   append = "append",
-  conditional = "conditional"
+  conditional = "conditional",
+  ignore = "ignore"
 }
 
 ---@class PoppingConfig
@@ -71,8 +73,9 @@ end
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
 function this.func(key_event, env)
-  if not (env.engine.context.composition:back():has_tag("abc") 
-     or env.engine.context.composition:back():has_tag("punct")) then
+  local seg = env.engine.context.composition:back()
+  local schema_id = env.engine.schema.schema_id
+  if not seg or not (seg:has_tag("abc") or seg:has_tag("punct")) then
     return rime.process_results.kNoop
   end
   local context = env.engine.context
@@ -95,6 +98,14 @@ function this.func(key_event, env)
     end
   end
   local incoming = utf8.char(key_event.keycode)
+  if core.fm(schema_id) and context:get_option("delayed_pop") and seg:has_tag("paging") then
+    if rime.match(incoming, "[aeuio]") then
+      return rime.process_results.kNoop
+    elseif rime.match(incoming, "[bpmfdtnlgkhjqxzcsrywv]") then
+      context:commit()
+      return rime.process_results.kNoop
+    end
+  end
   for _, rule in ipairs(env.popping) do
     local when = rule.when
     local success = false
@@ -109,7 +120,10 @@ function this.func(key_event, env)
     end
     -- 如果策略为追加编码，则不执行顶屏直接返回
     if rule.strategy == strategies.append then
-      goto finish
+      if core.jp(schema_id) or core.py(schema_id) then
+        goto finish
+      end
+      return env.speller:process_key_event(key_event)
     -- 如果策略为条件顶屏，那么尝试先添加编码，如果能匹配到候选就不顶屏
     elseif rule.strategy == strategies.conditional then
       context:push_input(incoming)
@@ -119,8 +133,13 @@ function this.func(key_event, env)
       end
       context:pop_input(1)
     end
-    if rule.prefix then
-      context:pop_input(input:len() - rule.prefix)
+    local index = string.find(string.reverse(input), "[bpmfdtnlgkhjqxzcsrywv]")
+    if rule.prefix and index then
+      if rule.prefix > 0 then
+        context:pop_input(input:len() - rule.prefix)
+      elseif rule.prefix == 0 then
+        context:pop_input(index)
+      end
     end
     -- 如果当前有候选，则执行顶屏；否则顶功失败，继续执行下一个规则
     if context:has_menu() then
@@ -130,8 +149,18 @@ function this.func(key_event, env)
       end
       success = true
     end
-    if rule.prefix then
-      context:push_input(input:sub(rule.prefix + 1))
+    if rule.prefix and index then
+      local tmpStr = ""
+      if rule.prefix > 0 then
+        tmpStr = input:sub(rule.prefix + 1)
+      elseif rule.prefix == 0 then
+        tmpStr = input:sub(input:len() - index + 1)
+      end
+      context:push_input(tmpStr)
+      if rule.strategy == strategies.ignore then
+        context:commit()
+        return rime.process_results.kAccepted
+      end
     end
     if success then
       goto finish
