@@ -635,6 +635,7 @@
 僧	amvf
 鮺	amvn
 作	an
+安	an
 羹	ana
 作	anar
 羹	anas
@@ -18672,6 +18673,7 @@
 袦	pfyk
 飿	pfyk
 被	pg
+容	pg
 害怕	pg
 袙	pgb
 袙	pgby
@@ -19272,6 +19274,7 @@
 衪	psyy
 赛	pszb
 柔	pt
+乱	pt
 矜	pta
 矜	ptaj
 矝	ptap

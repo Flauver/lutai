@@ -35,3 +35,6 @@
 尽	lv
 迟	la	4
 注	il
+容	pg
+乱	pt
+安	an

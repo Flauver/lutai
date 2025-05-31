@@ -49,13 +49,15 @@ translator:
 
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnme"
-  max_code_length: 5
+  max_code_length: 6
   auto_select: true
   auto_select_pattern: ^e.+
   popping:
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "(?!fj)[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ #x;']"
       prefix: 3
+    - match: "fj[qwrtyuiopasdfghjklzcvbnm]{4}"
+      accept: "[^ #x;']"
 
 reverse_lookup:
   dictionary: pinyin_simp_lutai
@@ -102,7 +104,7 @@ key_binder:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}" #上屏四码
       accept: "5"
       send_sequence: "'"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "e"
       send_sequence: "#"
 menu:
