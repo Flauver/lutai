@@ -6,9 +6,9 @@ schema:
     - 深白
   description: |
     单简爽码
-    `全拼反查，但是ex移位到ds
+    `全拼反查
   dependencies:
-    - pinyin_simp_lutai
+    - pinyin_simp
 
 switches:
   - name: ascii_mode
@@ -22,6 +22,7 @@ engine:
   processors:
     - ascii_composer
     - key_binder
+    - recognizer
     - speller
     - punctuator
     - selector         # 選字、換頁
@@ -44,8 +45,10 @@ translator:
   enable_user_dict: false
 
 speller:
-  alphabet: "qwrtyuopasdfghjklzcvbnmi"
+  alphabet: "qwrtyuoipasdfghjklzcvbnme"
   max_code_length: 4
+  auto_select: true
+  auto_select_pattern: "^e.+"
 
 reverse_lookup:
   dictionary: pinyin_simp
@@ -57,15 +60,20 @@ recognizer:
   patterns:
     reverse_lookup: "^`[a-z]*$"
 
+key_binder:
+  bindings:
+    - when: has_menu
+      accept: "e"
+      send: "#"
+
 menu:
   page_size: 8
-  alternative_select_keys: "_ex;'789"
+  alternative_select_keys: "_#x;'789"
 
 punctuator:
   half_shape:
     ',' : { commit: ， }
     '.' : { commit: 。 }
-    ';' : [；]
     '<' : [ 《, 〈, «, ‹, ⟨, ˂, ˱ ]
     '>' : [ 》, 〉, », ›, ⟩, ˃, ˲ ]
     '/' : [ 、, ､, '/', ／, ÷ ]
@@ -78,7 +86,6 @@ punctuator:
     '~' : [ '~', ～, ˜, ˷, ⸯ, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌, ︴ ]
     '!' : { commit: ！ }
     '@' : [ '@', ©, ®, ℗ ]
-    '#' : [ '#', № ]
     '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉, ℅, ℆, ℀, ℁, ⅍ ]
     '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤', ₩ ]
     '^' : { commit: …… }
