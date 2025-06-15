@@ -38,3 +38,9 @@
 容	pg
 乱	pt
 安	an
+案	an
+往	fl	3
+探	tnr
+延	tmt
+药	jvu
+君	cyd
