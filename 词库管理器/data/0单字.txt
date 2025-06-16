@@ -29976,7 +29976,7 @@
 炓	nvk
 熡	ndk
 烧	ntu
-𬊤	nmf
+蝉	nmf
 炮	nui
 熾	nyt
 烚	nnd
@@ -30013,7 +30013,7 @@
 煄	nlb
 焷	ngt
 煏	niv
-烶	nlt
+蜓	nlt
 燍	nnz
 煠	nio
 炦	nkqp
@@ -30120,8 +30120,8 @@
 螻	ndky
 烧	ntuh
 蛲	ntuh
-𬊤	nmfk
 蝉	nmfk
+𬊤	nmfk
 炮	nuis
 蚫	nuis
 熿	njdm
@@ -30230,8 +30230,8 @@
 蜱	ngtk
 煏	nivt
 蝠	nivt
-烶	nltj
 蜓	nltj
+烶	nltj
 燡	njwa
 蠌	njwa
 燍	nnzj
