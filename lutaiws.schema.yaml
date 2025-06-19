@@ -49,7 +49,7 @@ translator:
 
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnme["
-  max_code_length: 5
+  max_code_length: 6
   auto_select: true
   auto_select_pattern: '^e.+|..\[..'
   popping:
@@ -58,6 +58,8 @@ speller:
       prefix: 3
     - match: "fj[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ #x;']"
+    - match: '[qwrtyuiopasdfghjklzcvbnm]{2}\[[qwrtyuiopasdfghjklzcvbnm]{2}'
+      accept: "[^ #x;'789]"
 
 reverse_lookup:
   dictionary: pinyin_simp_lutai
