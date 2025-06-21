@@ -19311,7 +19311,6 @@
 謱	ldky
 秜	clib
 駄	uatp
-螁	nzak
 鸔	tyyi
 纉	fopm
 鯈	aaln
@@ -29969,7 +29968,7 @@
 煗	njs
 炷	npl
 焬	nfj
-煺	nza
+遗	nza
 炶	nfd
 爥	nli
 燫	nbd
@@ -29979,7 +29978,7 @@
 蝉	nmf
 炮	nui
 熾	nyt
-烚	nnd
+蛤	nnd
 煸	nkl
 烽	nlc
 焟	njf
@@ -30104,6 +30103,7 @@
 焬	nfju
 蜴	nfju
 煺	nzak
+螁	nzak
 遗	nzak
 熜	nolg
 蟌	nolg
@@ -30131,8 +30131,8 @@
 蟙	nytg
 熫	nbin
 蟅	nbin
-烚	nndi
 蛤	nndi
+烚	nndi
 燭	njun
 蠋	njun
 煸	nklc
