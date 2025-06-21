@@ -16594,10 +16594,10 @@
 蠃	nnci
 蚃	nnck
 蜝	nncq
-烚	nnd
+蛤	nnd
 熻	nndh
-烚	nndi
 蛤	nndi
+烚	nndi
 爚	nndl
 炎	nnf
 煔	nnfd
@@ -17215,9 +17215,9 @@
 蚒	nyzf
 烿	nyzw
 斯	nz
-煺	nza
-螁	nzak
+遗	nza
 煺	nzak
+螁	nzak
 遗	nzak
 焲	nzap
 贵	nzb
