@@ -1,3 +1,13 @@
+#Rime dictionary
+
+name: lutaies
+version: "1"
+columns:
+  - text
+  - code
+sort: original
+...
+
 了	a
 的时候	a
 ①	a
@@ -16112,10 +16122,10 @@
 蝿	/nffo
 燝	nf_g
 燝	/nfgj
-烄	nf_h
-蝂	/nfhq
-烄	/nfhq
+蛟	nf_h
 蛟	/nfhq
+烄	/nfhq
+蝂	/nfhq
 焜	nf_i
 焜	/nfii
 蜫	/nfii
@@ -32971,7 +32981,6 @@
 虲	nf_b
 煴	nf_d
 熴	nf_f
-蝂	nf_h
 螘	nf_i
 焯	nf_j
 熀	nf_l
@@ -33140,7 +33149,7 @@
 蚔	ny_s
 蜩	ny_w
 蚒	ny_z
-螁	nz_a
+煺	nz_a
 赢	nz_b
 蟀	nz_f
 蚚	nz_j

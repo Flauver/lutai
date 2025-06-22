@@ -19200,7 +19200,6 @@
 閱	yoyh
 軯	ufkm
 趬	uwwh
-蝂	nfhq
 鮥	mvnk
 閿	yoyq
 闀	yoyi
@@ -29995,7 +29994,7 @@
 熵	nsy
 燎	nsm
 焞	ngh
-烄	nfh
+蛟	nfh
 煌	ngl
 爠	nll
 煵	nky
@@ -30189,8 +30188,9 @@
 蟟	nsmj
 焞	ngho
 蜳	ngho
-烄	nfhq
 蛟	nfhq
+烄	nfhq
+蝂	nfhq
 燊	nnnr
 蠑	nnnr
 煌	nglw
