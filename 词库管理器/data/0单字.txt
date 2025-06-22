@@ -29944,7 +29944,7 @@
 煊	npu
 炫	nzf
 炳	nuy
-炨	npi
+蛇	npi
 煳	nhb
 焴	nrb
 烓	nww
@@ -30029,8 +30029,8 @@
 蛃	nuyn
 熐	npff
 螟	npff
-炨	npib
 蛇	npib
+炨	npib
 煳	nhbi
 蝴	nhbi
 焴	nrbi

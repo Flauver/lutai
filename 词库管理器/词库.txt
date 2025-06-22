@@ -16786,9 +16786,9 @@
 亽	npfr
 蚁	nph
 蚁	nphq
-炨	npi
-炨	npib
+蛇	npi
 蛇	npib
+炨	npib
 炷	npl
 倉	npld
 飮	npll
