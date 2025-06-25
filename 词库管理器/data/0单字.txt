@@ -29979,7 +29979,7 @@
 熾	nyt
 蛤	nnd
 煸	nkl
-烽	nlc
+蜂	nlc
 焟	njf
 焻	nff
 燸	nsj
@@ -30138,8 +30138,8 @@
 蝙	nklc
 熓	ntyn
 螐	ntyn
-烽	nlcf
 蜂	nlcf
+烽	nlcf
 爟	njdq
 蠸	njdq
 焟	njfo

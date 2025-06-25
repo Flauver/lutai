@@ -16462,10 +16462,10 @@
 煄	nlb
 煄	nlbl
 蝩	nlbl
-烽	nlc
+蜂	nlc
 熢	nlca
-烽	nlcf
 蜂	nlcf
+烽	nlcf
 侖	nlcr
 攼	nld
 炇	nldf
