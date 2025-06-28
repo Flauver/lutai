@@ -17154,13 +17154,12 @@
 熆	nwr
 熆	nwrd
 蜐	nwrj
-烓	nww
+蛙	nww
 虻	nwwc
-蟯	nwwh
+蛙	nwwh
 烓	nwwh
-蛙	nwwh
 燒	nwwh
-蛙	nwwh
+蟯	nwwh
 蛖	nwwl
 蚘	nwy
 蚘	nwyc
