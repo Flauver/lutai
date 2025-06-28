@@ -19407,7 +19407,6 @@
 稅	cmdh
 鮄	mvno
 齸	vnnd
-蟯	nwwh
 駞	uats
 鵭	ztyn
 麬	rnng
@@ -29947,7 +29946,7 @@
 蛇	npi
 煳	nhb
 焴	nrb
-烓	nww
+蛙	nww
 焥	npv
 燋	nqn
 烴	nuo
@@ -30043,8 +30042,8 @@
 蟫	ndjz
 烺	npzg
 蜋	npzg
-烓	nwwh
 蛙	nwwh
+烓	nwwh
 焥	npvi
 蜿	npvi
 爄	nhjn
@@ -30181,7 +30180,7 @@
 烻	ntvt
 蜒	ntvt
 燒	nwwh
-蛙	nwwh
+蟯	nwwh
 煣	nptr
 蝚	nptr
 燎	nsmj
