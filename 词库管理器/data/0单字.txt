@@ -30008,7 +30008,7 @@
 烰	nhh
 煄	nlb
 焷	ngt
-煏	niv
+蝠	niv
 蜓	nlt
 燍	nnz
 煠	nio
@@ -30226,8 +30226,8 @@
 蝩	nlbl
 焷	ngtk
 蜱	ngtk
-煏	nivt
 蝠	nivt
+煏	nivt
 蜓	nltj
 烶	nltj
 燡	njwa

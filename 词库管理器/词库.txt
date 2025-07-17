@@ -16326,9 +16326,9 @@
 戗	nitg
 蟝	niu
 蟝	niur
-煏	niv
-煏	nivt
+蝠	niv
 蝠	nivt
+煏	nivt
 句	nj
 井	nja
 焇	njb
