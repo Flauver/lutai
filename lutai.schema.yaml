@@ -65,11 +65,20 @@ key_binder:
   bindings:
     - when: has_menu
       accept: "e"
-      send: "#"
+      send: "2"
+    - when: has_menu
+      accept: "x"
+      send: "3"
+    - when: has_menu
+      accept: ";"
+      send: "4"
+    - when: has_menu
+      accept: "'"
+      send: "5"
 
 menu:
   page_size: 8
-  alternative_select_keys: "_#x;'789"
+  alternative_select_keys: "12345789"
 
 punctuator:
   half_shape:
@@ -77,15 +86,15 @@ punctuator:
     '.' : { commit: 。 }
     '<' : [ 《, 〈, «, ‹, ⟨, ˂, ˱ ]
     '>' : [ 》, 〉, », ›, ⟩, ˃, ˲ ]
-    '/' : [ 、, ､, '/', ／, ÷ ]
-    '?' : { commit: ？ }
+    '!' : [ 、, ､, '/', ／, ÷ ]
+    ';' : { commit: ？ }
     ':' : { commit: ： }
-    '"' : { pair: [ '“', '”' ] }
+    '''' : { pair: [ '：“', '”' ] }
     '\' : [ 、, '\', ＼ ]
     '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴ ]
     '`' : [ '`', ‵, ‶, ‷, ′, ″, ‴, ⁗ ]
     '~' : [ '~', ～, ˜, ˷, ⸯ, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌, ︴ ]
-    '!' : { commit: ！ }
+    '/' : { commit: ！ }
     '@' : [ '@', ©, ®, ℗ ]
     '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉, ℅, ℆, ℀, ℁, ⅍ ]
     '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤', ₩ ]
