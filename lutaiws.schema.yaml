@@ -71,45 +71,43 @@ recognizer:
 
 key_binder:
   bindings:
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{1, 3}$|^fj[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: " "
       send_sequence: " "
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{1, 3}$|^fj[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: "e"
       send_sequence: "2"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{1, 3}$|^fj[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: "x"
       send_sequence: "3"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{1, 3}$|^fj[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: ";"
       send_sequence: "4"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{1, 3}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{1, 3}$|^fj[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: "'"
       send_sequence: "5"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: " "
       send_sequence: "{Left}{space}{space}"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: "e"
       send_sequence: "{Left}{space}2"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: "x"
       send_sequence: "{Left}{space}3"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: ";"
       send_sequence: "{Left}{space}4"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}" #五三顶
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$" #五三顶
       accept: "'"
       send_sequence: "{Left}{space}5"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: "/"
       send_sequence: "{space}"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}$"
       accept: Tab
       send_sequence: "{space}"
-    - match: '[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
-      accept: "e"
-      send_sequence: "2"
+
 menu:
   page_size: 8
   alternative_select_keys: "12345789"
