@@ -36,7 +36,6 @@ engine:
     - punct_segmentor   # 劃界，與前後方的其他編碼區分開
     - fallback_segmentor
   translators:
-    - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
     - punct_translator  # 轉換
     - table_translator    # 碼表式轉換
     - reverse_lookup_translator
