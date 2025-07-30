@@ -16308,12 +16308,12 @@
 剣	nin
 剣	nino
 剱	ninp
-煠	nio
+蝶	nio
 创	niod
 虼	nioi
 蟎	nion
-煠	nior
 蝶	nior
+煠	nior
 煤	nir
 煤	nirl
 隶	nis

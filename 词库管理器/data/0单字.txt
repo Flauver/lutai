@@ -30011,7 +30011,7 @@
 蝠	niv
 蜓	nlt
 燍	nnz
-煠	nio
+蝶	nio
 炦	nkqp
 蛂	nkqp
 焰	nmkj
@@ -30234,8 +30234,8 @@
 蠌	njwa
 燍	nnzj
 蟖	nnzj
-煠	nior
 蝶	nior
+煠	nior
 煖	nhuq
 蝯	nhuq
 燌	nkjm

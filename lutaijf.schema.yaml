@@ -6,9 +6,10 @@ schema:
     - 深白
   description: |
     单简爽码
-    `全拼反查，但是e移位到d
   dependencies:
-    - pinyin_simp_lutai
+    - jdh_lutai
+    - stroke_lutai
+    - cangjie5_sc_lutai
 
 switches:
   - name: ascii_mode
@@ -31,13 +32,18 @@ engine:
   segmentors:
     - abc_segmentor       # 標記輸入碼的類型
     - matcher
+    - affix_segmentor@jdh_lutai_lookup
+    - affix_segmentor@stroke_lutai_lookup
+    - affix_segmentor@cangjie_lutai_lookup
     - punct_segmentor   # 劃界，與前後方的其他編碼區分開
     - fallback_segmentor
   translators:
     - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
     - punct_translator  # 轉換
     - table_translator    # 碼表式轉換
-    - reverse_lookup_translator
+    - table_translator@jdh_lutai_lookup
+    - table_translator@stroke_lutai_lookup
+    - table_translator@cangjie_lutai_lookup
 
 translator:
   dictionary: lutaijf       # 設定 table_translator 使用的詞典名
@@ -45,21 +51,39 @@ translator:
   enable_user_dict: false
   enable_completion: false
 
+jdh_lutai_lookup:
+  tag: jdh_lutai_lookup
+  dictionary: jdh_lutai
+  prefix: "xh"
+  tips: "〔简单鹤反查〕"
+  enable_user_dict: false
+
+stroke_lutai_lookup:
+  tag: stroke_lutai_lookup
+  dictionary: stroke_lutai
+  prefix: "xb"
+  tips: "〔笔画反查〕"
+  enable_user_dict: false
+
+cangjie_lutai_lookup:
+  tag: cangjie_lutai_lookup
+  dictionary: cangjie5_sc_lutai
+  prefix: "xc"
+  tips: "〔仓颉反查〕"
+  enable_user_dict: false
+
 speller:
-  alphabet: "qwrtyuoipasdfghjklzcvbnme"
+  alphabet: "qwrtyuoipasdfghjklzcvbnmex"
   max_code_length: 4
   auto_select: true
   auto_select_pattern: "^e.+"
 
-reverse_lookup:
-  dictionary: pinyin_simp_lutai
-  prefix: "`"
-  tips: 〔全拼〕
-
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^`[a-z]*$"
+    jdh_lutai_lookup: "^xh[a-z]*$"
+    stroke_lutai_lookup: "^xb[a-z]*$"
+    cangjie_lutai_lookup: "^xc[a-z]*$"
 
 key_binder:
   bindings:
