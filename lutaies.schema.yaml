@@ -43,16 +43,21 @@ engine:
   translators:
     - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
     - punct_translator  # 轉換
-    - table_translator    # 碼表式轉換
+    - script_translator    # 碼表式轉換
     - table_translator@jdh_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
+  filters:
+    - lua_filter@*lutai.postpone
 
 translator:
   dictionary: lutaies       # 設定 table_translator 使用的詞典名
   enable_sentence: false
-  enable_user_dict: false
+  enable_user_dict: true
   enable_completion: false
+  disable_user_dict_for_patterns:
+    - '(?!^..[qw]$)^.*$'
+  disable_postpone_pattern: '^...$'
 
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
@@ -82,9 +87,17 @@ speller:
   auto_select_pattern: ^e.+
   popping:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
-      accept: "[^_2345]"
+      accept: "[^_2345789qw]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^ 2345]"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
+      accept: "[^ 2345]"
+    - match: "/[qwrtyuiopasdfghjklzcvbnm]{4}"
+      accept: "[^ 2345789]"
+  algebra:
+    - derive/^(..)_.$/$1q
+    - derive/^[^\w;](..)..$/$1q
+    - derive/^;(..).*$/$1w
 
 recognizer:
   import_preset: default
@@ -132,7 +145,7 @@ punctuator:
     '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴ ]
     '`' : [ '`', ‵, ‶, ‷, ′, ″, ‴, ⁗ ]
     '~' : [ '~', ～, ˜, ˷, ⸯ, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌, ︴ ]
-    '/' : { commit: ！ }
+    '/' : [ '！' ]
     '@' : [ '@', ©, ®, ℗ ]
     '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉, ℅, ℆, ℀, ℁, ⅍ ]
     '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤', ₩ ]
