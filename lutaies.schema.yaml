@@ -57,7 +57,6 @@ translator:
   enable_completion: false
   disable_user_dict_for_patterns:
     - '(?!^..[qw]$)^.*$'
-  disable_postpone_pattern: '^...$'
 
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
