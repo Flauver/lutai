@@ -58,18 +58,21 @@ jdh_lutai_lookup:
   dictionary: jdh_lutai
   prefix: "xh"
   tips: "〔简单鹤反查〕"
+  enable_user_dict: false
 
 stroke_lutai_lookup:
   tag: stroke_lutai_lookup
   dictionary: stroke_lutai
   prefix: "xb"
   tips: "〔笔画反查〕"
+  enable_user_dict: false
 
 cangjie_lutai_lookup:
   tag: cangjie_lutai_lookup
   dictionary: cangjie5_sc_lutai
   prefix: "xc"
   tips: "〔仓颉反查〕"
+  enable_user_dict: false
 
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnmex"
