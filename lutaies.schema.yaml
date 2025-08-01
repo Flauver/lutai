@@ -56,7 +56,7 @@ translator:
   enable_user_dict: true
   enable_completion: false
   disable_user_dict_for_patterns:
-    - '(?!^..[qw]$)^.*$'
+    - '(?!^..[qw]$|^p[qwp][qwrtyuiopasdfghjklzcvbnm][qw]$)^.*$'
 
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
