@@ -3201,8 +3201,8 @@
 穇	crrw
 私	crs
 私	crsh
-䅟	crsw
 瘆	crsw
+䅟	crsw
 狘	crw
 狘	crwq
 凨	cry
