@@ -93,7 +93,7 @@ speller:
       accept: "[^ 2345]"
     - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]_[qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^ 2345]"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
+    - match: "(?!p[qwp])[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
       accept: "[^ 2345]"
     - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm][qw]"
       accept: "[^ 2345]"
@@ -104,7 +104,7 @@ speller:
     - derive/^(p[qwp][qwrtyuiopasdfghjklzcvbnm])_.$/$1q
     - derive/^[^\w;]([rtyuioasdfghjklzcvbnm].)..$/$1q
     - derive/^[^\w;]([qwp].)..$/p$1q
-    - derive/^;(..).*$/$1w
+    - derive/^;([rtyuioasdfghjklzcvbnm].).*$/$1w
     - derive/^;([qwp].).*$/p$1w
 
 recognizer:
