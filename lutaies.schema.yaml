@@ -80,23 +80,32 @@ cangjie_lutai_lookup:
   enable_user_dict: false
 
 speller:
-  alphabet: "qwrtyuiopasdfghjklzcvbnmex_/"
+  alphabet: "qwrtyuiopasdfghjklzcvbnmex_/;"
   max_code_length: 5
   auto_select: true
   auto_select_pattern: ^e.+
   popping:
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+    - match: "(?!p[qwp])[qwrtyuiopasdfghjklzcvbnm]{2}"
+      accept: "[^_2345789qw]"
+    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^_2345789qw]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^ 2345]"
+    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]_[qwrtyuiopasdfghjklzcvbnm]"
+      accept: "[^ 2345]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
+      accept: "[^ 2345]"
+    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm][qw]"
       accept: "[^ 2345]"
     - match: "/[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 2345789]"
   algebra:
-    - derive/^(..)_.$/$1q
-    - derive/^[^\w;](..)..$/$1q
+    - derive/^([rtyuioasdfghjklzcvbnm].)_.$/$1q
+    - derive/^(p[qwp][qwrtyuiopasdfghjklzcvbnm])_.$/$1q
+    - derive/^[^\w;]([rtyuioasdfghjklzcvbnm].)..$/$1q
+    - derive/^[^\w;]([qwp].)..$/p$1q
     - derive/^;(..).*$/$1w
+    - derive/^;([qwp].).*$/p$1w
 
 recognizer:
   import_preset: default
@@ -107,7 +116,10 @@ recognizer:
 
 key_binder:
   bindings:
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+    - match: "(?!p[qwp])[qwrtyuiopasdfghjklzcvbnm]{2}"
+      accept: " "
+      send_sequence: "_"
+    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]"
       accept: " "
       send_sequence: "_"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
@@ -137,7 +149,7 @@ punctuator:
     '<' : [ 《, 〈, «, ‹, ⟨, ˂, ˱ ]
     '>' : [ 》, 〉, », ›, ⟩, ˃, ˲ ]
     '!' : [ 、, ､, '/', ／, ÷ ]
-    ';' : { commit: ？ }
+    ';' : [ '？' ]
     ':' : { commit: ： }
     '''' : { pair: [ '：“', '”' ] }
     '\' : [ 、, '\', ＼ ]

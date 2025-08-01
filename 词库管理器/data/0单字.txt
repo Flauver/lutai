@@ -40,6 +40,7 @@
 䂮	cmus
 䃅	umfk
 䃎	usvv
+瘆	crsw
 䅟	crsw
 䌹	mydi
 䎃	ywhv
@@ -17449,7 +17450,6 @@
 瘃	cypf
 瘄	cjfo
 瘅	cmfk
-瘆	crsw
 謡	lhyf
 瘉	cnbo
 瘊	cauu
