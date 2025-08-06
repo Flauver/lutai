@@ -24,7 +24,7 @@
 即	kb
 确	ya
 根	to
-读	zvs
+读	zv	4
 标	rs
 完	ph
 限	qg
@@ -44,3 +44,4 @@
 延	tmt
 药	jvu
 君	cyd
+敢	gj

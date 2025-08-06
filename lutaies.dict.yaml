@@ -6991,6 +6991,7 @@ sort: original
 惤	gi_z	0
 惤	/gizf	0
 京	gj
+敢	gj
 悄	gj_b	66096
 悄	/gjbi	66096
 悋	gj_d	0
@@ -30495,6 +30496,7 @@ sort: original
 谓	zv
 许多	zv
 既然	zv
+读	zv
 谜	zv_a	8926
 谜	/zvak	8926
 錹	zv_b	0
@@ -30532,7 +30534,6 @@ sort: original
 畆	zv_r	0
 鐬	/zvrj	0
 畆	/zvrs	0
-读	zv_s	154625
 亩	zv_t	26780
 亩	/zvtf	26780
 鈿	/zvtj	0
@@ -60176,7 +60177,6 @@ sort: original
 畆	;zvr	0
 鐬	;zvrj	0
 畆	;zvrs	0
-读	;zvs	154625
 亩	;zvt	26780
 亩	;zvtf	26780
 鈿	;zvtj	0
