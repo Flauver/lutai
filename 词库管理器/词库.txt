@@ -6980,6 +6980,7 @@
 惤	giz
 惤	gizf
 京	gj
+敢	gj
 悄	gjb
 悄	gjbi
 悋	gjd
@@ -30484,6 +30485,7 @@
 谓	zv
 许多	zv
 既然	zv
+读	zv
 谜	zva
 谜	zvak
 錹	zvb
@@ -30521,7 +30523,6 @@
 畆	zvr
 鐬	zvrj
 畆	zvrs
-读	zvs
 亩	zvt
 亩	zvtf
 鈿	zvtj
