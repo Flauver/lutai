@@ -56,7 +56,7 @@ translator:
   enable_user_dict: true
   enable_completion: false
   disable_user_dict_for_patterns:
-    - '(?!^..[qw]$|^p[qwp][qwrtyuiopasdfghjklzcvbnm][qw]$)^.*$'
+    - '(?!^..[qw]$)^.*$'
 
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
@@ -85,27 +85,18 @@ speller:
   auto_select: true
   auto_select_pattern: ^e.+
   popping:
-    - match: "(?!p[qwp])[qwrtyuiopasdfghjklzcvbnm]{2}"
-      accept: "[^_2345789qw]"
-    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
       accept: "[^_2345789qw]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^ 2345]"
-    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]_[qwrtyuiopasdfghjklzcvbnm]"
-      accept: "[^ 2345]"
-    - match: "(?!p[qwp])[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
-      accept: "[^ 2345]"
-    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm][qw]"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
       accept: "[^ 2345]"
     - match: "/[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 2345789]"
   algebra:
-    - derive/^([rtyuioasdfghjklzcvbnm].)_.$/$1q
-    - derive/^(p[qwp][qwrtyuiopasdfghjklzcvbnm])_.$/$1q
-    - derive/^[^\w;]([rtyuioasdfghjklzcvbnm].)..$/$1q
-    - derive/^[^\w;]([qwp].)..$/p$1q
-    - derive/^;([rtyuioasdfghjklzcvbnm].).*$/$1w
-    - derive/^;([qwp].).*$/p$1w
+    - derive/^(..)_.$/$1q
+    - derive/^[^\w;](..)..$/$1q
+    - derive/^;(..).*$/$1w
 
 recognizer:
   import_preset: default
@@ -116,10 +107,7 @@ recognizer:
 
 key_binder:
   bindings:
-    - match: "(?!p[qwp])[qwrtyuiopasdfghjklzcvbnm]{2}"
-      accept: " "
-      send_sequence: "_"
-    - match: "p[qwp][qwrtyuiopasdfghjklzcvbnm]"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
       accept: " "
       send_sequence: "_"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
