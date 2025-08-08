@@ -104,7 +104,7 @@ speller:
     - derive/^(..)_.$/$1q
     - derive/^[^\w;](..)..$/$1q
     - derive/^;(..).*$/$1w
-    - derive/^8([qwrtyuiopasdfghjklzcvbnm]{2}).+$/$1
+    - derive/^8([qwrtyuiopasdfghjklzcvbnm]{2}).*$/$1
 
 recognizer:
   import_preset: default
