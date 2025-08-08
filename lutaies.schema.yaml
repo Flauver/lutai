@@ -49,6 +49,7 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - lua_filter@*lutai.postpone
+    - lua_filter@*snow.fix
 
 translator:
   dictionary: lutaies       # 設定 table_translator 使用的詞典名
@@ -56,7 +57,7 @@ translator:
   enable_user_dict: true
   enable_completion: false
   disable_user_dict_for_patterns:
-    - '(?!^..[qw]$)^.*$'
+    - '(?!^..[qw]$|^[qwrtyuiopasdfghjklzcvbnm]{4}$)^.*$'
 
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
@@ -80,13 +81,19 @@ cangjie_lutai_lookup:
   enable_user_dict: false
 
 speller:
-  alphabet: "qwrtyuiopasdfghjklzcvbnmex_/;"
+  alphabet: "qwrtyuiopasdfghjklzcvbnmex_/;8"
   max_code_length: 5
   auto_select: true
   auto_select_pattern: ^e.+
   popping:
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
-      accept: "[^_2345789qw]"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[rtyuiopasdfghjklzcvbnm]"
+      accept: "[^qwrtyuiopasdfghjklzcvbnm]"
+      prefix: 2
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+      accept: "[_qw]"
+      prefix: 2
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
+      accept: "[^_qw]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^ 2345]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
@@ -97,6 +104,7 @@ speller:
     - derive/^(..)_.$/$1q
     - derive/^[^\w;](..)..$/$1q
     - derive/^;(..).*$/$1w
+    - derive/^8([qwrtyuiopasdfghjklzcvbnm]{2}).+$/$1
 
 recognizer:
   import_preset: default
@@ -107,12 +115,15 @@ recognizer:
 
 key_binder:
   bindings:
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}|[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: " "
       send_sequence: "_"
-    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}|[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "/"
       send_sequence: " "
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
+      accept: ";"
+      send_sequence: "{Left}{space}"
     - when: has_menu
       accept: "e"
       send: "2"
@@ -158,6 +169,6 @@ punctuator:
     '+' : '+'
     '=' : [ '=', 々, 〃 ]
     '[' : [ 「, 【, 〔, ［, 〚, 〘 ]
-    ']' : { pair: [ '：“', '”' ] }
+    ']' : { pair: [ '“', '”' ] }
     '{' : [ 『, 〖, ｛ ]
     '}' : [ 』, 〗, ｝ ]
