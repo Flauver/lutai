@@ -90,10 +90,10 @@ speller:
       accept: "[^qwrtyuiopasdfghjklzcvbnm]"
       prefix: 2
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
-      accept: "[_qw]"
+      accept: "[_qw2345789]"
       prefix: 2
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
-      accept: "[^_qw]"
+      accept: "[^_qw2345789]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}_[qwrtyuiopasdfghjklzcvbnm]"
       accept: "[^ 2345]"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[qw]"
