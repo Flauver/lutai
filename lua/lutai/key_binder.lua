@@ -11,8 +11,7 @@ local XK_4 = 0x0034
 local XK_5 = 0x0035
 local XK_6 = 0x0036
 
-local rime = require "lutai.lib"
-local core = require "lutai.core"
+local snow = require "lutai.snow"
 
 local this = {}
 
@@ -36,8 +35,8 @@ local function parse(value)
   if not match or not accept or not send_sequence then
     return nil
   end
-  local key_event = rime.KeyEvent(accept:get_string())
-  local sequence = rime.KeySequence(send_sequence:get_string())
+  local key_event = KeyEvent(accept:get_string())
+  local sequence = KeySequence(send_sequence:get_string())
   local binding = { match = match:get_string(), accept = key_event, send_sequence = sequence }
   return binding
 end
@@ -72,51 +71,28 @@ function this.func(key_event, env)
   local ascii_mode = context:get_option("ascii_mode")
   local delayed_pop = context:get_option("delayed_pop")
   if env.redirecting then
-    return rime.process_results.kNoop
+    return snow.kNoop
   end
-  local input = rime.current(context)
+  local input = snow.current(context)
   if not input then
-    return rime.process_results.kNoop
+    return snow.kNoop
   end
   if not segment:has_tag("abc") then
-    return rime.process_results.kNoop
-  end
-
-  -- 飞码延顶四码加分号特殊处理
-  if (key_event.keycode == XK_semicolon or key_event.keycode == XK_Tab) 
-  and not ascii_mode and not key_event:shift() and not key_event:ctrl()
-  and core.fm(schema_id) and delayed_pop and core.sxsx(input) then
-    env.redirecting = true
-    env.engine:process_key(rime.KeyEvent("Page_Down"))
-    env.engine:process_key(rime.KeyEvent("Page_Up"))
-    if key_event.keycode == XK_semicolon then
-      env.engine:process_key(rime.KeyEvent("a"))
-    else
-      env.engine:process_key(rime.KeyEvent("e"))
-    end
-    env.redirecting = false
-    return rime.process_results.kAccepted
+    return snow.kNoop
   end
 
   for _, binding in ipairs(env.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
-    if key_event:eq(binding.accept) and rime.match(input, binding.match) then
+    if key_event:eq(binding.accept) and rime_api.regex_match(input, binding.match) then
       env.redirecting = true
       for _, event in ipairs(binding.send_sequence:toKeyEvent()) do
         env.engine:process_key(event)
       end
       env.redirecting = false
-      return rime.process_results.kAccepted
+      return snow.kAccepted
     end
   end
-
-  if core.yp(schema_id) and input:sub(-2,-1) == "''"
-  and (key_event.keycode == XK_1 or key_event.keycode == XK_4
-  or key_event.keycode == XK_5 or key_event.keycode == XK_6
-  or key_event.keycode == XK_0) then
-    env.engine:process_key(rime.KeyEvent("BackSpace"))
-  end
-  return rime.process_results.kNoop
+  return snow.kNoop
 end
 
 return this
