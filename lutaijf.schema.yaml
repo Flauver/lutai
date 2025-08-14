@@ -54,29 +54,28 @@ translator:
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
   dictionary: jdh_lutai
-  prefix: "xh"
   tips: "〔简单鹤反查〕"
   enable_user_dict: false
 
 stroke_lutai_lookup:
   tag: stroke_lutai_lookup
   dictionary: stroke_lutai
-  prefix: "xb"
   tips: "〔笔画反查〕"
   enable_user_dict: false
 
 cangjie_lutai_lookup:
   tag: cangjie_lutai_lookup
   dictionary: cangjie5_sc_lutai
-  prefix: "xc"
   tips: "〔仓颉反查〕"
   enable_user_dict: false
 
 speller:
   alphabet: "qwrtyuoipasdfghjklzcvbnmex"
-  max_code_length: 4
   auto_select: true
   auto_select_pattern: "^e.+"
+  popping:
+  - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}"
+    accept: "[^ 23456789]"
 
 recognizer:
   import_preset: default
