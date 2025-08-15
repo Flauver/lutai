@@ -76,7 +76,7 @@ speller:
   auto_select: true
   auto_select_pattern: "^e.+"
   popping:
-    - match: "^[qwrtyuiopasdfghjklzcvbnm]{4}"
+    - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 23456789]"
 
 recognizer:
