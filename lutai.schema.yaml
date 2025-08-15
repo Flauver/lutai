@@ -88,18 +88,18 @@ recognizer:
 
 key_binder:
   bindings:
-    - when: has_menu
+    - match: "[^x].*"
       accept: "e"
-      send: "2"
-    - when: has_menu
+      send_sequence: "2"
+    - match: "[^x].*"
       accept: "x"
-      send: "3"
-    - when: has_menu
+      send_sequence: "3"
+    - match: "[^x].*"
       accept: ";"
-      send: "4"
-    - when: has_menu
+      send_sequence: "4"
+    - match: "[^x].*"
       accept: "'"
-      send: "5"
+      send_sequence: "5"
 
 menu:
   page_size: 8
