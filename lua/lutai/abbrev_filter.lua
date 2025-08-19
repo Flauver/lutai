@@ -1,11 +1,25 @@
 ---露台・二四顶・词语过滤器
 ---如果 aaaa 有词语，那么只保留词语
 
+local snow = require "lutai.snow"
+
 ---@param input Translation
-local function abbrev_filter(input)
-    ---@type table<number, Candidate>
+---@param env Env
+local function abbrev_filter(input, env)
+    local current = snow.current(env.engine.context)
+    if not current then
+        return
+    end
+    ---把非四码和反查按原样输出
+    if #current ~= 4 or current:sub(1, 1) == 'x' then
+        for cand in input:iter() do
+            yield(cand)
+        end
+        return
+    end
+    ---@type Candidate[]
     local abbrevs = {}
-    ---@type table<number, Candidate>
+    ---@type Candidate[]
     local all = {}
     for cand in input:iter() do
         if cand.type == "abbrev" then
