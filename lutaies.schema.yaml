@@ -51,7 +51,7 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - lua_filter@*lutai.postpone
-    - lua_filter@*snow.fix
+    - lua_filter@*lutai.fix
     - lua_filter@*lutai.abbrev_filter
 
 translator:
