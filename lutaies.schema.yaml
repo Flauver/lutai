@@ -84,6 +84,10 @@ speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnmex_/;8"
   auto_select: true
   auto_select_pattern: ^e.+
+  algebra:
+    - derive/^(..)_.$/$1q
+    - derive/^[^\w;](..)..$/$1q
+    - derive/^;(..).*$/$1w
   popping:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[rtyuiopasdfghjklzcvbnm]"
       accept: "[^qwrtyuiopasdfghjklzcvbnm]"
@@ -99,10 +103,7 @@ speller:
       accept: "[^ 2345]"
     - match: "/[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 2345789]"
-  algebra:
-    - derive/^(..)_.$/$1q
-    - derive/^[^\w;](..)..$/$1q
-    - derive/^;(..).*$/$1w
+ 
 
 recognizer:
   import_preset: default
