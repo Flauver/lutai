@@ -2604,7 +2604,7 @@
 変	zolt
 髬	uwuu
 夋	ross
-夌	wmlt
+夌	wosh
 夎	nnwl
 夐	mynl
 夑	lnnl
@@ -21520,7 +21520,7 @@
 変	zol
 麘	vcf
 夋	ros
-夌	wml
+夌	wos
 复	ifl
 夏	ugl
 夒	ugv
@@ -27628,7 +27628,7 @@
 辈	yhc
 辉	lph
 辋	hym
-辎	hov
+锱	hov
 辐	hiv
 辑	hdp
 输	hn
