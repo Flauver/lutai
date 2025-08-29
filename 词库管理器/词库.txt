@@ -8324,7 +8324,7 @@
 孔	hoto
 孑	hou
 子	hou
-辎	hov
+锱	hov
 锱	hovt
 辎	hovt
 钮	how
@@ -27541,8 +27541,6 @@
 埳	wmkj
 墫	wmkk
 壿	wmkk
-夌	wml
-夌	wmlt
 坋	wmm
 坋	wmmd
 埩	wmn
@@ -27686,6 +27684,8 @@
 阃	worl
 垜	worl
 尮	worl
+夌	wos
+夌	wosh
 圠	wot
 圠	woth
 鴷	wotn

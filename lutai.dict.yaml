@@ -8334,7 +8334,7 @@ sort: original
 孔	hoto
 孑	hou
 子	hou
-辎	hov
+锱	hov
 锱	hovt
 辎	hovt
 钮	how
@@ -27551,8 +27551,6 @@ sort: original
 埳	wmkj
 墫	wmkk
 壿	wmkk
-夌	wml
-夌	wmlt
 坋	wmm
 坋	wmmd
 埩	wmn
@@ -27696,6 +27694,8 @@ sort: original
 阃	worl
 垜	worl
 尮	worl
+夌	wos
+夌	wosh
 圠	wot
 圠	woth
 鴷	wotn
@@ -49444,7 +49444,6 @@ sort: original
 埳	fjwmkj
 墫	fjwmkk
 壿	fjwmkk
-夌	fjwmlt
 坋	fjwmmd
 埩	fjwmnv
 鼀	fjwmoc
@@ -49543,6 +49542,7 @@ sort: original
 阃	fjworl
 垜	fjworl
 尮	fjworl
+夌	fjwosh
 圠	fjwoth
 鴷	fjwotn
 頳	fjwoum
@@ -52759,7 +52759,6 @@ sort: original
 𫟹	hog
 逓	hoo
 轧	hot
-锱	hov
 钖	how
 孮	hpc
 躭	hph
