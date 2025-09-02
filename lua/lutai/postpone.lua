@@ -113,6 +113,7 @@ function this.func(translation, env)
       yield(candidate)
     elseif candidate.type == "fixed" then
       yield(candidate)
+      env.known_candidates[text] = input:len()
     else
       table.insert(temp_candidates, candidate)
     end
