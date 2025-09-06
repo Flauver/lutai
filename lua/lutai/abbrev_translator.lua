@@ -7,7 +7,7 @@
 local abbrev_translator = {}
 
 ---@type table<string, string> | nil
-LutaiesToFull = nil
+LutaiesToFull = LutaiesToFull
 
 ---@param env AbbrevEnv
 function abbrev_translator.init(env)

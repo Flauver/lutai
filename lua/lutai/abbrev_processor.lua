@@ -6,7 +6,7 @@ local snow = require "lutai.snow"
 local abbrev_processor = {}
 
 ---@type table<string, string> | nil
-LutaiesToFull = nil
+LutaiesToFull = LutaiesToFull
 
 ---@param env Env
 function abbrev_processor.init(env)
