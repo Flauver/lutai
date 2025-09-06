@@ -1,43 +1,71 @@
 ---露台・二四顶・造词删词处理器
----负责将 8a+( 8a+) 的造词编码生成略码并加入数据库中，或删除数据库中的略码
+---负责将 8a+( 8a+) 的造词编码生成略码并加入 lutaiesToFull.txt 中，或删除记录中的略码
 
 local snow = require "lutai.snow"
 
 local abbrev_processor = {}
 
----@class AbbrevEnv: Env
----@field tofull LevelDb
----@field toshort LevelDb
+---@type table<string, string> | nil
+LutaiesToFull = LutaiesToFull
 
----@type table<string, LevelDb>
-_db_pool= _db_pool or {}
-
----@param dbname string
----@param mode boolean
----@return LevelDb
-local function wrapLevelDb(dbname, mode)
-    _db_pool[dbname] = _db_pool[dbname] or LevelDb(dbname)
-    local db = _db_pool[dbname]
-    if db and not db:loaded() then
-        if mode then
-            db:open()
-        else
-            db:open_read_only()
-        end
+---@param env Env
+function abbrev_processor.init(env)
+    if LutaiesToFull ~= nil then
+        return
     end
-    return db
+    LutaiesToFull = {}
+    local path = rime_api.get_user_data_dir() .. "/lutaiesToFull.txt"
+    local file = io.open(path, "r")
+    if not file then
+        return
+    end
+    for line in file:lines() do
+        ---@type string, string
+        local short, full = line:match("([^\t]+)\t([^\t]+)")
+        if not short or not full then
+            goto continue
+        end
+        LutaiesToFull[short] = full
+        ::continue::
+    end
+    file:close()
 end
 
----@param env AbbrevEnv
-function abbrev_processor.init(env)
-    env.tofull = wrapLevelDb("tofull", true)
-    env.toshort = wrapLevelDb("toshort", true)
+---@param short string
+---@param full string | nil
+local function update(short, full)
+    snow.errorf("short: %s; full: %s", short, full)
+    LutaiesToFull[short] = full
+    local path = rime_api.get_user_data_dir() .. "/lutaiesToFull.txt"
+    local file = io.open(path, "w")
+    snow.errorf("Try to open the file.")
+    if not file then
+        return
+    end
+    snow.errorf("The file has opened.")
+    local text = ""
+    if not LutaiesToFull then
+        snow.errorf("Why??")
+        return
+    end
+    for _short, _full in pairs(LutaiesToFull) do
+        if not _full then
+            snow.errorf("continue")
+            goto continue
+        end
+        text = text .. _short .. "\t" .. _full .. "\n"
+        snow.errorf(text)
+        ::continue::
+    end
+    text = text:sub(1, -2)
+    file:write(text)
+    file:close()
 end
 
 
 
 ---@param key_event KeyEvent
----@param env AbbrevEnv
+---@param env Env
 function abbrev_processor.func(key_event, env)
     if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then
         return snow.kNoop
@@ -47,36 +75,25 @@ function abbrev_processor.func(key_event, env)
         return snow.kNoop
     end
     if input:sub(1, 1) == "8" then
+        local space, _ = input:find(" ")
+        local shortcode = input:sub(2, 3) .. input:sub(space + 2, space + 3)
         if key_event:repr() == "space" then
-            local space, _ = input:find(" ")
-            local shortcode = input:sub(2, 3) .. input:sub(space + 2, space + 3)
-            env.tofull:update(shortcode, input)
-            env.toshort:update(input, shortcode)
+            update(shortcode, input)
         elseif key_event:shift() and key_event:repr() == "Delete" then
-            for _, short in env.toshort:query(input):iter() do
-                env.toshort:erase(short)
-            end
-            env.tofull:erase(input)
+            LutaiesToFull[shortcode] = nil
         end
         return snow.kNoop
-    elseif input:len() == 4 then
-        if not key_event:shift() and key_event.keycode ~= "Delete" then
+    elseif input:len() == 5 then
+        if not key_event:shift() or key_event.keycode ~= "Delete" then
             return snow.kNoop
         end
-        for _, full in env.tofull:query(input):iter() do
-            env.toshort:erase(full)
-        end
-        env.tofull:erase(input)
+        LutaiesToFull[input:sub(1, 2) .. input:sub(4, 5)] = nil
     end
     return snow.kNoop
 end
 
 ---@param env AbbrevEnv
 function abbrev_processor.fini(env)
-    env.tofull:close()
-    env.tofull = nil
-    env.toshort:close()
-    env.tofull = nil
 end
 
 return abbrev_processor
