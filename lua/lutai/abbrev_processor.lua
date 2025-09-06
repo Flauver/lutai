@@ -34,27 +34,21 @@ end
 ---@param short string
 ---@param full string | nil
 local function update(short, full)
-    snow.errorf("short: %s; full: %s", short, full)
     LutaiesToFull[short] = full
     local path = rime_api.get_user_data_dir() .. "/lutaiesToFull.txt"
     local file = io.open(path, "w")
-    snow.errorf("Try to open the file.")
     if not file then
         return
     end
-    snow.errorf("The file has opened.")
     local text = ""
     if not LutaiesToFull then
-        snow.errorf("Why??")
         return
     end
     for _short, _full in pairs(LutaiesToFull) do
         if not _full then
-            snow.errorf("continue")
             goto continue
         end
         text = text .. _short .. "\t" .. _full .. "\n"
-        snow.errorf(text)
         ::continue::
     end
     text = text:sub(1, -2)
