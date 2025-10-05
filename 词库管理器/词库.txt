@@ -16215,9 +16215,9 @@
 㶲	ngy
 㶲	ngyf
 剑	nh
-煳	nhb
-煳	nhbi
+蝴	nhb
 蝴	nhbi
+煳	nhbi
 爏	nhc
 爏	nhcv
 佥	nhd

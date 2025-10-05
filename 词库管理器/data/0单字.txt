@@ -29944,7 +29944,7 @@
 炫	nzf
 炳	nuy
 蛇	npi
-煳	nhb
+蝴	nhb
 焴	nrb
 蛙	nww
 焥	npv
@@ -30030,8 +30030,8 @@
 螟	npff
 蛇	npib
 炨	npib
-煳	nhbi
 蝴	nhbi
+煳	nhbi
 焴	nrbi
 蜟	nrbi
 煝	nllm

@@ -15998,9 +15998,9 @@ sort: original
 㶲	ng_y	0
 㶲	/ngyf	0
 剑	nh	99999999
-煳	nh_b	21
-煳	/nhbi	21
+蝴	nh_b	10659
 蝴	/nhbi	10659
+煳	/nhbi	21
 爏	nh_c	0
 爏	/nhcv	0
 佥	nh_d	804
@@ -50277,9 +50277,9 @@ sort: original
 蜱	;ngtk	39
 㶲	;ngy	0
 㶲	;ngyf	0
-煳	;nhb	21
-煳	;nhbi	21
+蝴	;nhb	10659
 蝴	;nhbi	10659
+煳	;nhbi	21
 爏	;nhc	0
 爏	;nhcv	0
 佥	;nhd	804
@@ -85398,9 +85398,9 @@ sort: original
 㶲	8ngy
 㶲	8ngyf
 剑	8nh
-煳	8nhb
-煳	8nhbi
+蝴	8nhb
 蝴	8nhbi
+煳	8nhbi
 爏	8nhc
 爏	8nhcv
 佥	8nhd
