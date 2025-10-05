@@ -16923,9 +16923,9 @@
 烗	nshf
 蛦	nsi
 蛦	nsig
-燸	nsj
-燸	nsjr
+蟑	nsj
 蠕	nsjr
+燸	nsjr
 蟑	nsjz
 燎	nsm
 蝒	nsmc

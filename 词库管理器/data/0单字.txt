@@ -29981,7 +29981,7 @@
 蜂	nlc
 焟	njf
 焻	nff
-燸	nsj
+蟑	nsj
 焓	nad
 煱	nyo
 炔	nun
@@ -30147,8 +30147,8 @@
 蝿	nffo
 燖	ncjk
 蟳	ncjk
-燸	nsjr
 蠕	nsjr
+燸	nsjr
 灼	nupf
 虳	nupf
 焓	nadi
