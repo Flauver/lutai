@@ -8229,7 +8229,7 @@ sort: original
 孔	/hoto	80912
 孑	ho_u	767
 子	ho_u	3020078
-辎	ho_v	423
+锱	ho_v	177
 锱	/hovt	177
 辎	/hovt	423
 钮	ho_w	6514
@@ -16699,9 +16699,9 @@ sort: original
 烗	/nshf	0
 蛦	ns_i	0
 蛦	/nsig	0
-燸	ns_j	0
-燸	/nsjr	0
+蟑	ns_j	1923
 蠕	/nsjr	2803
+燸	/nsjr	0
 蟑	/nsjz	1923
 燎	ns_m	2551
 蝒	/nsmc	0
@@ -27146,8 +27146,6 @@ sort: original
 埳	/wmkj	0
 墫	/wmkk	0
 壿	/wmkk	0
-夌	wm_l	0
-夌	/wmlt	0
 坋	wm_m	0
 坋	/wmmd	0
 埩	wm_n	0
@@ -27290,6 +27288,8 @@ sort: original
 阃	/worl	142
 垜	/worl	0
 尮	/worl	0
+夌	wo_s	0
+夌	/wosh	0
 圠	wo_t	0
 圠	/woth	0
 鴷	/wotn	0
@@ -31446,7 +31446,6 @@ sort: original
 𫟹	ho_g	0
 逓	ho_o	0
 轧	ho_t	3980
-锱	ho_v	177
 钖	ho_w	0
 孮	hp_c	0
 躭	hp_h	0
@@ -32667,7 +32666,7 @@ sort: original
 爖	ns_b	0
 爧	ns_d	0
 烗	ns_h	0
-蟑	ns_j	1923
+蠕	ns_j	2803
 蝒	ns_m	0
 爣	ns_v	0
 煃	ns_w	0
@@ -42646,7 +42645,7 @@ sort: original
 孔	;hoto	80912
 孑	;hou	767
 子	;hou	3020078
-辎	;hov	423
+锱	;hov	177
 锱	;hovt	177
 辎	;hovt	423
 钮	;how	6514
@@ -50968,9 +50967,9 @@ sort: original
 烗	;nshf	0
 蛦	;nsi	0
 蛦	;nsig	0
-燸	;nsj	0
-燸	;nsjr	0
+蟑	;nsj	1923
 蠕	;nsjr	2803
+燸	;nsjr	0
 蟑	;nsjz	1923
 燎	;nsm	2551
 蝒	;nsmc	0
@@ -61205,8 +61204,6 @@ sort: original
 埳	;wmkj	0
 墫	;wmkk	0
 壿	;wmkk	0
-夌	;wml	0
-夌	;wmlt	0
 坋	;wmm	0
 坋	;wmmd	0
 埩	;wmn	0
@@ -61347,6 +61344,8 @@ sort: original
 阃	;worl	142
 垜	;worl	0
 尮	;worl	0
+夌	;wos	0
+夌	;wosh	0
 圠	;wot	0
 圠	;woth	0
 鴷	;wotn	0
@@ -65445,7 +65444,6 @@ sort: original
 𫟹	;hog	0
 逓	;hoo	0
 轧	;hot	3980
-锱	;hov	177
 钖	;how	0
 孮	;hpc	0
 躭	;hph	0
@@ -66666,7 +66664,7 @@ sort: original
 爖	;nsb	0
 爧	;nsd	0
 烗	;nsh	0
-蟑	;nsj	1923
+蠕	;nsj	2803
 蝒	;nsm	0
 爣	;nsv	0
 煃	;nsw	0
@@ -77509,7 +77507,7 @@ sort: original
 孔	8hoto
 孑	8hou
 子	8hou
-辎	8hov
+锱	8hov
 锱	8hovt
 辎	8hovt
 钮	8how
@@ -86108,9 +86106,9 @@ sort: original
 烗	8nshf
 蛦	8nsi
 蛦	8nsig
-燸	8nsj
-燸	8nsjr
+蟑	8nsj
 蠕	8nsjr
+燸	8nsjr
 蟑	8nsjz
 燎	8nsm
 蝒	8nsmc
@@ -96726,8 +96724,6 @@ sort: original
 埳	8wmkj
 墫	8wmkk
 壿	8wmkk
-夌	8wml
-夌	8wmlt
 坋	8wmm
 坋	8wmmd
 埩	8wmn
@@ -96871,6 +96867,8 @@ sort: original
 阃	8worl
 垜	8worl
 尮	8worl
+夌	8wos
+夌	8wosh
 圠	8wot
 圠	8woth
 鴷	8wotn
@@ -101056,7 +101054,6 @@ sort: original
 𫟹	8hog
 逓	8hoo
 轧	8hot
-锱	8hov
 钖	8how
 孮	8hpc
 躭	8hph
@@ -102277,7 +102274,7 @@ sort: original
 爖	8nsb
 爧	8nsd
 烗	8nsh
-蟑	8nsj
+蠕	8nsj
 蝒	8nsm
 爣	8nsv
 煃	8nsw
