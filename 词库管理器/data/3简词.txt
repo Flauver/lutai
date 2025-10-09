@@ -61,7 +61,7 @@
 以后	ih
 一种	uc
 我的	tg
-你好	ay
+如何	ay
 很少	fj
 一起	uu
 哪里	db
@@ -286,7 +286,6 @@
 做出	af
 那么	ot
 适合	pn
-如何	ya
 过来	kv
 异常	is
 来到	va

@@ -1161,7 +1161,8 @@
 侫	awyb
 优	awyr
 低	ay
-你好	ay
+如何	ay
+①	ay
 例如	ay
 羊	aya
 姜	ayb
@@ -28118,7 +28119,7 @@
 意思	y
 确	ya
 好像	ya
-如何	ya
+①	ya
 她们	ya
 婿	yab
 妑	yabb
