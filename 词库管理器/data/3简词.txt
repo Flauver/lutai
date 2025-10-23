@@ -61,7 +61,7 @@
 以后	ih
 一种	uc
 我的	tg
-如何	ay
+她们	ay
 很少	fj
 一起	uu
 哪里	db
@@ -300,7 +300,7 @@
 更少	uj
 都有	uk
 都在	uk
-她们	ya
+如何	ya
 不必	ug
 力量	jf
 不再	uu
