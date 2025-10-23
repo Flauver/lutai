@@ -12424,7 +12424,7 @@ sort: original
 啟	/kdld	0
 酲	/kdlw	66
 寸	kd_p	41612
-春	kf	99999999
+更	kf	99999999
 醍	kf_a	410
 醍	/kfao	410
 酳	kf_b	0
@@ -17206,7 +17206,7 @@ sort: original
 圆	od_z	87465
 圆	/odzb	87465
 筼	/odzb	0
-飞	of	99999999
+者	of	99999999
 弗	of_a	35003
 鞮	/ofao	0
 帖	of_d	46249
@@ -26130,7 +26130,7 @@ sort: original
 艪	/vmvf	0
 赉	vm_z	388
 赉	/vmzb	388
-界	vn	99999999
+直	vn	99999999
 舴	vn_a	36
 舴	/vnao	36
 貐	vn_b	0
@@ -26199,6 +26199,7 @@ sort: original
 齗	/vnnz	0
 齦	/vnnz	0
 齭	/vnnz	0
+界	vn_o	388409
 畍	vn_o	0
 畍	/vnod	0
 界	/vnod	388409
@@ -60280,6 +60281,7 @@ sort: original
 齗	;vnnz	0
 齦	;vnnz	0
 齭	;vnnz	0
+界	;vno	388409
 畍	;vno	0
 畍	;vnod	0
 界	;vnod	388409
@@ -68825,7 +68827,7 @@ sort: original
 即	kb_
 微	kc_
 右	kd_
-春	kf_
+更	kf_
 各	kg_
 教	kh_
 求	ki_
@@ -68921,7 +68923,7 @@ sort: original
 内	ob_
 归	oc_
 圆	od_
-飞	of_
+者	of_
 共	og_
 远	oh_
 司	oi_
@@ -69097,7 +69099,7 @@ sort: original
 变	vk_
 次	vl_
 米	vm_
-界	vn_
+直	vn_
 断	vo_
 久	vp_
 准	vq_
@@ -70344,7 +70346,7 @@ sort: original
 侫	8awyb
 优	8awyr
 低	8ay
-如何	8ay
+她们	8ay
 ①	8ay
 例如	8ay
 羊	8aya
@@ -78470,6 +78472,7 @@ sort: original
 渐	8ihzj
 濢	8ihzk
 已	8ii
+比	8ii
 旋	8iia
 旋	8iiao
 旍	8iiap
@@ -81765,6 +81768,7 @@ sort: original
 啟	8kdld
 酲	8kdlw
 寸	8kdp
+更	8kf
 春	8kf
 有时	8kf
 醍	8kfa
@@ -86621,8 +86625,9 @@ sort: original
 圆	8odz
 圆	8odzb
 筼	8odzb
-飞	8of
+者	8of
 那是	8of
+飞	8of
 弗	8ofa
 鞮	8ofao
 帖	8ofd
@@ -95696,7 +95701,7 @@ sort: original
 艪	8vmvf
 赉	8vmz
 赉	8vmzb
-界	8vn
+直	8vn
 舴	8vna
 舴	8vnao
 貐	8vnb
@@ -95765,6 +95770,7 @@ sort: original
 齗	8vnnz
 齦	8vnnz
 齭	8vnnz
+界	8vno
 畍	8vno
 畍	8vnod
 界	8vnod
@@ -97303,7 +97309,7 @@ sort: original
 确	8ya
 好像	8ya
 ①	8ya
-她们	8ya
+如何	8ya
 婿	8yab
 妑	8yabb
 婿	8yabi
