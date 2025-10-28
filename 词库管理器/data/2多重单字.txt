@@ -3,6 +3,6 @@
 壁	ld
 幕	jf
 神	cf
-春	kf
+春	kf	3
 飞	of	3
 比	ii
