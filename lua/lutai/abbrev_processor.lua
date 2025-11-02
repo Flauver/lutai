@@ -1,11 +1,11 @@
----露台・二四顶・造词删词处理器
----负责将 8a+( 8a+) 的造词编码生成略码并加入 lutaiesToFull.txt 中，或删除记录中的略码
+--- 露台・二四顶・造词删词处理器
+--- 负责将 8a+( 8a+) 的造词编码生成略码并加入 lutaiesToFull.txt 中，或删除记录中的略码
 
 local snow = require "lutai.snow"
 
 local abbrev_processor = {}
 
----@type table<string, string> | nil
+---@type table<string, string>?
 LutaiesToFull = LutaiesToFull
 
 ---@param env Env
@@ -32,7 +32,7 @@ function abbrev_processor.init(env)
 end
 
 ---@param short string
----@param full string | nil
+---@param full string?
 local function update(short, full)
     LutaiesToFull[short] = full
     local path = rime_api.get_user_data_dir() .. "/lutaiesToFull.txt"

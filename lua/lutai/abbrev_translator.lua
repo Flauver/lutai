@@ -1,12 +1,12 @@
----露台・二四顶・词语略码翻译器
----如果 aaaa 是某个词语的略码，那么将 aaaa 翻译为词语
+--- 露台・二四顶・词语略码翻译器
+--- 如果 aaaa 是某个词语的略码，那么将 aaaa 翻译为词语
 
 ---@class AbbrevEnv: Env
 ---@field memory Memory
 
 local abbrev_translator = {}
 
----@type table<string, string> | nil
+---@type table<string, string>?
 LutaiesToFull = LutaiesToFull
 
 ---@param env AbbrevEnv

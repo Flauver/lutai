@@ -27,7 +27,7 @@ local this = {}
 
 ---解析配置文件中的按键绑定配置
 ---@param value ConfigMap
----@return Binding | nil
+---@return Binding?
 local function parse(value)
   local match = value:get_value("match")
   local accept = value:get_value("accept")
