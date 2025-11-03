@@ -2,7 +2,7 @@ __include: lutaiws.schema.yaml:/
 
 schema:
   schema_id: lutaimix
-  name: 露台・五三・五三复合顶
+  name: 露台・五二・五三复合顶
   version: "0.1.0"
   author:
     - 深白
