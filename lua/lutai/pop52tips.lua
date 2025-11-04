@@ -51,6 +51,9 @@ local function pop52tips(translation, env)
         return
     end
     local cand = env.engine.context:get_selected_candidate()
+    if not cand then
+        return
+    end
     cand.preedit = "五二顶：" .. cand.preedit
 end
 
