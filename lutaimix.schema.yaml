@@ -42,3 +42,7 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - lua_filter@*lutai.pop52tips
+
+__patch:
+  __include: lutaimix.custom:/patch?
+  translator/dk_select: true

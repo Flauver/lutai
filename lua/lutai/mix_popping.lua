@@ -61,10 +61,30 @@ local select_keys4 = {
     ["5"] = 4,
 }
 
+---@class MixEnv: Env
+---@field dk_select boolean
+
 local this = {}
 
+---@param env MixEnv
+function this.init(env)
+    env.dk_select = env.engine.schema.config:get_bool("translator/dk_select") or false
+end
+
+---@type table<string, table<string, boolean>>
+local dkscope = {
+    ["d"] = {},
+    ["k"] = {}
+}
+for i = 1, 11 do
+    dkscope["d"][("yuiophjklnm"):sub(i, i)] = true
+end
+for i = 1, 15 do
+    dkscope["k"][("qwertasdfgzxcvb"):sub(i, i)] = true
+end
+
 ---@param key_event KeyEvent
----@param env Env
+---@param env MixEnv
 function this.func(key_event, env)
     if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then
         return snow.kNoop
@@ -85,6 +105,12 @@ function this.func(key_event, env)
             if key == "Tab" or key == "slash" then
                 context:commit()
                 return snow.kAccepted
+            end
+            if env.dk_select then
+                if (dkscope[key] or {})[input:sub(-1, -1)] then
+                    context:commit()
+                    return snow.kAccepted
+                end
             end
             if string.match(key, "[qwrtyuiopasdfghjklzcvbnm]") ~= key or select then
                 context:pop_input(1)
@@ -108,6 +134,12 @@ function this.func(key_event, env)
     elseif string.match(input, "[qwrtyuiopasdfghjklzcvbnm][qwrtyuiopasdfghjklzcvbnm][qwrtyuiopasdfghjklzcvbnm][qwrtyuiopasdfghjklzcvbnm]") == input then
         if input:sub(1, 2) == "fj" then
             return snow.kNoop
+        end
+        if env.dk_select then
+            if (dkscope[key] or {})[input:sub(-1, -1)] then
+                context:commit()
+                return snow.kAccepted
+            end
         end
         local select4 = select_keys4[key]
         if select4 then
