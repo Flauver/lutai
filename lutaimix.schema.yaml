@@ -1,0 +1,48 @@
+__include: lutaiws.schema.yaml:/
+
+schema:
+  schema_id: lutaimix
+  name: 露台・五二・五三复合顶
+  version: "0.1.0"
+  author:
+    - 深白
+  description: |
+    单简爽码
+  dependencies:
+    - jdh_lutai
+    - stroke_lutai
+    - cangjie5_sc_lutai
+
+engine:
+  processors:
+    - ascii_composer
+    #- lua_processor@*lutai.key_binder
+    #- key_binder
+    #- lua_processor@*lutai.popping
+    - lua_processor@*lutai.mix_popping
+    - recognizer
+    - speller
+    - punctuator
+    - selector         # 選字、換頁
+    - navigator        # 移動插入點
+    - express_editor
+  segmentors:
+    - abc_segmentor       # 標記輸入碼的類型
+    - matcher
+    - affix_segmentor@jdh_lutai_lookup
+    - affix_segmentor@stroke_lutai_lookup
+    - affix_segmentor@cangjie_lutai_lookup
+    - punct_segmentor   # 劃界，與前後方的其他編碼區分開
+    - fallback_segmentor
+  translators:
+    - punct_translator  # 轉換
+    - table_translator    # 碼表式轉換
+    - table_translator@jdh_lutai_lookup
+    - table_translator@stroke_lutai_lookup
+    - table_translator@cangjie_lutai_lookup
+  filters:
+    - lua_filter@*lutai.pop52tips
+
+__patch:
+  __include: lutaimix.custom:/patch?
+  translator/dk_select: true
