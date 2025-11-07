@@ -29945,7 +29945,7 @@
 蝴	nhb
 焴	nrb
 蛙	nww
-焥	npv
+蜿	npv
 燋	nqn
 烴	nuo
 炬	nuu
@@ -30042,8 +30042,8 @@
 蜋	npzg
 蛙	nwwh
 烓	nwwh
-焥	npvi
 蜿	npvi
+焥	npvi
 爄	nhjn
 蠣	nhjn
 燋	nqnf
