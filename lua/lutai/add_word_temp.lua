@@ -10,8 +10,8 @@ local data2 = {}
 ---@type table<string, string[]>
 local data = {}
 
----@type fun(phrase: string, pos: integer, code: string[], data: table<string, string[]>, env: EnvA)
-local dfs_encode
+---@type fun(phrase: string, length: integer, datap: table<string, string[]>, env: EnvA)
+local encode
 
 ---@param env EnvA
 function proc.init(env)
@@ -33,9 +33,9 @@ function proc.init(env)
                     break
                 end
                 phrase = entry.text .. phrase
-                if utf8.len(phrase) ~= 1 then
-                    local code = {}
-                    dfs_encode(phrase, 1, code, data2, env)
+                local length = utf8.len(phrase)
+                if length ~= 1 and length ~= nil then
+                    encode(phrase, length, data2, env)
                 end
                 ::continue::
             end
@@ -43,52 +43,45 @@ function proc.init(env)
     end
 end
 
----@param code string[]
+---@param code string
+---@param length integer
 ---@return string?
-local function rule(code)
+local function rule(code, length)
     local s = "ru"
     ---@type table<string, fun(): string>
     local _switch = {
         [2] = function ()
-          return code[1]
+          return code
         end,
         [3] = function ()
-          return code[1] .. s:sub(1, 1)
+          return code .. s:sub(1, 1)
         end,
         [4] = function ()
-          return code[1] .. s:sub(2, 2)
+          return code .. s:sub(2, 2)
         end
     }
-    local f = _switch[#code]
+    local f = _switch[length]
     if f then return f() end
 end
 
-dfs_encode = function(phrase, pos, code, data, env)
-  if pos > utf8.len(phrase) then
-    local encoded = rule(code)
+encode = function(phrase, length, datap, env)
+  local translations = env.reverse:lookup(snow.sub(phrase, 1, 1))
+  for stem in translations:gmatch("[^ ]+") do
+    if #stem < 2 then
+      goto continue
+    end
+    local encoded = rule(stem, length)
     if encoded then
-        data[encoded] = data[encoded] or {}
+        datap[encoded] = datap[encoded] or {}
         local list = {}
-        for _, w in ipairs(data[encoded]) do
+        for _, w in ipairs(datap[encoded]) do
             if w ~= phrase then
                 table.insert(list, w)
             end
         end
         table.insert(list, phrase)
-        data[encoded] = list
-      return
+        datap[encoded] = list
     end
-  end
-  local translations = env.reverse:lookup(snow.sub(phrase, pos, pos))
-  ---@type table<string, boolean>
-  local exist = {}
-  for stem in translations:gmatch("[^ ]+") do
-    if #stem < 2 then
-      goto continue
-    end
-    table.insert(code, stem)
-    dfs_encode(phrase, pos + 1, code, data, env)
-    table.remove(code)
     ::continue::
   end
 end
@@ -111,10 +104,9 @@ function proc.func(key_event, env)
                 break
             end
             phrase = entry.text .. phrase
-            snow.errorf("phrase: %s", phrase)
-            if utf8.len(phrase) ~= 1 then
-                local code = {}
-                dfs_encode(phrase, 1, code, data, env)
+            local length = utf8.len(phrase)
+            if length ~= 1 and length ~= nil then
+                encode(phrase, length, data, env)
             end
             ::continue::
         end
@@ -129,10 +121,10 @@ end
 local function tran(input, seg, env)
     if input:sub(1, 1) == "[" then
         local words = {}
-        for _, word in ipairs(data[input:sub(2)] or {}) do
+        for _, word in ipairs(data2[input:sub(2)] or {}) do
             table.insert(words, word)
         end
-        for _, word in ipairs(data2[input:sub(2)] or {}) do
+        for _, word in ipairs(data[input:sub(2)] or {}) do
             table.insert(words, word)
         end
         for i = 1, #words do
