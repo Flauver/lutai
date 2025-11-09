@@ -107,6 +107,11 @@ function this.func(key_event, env)
     if key == "BackSpace" or key == "Escape" then
         return snow.kNoop
     end
+    if key == "bracketleft" then
+        context:commit()
+        context:push_input("[")
+        return snow.kAccepted
+    end
     local p52 = pop52[input:sub(1, 2)]
     if rime_api.regex_match(input, "[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}") then
         select = select_keys[key]
