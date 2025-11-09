@@ -6,11 +6,41 @@ local snow = require "lutai.snow"
 local proc = {}
 
 ---@type table<string, string[]>
+local data2 = {}
+---@type table<string, string[]>
 local data = {}
+
+---@type fun(phrase: string, pos: integer, code: string[], data: table<string, string[]>, env: EnvA)
+local dfs_encode
 
 ---@param env EnvA
 function proc.init(env)
     env.reverse = ReverseLookup("lutai")
+    local auto_add_word = env.engine.schema.config:get_bool("translator/auto_add_word") or true
+    if auto_add_word then
+        env.engine.context.commit_notifier:connect(function (ctx)
+            local i = 0
+            local phrase = ""
+            for _, entry in ctx.commit_history:iter() do
+                if entry.type == "raw" then
+                    goto continue
+                end
+                i = i + 1
+                if entry.type == "punct" then
+                    break
+                end
+                if i - 1 == 4 then
+                    break
+                end
+                phrase = entry.text .. phrase
+                if utf8.len(phrase) ~= 1 then
+                    local code = {}
+                    dfs_encode(phrase, 1, code, data2, env)
+                end
+                ::continue::
+            end
+        end)
+    end
 end
 
 ---@param code string[]
@@ -33,11 +63,7 @@ local function rule(code)
     if f then return f() end
 end
 
----@param phrase string
----@param pos integer
----@param code string[]
----@param env EnvA
-local function dfs_encode(phrase, pos, code, env)
+dfs_encode = function(phrase, pos, code, data, env)
   if pos > utf8.len(phrase) then
     local encoded = rule(code)
     if encoded then
@@ -61,7 +87,7 @@ local function dfs_encode(phrase, pos, code, env)
       goto continue
     end
     table.insert(code, stem)
-    dfs_encode(phrase, pos + 1, code, env)
+    dfs_encode(phrase, pos + 1, code, data, env)
     table.remove(code)
     ::continue::
   end
@@ -85,9 +111,10 @@ function proc.func(key_event, env)
                 break
             end
             phrase = entry.text .. phrase
+            snow.errorf("phrase: %s", phrase)
             if utf8.len(phrase) ~= 1 then
                 local code = {}
-                dfs_encode(phrase, 1, code, env)
+                dfs_encode(phrase, 1, code, data, env)
             end
             ::continue::
         end
@@ -103,6 +130,9 @@ local function tran(input, seg, env)
     if input:sub(1, 1) == "[" then
         local words = {}
         for _, word in ipairs(data[input:sub(2)] or {}) do
+            table.insert(words, word)
+        end
+        for _, word in ipairs(data2[input:sub(2)] or {}) do
             table.insert(words, word)
         end
         for i = 1, #words do
