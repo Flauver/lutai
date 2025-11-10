@@ -116,7 +116,7 @@ function this.func(key_event, env)
                 return snow.kAccepted
             end
             if env.dk_select then
-                if (dkscope[key] or {})[input:sub(-1, -1)] then
+                if (dkscope[key] or {})[input:sub(-1, -1)] and context:has_menu() then
                     context:commit()
                     return snow.kAccepted
                 end
