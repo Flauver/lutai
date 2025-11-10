@@ -111,6 +111,10 @@ function proc.func(key_event, env)
             ::continue::
         end
         return snow.kAccepted
+    elseif key_event:repr() == "bracketleft" then
+        env.engine.context:commit()
+        env.engine.context:push_input("[")
+        return snow.kAccepted
     end
     return snow.kNoop
 end

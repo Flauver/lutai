@@ -19,8 +19,8 @@ engine:
     #- lua_processor@*lutai.key_binder
     #- key_binder
     #- lua_processor@*lutai.popping
-    - lua_processor@*lutai.add_word_temp*proc
     - lua_processor@*lutai.mix_popping
+    - lua_processor@*lutai.add_word_temp*proc
     - recognizer
     - speller
     - punctuator
