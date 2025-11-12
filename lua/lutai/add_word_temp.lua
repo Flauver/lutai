@@ -2,13 +2,16 @@ local snow = require "lutai.snow"
 
 ---@class EnvA: Env
 ---@field reverse ReverseLookup
+---@field wordpairs table<string, boolean>
 
 local proc = {}
 
 ---@type table<string, string[]>
-local data2 = {}
+local data = {} -- 按 Control + j 加的词
 ---@type table<string, string[]>
-local data = {}
+local data2 = {} -- 自动加的词
+---@type table<string, string[]>
+local data3 = {} -- 自动加的词，但是发现这个词的最后一个字和下一个条目的第一个字，能组成一个词（或的一部分），所以它很可能不是词
 
 ---@type fun(phrase: string, length: integer, datap: table<string, string[]>, env: EnvA)
 local encode
@@ -19,27 +22,47 @@ function proc.init(env)
     local auto_add_word = env.engine.schema.config:get_bool("translator/auto_add_word") or true
     if auto_add_word then
         env.engine.context.commit_notifier:connect(function (ctx)
-            local i = 0
             local phrase = ""
-            for _, entry in ctx.commit_history:iter() do
+            ---@type string?
+            local last = nil
+            ---@type string?
+            local pair = nil
+            for _, entry in env.engine.context.commit_history:iter() do
                 if entry.type == "raw" then
                     goto continue
                 end
-                i = i + 1
                 if entry.type == "punct" then
                     break
                 end
-                if i - 1 == 4 then
+                if utf8.len(phrase) > 4 then
                     break
                 end
+                if not last then
+                    last = entry.text
+                    goto continue
+                end
                 phrase = entry.text .. phrase
+                if not pair then
+                    pair = snow.sub(phrase, -1, -1) .. snow.sub(last, 1, 1)
+                end
                 local length = utf8.len(phrase)
                 if length ~= 1 and length ~= nil then
-                    encode(phrase, length, data2, env)
+                    if env.wordpairs[pair] then
+                        encode(phrase, length, data3, env)
+                    else
+                        encode(phrase, length, data2, env)
+                    end
                 end
                 ::continue::
             end
         end)
+    end
+    env.wordpairs = {}
+    local file = io.open(rime_api.get_user_data_dir() .. "/lua/lutai/wordpairs.txt")
+    if file then
+        for line in file:lines() do
+            env.wordpairs[line] = true
+        end
     end
 end
 
@@ -90,23 +113,21 @@ end
 ---@param env EnvA
 function proc.func(key_event, env)
     if key_event:repr() == "Control+j" then
-        local i = 0
         local phrase = ""
         for _, entry in env.engine.context.commit_history:iter() do
             if entry.type == "raw" then
                 goto continue
             end
-            i = i + 1
             if entry.type == "punct" then
                 break
             end
-            if i - 1 == 4 then
+            if utf8.len(phrase) > 4 then
                 break
             end
             phrase = entry.text .. phrase
             local length = utf8.len(phrase)
             if length ~= 1 and length ~= nil then
-                encode(phrase, length, data, env)
+                encode(phrase, length, data2, env)
             end
             ::continue::
         end
@@ -125,6 +146,9 @@ end
 local function tran(input, seg, env)
     if input:sub(1, 1) == "[" then
         local words = {}
+        for _, word in ipairs(data3[input:sub(2)] or {}) do
+            table.insert(words, word)
+        end
         for _, word in ipairs(data2[input:sub(2)] or {}) do
             table.insert(words, word)
         end
