@@ -31,15 +31,15 @@ function proc.init(env)
                 if entry.type == "raw" then
                     goto continue
                 end
+                if not last then
+                    last = entry.text
+                    goto continue
+                end
                 if entry.type == "punct" then
                     break
                 end
                 if utf8.len(phrase) > 4 then
                     break
-                end
-                if not last then
-                    last = entry.text
-                    goto continue
                 end
                 phrase = entry.text .. phrase
                 if not pair then
