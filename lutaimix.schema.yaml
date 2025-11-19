@@ -37,6 +37,7 @@ engine:
     - fallback_segmentor
   translators:
     - lua_translator@*lutai.add_word_temp*tran
+    - history_translator@history
     - punct_translator  # 轉換
     - table_translator    # 碼表式轉換
     - table_translator@jdh_lutai_lookup
@@ -44,6 +45,10 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - lua_filter@*lutai.pop52tips
+
+history:
+  input: '['
+  size: 1
 
 __patch:
   __include: lutaimix.custom:/patch?
