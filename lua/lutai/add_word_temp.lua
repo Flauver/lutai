@@ -127,7 +127,7 @@ function proc.func(key_event, env)
             phrase = entry.text .. phrase
             local length = utf8.len(phrase)
             if length ~= 1 and length ~= nil then
-                encode(phrase, length, data2, env)
+                encode(phrase, length, data, env)
             end
             ::continue::
         end
