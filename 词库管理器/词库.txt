@@ -1,7 +1,6 @@
 了	a
 的时候	a
 ①	a
-什么	a
 但是	a
 候	aa
 任何	aa
@@ -114,8 +113,8 @@
 伊	act
 侰	actd
 偑	actn
-羲	acto
 伊	actp
+羲	actt
 佩	acu
 佩	acuo
 倭	acy
@@ -637,7 +636,6 @@
 作	an
 安	an
 ①	an
-案	an
 羹	ana
 作	anar
 羹	anas
@@ -1163,7 +1161,6 @@
 低	ay
 她们	ay
 ①	ay
-例如	ay
 羊	aya
 姜	ayb
 姜	ayby
@@ -1235,7 +1232,6 @@
 儨	azzm
 里	b
 ①	b
-月	b
 应该	b
 里面	b
 府	ba
@@ -2215,7 +2211,6 @@
 廐	bzuu
 几	c
 ①	c
-种	c
 几个	c
 灵魂	c
 专	ca
@@ -2393,7 +2388,6 @@
 香	cf
 ①	cf
 ②	cf
-神	cf
 丰	cfa
 馠	cfad
 禵	cfam
@@ -3609,8 +3603,6 @@
 和	d
 ①	d
 ②	d
-只是	d
-别人	d
 吧	da
 迚	daa
 迚	daak
@@ -3751,8 +3743,6 @@
 品	dd
 ①	dd
 ②	dd
-哭	dd
-只要	dd
 患	dda
 唈	ddab
 嚣	ddad
@@ -4853,7 +4843,7 @@
 岜	fab
 岜	fabs
 曦	fac
-曦	faco
+曦	fact
 晗	fad
 晗	fadi
 暢	faf
@@ -6620,7 +6610,6 @@
 的	g
 就	g
 ①	g
-自己	g
 就是	g
 速	ga
 皅	gab
@@ -13194,7 +13183,6 @@
 𫗴	kzou
 他	l
 你	l
-现	l
 现在	l
 睡觉	l
 特	la
@@ -13355,8 +13343,6 @@
 中	ld
 ①	ld
 ②	ld
-臂	ld
-壁	ld
 訲	lda
 訲	ldas
 琄	ldb
@@ -14865,7 +14851,6 @@
 瓆	lzzm
 璎	lzzy
 到	m
-道	m
 生	m
 生活	m
 终于	m
@@ -15873,7 +15858,7 @@
 蚆	nabc
 蝑	nabi
 爔	nac
-爔	naco
+爔	nact
 蛜	nact
 焓	nad
 焓	nadi
@@ -19584,7 +19569,6 @@
 对	q
 又	q
 ①	q
-东西	q
 对方	q
 鲜	qa
 虚假	qa
@@ -19699,7 +19683,6 @@
 阿	qg
 限	qg
 ①	qg
-艰	qg
 鲌	qgb
 鲌	qgbv
 陙	qgc
@@ -19965,6 +19948,7 @@
 鲙	qnr
 队	qnrk
 鲙	qnry
+雠	qnsi
 鷦	qnt
 鷦	qntn
 隂	qnu
@@ -20293,14 +20277,12 @@
 鲗	qzod
 鳣	qzou
 鲫	qzq
-雠	qzqi
 鲫	qzqk
 虗	qzu
 虗	qzuh
 能	r
 想	r
 ①	r
-感觉	r
 想要	r
 样	ra
 相信	ra
@@ -21873,7 +21855,6 @@
 大	s
 也	s
 ①	s
-需要	s
 大家	s
 达	sa
 达到	sa
@@ -22980,7 +22961,6 @@
 我	t
 么	t
 ①	t
-我们	t
 看到	t
 把	ta
 揟	tab
@@ -25988,7 +25968,6 @@
 来	v
 然	v
 ②	v
-然后	v
 为什么	v
 冷	va
 来到	va
@@ -26993,7 +26972,6 @@
 去	w
 地	w
 ①	w
-问题	w
 地方	w
 须	wa
 见到	wa
@@ -28124,7 +28102,6 @@
 确	ya
 好像	ya
 ①	ya
-如何	ya
 婿	yab
 妑	yabb
 婿	yabi
@@ -29234,8 +29211,6 @@
 说	z
 ①	z
 ②	z
-记得	z
-说话	z
 近	za
 鎀	zaa
 鏅	zaab

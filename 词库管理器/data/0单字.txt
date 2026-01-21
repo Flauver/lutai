@@ -5891,7 +5891,7 @@
 鶾	kjin
 曤	fsqi
 曥	fqvd
-曦	faco
+曦	fact
 曧	fmnc
 鶿	mffn
 曩	fzdp
@@ -8562,7 +8562,7 @@
 爑	njqn
 爒	vnsj
 爓	nyok
-爔	naco
+爔	nact
 爕	lnnn
 爗	nfjt
 爘	nwqp
@@ -11461,7 +11461,7 @@
 羮	anup
 羯	afuw
 羰	afkn
-羲	acto
+羲	actt
 羴	aaay
 羸	nayi
 羹	anas
@@ -16009,7 +16009,7 @@
 雜	znnq
 雝	odaq
 雞	hfsq
-雠	qzqi
+雠	qnsi
 離	zhyq
 難	idpq
 雥	qqqi

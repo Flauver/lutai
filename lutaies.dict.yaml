@@ -118,8 +118,8 @@ sort: original
 伊	ac_t	101131
 侰	/actd	0
 偑	/actn	0
-羲	/acto	1724
 伊	/actp	101131
+羲	/actt	1724
 佩	ac_u	69957
 佩	/acuo	69957
 倭	ac_y	2229
@@ -4806,7 +4806,7 @@ sort: original
 岜	fa_b	60
 岜	/fabs	60
 曦	fa_c	6270
-曦	/faco	6270
+曦	/fact	6270
 晗	fa_d	386
 晗	/fadi	386
 暢	fa_f	0
@@ -15654,7 +15654,7 @@ sort: original
 蚆	/nabc	0
 蝑	/nabi	0
 爔	na_c	0
-爔	/naco	0
+爔	/nact	0
 蛜	/nact	0
 焓	na_d	8
 焓	/nadi	8
@@ -19692,6 +19692,7 @@ sort: original
 鲙	qn_r	0
 队	/qnrk	308991
 鲙	/qnry	0
+雠	/qnsi	505
 鷦	qn_t	0
 鷦	/qntn	0
 隂	qn_u	0
@@ -20018,7 +20019,6 @@ sort: original
 鲗	/qzod	0
 鳣	/qzou	0
 鲫	qz_q	629
-雠	/qzqi	505
 鲫	/qzqk	629
 虗	qz_u	0
 虗	/qzuh	0
@@ -30616,7 +30616,7 @@ sort: original
 稴	cd_j	0
 疻	cd_m	0
 秞	cd_y	0
-馠	cf_a	0
+神	cf_a	835825
 痁	cf_d	0
 馧	cf_f	0
 馟	cf_h	0
@@ -30829,7 +30829,7 @@ sort: original
 彯	dc_w	0
 唩	dc_y	0
 串	dd_a	21650
-咒	dd_c	21933
+哭	dd_c	142171
 喦	dd_d	0
 辴	dd_f	0
 啝	dd_h	0
@@ -32226,7 +32226,7 @@ sort: original
 珮	lc_u	0
 諉	lc_y	0
 瞣	ld_d	0
-劈	ld_j	39805
+臂	ld_j	86619
 諿	ld_p	0
 琌	lf_a	0
 瑥	lf_d	0
@@ -32414,7 +32414,7 @@ sort: original
 眵	lv_v	14
 訨	lv_w	0
 瑤	lv_y	0
-讟	lw_j	0
+现	lw_j	1387507
 詤	lw_o	0
 珐	lw_r	166
 盳	lw_w	0
@@ -32511,7 +32511,6 @@ sort: original
 夐	my_n	0
 螩	na_a	0
 蝑	na_b	0
-蛜	na_c	0
 蛭	na_i	331
 蚹	na_k	0
 蚮	na_t	0
@@ -33094,6 +33093,7 @@ sort: original
 阦	qn_f	0
 𬶋	qn_j	0
 隤	qn_l	0
+雠	qn_s	505
 顦	qn_u	0
 鲴	qo_h	6
 覷	qo_l	0
@@ -33129,7 +33129,6 @@ sort: original
 鲱	qy_f	81
 阺	qy_p	0
 鳣	qz_o	0
-雠	qz_q	505
 樤	ra_a	0
 楈	ra_b	0
 椺	ra_d	0
@@ -34702,8 +34701,8 @@ sort: original
 伊	;act	101131
 侰	;actd	0
 偑	;actn	0
-羲	;acto	1724
 伊	;actp	101131
+羲	;actt	1724
 佩	;acu	69957
 佩	;acuo	69957
 倭	;acy	2229
@@ -39284,7 +39283,7 @@ sort: original
 岜	;fab	60
 岜	;fabs	60
 曦	;fac	6270
-曦	;faco	6270
+曦	;fact	6270
 晗	;fad	386
 晗	;fadi	386
 暢	;faf	0
@@ -49940,7 +49939,7 @@ sort: original
 蚆	;nabc	0
 蝑	;nabi	0
 爔	;nac	0
-爔	;naco	0
+爔	;nact	0
 蛜	;nact	0
 焓	;nad	8
 焓	;nadi	8
@@ -53894,6 +53893,7 @@ sort: original
 鲙	;qnr	0
 队	;qnrk	308991
 鲙	;qnry	0
+雠	;qnsi	505
 鷦	;qnt	0
 鷦	;qntn	0
 隂	;qnu	0
@@ -54209,7 +54209,6 @@ sort: original
 鲗	;qzod	0
 鳣	;qzou	0
 鲫	;qzq	629
-雠	;qzqi	505
 鲫	;qzqk	629
 虗	;qzu	0
 虗	;qzuh	0
@@ -64615,7 +64614,7 @@ sort: original
 稴	;cdj	0
 疻	;cdm	0
 秞	;cdy	0
-馠	;cfa	0
+神	;cfa	835825
 痁	;cfd	0
 馧	;cff	0
 馟	;cfh	0
@@ -64828,7 +64827,7 @@ sort: original
 彯	;dcw	0
 唩	;dcy	0
 串	;dda	21650
-咒	;ddc	21933
+哭	;ddc	142171
 喦	;ddd	0
 辴	;ddf	0
 啝	;ddh	0
@@ -66225,7 +66224,7 @@ sort: original
 珮	;lcu	0
 諉	;lcy	0
 瞣	;ldd	0
-劈	;ldj	39805
+臂	;ldj	86619
 諿	;ldp	0
 琌	;lfa	0
 瑥	;lfd	0
@@ -66413,7 +66412,7 @@ sort: original
 眵	;lvv	14
 訨	;lvw	0
 瑤	;lvy	0
-讟	;lwj	0
+现	;lwj	1387507
 詤	;lwo	0
 珐	;lwr	166
 盳	;lww	0
@@ -66510,7 +66509,6 @@ sort: original
 夐	;myn	0
 螩	;naa	0
 蝑	;nab	0
-蛜	;nac	0
 蛭	;nai	331
 蚹	;nak	0
 蚮	;nat	0
@@ -67093,6 +67091,7 @@ sort: original
 阦	;qnf	0
 𬶋	;qnj	0
 隤	;qnl	0
+雠	;qns	505
 顦	;qnu	0
 鲴	;qoh	6
 覷	;qol	0
@@ -67128,7 +67127,6 @@ sort: original
 鲱	;qyf	81
 阺	;qyp	0
 鳣	;qzo	0
-雠	;qzq	505
 樤	;raa	0
 楈	;rab	0
 椺	;rad	0
@@ -69186,7 +69184,6 @@ sort: original
 了	8a
 的时候	8a
 ①	8a
-什么	8a
 但是	8a
 候	8aa
 任何	8aa
@@ -69299,8 +69296,8 @@ sort: original
 伊	8act
 侰	8actd
 偑	8actn
-羲	8acto
 伊	8actp
+羲	8actt
 佩	8acu
 佩	8acuo
 倭	8acy
@@ -69822,7 +69819,6 @@ sort: original
 作	8an
 安	8an
 ①	8an
-案	8an
 羹	8ana
 作	8anar
 羹	8anas
@@ -70348,7 +70344,6 @@ sort: original
 低	8ay
 她们	8ay
 ①	8ay
-例如	8ay
 羊	8aya
 姜	8ayb
 姜	8ayby
@@ -70420,7 +70415,6 @@ sort: original
 儨	8azzm
 里	8b
 ①	8b
-月	8b
 应该	8b
 里面	8b
 府	8ba
@@ -71400,7 +71394,6 @@ sort: original
 廐	8bzuu
 几	8c
 ①	8c
-种	8c
 几个	8c
 灵魂	8c
 专	8ca
@@ -71578,7 +71571,6 @@ sort: original
 香	8cf
 ①	8cf
 ②	8cf
-神	8cf
 丰	8cfa
 馠	8cfad
 禵	8cfam
@@ -72794,8 +72786,6 @@ sort: original
 和	8d
 ①	8d
 ②	8d
-只是	8d
-别人	8d
 吧	8da
 迚	8daa
 迚	8daak
@@ -72936,8 +72926,6 @@ sort: original
 品	8dd
 ①	8dd
 ②	8dd
-哭	8dd
-只要	8dd
 患	8dda
 唈	8ddab
 嚣	8ddad
@@ -74038,7 +74026,7 @@ sort: original
 岜	8fab
 岜	8fabs
 曦	8fac
-曦	8faco
+曦	8fact
 晗	8fad
 晗	8fadi
 暢	8faf
@@ -75805,7 +75793,6 @@ sort: original
 的	8g
 就	8g
 ①	8g
-自己	8g
 就是	8g
 速	8ga
 皅	8gab
@@ -82379,7 +82366,6 @@ sort: original
 𫗴	8kzou
 他	8l
 你	8l
-现	8l
 现在	8l
 睡觉	8l
 特	8la
@@ -82540,8 +82526,6 @@ sort: original
 中	8ld
 ①	8ld
 ②	8ld
-臂	8ld
-壁	8ld
 訲	8lda
 訲	8ldas
 琄	8ldb
@@ -84050,7 +84034,6 @@ sort: original
 瓆	8lzzm
 璎	8lzzy
 到	8m
-道	8m
 生	8m
 生活	8m
 终于	8m
@@ -85058,7 +85041,7 @@ sort: original
 蚆	8nabc
 蝑	8nabi
 爔	8nac
-爔	8naco
+爔	8nact
 蛜	8nact
 焓	8nad
 焓	8nadi
@@ -88769,7 +88752,6 @@ sort: original
 对	8q
 又	8q
 ①	8q
-东西	8q
 对方	8q
 鲜	8qa
 虚假	8qa
@@ -88884,7 +88866,6 @@ sort: original
 阿	8qg
 限	8qg
 ①	8qg
-艰	8qg
 鲌	8qgb
 鲌	8qgbv
 陙	8qgc
@@ -89150,6 +89131,7 @@ sort: original
 鲙	8qnr
 队	8qnrk
 鲙	8qnry
+雠	8qnsi
 鷦	8qnt
 鷦	8qntn
 隂	8qnu
@@ -89478,14 +89460,12 @@ sort: original
 鲗	8qzod
 鳣	8qzou
 鲫	8qzq
-雠	8qzqi
 鲫	8qzqk
 虗	8qzu
 虗	8qzuh
 能	8r
 想	8r
 ①	8r
-感觉	8r
 想要	8r
 样	8ra
 相信	8ra
@@ -91058,7 +91038,6 @@ sort: original
 大	8s
 也	8s
 ①	8s
-需要	8s
 大家	8s
 达	8sa
 达到	8sa
@@ -92165,7 +92144,6 @@ sort: original
 我	8t
 么	8t
 ①	8t
-我们	8t
 看到	8t
 把	8ta
 揟	8tab
@@ -95173,7 +95151,6 @@ sort: original
 来	8v
 然	8v
 ②	8v
-然后	8v
 为什么	8v
 冷	8va
 来到	8va
@@ -96178,7 +96155,6 @@ sort: original
 去	8w
 地	8w
 ①	8w
-问题	8w
 地方	8w
 须	8wa
 见到	8wa
@@ -97309,7 +97285,6 @@ sort: original
 确	8ya
 好像	8ya
 ①	8ya
-如何	8ya
 婿	8yab
 妑	8yabb
 婿	8yabi
@@ -98419,8 +98394,6 @@ sort: original
 说	8z
 ①	8z
 ②	8z
-记得	8z
-说话	8z
 近	8za
 鎀	8zaa
 鏅	8zaab
@@ -100231,7 +100204,7 @@ sort: original
 稴	8cdj
 疻	8cdm
 秞	8cdy
-馠	8cfa
+神	8cfa
 痁	8cfd
 馧	8cff
 馟	8cfh
@@ -100444,7 +100417,7 @@ sort: original
 彯	8dcw
 唩	8dcy
 串	8dda
-咒	8ddc
+哭	8ddc
 喦	8ddd
 辴	8ddf
 啝	8ddh
@@ -101841,7 +101814,7 @@ sort: original
 珮	8lcu
 諉	8lcy
 瞣	8ldd
-劈	8ldj
+臂	8ldj
 諿	8ldp
 琌	8lfa
 瑥	8lfd
@@ -102029,7 +102002,7 @@ sort: original
 眵	8lvv
 訨	8lvw
 瑤	8lvy
-讟	8lwj
+现	8lwj
 詤	8lwo
 珐	8lwr
 盳	8lww
@@ -102126,7 +102099,6 @@ sort: original
 夐	8myn
 螩	8naa
 蝑	8nab
-蛜	8nac
 蛭	8nai
 蚹	8nak
 蚮	8nat
@@ -102709,6 +102681,7 @@ sort: original
 阦	8qnf
 𬶋	8qnj
 隤	8qnl
+雠	8qns
 顦	8qnu
 鲴	8qoh
 覷	8qol
@@ -102744,7 +102717,6 @@ sort: original
 鲱	8qyf
 阺	8qyp
 鳣	8qzo
-雠	8qzq
 樤	8raa
 楈	8rab
 椺	8rad
