@@ -12,6 +12,7 @@ sort: original
 了	a
 的时候	a
 ①	a
+什么	a
 但是	a
 候	aa
 任何	aa
@@ -647,6 +648,7 @@ sort: original
 作	an
 安	an
 ①	an
+案	an
 羹	ana
 作	anar
 羹	anas
@@ -1172,6 +1174,7 @@ sort: original
 低	ay
 她们	ay
 ①	ay
+例如	ay
 羊	aya
 姜	ayb
 姜	ayby
@@ -1243,6 +1246,7 @@ sort: original
 儨	azzm
 里	b
 ①	b
+月	b
 应该	b
 里面	b
 府	ba
@@ -2222,6 +2226,7 @@ sort: original
 廐	bzuu
 几	c
 ①	c
+种	c
 几个	c
 灵魂	c
 专	ca
@@ -2399,6 +2404,7 @@ sort: original
 香	cf
 ①	cf
 ②	cf
+神	cf
 丰	cfa
 馠	cfad
 禵	cfam
@@ -3614,6 +3620,8 @@ sort: original
 和	d
 ①	d
 ②	d
+只是	d
+别人	d
 吧	da
 迚	daa
 迚	daak
@@ -3754,6 +3762,8 @@ sort: original
 品	dd
 ①	dd
 ②	dd
+哭	dd
+只要	dd
 患	dda
 唈	ddab
 嚣	ddad
@@ -6621,6 +6631,7 @@ sort: original
 的	g
 就	g
 ①	g
+自己	g
 就是	g
 速	ga
 皅	gab
@@ -13194,6 +13205,7 @@ sort: original
 𫗴	kzou
 他	l
 你	l
+现	l
 现在	l
 睡觉	l
 特	la
@@ -13354,6 +13366,8 @@ sort: original
 中	ld
 ①	ld
 ②	ld
+臂	ld
+壁	ld
 訲	lda
 訲	ldas
 琄	ldb
@@ -14862,6 +14876,7 @@ sort: original
 瓆	lzzm
 璎	lzzy
 到	m
+道	m
 生	m
 生活	m
 终于	m
@@ -19580,6 +19595,7 @@ sort: original
 对	q
 又	q
 ①	q
+东西	q
 对方	q
 鲜	qa
 虚假	qa
@@ -19694,6 +19710,7 @@ sort: original
 阿	qg
 限	qg
 ①	qg
+艰	qg
 鲌	qgb
 鲌	qgbv
 陙	qgc
@@ -20294,6 +20311,7 @@ sort: original
 能	r
 想	r
 ①	r
+感觉	r
 想要	r
 样	ra
 相信	ra
@@ -21866,6 +21884,7 @@ sort: original
 大	s
 也	s
 ①	s
+需要	s
 大家	s
 达	sa
 达到	sa
@@ -22972,6 +22991,7 @@ sort: original
 我	t
 么	t
 ①	t
+我们	t
 看到	t
 把	ta
 揟	tab
@@ -25979,6 +25999,7 @@ sort: original
 来	v
 然	v
 ②	v
+然后	v
 为什么	v
 冷	va
 来到	va
@@ -26983,6 +27004,7 @@ sort: original
 去	w
 地	w
 ①	w
+问题	w
 地方	w
 须	wa
 见到	wa
@@ -28113,6 +28135,7 @@ sort: original
 确	ya
 好像	ya
 ①	ya
+如何	ya
 婿	yab
 妑	yabb
 婿	yabi
@@ -29222,6 +29245,8 @@ sort: original
 说	z
 ①	z
 ②	z
+记得	z
+说话	z
 近	za
 鎀	zaa
 鏅	zaab
@@ -51911,7 +51936,7 @@ sort: original
 稴	cdj
 疻	cdm
 秞	cdy
-神	cfa
+馠	cfa
 痁	cfd
 馧	cff
 馟	cfh
@@ -52124,7 +52149,7 @@ sort: original
 彯	dcw
 唩	dcy
 串	dda
-哭	ddc
+咒	ddc
 喦	ddd
 辴	ddf
 啝	ddh
@@ -53521,7 +53546,7 @@ sort: original
 珮	lcu
 諉	lcy
 瞣	ldd
-臂	ldj
+劈	ldj
 諿	ldp
 琌	lfa
 瑥	lfd
@@ -53709,7 +53734,7 @@ sort: original
 眵	lvv
 訨	lvw
 瑤	lvy
-现	lwj
+讟	lwj
 詤	lwo
 珐	lwr
 盳	lww
