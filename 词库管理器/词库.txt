@@ -114,9 +114,9 @@
 侰	actd
 偑	actn
 伊	actp
-羲	actt
 佩	acu
 佩	acuo
+羲	acut
 倭	acy
 倭	acyb
 债	acz

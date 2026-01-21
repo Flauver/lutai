@@ -119,9 +119,9 @@ sort: original
 侰	/actd	0
 偑	/actn	0
 伊	/actp	101131
-羲	/actt	1724
 佩	ac_u	69957
 佩	/acuo	69957
+羲	/acut	1724
 倭	ac_y	2229
 倭	/acyb	2229
 债	ac_z	35011
@@ -30253,7 +30253,8 @@ sort: original
 偰	ac_m	0
 僽	ac_n	0
 俵	ac_p	0
-羲	ac_t	1724
+侰	ac_t	0
+羲	ac_u	1724
 颔	ad_a	10011
 偘	ad_d	0
 巼	ad_i	0
@@ -34702,9 +34703,9 @@ sort: original
 侰	;actd	0
 偑	;actn	0
 伊	;actp	101131
-羲	;actt	1724
 佩	;acu	69957
 佩	;acuo	69957
+羲	;acut	1724
 倭	;acy	2229
 倭	;acyb	2229
 债	;acz	35011
@@ -64251,7 +64252,8 @@ sort: original
 偰	;acm	0
 僽	;acn	0
 俵	;acp	0
-羲	;act	1724
+侰	;act	0
+羲	;acu	1724
 颔	;ada	10011
 偘	;add	0
 巼	;adi	0
@@ -69297,9 +69299,9 @@ sort: original
 侰	8actd
 偑	8actn
 伊	8actp
-羲	8actt
 佩	8acu
 佩	8acuo
+羲	8acut
 倭	8acy
 倭	8acyb
 债	8acz
@@ -99841,7 +99843,8 @@ sort: original
 偰	8acm
 僽	8acn
 俵	8acp
-羲	8act
+侰	8act
+羲	8acu
 颔	8ada
 偘	8add
 巼	8adi
