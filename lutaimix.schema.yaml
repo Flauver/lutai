@@ -51,7 +51,10 @@ history:
   size: 1
 
 __patch:
-  __include: lutaimix.custom:/patch?
+  - patch
+  - lutaimix.custom:/patch?
+
+patch:
   speller/alphabet: "qwrtyuiopasdfghjklzcvbnmex["
   speller/popping/+:
     - match: ".*"
