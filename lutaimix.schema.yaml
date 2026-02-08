@@ -59,4 +59,4 @@ patch:
   speller/popping/+:
     - match: ".*"
       accept: "["
-  translator/dk_select: true
+  translator/dk_select: false
