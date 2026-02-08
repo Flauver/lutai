@@ -2,7 +2,7 @@ local snow = require "lutai.snow"
 
 ---@class EnvA: Env
 ---@field reverse ReverseLookup
----@field wordpairs table<string, boolean>
+---@field wordpairs ReverseLookup
 
 local proc = {}
 
@@ -19,6 +19,7 @@ local encode
 ---@param env EnvA
 function proc.init(env)
     env.reverse = ReverseLookup("lutai")
+    env.wordpairs = ReverseLookup("lutai_wordpairs")
     local auto_add_word = env.engine.schema.config:get_bool("translator/auto_add_word") or true
     if auto_add_word then
         env.engine.context.commit_notifier:connect(function (ctx)
@@ -47,7 +48,7 @@ function proc.init(env)
                 end
                 local length = utf8.len(phrase)
                 if length ~= 1 and length ~= nil then
-                    if env.wordpairs[pair] then
+                    if env.wordpairs:lookup(pair) ~= "" then
                         encode(phrase, length, data3, env)
                     else
                         encode(phrase, length, data2, env)
@@ -56,13 +57,6 @@ function proc.init(env)
                 ::continue::
             end
         end)
-    end
-    env.wordpairs = {}
-    local file = io.open(rime_api.get_user_data_dir() .. "/lua/lutai/wordpairs.txt")
-    if file then
-        for line in file:lines() do
-            env.wordpairs[line] = true
-        end
     end
 end
 
