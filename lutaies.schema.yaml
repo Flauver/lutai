@@ -50,6 +50,7 @@ engine:
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
   filters:
+    - lua_filter@reverse_lookup
     - lua_filter@*lutai.fix
     - lua_filter@*lutai.postpone
     - lua_filter@*lutai.abbrev_filter
@@ -61,6 +62,11 @@ translator:
   enable_completion: false
   disable_user_dict_for_patterns:
     - '(?!^..[qw]$|^[qwrtyuiopasdfghjklzcvbnm]{4}$)^.*$'
+
+reverse_lookup:
+  tags: [ jdh_lutai_lookup, stroke_lutai_lookup, cangjie_lutai_lookup ]
+  overwrite_comment: true
+  dictionary: lutai
 
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup

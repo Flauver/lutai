@@ -19,9 +19,9 @@ engine:
     #- lua_processor@*lutai.key_binder
     #- key_binder
     #- lua_processor@*lutai.popping
+    - recognizer
     - lua_processor@*lutai.mix_popping
     - lua_processor@*lutai.add_word_temp*proc
-    - recognizer
     - speller
     - punctuator
     - selector         # 選字、換頁
@@ -44,6 +44,7 @@ engine:
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
   filters:
+    - reverse_lookup_filter@reverse_lookup
     - lua_filter@*lutai.pop52tips
 
 history:

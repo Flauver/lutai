@@ -44,6 +44,8 @@ engine:
     - table_translator@jdh_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
+  filters:
+    - reverse_lookup_filter@reverse_lookup
 
 translator:
   dictionary: lutaijf       # 設定 table_translator 使用的詞典名
@@ -51,22 +53,30 @@ translator:
   enable_user_dict: false
   enable_completion: false
 
+reverse_lookup:
+  tags: [ jdh_lutai_lookup, stroke_lutai_lookup, cangjie_lutai_lookup ]
+  overwrite_comment: true
+  dictionary: lutai
+
 jdh_lutai_lookup:
   tag: jdh_lutai_lookup
   dictionary: jdh_lutai
   tips: "〔简单鹤反查〕"
+  prefix: xh
   enable_user_dict: false
 
 stroke_lutai_lookup:
   tag: stroke_lutai_lookup
   dictionary: stroke_lutai
   tips: "〔笔画反查〕"
+  prefix: xb
   enable_user_dict: false
 
 cangjie_lutai_lookup:
   tag: cangjie_lutai_lookup
   dictionary: cangjie5_sc_lutai
   tips: "〔仓颉反查〕"
+  prefix: xc
   enable_user_dict: false
 
 speller:
