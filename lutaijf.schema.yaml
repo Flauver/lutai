@@ -22,8 +22,8 @@ switches:
 engine:
   processors:
     - ascii_composer
-    - key_binder
     - recognizer
+    - key_binder
     - speller
     - punctuator
     - selector         # 選字、換頁

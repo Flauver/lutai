@@ -23,11 +23,11 @@ switches:
 engine:
   processors:
     - ascii_composer
+    - recognizer
     - lua_processor@*lutai.key_binder
     - key_binder
     - lua_processor@*lutai.popping
     - lua_processor@*lutai.abbrev_processor
-    - recognizer
     - speller
     - punctuator
     - selector         # 選字、換頁
