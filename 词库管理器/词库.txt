@@ -114,10 +114,10 @@
 伊	act
 侰	actd
 偑	actn
-羲	acto
 伊	actp
 佩	acu
 佩	acuo
+羲	acut
 倭	acy
 倭	acyb
 债	acz
@@ -4838,7 +4838,7 @@
 ？	ew
 是	f
 上	f
-①	f
+话	f
 时候	f
 出来	f
 题	fa
@@ -4853,7 +4853,7 @@
 岜	fab
 岜	fabs
 曦	fac
-曦	faco
+曦	fact
 晗	fad
 晗	fadi
 暢	faf
@@ -13194,7 +13194,6 @@
 𫗴	kzou
 他	l
 你	l
-现	l
 现在	l
 睡觉	l
 特	la
@@ -14865,7 +14864,6 @@
 瓆	lzzm
 璎	lzzy
 到	m
-道	m
 生	m
 生活	m
 终于	m
@@ -15873,7 +15871,7 @@
 蚆	nabc
 蝑	nabi
 爔	nac
-爔	naco
+爔	nact
 蛜	nact
 焓	nad
 焓	nadi
@@ -16827,10 +16825,10 @@
 蠙	npum
 煊	npuu
 蝖	npuu
-焥	npv
+蜿	npv
 舖	npvf
-焥	npvi
 蜿	npvi
+焥	npvi
 蟛	npw
 蟛	npwl
 熔	npy
@@ -19965,6 +19963,7 @@
 鲙	qnr
 队	qnrk
 鲙	qnry
+雠	qnsi
 鷦	qnt
 鷦	qntn
 隂	qnu
@@ -20293,7 +20292,6 @@
 鲗	qzod
 鳣	qzou
 鲫	qzq
-雠	qzqi
 鲫	qzqk
 虗	qzu
 虗	qzuh
@@ -29233,7 +29231,7 @@
 彤	yzwl
 说	z
 ①	z
-话	z
+②	z
 记得	z
 说话	z
 近	za

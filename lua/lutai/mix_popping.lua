@@ -63,12 +63,21 @@ local select_keys4 = {
 
 ---@class MixEnv: Env
 ---@field dk_select boolean
+---@field disable_dk table<string, boolean>
 
 local this = {}
 
 ---@param env MixEnv
 function this.init(env)
     env.dk_select = env.engine.schema.config:get_bool("translator/dk_select") or false
+    env.disable_dk = {}
+    local file = io.open(rime_api.get_user_data_dir() .. "/lua/lutai/disable_dk.txt", "r")
+    if file then
+        for line in file:lines() do
+            env.disable_dk[line] = true
+        end
+        file:close()
+    end
 end
 
 ---@type table<string, table<string, boolean>>
@@ -107,7 +116,7 @@ function this.func(key_event, env)
                 return snow.kAccepted
             end
             if env.dk_select then
-                if (dkscope[key] or {})[input:sub(-1, -1)] then
+                if (dkscope[key] or {})[input:sub(-1, -1)] and context:has_menu() then
                     context:commit()
                     return snow.kAccepted
                 end
@@ -136,7 +145,7 @@ function this.func(key_event, env)
             return snow.kNoop
         end
         if env.dk_select then
-            if (dkscope[key] or {})[input:sub(-1, -1)] then
+            if (dkscope[key] or {})[input:sub(-1, -1)] and not env.disable_dk[input] and context:has_menu() then
                 context:commit()
                 return snow.kAccepted
             end

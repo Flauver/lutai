@@ -3,6 +3,7 @@
 中	ld
 到	m	1
 要	u	3
+话	f	3
 们	oj
 开	vz
 主	om

@@ -20,6 +20,7 @@ engine:
     #- key_binder
     #- lua_processor@*lutai.popping
     - lua_processor@*lutai.mix_popping
+    - lua_processor@*lutai.add_word_temp*proc
     - recognizer
     - speller
     - punctuator
@@ -35,6 +36,8 @@ engine:
     - punct_segmentor   # 劃界，與前後方的其他編碼區分開
     - fallback_segmentor
   translators:
+    - lua_translator@*lutai.add_word_temp*tran
+    - history_translator@history
     - punct_translator  # 轉換
     - table_translator    # 碼表式轉換
     - table_translator@jdh_lutai_lookup
@@ -43,6 +46,17 @@ engine:
   filters:
     - lua_filter@*lutai.pop52tips
 
+history:
+  input: '['
+  size: 1
+
 __patch:
-  __include: lutaimix.custom:/patch?
-  translator/dk_select: true
+  - patch
+  - lutaimix.custom:/patch?
+
+patch:
+  speller/alphabet: "qwrtyuiopasdfghjklzcvbnmex["
+  speller/popping/+:
+    - match: ".*"
+      accept: "["
+  translator/dk_select: false

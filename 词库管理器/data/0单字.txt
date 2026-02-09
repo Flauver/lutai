@@ -5891,7 +5891,7 @@
 鶾	kjin
 曤	fsqi
 曥	fqvd
-曦	faco
+曦	fact
 曧	fmnc
 鶿	mffn
 曩	fzdp
@@ -8562,7 +8562,7 @@
 爑	njqn
 爒	vnsj
 爓	nyok
-爔	naco
+爔	nact
 爕	lnnn
 爗	nfjt
 爘	nwqp
@@ -11461,7 +11461,7 @@
 羮	anup
 羯	afuw
 羰	afkn
-羲	acto
+羲	acut
 羴	aaay
 羸	nayi
 羹	anas
@@ -16009,7 +16009,7 @@
 雜	znnq
 雝	odaq
 雞	hfsq
-雠	qzqi
+雠	qnsi
 離	zhyq
 難	idpq
 雥	qqqi
@@ -28906,7 +28906,6 @@
 现	l
 道	m
 生	m
-话	z
 种	c
 一	uhu
 万	umdh
@@ -29945,7 +29944,7 @@
 蝴	nhb
 焴	nrb
 蛙	nww
-焥	npv
+蜿	npv
 燋	nqn
 烴	nuo
 炬	nuu
@@ -30042,8 +30041,8 @@
 蜋	npzg
 蛙	nwwh
 烓	nwwh
-焥	npvi
 蜿	npvi
+焥	npvi
 爄	nhjn
 蠣	nhjn
 燋	nqnf
