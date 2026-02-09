@@ -64,6 +64,7 @@ local select_keys4 = {
 ---@class MixEnv: Env
 ---@field dk_select boolean
 ---@field disable_dk table<string, boolean>
+---@field reverse boolean
 
 local this = {}
 
@@ -78,6 +79,9 @@ function this.init(env)
         end
         file:close()
     end
+    env.engine.context.commit_notifier:connect(function (ctx)
+        env.reverse = false
+    end)
 end
 
 ---@type table<string, table<string, boolean>>
@@ -105,6 +109,11 @@ function this.func(key_event, env)
         return snow.kNoop
     end
     if key == "BackSpace" or key == "Escape" then
+        return snow.kNoop
+    end
+    if input:match("x[hbc]") == input or env.reverse then
+        -- 和反查结合在一起了，看看哪天能解耦
+        env.reverse = true
         return snow.kNoop
     end
     local p52 = pop52[input:sub(1, 2)]
