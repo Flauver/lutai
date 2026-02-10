@@ -51,7 +51,6 @@
 名字	vp
 不要	ud
 全部	ns
-创造	ns
 那是	of
 那些	ov
 眼睛	ll
@@ -115,7 +114,6 @@
 哪一	du
 每天	iu
 这么	jt
-电话	fz
 突然	bv
 直接	kt
 实力	pj

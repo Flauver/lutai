@@ -6588,7 +6588,6 @@
 暗	fyyo
 豳	fyys
 很	fz
-电话	fz
 贞	fzb
 贞	fzbb
 曩	fzd
@@ -16909,7 +16908,6 @@
 蜥	nrzj
 谁	ns
 全部	ns
-创造	ns
 燯	nsa
 燯	nsap
 燑	nsb
