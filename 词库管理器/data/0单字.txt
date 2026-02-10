@@ -19332,7 +19332,6 @@
 譄	lmvf
 踁	suoj
 診	lnwl
-蛯	nklc
 趎	utvw
 縉	fouf
 鑋	ufkz
@@ -29974,7 +29973,7 @@
 炮	nui
 熾	nyt
 蛤	nnd
-煸	nkl
+蝙	nkl
 蜂	nlc
 焟	njf
 焻	nff
@@ -30131,6 +30130,7 @@
 燭	njun
 蠋	njun
 煸	nklc
+蛯	nklc
 蝙	nklc
 熓	ntyn
 螐	ntyn

@@ -16220,9 +16220,9 @@ sort: original
 燬	/nkjl	0
 燌	/nkjm	0
 蟦	/nkjm	0
-煸	nk_l	0
-蛯	/nklc	0
+蝙	nk_l	0
 煸	/nklc	0
+蛯	/nklc	0
 蝙	/nklc	0
 烣	nk_n	0
 烣	/nknf	0
@@ -32594,7 +32594,7 @@ sort: original
 蛒	nk_g	0
 煽	nk_h	0
 燬	nk_j	0
-蛯	nk_l	0
+煸	nk_l	0
 炦	nk_q	0
 蠘	nk_t	0
 熢	nl_c	0
@@ -50497,9 +50497,9 @@ sort: original
 燬	;nkjl	0
 燌	;nkjm	0
 蟦	;nkjm	0
-煸	nkl	0
-蛯	;nklc	0
+蝙	nkl	0
 煸	;nklc	0
+蛯	;nklc	0
 蝙	;nklc	0
 烣	nkn	0
 烣	;nknf	0
@@ -66593,7 +66593,7 @@ sort: original
 蛒	nkg	0
 煽	nkh	0
 燬	nkj	0
-蛯	nkl	0
+煸	nkl	0
 炦	nkq	0
 蠘	nkt	0
 熢	nlc	0
@@ -85624,9 +85624,9 @@ sort: original
 燬	8nkjl
 燌	8nkjm
 蟦	8nkjm
-煸	8nkl
-蛯	8nklc
+蝙	8nkl
 煸	8nklc
+蛯	8nklc
 蝙	8nklc
 烣	8nkn
 烣	8nknf
@@ -102207,7 +102207,7 @@ sort: original
 蛒	8nkg
 煽	8nkh
 燬	8nkj
-蛯	8nkl
+煸	8nkl
 炦	8nkq
 蠘	8nkt
 熢	8nlc
