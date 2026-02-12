@@ -1,6 +1,6 @@
 schema:
   schema_id: stroke_lutai
-  name: 简笔・露台反查
+  name: 笔画・露台反查
   version: "0.1.0"
   author:
     - 深白
@@ -41,7 +41,8 @@ translator:
   enable_completion: false
 
 speller:
-  alphabet: "aeuioln"
+  algebra:
+    - xlit/hspnz/eiuoa/
 
 recognizer:
   import_preset: default
