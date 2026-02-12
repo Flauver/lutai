@@ -9,7 +9,7 @@ schema:
   description: |
     单简爽码
   dependencies:
-    - jdh_lutai
+    - snow_sipin_lutai
     - stroke_lutai
     - cangjie5_sc_lutai
 
@@ -30,7 +30,7 @@ engine:
   segmentors:
     - abc_segmentor       # 標記輸入碼的類型
     - matcher
-    - affix_segmentor@jdh_lutai_lookup
+    - affix_segmentor@sipin_lutai_lookup
     - affix_segmentor@stroke_lutai_lookup
     - affix_segmentor@cangjie_lutai_lookup
     - punct_segmentor   # 劃界，與前後方的其他編碼區分開
@@ -40,7 +40,7 @@ engine:
     - history_translator@history
     - punct_translator  # 轉換
     - table_translator    # 碼表式轉換
-    - table_translator@jdh_lutai_lookup
+    - script_translator@sipin_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
   filters:

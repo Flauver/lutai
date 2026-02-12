@@ -1,0 +1,99 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: snow_sipin_lutai
+  name: 冰雪四拼・多字词・强制无理・露台反查
+  version: '0.9'
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: ""
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+
+translator:
+  dictionary: snow_sipin_lutai
+  enable_user_dict: false
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+speller:
+  algebra:
+    # 无理音节
+    - xform/san1/he3/ # 三
+    - xform/wu3/gu2/ # 五
+    - xform/ri4/ri1/ # 日
+    # 还原
+    - xform/(^| )(h?)([mn]g?\d)/$1$2e$3/
+    - xform/(^| )wu?/$1u/
+    - xform/(^| )yu/$1ü/
+    - xform/(^| )yi?/$1i/
+    - xform/((?<=[jqx])u|(?<=[nl])v)/ü/
+    - xform/iu/iou/
+    - xform/u([in])/ue$1/
+    - xform/ao/au/
+    - xlit/ê/e/
+    # 声码
+    - xform/zh/w/
+    - xform/ch/y/
+    - xform/sh/v/
+    - xform/(^| )(?=[aoe])/$1r/
+    - xform/(^| )(?=i)/$1f/
+    - xform/(^| )(?=u)/$1s/
+    - xform/(^| )(?=ü)/$1k/
+    # 韵头
+    - xform/ia/u/
+    - xform/ua/i/
+    - xform/üa/o/
+    - xform/ie/e/
+    - xform/ue/u/
+    - xform/üe/o/
+    - xform/io/o/
+    - xform/uo/o/
+    - xform/er/i/
+    - xform/ü/a/
+    # 韵尾
+    - xform/ng(?=\d)/e/
+    - xform/n(?=\d)/o/
+    - xform/m(?=\d)/a/
+    # 声调
+    - xlit/12345/ieuao/
+    # 补码
+    - derive/^([a-z]{3})$/$1o/
+    # 辅音字母补 oo
+    - xform/~{1,2}([bpmfdtnlgkhjqxzcsrywv])/$1oo/
+    # 元音字母补 se
+    - xform/~{1,2}([aeiou])/se$1/
+    # 简拼及无声调的全拼
+    - abbrev/^([a-z]).+$/$1/

@@ -7,7 +7,7 @@ schema:
   description: |
     单简爽码
   dependencies:
-    - jdh_lutai
+    - snow_sipin_lutai
     - stroke_lutai
     - cangjie5_sc_lutai
 
@@ -32,7 +32,7 @@ engine:
   segmentors:
     - abc_segmentor       # 標記輸入碼的類型
     - matcher
-    - affix_segmentor@jdh_lutai_lookup
+    - affix_segmentor@sipin_lutai_lookup
     - affix_segmentor@stroke_lutai_lookup
     - affix_segmentor@cangjie_lutai_lookup
     - punct_segmentor   # 劃界，與前後方的其他編碼區分開
@@ -41,7 +41,7 @@ engine:
     - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
     - punct_translator  # 轉換
     - table_translator    # 碼表式轉換
-    - table_translator@jdh_lutai_lookup
+    - script_translator@sipin_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
   filters:
@@ -58,10 +58,10 @@ reverse_lookup:
   overwrite_comment: true
   dictionary: lutai
 
-jdh_lutai_lookup:
-  tag: jdh_lutai_lookup
-  dictionary: jdh_lutai
-  tips: "〔简单鹤反查〕"
+sipin_lutai_lookup:
+  tag: sipin_lutai_lookup
+  dictionary: snow_sipin_lutai
+  tips: "〔冰雪四拼反查〕"
   prefix: xh
   enable_user_dict: false
 
@@ -88,9 +88,8 @@ speller:
     accept: "[^ 23456789]"
 
 recognizer:
-  import_preset: default
   patterns:
-    jdh_lutai_lookup: "^xh[a-z]*$"
+    sipin_lutai_lookup: "^xh[a-z]*$"
     stroke_lutai_lookup: "^xb[a-z]*$"
     cangjie_lutai_lookup: "^xc[a-z]*$"
 
