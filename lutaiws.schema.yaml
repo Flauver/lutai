@@ -1,3 +1,5 @@
+__include: lutai.schema:/
+
 schema:
   schema_id: lutaiws
   name: 露台・五三顶
@@ -47,38 +49,6 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - reverse_lookup_filter@reverse_lookup
-
-translator:
-  dictionary: lutai       # 設定 table_translator 使用的詞典名
-  enable_sentence: false
-  enable_user_dict: false
-  enable_completion: false
-
-reverse_lookup:
-  tags: [ jdh_lutai_lookup, stroke_lutai_lookup, cangjie_lutai_lookup ]
-  overwrite_comment: true
-  dictionary: lutai
-
-sipin_lutai_lookup:
-  tag: sipin_lutai_lookup
-  dictionary: snow_sipin_lutai
-  tips: "〔冰雪四拼反查〕"
-  prefix: xh
-  enable_user_dict: false
-
-stroke_lutai_lookup:
-  tag: stroke_lutai_lookup
-  dictionary: stroke_lutai
-  tips: "〔笔画反查〕"
-  prefix: xb
-  enable_user_dict: false
-
-cangjie_lutai_lookup:
-  tag: cangjie_lutai_lookup
-  dictionary: cangjie5_sc_lutai
-  tips: "〔仓颉反查〕"
-  prefix: xc
-  enable_user_dict: false
 
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnmex"
@@ -135,39 +105,3 @@ key_binder:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: Tab
       send_sequence: "{space}"
-
-menu:
-  page_size: 8
-  alternative_select_keys: "12345789"
-
-punctuator:
-  half_shape:
-    ',' : { commit: ， }
-    '.' : { commit: 。 }
-    '<' : [ 《, 〈, «, ‹, ⟨, ˂, ˱ ]
-    '>' : [ 》, 〉, », ›, ⟩, ˃, ˲ ]
-    '!' : [ 、, ､, '/', ／, ÷ ]
-    ';' : { commit: ？ }
-    ':' : { commit: ： }
-    '''' : { pair: [ '“', '”' ] }
-    '\' : [ 、, '\', ＼ ]
-    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴ ]
-    '`' : [ '`', ‵, ‶, ‷, ′, ″, ‴, ⁗ ]
-    '~' : [ '~', ～, ˜, ˷, ⸯ, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌, ︴ ]
-    '/' : { commit: ！ }
-    '@' : [ '@', ©, ®, ℗ ]
-    '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉, ℅, ℆, ℀, ℁, ⅍ ]
-    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤', ₩ ]
-    '^' : { commit: …… }
-    '&' : '&'
-    '*' : [ '*', ＊, ·, ・, ×, ※, ❂, ⁂, ☮, ☯, ☣ ]
-    '(' : （
-    ')' : ）
-    '-' : '-'
-    '_' : ——
-    '+' : '+'
-    '=' : [ '=', 々, 〃 ]
-    '[' : [ 「, 【, 〔, ［, 〚, 〘 ]
-    ']' : { pair: [ '：“', '”' ] }
-    '{' : [ 『, 〖, ｛ ]
-    '}' : [ 』, 〗, ｝ ]
