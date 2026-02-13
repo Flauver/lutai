@@ -52,7 +52,7 @@ engine:
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
   filters:
-    - lua_filter@reverse_lookup
+    - reverse_lookup_filter@reverse_lookup
     - lua_filter@*lutai.fix
     - lua_filter@*lutai.postpone
     - lua_filter@*lutai.abbrev_filter
