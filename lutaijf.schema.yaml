@@ -1,3 +1,5 @@
+__include: lutai.schema:/
+
 schema:
   schema_id: lutaijf
   name: 露台・简繁通打
@@ -23,7 +25,9 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@*lutai.key_binder
     - key_binder
+    - lua_processor@*lutai.popping
     - speller
     - punctuator
     - selector         # 選字、換頁
@@ -52,94 +56,10 @@ translator:
   enable_sentence: false
   enable_user_dict: false
   enable_completion: false
+  
+__patch:
+  - patch
+  - lutaijf.custom:/patch?
 
-reverse_lookup:
-  tags: [ jdh_lutai_lookup, stroke_lutai_lookup, cangjie_lutai_lookup ]
-  overwrite_comment: true
-  dictionary: lutai
-
-sipin_lutai_lookup:
-  tag: sipin_lutai_lookup
-  dictionary: snow_sipin_lutai
-  tips: "〔冰雪四拼反查〕"
-  prefix: xh
-  enable_user_dict: false
-
-stroke_lutai_lookup:
-  tag: stroke_lutai_lookup
-  dictionary: stroke_lutai
-  tips: "〔笔画反查〕"
-  prefix: xb
-  enable_user_dict: false
-
-cangjie_lutai_lookup:
-  tag: cangjie_lutai_lookup
-  dictionary: cangjie5_sc_lutai
-  tips: "〔仓颉反查〕"
-  prefix: xc
-  enable_user_dict: false
-
-speller:
-  alphabet: "qwrtyuoipasdfghjklzcvbnmex"
-  auto_select: true
-  auto_select_pattern: "^e.+"
-  popping:
-  - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
-    accept: "[^ 23456789]"
-
-recognizer:
-  patterns:
-    sipin_lutai_lookup: "^xh[a-z]*$"
-    stroke_lutai_lookup: "^xb[a-z]*$"
-    cangjie_lutai_lookup: "^xc[a-z]*$"
-
-key_binder:
-  bindings:
-    - match: "[^x].*"
-      accept: "e"
-      send_sequence: "2"
-    - match: "[^x].*"
-      accept: "x"
-      send_sequence: "3"
-    - match: "[^x].*"
-      accept: ";"
-      send_sequence: "4"
-    - match: "[^x].*"
-      accept: "'"
-      send_sequence: "5"
-
-menu:
-  page_size: 8
-  alternative_select_keys: "12345789"
-
-punctuator:
-  half_shape:
-    ',' : { commit: ， }
-    '.' : { commit: 。 }
-    '<' : [ 《, 〈, «, ‹, ⟨, ˂, ˱ ]
-    '>' : [ 》, 〉, », ›, ⟩, ˃, ˲ ]
-    '!' : [ 、, ､, '/', ／, ÷ ]
-    ';' : { commit: ？ }
-    ':' : { commit: ： }
-    '''' : { pair: [ '“', '”' ] }
-    '\' : [ 、, '\', ＼ ]
-    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴ ]
-    '`' : [ '`', ‵, ‶, ‷, ′, ″, ‴, ⁗ ]
-    '~' : [ '~', ～, ˜, ˷, ⸯ, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌, ︴ ]
-    '/' : { commit: ！ }
-    '@' : [ '@', ©, ®, ℗ ]
-    '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉, ℅, ℆, ℀, ℁, ⅍ ]
-    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤', ₩ ]
-    '^' : { commit: …… }
-    '&' : '&'
-    '*' : [ '*', ＊, ·, ・, ×, ※, ❂, ⁂, ☮, ☯, ☣ ]
-    '(' : （
-    ')' : ）
-    '-' : '-'
-    '_' : ——
-    '+' : '+'
-    '=' : [ '=', 々, 〃 ]
-    '[' : [ 「, 【, 〔, ［, 〚, 〘 ]
-    ']' : { pair: [ '：“', '”' ] }
-    '{' : [ 『, 〖, ｛ ]
-    '}' : [ 』, 〗, ｝ ]
+patch:
+  reverse_lookup/dictionary: lutaijf

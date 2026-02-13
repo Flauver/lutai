@@ -1,3 +1,5 @@
+__include: lutai.schema:/
+
 schema:
   schema_id: lutaies
   name: 露台・二四顶
@@ -63,32 +65,6 @@ translator:
   disable_user_dict_for_patterns:
     - '(?!^..[qw]$|^[qwrtyuiopasdfghjklzcvbnm]{4}$)^.*$'
 
-reverse_lookup:
-  tags: [ jdh_lutai_lookup, stroke_lutai_lookup, cangjie_lutai_lookup ]
-  overwrite_comment: true
-  dictionary: lutai
-
-sipin_lutai_lookup:
-  tag: sipin_lutai_lookup
-  dictionary: snow_sipin_lutai
-  tips: "〔冰雪四拼反查〕"
-  prefix: xh
-  enable_user_dict: false
-
-stroke_lutai_lookup:
-  tag: stroke_lutai_lookup
-  dictionary: stroke_lutai
-  tips: "〔笔画反查〕"
-  prefix: xb
-  enable_user_dict: false
-
-cangjie_lutai_lookup:
-  tag: cangjie_lutai_lookup
-  dictionary: cangjie5_sc_lutai
-  tips: "〔仓颉反查〕"
-  prefix: xc
-  enable_user_dict: false
-
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnmex_/;8"
   auto_select: true
@@ -112,13 +88,6 @@ speller:
       accept: "[^ 2345]"
     - match: "/[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 2345789]"
- 
-
-recognizer:
-  patterns:
-    sipin_lutai_lookup: "^xh[a-z]*$"
-    stroke_lutai_lookup: "^xb[a-z]*$"
-    cangjie_lutai_lookup: "^xc[a-z]*$"
 
 key_binder:
   bindings:
@@ -143,39 +112,10 @@ key_binder:
     - match: "[^x].*"
       accept: "'"
       send_sequence: "5"
+      
+__patch:
+  - patch
+  - lutaies.custom:/patch?
 
-menu:
-  page_size: 8
-  alternative_select_keys: "12345789"
-
-punctuator:
-  half_shape:
-    ',' : { commit: ， }
-    '.' : { commit: 。 }
-    '<' : [ 《, 〈, «, ‹, ⟨, ˂, ˱ ]
-    '>' : [ 》, 〉, », ›, ⟩, ˃, ˲ ]
-    '!' : [ 、, ､, '/', ／, ÷ ]
-    ';' : [ '？' ]
-    ':' : { commit: ： }
-    '''' : { pair: [ '“', '”' ] }
-    '\' : [ 、, '\', ＼ ]
-    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴ ]
-    '`' : [ '`', ‵, ‶, ‷, ′, ″, ‴, ⁗ ]
-    '~' : [ '~', ～, ˜, ˷, ⸯ, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌, ︴ ]
-    '/' : [ '！' ]
-    '@' : [ '@', ©, ®, ℗ ]
-    '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉, ℅, ℆, ℀, ℁, ⅍ ]
-    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤', ₩ ]
-    '^' : { commit: …… }
-    '&' : '&'
-    '*' : [ '*', ＊, ·, ・, ×, ※, ❂, ⁂, ☮, ☯, ☣ ]
-    '(' : （
-    ')' : ）
-    '-' : '-'
-    '_' : ——
-    '+' : '+'
-    '=' : [ '=', 々, 〃 ]
-    '[' : [ 「, 【, 〔, ［, 〚, 〘 ]
-    ']' : { pair: [ '：“', '”' ] }
-    '{' : [ 『, 〖, ｛ ]
-    '}' : [ 』, 〗, ｝ ]
+patch:
+  reverse_lookup/dictionary: lutaies

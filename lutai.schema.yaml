@@ -46,12 +46,19 @@ engine:
     - script_translator@sipin_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
+  filters:
+    - reverse_lookup_filter@reverse_lookup
 
 translator:
   dictionary: lutai       # 設定 table_translator 使用的詞典名
   enable_sentence: false
   enable_user_dict: false
   enable_completion: false
+
+reverse_lookup:
+  tags: [ jdh_lutai_lookup, stroke_lutai_lookup, cangjie_lutai_lookup ]
+  overwrite_comment: true
+  dictionary: lutai
 
 sipin_lutai_lookup:
   tag: sipin_lutai_lookup
