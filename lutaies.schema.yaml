@@ -13,13 +13,13 @@ schema:
     - stroke_lutai
     - cangjie5_sc_lutai
 
-
 switches:
   - name: ascii_mode
     reset: 0
     states: ["中文", "西文"]
+  - name: traditionalize
+    states: ["汉字", "漢字"]
   - name: full_shape
-    reset: 0
     states: ["半角", "全角"]
 
 engine:
@@ -56,6 +56,7 @@ engine:
     - lua_filter@*lutai.fix
     - lua_filter@*lutai.postpone
     - lua_filter@*lutai.abbrev_filter
+    - simplifier
 
 translator:
   dictionary: lutaies

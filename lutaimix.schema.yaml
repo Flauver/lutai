@@ -9,6 +9,7 @@ schema:
   description: |
     单简爽码
   dependencies:
+    - lutai_wordpairs
     - snow_sipin_lutai
     - stroke_lutai
     - cangjie5_sc_lutai
@@ -43,6 +44,7 @@ engine:
   filters:
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*lutai.pop52tips
+    - simplifier
 
 history:
   input: '['

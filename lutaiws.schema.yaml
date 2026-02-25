@@ -17,8 +17,9 @@ switches:
   - name: ascii_mode
     reset: 0
     states: ["中文", "西文"]
+  - name: traditionalize
+    states: ["汉字", "漢字"]
   - name: full_shape
-    reset: 0
     states: ["半角", "全角"]
 
 engine:
@@ -49,6 +50,7 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - reverse_lookup_filter@reverse_lookup
+    - simplifier
 
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnmex"
