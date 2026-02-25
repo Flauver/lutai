@@ -30,21 +30,21 @@ engine:
     - lua_processor@*lutai.popping
     - speller
     - punctuator
-    - selector         # 選字、換頁
-    - navigator        # 移動插入點
+    - selector
+    - navigator
     - express_editor
   segmentors:
-    - abc_segmentor       # 標記輸入碼的類型
+    - abc_segmentor
     - matcher
     - affix_segmentor@sipin_lutai_lookup
     - affix_segmentor@stroke_lutai_lookup
     - affix_segmentor@cangjie_lutai_lookup
-    - punct_segmentor   # 劃界，與前後方的其他編碼區分開
+    - punct_segmentor
     - fallback_segmentor
   translators:
-    - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
-    - punct_translator  # 轉換
-    - table_translator    # 碼表式轉換
+    - echo_translator
+    - punct_translator
+    - table_translator
     - script_translator@sipin_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
@@ -52,7 +52,7 @@ engine:
     - reverse_lookup_filter@reverse_lookup
 
 translator:
-  dictionary: lutaijf       # 設定 table_translator 使用的詞典名
+  dictionary: lutaijf
   enable_sentence: false
   enable_user_dict: false
   enable_completion: false
