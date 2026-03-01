@@ -1,6 +1,6 @@
 local snow = require "lutai.snow"
 
----@class EnvA: Env
+---@class EnvAddWordTemp: Env
 ---@field reverse ReverseLookup
 ---@field wordpairs ReverseLookup
 
@@ -13,10 +13,10 @@ local data2 = {} -- 自动加的词
 ---@type table<string, string[]>
 local data3 = {} -- 自动加的词，但是发现这个词的最后一个字和下一个条目的第一个字，能组成一个词（或的一部分），所以它很可能不是词
 
----@type fun(phrase: string, length: integer, datap: table<string, string[]>, env: EnvA)
+---@type fun(phrase: string, length: integer, datap: table<string, string[]>, env: EnvAddWordTemp)
 local encode
 
----@param env EnvA
+---@param env EnvAddWordTemp
 function proc.init(env)
     env.reverse = ReverseLookup("lutai")
     env.wordpairs = ReverseLookup("lutai_wordpairs")
@@ -104,7 +104,7 @@ encode = function(phrase, length, datap, env)
 end
 
 ---@param key_event KeyEvent
----@param env EnvA
+---@param env EnvAddWordTemp
 function proc.func(key_event, env)
     if key_event:repr() == "Control+j" then
         local phrase = ""
@@ -136,7 +136,7 @@ end
 
 ---@param input string
 ---@param seg Segment
----@param env EnvA
+---@param env EnvAddWordTemp
 local function tran(input, seg, env)
     if input:sub(1, 1) == "[" then
         local words = {}
