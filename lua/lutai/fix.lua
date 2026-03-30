@@ -1,36 +1,21 @@
--- 固顶过滤器
--- 本过滤器读取用户自定义的固顶短语，将其与当前翻译结果进行匹配，如果匹配成功，则将特定字词固顶到特定位置
+-- 固定过滤器
+-- 本过滤器读取用户自定义的固定短语，将其与当前翻译结果进行匹配，如果匹配成功，则将特定字词固定到特定位置
 
 local snow = require "lutai.snow"
 
 local this = {}
 
 ---@class SnowFixedFilterEnv: Env
----@field fixed { string : string[] }
+---@field dict table<string, string[]>
+---@field user_dict LevelDb
 
 ---@param env SnowFixedFilterEnv
 function this.init(env)
-  ---@type { string : string[] }
-  env.fixed = {}
-  local path = rime_api.get_user_data_dir() .. ("/%s.fixed.txt"):format(env.engine.schema.schema_id)
-  local file = io.open(path, "r")
-  if not file then
-    return
+  local config = env.engine.schema.config
+  env.dict = snow.read_dictionary(snow.get_dictionary_path(env))
+  if config:get_bool("translator/enable_schema_user_dict") then
+    env.user_dict = snow.get_db(env.engine.schema.schema_id)
   end
-  for line in file:lines() do
-    ---@type string, string
-    local code, content = line:match("([^\t]+)\t([^\t]+)")
-    if not content or not code then
-      goto continue
-    end
-    local words = {}
-    for word in content:gmatch("[^%s]+") do
-      table.insert(words, word)
-    end
-    env.fixed[code] = words
-    ::continue::
-  end
-  file:close()
 end
 
 ---@param segment Segment
@@ -39,31 +24,79 @@ function this.tags_match(segment, env)
   return segment:has_tag("abc")
 end
 
----@param context Context
----@param fixed_phrases string[]
----@param unknown_candidates Candidate[]
----@param i number
----@param segment Segment
-function this.finalize(fixed_phrases, unknown_candidates, i, segment, context)
-  -- 输出设为固顶但是没在候选中找到的候选
-  -- 因为不知道全码是什么，所以只能做一个 SimpleCandidate
-  while fixed_phrases[i] do
-    local simple_candidate = Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
-    simple_candidate.preedit = snow.current(context) or ""
-    i = i + 1
-    yield(simple_candidate)
+---@param fixed_candidates Candidate[]
+---@param free_candidates Candidate[]
+function this.finalize(fixed_candidates, free_candidates)
+  ---@type integer
+  local free_index = 1
+  -- 输出固定的候选
+  for j, fixed_candidate in ipairs(fixed_candidates) do
+    if fixed_candidate.text == snow.placeholder and free_index <= #free_candidates then
+      yield(free_candidates[free_index])
+      free_index = free_index + 1
+    else
+      yield(fixed_candidate)
+    end
   end
-  -- 输出没有固顶的候选
-  for _, unknown_candidate in ipairs(unknown_candidates) do
-    yield(unknown_candidate)
+  -- 输出没有固定的候选
+  for i = free_index, #free_candidates do
+    yield(free_candidates[i])
   end
+end
+
+---@param env SnowFixedFilterEnv
+---@param input string
+function this.get_customized_list(env, input)
+  ---@type string[]
+  local fixed_phrases = {}
+  if env.dict[input] then
+    for _, phrase in ipairs(env.dict[input]) do
+      table.insert(fixed_phrases, phrase)
+    end
+  end
+  if not env.user_dict then
+    return fixed_phrases
+  end
+  local max_index = 0
+  local da = env.user_dict:query(input .. snow.separator)
+  for k, v in da:iter() do
+    local word = k:match("\t(.+)$")
+    local value = snow.parse(v)
+    if not value then
+      goto continue
+    end
+    local _, index = snow.decode(value)
+    if index == snow.DISABLE_INDEX then
+      goto continue
+    elseif index == 0 then
+      for i = 1, #fixed_phrases do
+        if fixed_phrases[i] == word then
+          fixed_phrases[i] = snow.placeholder
+          break
+        end
+      end
+    end
+    fixed_phrases[index] = word
+    if index > max_index then
+      max_index = index
+    end
+    ::continue::
+  end
+  ---@diagnostic disable-next-line: cast-local-type
+  da = nil
+  collectgarbage()
+  for i = 1, max_index do
+    if not fixed_phrases[i] then
+      fixed_phrases[i] = snow.placeholder
+    end
+  end
+  return fixed_phrases
 end
 
 ---@param translation Translation
 ---@param env SnowFixedFilterEnv
 function this.func(translation, env)
   local context = env.engine.context
-  -- 取出输入中当前正在翻译的一部分
   local segment = context.composition:toSegmentation():back()
   local input = snow.current(context)
   if not segment or not input then
@@ -72,69 +105,72 @@ function this.func(translation, env)
     end
     return
   end
+  local full_input = input
   local shape_input = context:get_property("shape_input")
   if shape_input then
-    input = input .. shape_input
+    full_input = input .. shape_input
   end
-  local fixed_phrases = env.fixed[input]
+  local fixed_phrases = this.get_customized_list(env, full_input)
+  if #fixed_phrases > 0 then
+    snow.errorf("编码 %s：固定词 %s", full_input, table.concat(fixed_phrases, ", "))
+  end
   if not fixed_phrases then
     for candidate in translation:iter() do
       yield(candidate)
     end
     return
   end
-  -- 生成固顶候选
+  -- 生成固定候选
   ---@type Candidate[]
-  local unknown_candidates = {}
-  ---@type { string: Candidate }
-  local known_candidates = {}
-  local i = 1
-  -- 总共处理的候选数，多了就不处理了
-  local total_candidates = 0
+  local fixed_candidates = {}
+  ---@type Candidate[]
+  local free_candidates = {}
+  for _, phrase in ipairs(fixed_phrases) do
+    local dummy_candidate = Candidate("fixed", segment.start, segment._end, phrase, snow.fixed_notfound_symbol)
+    dummy_candidate.preedit = input
+    table.insert(fixed_candidates, dummy_candidate)
+  end
+  -- 检查前 100 个候选，如果有与固定候选匹配的就替换，否则就添加到未知候选中
+  local seen_candidates = 0
   local max_candidates = 100
   local finalized = false
   for candidate in translation:iter() do
-    total_candidates = total_candidates + 1
-    if total_candidates == max_candidates then
-      this.finalize(fixed_phrases, unknown_candidates, i, segment, context)
+    if finalized then
+      yield(candidate)
+      goto continue
+    elseif seen_candidates == max_candidates or (candidate._end - candidate._start) < input:len() then
+      this.finalize(fixed_candidates, free_candidates)
       finalized = true
       yield(candidate)
       goto continue
-    elseif total_candidates > max_candidates then
-      yield(candidate)
-      goto continue
     end
-    local text = candidate.text
-    local is_fixed = false
     -- 对于一个新的候选，要么加入已知候选，要么加入未知候选
-    for _, phrase in ipairs(fixed_phrases) do
-      if text == phrase then
-        known_candidates[phrase] = candidate
+    local is_fixed = false
+    for j = 1, #fixed_candidates do
+      if candidate.text == fixed_candidates[j].text then
+        snow.comment(candidate, snow.fixed_symbol)
+        fixed_candidates[j] = candidate
         is_fixed = true
         break
       end
     end
     if not is_fixed then
-      table.insert(unknown_candidates, candidate)
+      table.insert(free_candidates, candidate)
     end
-    -- 每看过一个新的候选之后，看看是否找到了新的固顶候选，如果找到了，就输出
-    local current = fixed_phrases[i]
-    if current and known_candidates[current] then
-      local cand = known_candidates[current]
-      cand.type = "fixed"
-      yield(cand)
-      i = i + 1
-    elseif current and utf8.len(current) > utf8.len(text) then
-      -- 如果当前固顶候选比当前候选长，那么就不可能找到这个固顶候选，因此跳过
-      local simple_candidate = Candidate("fixed", segment.start, segment._end, current, "")
-      simple_candidate.preedit = snow.current(context) or ""
-      yield(simple_candidate)
-      i = i + 1
-    end
+    seen_candidates = seen_candidates + 1
     ::continue::
   end
   if not finalized then
-    this.finalize(fixed_phrases, unknown_candidates, i, segment, context)
+    this.finalize(fixed_candidates, free_candidates)
+  end
+end
+
+---@param env SnowFixedFilterEnv
+function this.fini(env)
+  env.dict = nil
+  if env.user_dict then
+    env.user_dict = nil
+    snow.release_db(env.engine.schema.schema_id)
   end
 end
 
