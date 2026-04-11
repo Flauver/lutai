@@ -4826,6 +4826,8 @@
 嘤	dzzy
 ！	ea
 、	ef
+（	eg
+）	eh
 ？”	ei
 “	ej
 ”	ek

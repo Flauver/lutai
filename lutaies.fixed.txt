@@ -21,7 +21,7 @@ at	像 似乎
 au	便 今天
 av	留 仍然
 aw	们
-ay	低 你好 例如
+ay	低 她们 ① 例如
 az	侧
 b	里 ① 月 应该 里面
 ba	府
@@ -100,6 +100,8 @@ dy	由
 dz	听
 ea	！
 ef	、
+eg	（
+eh	）
 ei	？”
 ej	“
 ek	”
@@ -110,7 +112,7 @@ eq	：“
 es	……
 eu	。”
 ew	？
-f	是 上 ① 时候 出来
+f	是 上 话 时候 出来
 fa	题 得到 遇到 最差
 fb	明
 fc	状
@@ -134,7 +136,7 @@ fu	量 明天 昨天
 fv	将 上来 很多
 fw	待 时间 最坏
 fy	出 最好
-fz	很 电话
+fz	很
 g	的 就 ① 自己 就是
 ga	速
 gb	白
@@ -193,7 +195,7 @@ id	强
 if	方 每日
 ig	济 事情
 ih	湖 以后 比较
-ii	已
+ii	已 比
 ij	己 弱小
 ik	导 放在
 il	放 注
@@ -240,7 +242,7 @@ ka	过 即使
 kb	即
 kc	微 各种
 kd	右
-kf	春 有时
+kf	更 有时 春
 kg	各 真的
 kh	教
 ki	求
@@ -328,7 +330,7 @@ no	甚
 np	舍 其它 其实
 nq	其
 nr	会
-ns	谁 全部 创造
+ns	谁 全部
 nt	建
 nu	入
 nv	企
@@ -340,7 +342,7 @@ oa	提
 ob	内 那里
 oc	归 那种
 od	圆
-of	飞 那是
+of	者 那是 飞
 og	共 迅速 那就
 oh	远
 oi	司
@@ -523,7 +525,7 @@ vj	男 然而
 vk	变
 vl	次
 vm	米
-vn	界
+vn	直
 vo	断
 vp	久 名字
 vq	准
@@ -561,7 +563,7 @@ ww	封
 wy	境 声音
 wz	闹 忘记
 y	她 好 如 如果 意思
-ya	确 好像 如何 她们
+ya	确 好像 ① 如何
 yb	女
 yc	妇
 yd	嫌
@@ -577,7 +579,7 @@ yn	内
 yo	奶
 yp	娘
 yq	怒
-yr	始
+yr	始 同样
 ys	三 非常
 yt	明
 yu	缺
@@ -585,7 +587,7 @@ yv	妹 竟然 如此
 yw	周
 yy	音
 yz	丹
-z	说 ① 话 记得 说话
+z	说 ① ② 记得 说话
 za	近
 zb	贝
 zc	请

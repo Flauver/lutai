@@ -10,3 +10,5 @@
 、	ef
 ‘	eo
 ’	ep
+（	eg
+）	eh
