@@ -9,11 +9,9 @@ columns:
 sort: by_weight
 ...
 
-了	ala	49
-的时候	a	48
-①	an	48
-什么	a	46
-但是	af	45
+了	ala	0
+①	an	0
+但是	af	0
 候	aauu	39
 任何	aa	38
 到了	aa	37
@@ -428,7 +426,6 @@ sort: by_weight
 佹	amhi	28
 僜	amim	29
 併	amjc	28
-你	amjk	48
 偤	amky	29
 僔	amkk	28
 偩	amlm	29
@@ -444,8 +441,8 @@ sort: by_weight
 僧	amvf	29
 鮺	amvn	28
 作	anar	39
-安	pybg	39
-案	pyrl	36
+安	an	39
+案	an	36
 羹	anas	29
 偷	anbo	29
 儙	anba	28
@@ -490,7 +487,6 @@ sort: by_weight
 仍	aonr	39
 僕	aobc	29
 佪	aodi	29
-到	aodi	49
 佛	aofr	29
 羛	aofy	28
 供	aogr	29
@@ -645,7 +641,6 @@ sort: by_weight
 儅	asvt	19
 伢	asyr	29
 倿	asyb	28
-他	asyr	49
 像	atkr	39
 似乎	at	38
 侐	atdm	29
@@ -777,7 +772,7 @@ sort: by_weight
 僯	avvt	19
 佅	avwr	29
 偻	avyb	29
-们	awmr	39
+们	oj	39
 倖	away	29
 佶	awdi	29
 儓	awda	28
@@ -841,10 +836,8 @@ sort: by_weight
 羶	azou	18
 储	azuq	29
 儨	azzm	29
-里	blu	49
-月	biu	47
-应该	b	46
-里面	b	45
+里	blu	0
+月	biu	0
 府	bakd	39
 窱	baar	29
 肥	babi	29
@@ -1090,7 +1083,7 @@ sort: by_weight
 庿	bjvt	29
 朠	bjys	29
 膵	bjzk	29
-万	umdh	39
+万	bk	39
 廋	bkaq	29
 膄	bkaq	18
 肘	bkdi	29
@@ -1472,10 +1465,8 @@ sort: by_weight
 廪	bzoc	28
 廩	bzoc	18
 廐	bzuu	29
-几	cjo	49
-种	cdas	47
-几个	c	46
-灵魂	c	45
+几	cjo	0
+种	cdas	0
 专	cap	39
 疤	cabb	29
 稰	cabi	28
@@ -1591,7 +1582,7 @@ sort: by_weight
 祸	cdyn	29
 秞	cdyh	28
 香	cfoh	39
-②	cf	47
+②	cf	0
 神	cfas	36
 丰	cfa	29
 馠	cfad	28
@@ -2208,7 +2199,7 @@ sort: by_weight
 祂	csys	19
 群	ctda	39
 獅	ctbo	29
-君	ctdi	29
+君	cyd	29
 郡	ctdq	28
 羣	ctda	19
 𫖳	ctda	18
@@ -2467,9 +2458,7 @@ sort: by_weight
 瘹	czup	29
 穊	czuu	28
 瘿	czzy	29
-和	dhu	49
-只是	d	46
-别人	d	45
+和	dhu	0
 吧	dabi	39
 迚	daak	29
 邑	dabi	29
@@ -2495,7 +2484,7 @@ sort: by_weight
 呤	dapf	29
 咻	darl	29
 咃	dasy	29
-中	dasi	39
+中	ld	39
 喺	datm	29
 喉	dauu	29
 哶	daun	28
@@ -3233,7 +3222,6 @@ sort: by_weight
 甉	dwwj	19
 哤	dwwl	19
 由	dyu	39
-要	dybk	47
 唾	dyci	29
 啡	dyfi	29
 噫	dygi	29
@@ -3291,11 +3279,8 @@ sort: by_weight
 ……	es	39
 。”	eu	39
 ？	ew	39
-是	faoo	49
-上	fuhb	48
-话	zpsy	47
-时候	f	46
-出来	f	45
+是	faoo	0
+上	fuhb	0
 题	faay	39
 得到	fa	38
 遇到	fa	37
@@ -3342,7 +3327,7 @@ sort: by_weight
 韙	faut	19
 嵧	favt	29
 徉	fayc	29
-明	fbio	39
+明	yt	39
 崩	fbbi	29
 曌	fbbj	28
 剻	fbbo	19
@@ -4293,7 +4278,7 @@ sort: by_weight
 岌	fpjs	29
 岋	fpjs	18
 峵	fpkr	29
-往	fplw	37
+往	fl	37
 峡	fpmf	29
 晥	fpoh	28
 最	fpqy	39
@@ -4347,7 +4332,7 @@ sort: by_weight
 峅	frjc	29
 昪	frjc	18
 杲	frlo	29
-果	frlo	39
+果	ho	39
 崧	frmr	29
 崍	frnn	29
 徠	frnn	18
@@ -4538,7 +4523,7 @@ sort: by_weight
 徏	fvjk	28
 旯	fvjo	29
 牔	fvkd	19
-将	fvkd	39
+将	kr	39
 螀	fvkn	19
 岁	fvks	29
 酱	fvky	28
@@ -4900,7 +4885,7 @@ sort: by_weight
 慌	gjwo	29
 蹵	gjws	19
 恾	gjww	19
-就	gjwy	48
+就	gjwy	0
 愥	gjys	29
 恠	gkaw	28
 悷	gkcq	29
@@ -5161,7 +5146,7 @@ sort: by_weight
 卑	gtks	29
 覕	gtlh	29
 怢	gtpf	29
-必	gtpi	39
+必	gd	39
 邲	gtqk	29
 憍	gtsd	28
 骄	gtso	29
@@ -5201,7 +5186,7 @@ sort: by_weight
 恇	gulw	29
 快	gunr	39
 悽	guny	29
-的	gupf	49
+的	gupf	0
 惬	gupm	28
 衰	gupy	29
 皌	gurl	29
@@ -5482,7 +5467,7 @@ sort: by_weight
 镠	hhnw	29
 孚	hhoa	28
 剋	hhod	19
-学	hhod	47
+学	hhod	0
 孖	hhoo	19
 乳	hhot	29
 郛	hhqk	28
@@ -5827,7 +5812,7 @@ sort: by_weight
 厅	hudc	29
 軀	hudd	19
 钷	hudi	19
-后	hudi	48
+后	hudi	0
 钉	hudj	28
 劶	hudj	18
 郈	hudq	19
@@ -6594,7 +6579,7 @@ sort: by_weight
 浀	ilqs	18
 涤	ilrl	29
 浘	ilrm	28
-没	ilss	49
+没	ilss	0
 漏	ilsv	29
 涏	iltj	28
 洚	iltn	29
@@ -6725,7 +6710,7 @@ sort: by_weight
 滄	inpd	28
 涻	inps	29
 淇	inqs	29
-以	inrb	48
+以	inrb	0
 氼	inrs	28
 汄	inrs	18
 浍	inry	29
@@ -6738,7 +6723,7 @@ sort: by_weight
 於	invl	28
 乻	invo	19
 津	invs	29
-事	invw	47
+事	invw	0
 堻	inwh	29
 沴	inwl	28
 汍	inws	19
@@ -6832,7 +6817,7 @@ sort: by_weight
 浤	ipkr	19
 濵	iplm	28
 乼	iplo	19
-注	iplw	38
+注	il	38
 浃	ipmf	29
 泻	ipny	29
 浣	ipoh	29
@@ -7317,7 +7302,7 @@ sort: by_weight
 蒫	jajg	28
 苻	jakd	29
 边	jakl	39
-这	jakw	49
+这	jakw	0
 荏	jalr	29
 茆	jamc	29
 莋	jana	28
@@ -7963,7 +7948,7 @@ sort: by_weight
 紊	jmsw	29
 虉	jmtn	29
 莼	jmuf	19
-药	jmup	29
+药	jvu	29
 葵	jmus	28
 蘚	jmva	28
 蘇	jmvc	19
@@ -8213,7 +8198,7 @@ sort: by_weight
 蘧	jqya	29
 婜	jqyb	19
 臤	jqyc	19
-发	jqyc	47
+发	jqyc	0
 蘼	jqyf	28
 鋻	jqzj	29
 罷	jrbi	29
@@ -8633,10 +8618,10 @@ sort: by_weight
 鄋	kaqq	19
 叟	kaqy	29
 馏	kavt	29
-在	kawh	48
+在	kawh	0
 迶	kbak	29
 肩	kbih	29
-有	kbis	49
+有	kbis	0
 醡	kbna	28
 醣	kbnd	29
 郁	kbqk	29
@@ -8796,7 +8781,7 @@ sort: by_weight
 鷏	kkmn	19
 饽	kkph	29
 韨	kkqp	28
-直	kkqs	39
+直	vn	39
 遍	klak	29
 扁	klch	29
 敋	kldg	28
@@ -8935,7 +8920,7 @@ sort: by_weight
 肈	ktnv	19
 怷	ktog	29
 朮	ktop	28
-才	ktps	47
+才	ktps	0
 裁	ktpy	28
 截	ktqi	29
 饦	ktqq	28
@@ -9808,7 +9793,7 @@ sort: by_weight
 叚	louq	19
 玚	lowl	29
 珱	loyb	29
-迟	lpak	36
+迟	la	36
 琔	lpao	28
 諚	lpao	18
 琯	lpbi	29
@@ -9871,7 +9856,7 @@ sort: by_weight
 諠	lpuu	17
 琬	lpvi	28
 睕	lpvi	18
-尽	lpvl	38
+尽	lv	38
 瑢	lpyg	29
 琅	lpzg	29
 誏	lpzg	18
@@ -10131,7 +10116,7 @@ sort: by_weight
 讟	lwjl	28
 瓄	lwjm	29
 讀	lwjm	18
-现	lwjw	47
+现	lwjw	0
 詩	lwkd	29
 睦	lwmw	29
 詤	lwoc	28
@@ -10313,7 +10298,7 @@ sort: by_weight
 绌	mfyk	29
 噵	mgad	28
 導	mgak	19
-道	mgak	48
+道	mgak	0
 觲	mgas	19
 觧	mgay	19
 觓	mgbj	29
@@ -10408,7 +10393,7 @@ sort: by_weight
 迸	mjak	29
 迩	mjak	18
 绡	mjbi	29
-并	mjcf	39
+并	gn	39
 红	mjgs	29
 缳	mjip	29
 尔	mjkd	29
@@ -10928,7 +10913,7 @@ sort: by_weight
 炩	napf	29
 蛉	napf	18
 烌	narl	29
-个	nasr	48
+个	nasr	0
 蚮	nati	28
 蟘	natm	19
 燨	natt	29
@@ -11633,7 +11618,7 @@ sort: by_weight
 郐	nrqk	29
 蛑	nrsn	29
 蝛	nruy	28
-会	nryr	47
+会	nryr	0
 爩	nryw	29
 蜥	nrzj	29
 燯	nsap	29
@@ -11967,7 +11952,7 @@ sort: by_weight
 幝	oddk	29
 簞	oddk	18
 幧	oddr	19
-回	odik	47
+回	odik	0
 簟	odjz	29
 圖	odkd	29
 籔	odkl	28
@@ -12217,7 +12202,7 @@ sort: by_weight
 幈	olmj	29
 箳	olmj	18
 鄪	olmq	19
-国	olpf	48
+国	olpf	0
 筁	olqu	29
 筿	olrl	29
 篹	olsi	19
@@ -12355,7 +12340,7 @@ sort: by_weight
 靸	opjg	28
 笈	opju	29
 聼	opkg	29
-敢	opld	38
+敢	gj	38
 憨	oplg	28
 饏	oplp	19
 筦	opoh	29
@@ -12469,7 +12454,7 @@ sort: by_weight
 飝	otoo	18
 笫	otot	27
 帙	otpf	29
-那	otqk	49
+那	otqk	0
 箨	otqt	29
 簥	otsd	28
 鞽	otsd	18
@@ -12653,7 +12638,7 @@ sort: by_weight
 宱	pana	29
 餻	panf	28
 襥	paob	29
-定	paog	47
+定	paog	0
 饈	paow	28
 聆	papf	29
 袊	papf	18
@@ -12907,7 +12892,7 @@ sort: by_weight
 寣	pjly	19
 褡	pjnd	29
 襤	pjod	29
-为	pjpf	49
+为	pjpf	0
 聦	pjpg	28
 饛	pjpy	19
 袯	pjqy	29
@@ -12974,12 +12959,12 @@ sort: by_weight
 賔	pllm	28
 殶	plls	29
 寳	plmm	29
-宝	plpf	39
+宝	nk	39
 飲	plqs	29
 飪	plrs	28
 衽	plry	29
 袶	pltn	29
-主	plwf	39
+主	om	39
 寚	plyf	29
 寶	plym	28
 颊	pmay	29
@@ -13051,7 +13036,7 @@ sort: by_weight
 襆	pobc	29
 刵	podr	28
 刮	pods	29
-完	pohd	39
+完	ph	39
 冠	pohk	29
 鵍	pohn	19
 寇	pohq	28
@@ -13063,7 +13048,7 @@ sort: by_weight
 裍	porl	29
 裀	posd	29
 耴	potr	28
-乱	pots	38
+乱	pt	38
 聢	ppao	29
 館	ppbi	29
 饎	ppdi	29
@@ -13334,7 +13319,7 @@ sort: by_weight
 甏	pwww	28
 袽	pydi	29
 裶	pyfy	29
-容	pygg	38
+容	pg	38
 聭	pygr	19
 餽	pygs	19
 裕	pygy	28
@@ -13349,7 +13334,7 @@ sort: by_weight
 衻	pyor	18
 冢	pypf	27
 袛	pypf	18
-家	pysg	48
+家	pysg	0
 舐	pyss	29
 衹	pysy	28
 職	pytg	29
@@ -13510,7 +13495,7 @@ sort: by_weight
 鲔	qkbi	28
 陏	qkbi	18
 堕	qkbw	29
-对	qkdy	49
+对	qkdy	0
 鳍	qkfo	29
 䲠	qkfo	18
 怼	qkgi	29
@@ -13779,8 +13764,8 @@ sort: by_weight
 隌	qyyk	29
 鿕	qyzf	29
 阬	qzcj	29
-限	qzgk	39
-艰	qzgy	36
+限	qg	39
+艰	qg	36
 隮	qzmo	29
 鲗	qzod	29
 鳣	qzou	28
@@ -13824,7 +13809,7 @@ sort: by_weight
 橳	rbbj	28
 椩	rbcn	29
 態	rbig	28
-能	rbii	49
+能	rbii	0
 棬	rbij	19
 枂	rbil	19
 熊	rbin	29
@@ -13858,11 +13843,11 @@ sort: by_weight
 楿	rcfo	29
 柇	rchl	28
 枫	rchq	29
-枝	rcil	38
+枝	ri	38
 椂	rcis	28
 㰀	rcji	29
 樳	rcjk	28
-机	rcjl	39
+机	kn	39
 桪	rckd	29
 梼	rckd	18
 樌	rclm	28
@@ -13882,7 +13867,7 @@ sort: by_weight
 梆	rcqk	29
 枤	rcql	28
 柰	rcsl	28
-标	rcsl	38
+标	rs	38
 桾	rctd	29
 楓	rctn	28
 槉	rcus	29
@@ -14247,7 +14232,7 @@ sort: by_weight
 檘	rldj	19
 枚	rldl	29
 檂	rlgc	28
-想	rlgi	48
+想	rlgi	0
 桄	rlgl	29
 欁	rlgr	19
 梘	rlhd	28
@@ -14853,7 +14838,7 @@ sort: by_weight
 槒	rzfv	28
 皙	rzgb	29
 惁	rzgi	28
-根	rzgl	39
+根	to	39
 樆	rzhn	29
 析	rzjl	29
 櫰	rzjp	28
@@ -15540,7 +15525,7 @@ sort: by_weight
 犢	swjm	29
 跱	swkd	29
 鼭	swkd	18
-特	swkd	39
+特	la	39
 踛	swmw	29
 躊	swok	29
 踜	swos	28
@@ -15628,7 +15613,7 @@ sort: by_weight
 挖	tboi	29
 帥	tboj	28
 攁	tbpz	29
-探	tbrl	29
+探	tnr	29
 拡	tbrs	28
 攛	tbss	29
 鴭	tbtn	28
@@ -15641,7 +15626,7 @@ sort: by_weight
 掋	tbyp	29
 抟	tcas	29
 掅	tcbi	29
-技	tcis	39
+技	ti	39
 撏	tcjk	28
 凢	tcjp	29
 挦	tckd	29
@@ -15703,7 +15688,7 @@ sort: by_weight
 或	tduh	39
 抽	tdys	29
 损	tdzb	29
-提	tfao	39
+提	oa	39
 捜	tfaq	28
 抻	tfas	29
 擝	tfbd	19
@@ -16167,7 +16152,7 @@ sort: by_weight
 撬	trrr	29
 摻	trrw	19
 撪	trsk	28
-么	trsp	48
+么	trsp	0
 払	trss	19
 掺	trsw	29
 搣	trun	28
@@ -16242,7 +16227,7 @@ sort: by_weight
 挢	ttso	29
 抙	ttss	19
 鹅	tttd	29
-我	tttg	49
+我	tttg	0
 鵝	tttn	28
 鵞	tttn	18
 掱	ttts	19
@@ -16331,7 +16316,7 @@ sort: by_weight
 鼄	tvoc	18
 邾	tvqk	28
 释	tvqt	29
-延	tvtj	29
+延	tmt	29
 蜑	tvtn	28
 鴸	tvtn	18
 甶	tvtp	19
@@ -16802,7 +16787,7 @@ sort: by_weight
 硸	ufhn	19
 郠	ufhq	19
 骹	ufhq	18
-更	ufhq	39
+更	kf	39
 硙	ufij	29
 磑	ufim	28
 趠	ufjz	29
@@ -17099,7 +17084,7 @@ sort: by_weight
 硝	ujbi	29
 趙	ujbi	18
 亓	ujch	29
-开	ujch	39
+开	vz	39
 磺	ujdm	29
 趪	ujdm	18
 礶	ujdq	28
@@ -17212,7 +17197,7 @@ sort: by_weight
 磁	umff	29
 礠	umfg	19
 䃅	umfk	19
-确	umgy	39
+确	ya	39
 硊	umhi	29
 磴	umim	29
 硑	umjc	28
@@ -17747,7 +17732,7 @@ sort: by_weight
 畴	vckd	29
 歵	vclm	29
 耫	vclm	18
-然	vcnf	48
+然	vcnf	0
 舤	vcpf	29
 默	vcqh	29
 畎	vcqt	28
@@ -18030,7 +18015,7 @@ sort: by_weight
 艬	vmdk	19
 舠	vmdo	19
 糍	vmff	29
-来	vmfw	49
+来	vmfw	0
 馗	vmgo	29
 艏	vmgo	18
 黵	vmhl	29
@@ -18892,7 +18877,7 @@ sort: by_weight
 却	wrqk	39
 叝	wrqq	29
 墋	wrrw	29
-去	wrsh	49
+去	wrsh	0
 埃	wrus	29
 坛	wryh	29
 闼	wsak	29
@@ -18922,7 +18907,7 @@ sort: by_weight
 壋	wsvt	29
 墒	wsyd	29
 墑	wsyh	28
-地	wsyh	48
+地	wsyh	0
 塠	wtba	28
 垖	wtbi	19
 埠	wtbk	29
@@ -19147,7 +19132,7 @@ sort: by_weight
 孍	yddl	28
 嬠	yddr	19
 恕	ydgi	29
-如	ydib	47
+如	ydib	0
 冋	ydik	29
 嫌	ydjb	39
 魐	ydjg	28
@@ -19245,7 +19230,7 @@ sort: by_weight
 嫵	yhnf	28
 嫪	yhnw	29
 豂	yhnw	18
-好	yhob	48
+好	yhob	0
 刚	yhod	39
 嬡	yhpl	28
 嫒	yhpq	29
@@ -19420,7 +19405,7 @@ sort: by_weight
 媅	ynot	28
 娸	ynqb	29
 魌	ynqg	28
-内	ynrk	39
+内	ob	39
 嬧	ynud	28
 內	ynuk	29
 婾	ynuo	19
@@ -19669,7 +19654,7 @@ sort: by_weight
 鴦	ystn	28
 罉	ysts	29
 娖	ysub	28
-她	ysyb	49
+她	ysyb	0
 谺	ysyg	28
 嫡	ysyh	29
 豴	ysyh	18
@@ -20267,7 +20252,7 @@ sort: by_weight
 銳	zmdh	18
 鋔	zmdh	17
 鋭	zmdh	16
-说	zmdh	49
+说	zmdh	0
 诏	zmdi	29
 鉊	zmdi	18
 釖	zmdj	19
@@ -20411,7 +20396,7 @@ sort: by_weight
 鑞	zooo	19
 釫	zoot	19
 亪	zopf	29
-变	zoqy	39
+变	vk	39
 栾	zorl	29
 鏼	zory	28
 奕	zosd	29
@@ -20480,7 +20465,7 @@ sort: by_weight
 錿	zqhj	29
 錐	zqij	29
 鉀	zqjj	29
-即	zqkg	39
+即	kb	39
 邤	zqkj	29
 鎨	zqks	28
 钀	zqmc	29
@@ -20545,7 +20530,7 @@ sort: by_weight
 鏟	zshm	19
 鑽	zshm	18
 谚	zshw	29
-该	zshy	39
+该	qi	39
 銕	zsig	29
 鑐	zsjr	28
 鏱	zsjz	29
@@ -20746,7 +20731,7 @@ sort: by_weight
 鎑	zwrd	28
 鉣	zwrs	29
 赎	zwvs	29
-读	zwvs	39
+读	zv	39
 诖	zwwh	29
 銈	zwwh	18
 鐃	zwwh	17
@@ -20830,9 +20815,7 @@ sort: by_weight
 𬀪	fwjo	19
 最好	fy	38
 幺	fyp	29
-自己	g	46
-就是	g	45
-白	gbu	39
+白	iz	39
 𫘧	gcis	28
 辰	gcp	29
 𬴃	gcus	18
@@ -20877,9 +20860,7 @@ sort: by_weight
 𬴂	gyfm	28
 的话	gz	38
 𫠊	gzfy	18
-子	hou	49
-觉得	h	46
-原来	h	45
+子	hou	0
 身体	ha	38
 爪	hap	29
 爫	hat	29
@@ -20943,8 +20924,6 @@ sort: by_weight
 𬨂	hysc	29
 错误	hz	38
 𬬱	hzjj	28
-没有	i	46
-已经	i	45
 导致	ia	38
 匕	ibo	29
 方	ift	39
@@ -20984,9 +20963,7 @@ sort: by_weight
 毕竟	iy	38
 比如	iy	37
 𬇙	izbs	29
-小	jkp	48
-这个	j	46
-这样	j	45
+小	jkp	0
 工作	ja	38
 当你	ja	37
 这里	jb	38
@@ -21032,8 +21009,6 @@ sort: by_weight
 文	jwp	39
 𬜬	jwdi	28
 早	jza	39
-所以	k	46
-有点	k	45
 即使	ka	38
 各种	kc	38
 寸	kdp	29
@@ -21065,8 +21040,6 @@ sort: by_weight
 韦	kwa	29
 酉	kyu	29
 𫗴	kzou	28
-现在	l	46
-睡觉	l	45
 他们	la	38
 亍	lca	29
 𬍤	lckd	18
@@ -21088,7 +21061,7 @@ sort: by_weight
 欠	lqp	29
 曲	lqu	29
 壬	lru	29
-与	nyu	39
+与	ls	39
 殳	lsp	29
 𤧛	lspo	18
 尸	lst	29
@@ -21101,9 +21074,8 @@ sort: by_weight
 𪾢	lwjm	17
 言	lyu	39
 訁	lyu	29
-生	msu	47
-生活	mi	46
-终于	m	45
+生	msu	0
+生活	mi	0
 𬘬	mcbi	29
 总要	md	38
 刀	mdt	29
@@ -21143,9 +21115,8 @@ sort: by_weight
 𬙊	mvwh	29
 𫄷	mygi	28
 𬙋	mzdp	29
-人	nrp	49
-怎么	n	46
-其实	np	45
+人	nrp	0
+其实	np	0
 其他	na	38
 甚至	na	37
 乍	nau	29
@@ -21169,19 +21140,17 @@ sort: by_weight
 亼	nru	29
 谁	nsu	39
 全部	ns	38
-入	nup	39
+入	wk	39
 𬉼	nuhq	29
 聿	nva	29
 肀	nva	28
 丸	nwp	29
-因为	o	46
-那个	o	45
 那里	ob	38
 那种	oc	38
 川	oca	29
 巛	oco	29
 刂	oda	29
-者	uqu	39
+者	of	39
 那是	of	38
 飞	ofp	37
 弗	ofa	29
@@ -21206,8 +21175,6 @@ sort: by_weight
 那些	ov	38
 因此	ov	37
 业	oyu	39
-喜欢	p	46
-容易	p	45
 为了	pa	38
 𫌀	pczb	29
 夫	pfp	39
@@ -21233,9 +21200,7 @@ sort: by_weight
 予	pva	29
 衣	pyp	29
 衤	pyp	28
-又	qyp	48
-东西	q	46
-对方	q	45
+又	qyp	0
 虚假	qa	38
 𩾌	qbni	28
 𬮿	qfij	28
@@ -21268,8 +21233,6 @@ sort: by_weight
 对面	qs	38
 对于	qu	38
 鱼	qvu	39
-感觉	r	46
-想要	r	45
 相信	ra	38
 本身	rh	38
 𬃊	rhkz	19
@@ -21288,10 +21251,8 @@ sort: by_weight
 戊	rwp	29
 戉	rwp	28
 云	ryp	39
-大	sdp	49
-也	syo	48
-需要	s	46
-大家	s	45
+大	sdp	0
+也	syo	0
 达到	sa	38
 𦒍	sbhv	28
 𧿹	scmu	19
@@ -21326,8 +21287,6 @@ sort: by_weight
 牙	syt	29
 也许	sz	38
 告诉	sz	37
-我们	t	46
-看到	t	45
 我的	tg	38
 戈	tgp	29
 接受	th	38
@@ -21342,10 +21301,8 @@ sort: by_weight
 𬸪	tvvd	19
 或许	tz	38
 失败	tz	37
-一	uhu	49
-不	ubp	48
-一个	u	46
-不是	u	45
+一	uhu	0
+不	ubp	0
 长	ucp	39
 一种	uc	38
 齿	uca	29
@@ -21417,8 +21374,6 @@ sort: by_weight
 开始	uy	38
 不同	uy	37
 无论	uz	38
-然后	v	46
-为什么	v	45
 来到	va	38
 𬷕	vdnf	28
 此时	vf	38
@@ -21444,8 +21399,6 @@ sort: by_weight
 未来	vv	38
 未	vwp	39
 止	vwu	29
-问题	w	46
-地方	w	45
 见到	wa	38
 𡐓	wbni	19
 歹	wdp	29
@@ -21476,8 +21429,6 @@ sort: by_weight
 尢	wyo	29
 尤	wyp	29
 忘记	wz	38
-如果	y	46
-意思	y	45
 好像	ya	38
 如何	ya	36
 女	ybu	39
@@ -21501,8 +21452,6 @@ sort: by_weight
 竟然	yv	38
 如此	yv	37
 音	yyu	39
-记得	z	46
-说话	z	45
 贝	zbp	39
 𬤇	zdwh	29
 变得	zf	38
@@ -21529,11 +21478,9 @@ sort: by_weight
 𫍣	zyiw	18
 讠	zyo	29
 𬣳	zzgy	28
-了	;ala	49
-的时候	;a	48
-①	;an	48
-什么	;a	46
-但是	;af	45
+了	;ala	0
+①	;an	0
+但是	;af	0
 候	;aauu	39
 任何	;aa	38
 到了	;aa	37
@@ -21948,7 +21895,6 @@ sort: by_weight
 佹	;amhi	28
 僜	;amim	29
 併	;amjc	28
-你	;amjk	48
 偤	;amky	29
 僔	;amkk	28
 偩	;amlm	29
@@ -21964,8 +21910,8 @@ sort: by_weight
 僧	;amvf	29
 鮺	;amvn	28
 作	;anar	39
-安	;pybg	39
-案	;pyrl	36
+安	;an	39
+案	;an	36
 羹	;anas	29
 偷	;anbo	29
 儙	;anba	28
@@ -22010,7 +21956,6 @@ sort: by_weight
 仍	;aonr	39
 僕	;aobc	29
 佪	;aodi	29
-到	;aodi	49
 佛	;aofr	29
 羛	;aofy	28
 供	;aogr	29
@@ -22165,7 +22110,6 @@ sort: by_weight
 儅	;asvt	19
 伢	;asyr	29
 倿	;asyb	28
-他	;asyr	49
 像	;atkr	39
 似乎	;at	38
 侐	;atdm	29
@@ -22297,7 +22241,7 @@ sort: by_weight
 僯	;avvt	19
 佅	;avwr	29
 偻	;avyb	29
-们	;awmr	39
+们	;oj	39
 倖	;away	29
 佶	;awdi	29
 儓	;awda	28
@@ -22361,10 +22305,8 @@ sort: by_weight
 羶	;azou	18
 储	;azuq	29
 儨	;azzm	29
-里	;blu	49
-月	;biu	47
-应该	;b	46
-里面	;b	45
+里	;blu	0
+月	;biu	0
 府	;bakd	39
 窱	;baar	29
 肥	;babi	29
@@ -22610,7 +22552,7 @@ sort: by_weight
 庿	;bjvt	29
 朠	;bjys	29
 膵	;bjzk	29
-万	;umdh	39
+万	;bk	39
 廋	;bkaq	29
 膄	;bkaq	18
 肘	;bkdi	29
@@ -22992,10 +22934,8 @@ sort: by_weight
 廪	;bzoc	28
 廩	;bzoc	18
 廐	;bzuu	29
-几	;cjo	49
-种	;cdas	47
-几个	;c	46
-灵魂	;c	45
+几	;cjo	0
+种	;cdas	0
 专	;cap	39
 疤	;cabb	29
 稰	;cabi	28
@@ -23111,7 +23051,7 @@ sort: by_weight
 祸	;cdyn	29
 秞	;cdyh	28
 香	;cfoh	39
-②	;cf	47
+②	;cf	0
 神	;cfas	36
 丰	;cfa	29
 馠	;cfad	28
@@ -23728,7 +23668,7 @@ sort: by_weight
 祂	;csys	19
 群	;ctda	39
 獅	;ctbo	29
-君	;ctdi	29
+君	;cyd	29
 郡	;ctdq	28
 羣	;ctda	19
 𫖳	;ctda	18
@@ -23987,9 +23927,7 @@ sort: by_weight
 瘹	;czup	29
 穊	;czuu	28
 瘿	;czzy	29
-和	;dhu	49
-只是	;d	46
-别人	;d	45
+和	;dhu	0
 吧	;dabi	39
 迚	;daak	29
 邑	;dabi	29
@@ -24015,7 +23953,7 @@ sort: by_weight
 呤	;dapf	29
 咻	;darl	29
 咃	;dasy	29
-中	;dasi	39
+中	;ld	39
 喺	;datm	29
 喉	;dauu	29
 哶	;daun	28
@@ -24753,7 +24691,6 @@ sort: by_weight
 甉	;dwwj	19
 哤	;dwwl	19
 由	;dyu	39
-要	;dybk	47
 唾	;dyci	29
 啡	;dyfi	29
 噫	;dygi	29
@@ -24811,11 +24748,8 @@ sort: by_weight
 ……	;es	39
 。”	;eu	39
 ？	;ew	39
-是	;faoo	49
-上	;fuhb	48
-话	;zpsy	47
-时候	;f	46
-出来	;f	45
+是	;faoo	0
+上	;fuhb	0
 题	;faay	39
 得到	;fa	38
 遇到	;fa	37
@@ -24862,7 +24796,7 @@ sort: by_weight
 韙	;faut	19
 嵧	;favt	29
 徉	;fayc	29
-明	;fbio	39
+明	;yt	39
 崩	;fbbi	29
 曌	;fbbj	28
 剻	;fbbo	19
@@ -25813,7 +25747,7 @@ sort: by_weight
 岌	;fpjs	29
 岋	;fpjs	18
 峵	;fpkr	29
-往	;fplw	37
+往	;fl	37
 峡	;fpmf	29
 晥	;fpoh	28
 最	;fpqy	39
@@ -25867,7 +25801,7 @@ sort: by_weight
 峅	;frjc	29
 昪	;frjc	18
 杲	;frlo	29
-果	;frlo	39
+果	;ho	39
 崧	;frmr	29
 崍	;frnn	29
 徠	;frnn	18
@@ -26058,7 +25992,7 @@ sort: by_weight
 徏	;fvjk	28
 旯	;fvjo	29
 牔	;fvkd	19
-将	;fvkd	39
+将	;kr	39
 螀	;fvkn	19
 岁	;fvks	29
 酱	;fvky	28
@@ -26420,7 +26354,7 @@ sort: by_weight
 慌	;gjwo	29
 蹵	;gjws	19
 恾	;gjww	19
-就	;gjwy	48
+就	;gjwy	0
 愥	;gjys	29
 恠	;gkaw	28
 悷	;gkcq	29
@@ -26681,7 +26615,7 @@ sort: by_weight
 卑	;gtks	29
 覕	;gtlh	29
 怢	;gtpf	29
-必	;gtpi	39
+必	;gd	39
 邲	;gtqk	29
 憍	;gtsd	28
 骄	;gtso	29
@@ -26721,7 +26655,7 @@ sort: by_weight
 恇	;gulw	29
 快	;gunr	39
 悽	;guny	29
-的	;gupf	49
+的	;gupf	0
 惬	;gupm	28
 衰	;gupy	29
 皌	;gurl	29
@@ -27002,7 +26936,7 @@ sort: by_weight
 镠	;hhnw	29
 孚	;hhoa	28
 剋	;hhod	19
-学	;hhod	47
+学	;hhod	0
 孖	;hhoo	19
 乳	;hhot	29
 郛	;hhqk	28
@@ -27347,7 +27281,7 @@ sort: by_weight
 厅	;hudc	29
 軀	;hudd	19
 钷	;hudi	19
-后	;hudi	48
+后	;hudi	0
 钉	;hudj	28
 劶	;hudj	18
 郈	;hudq	19
@@ -28114,7 +28048,7 @@ sort: by_weight
 浀	;ilqs	18
 涤	;ilrl	29
 浘	;ilrm	28
-没	;ilss	49
+没	;ilss	0
 漏	;ilsv	29
 涏	;iltj	28
 洚	;iltn	29
@@ -28245,7 +28179,7 @@ sort: by_weight
 滄	;inpd	28
 涻	;inps	29
 淇	;inqs	29
-以	;inrb	48
+以	;inrb	0
 氼	;inrs	28
 汄	;inrs	18
 浍	;inry	29
@@ -28258,7 +28192,7 @@ sort: by_weight
 於	;invl	28
 乻	;invo	19
 津	;invs	29
-事	;invw	47
+事	;invw	0
 堻	;inwh	29
 沴	;inwl	28
 汍	;inws	19
@@ -28352,7 +28286,7 @@ sort: by_weight
 浤	;ipkr	19
 濵	;iplm	28
 乼	;iplo	19
-注	;iplw	38
+注	;il	38
 浃	;ipmf	29
 泻	;ipny	29
 浣	;ipoh	29
@@ -28837,7 +28771,7 @@ sort: by_weight
 蒫	;jajg	28
 苻	;jakd	29
 边	;jakl	39
-这	;jakw	49
+这	;jakw	0
 荏	;jalr	29
 茆	;jamc	29
 莋	;jana	28
@@ -29483,7 +29417,7 @@ sort: by_weight
 紊	;jmsw	29
 虉	;jmtn	29
 莼	;jmuf	19
-药	;jmup	29
+药	;jvu	29
 葵	;jmus	28
 蘚	;jmva	28
 蘇	;jmvc	19
@@ -29733,7 +29667,7 @@ sort: by_weight
 蘧	;jqya	29
 婜	;jqyb	19
 臤	;jqyc	19
-发	;jqyc	47
+发	;jqyc	0
 蘼	;jqyf	28
 鋻	;jqzj	29
 罷	;jrbi	29
@@ -30153,10 +30087,10 @@ sort: by_weight
 鄋	;kaqq	19
 叟	;kaqy	29
 馏	;kavt	29
-在	;kawh	48
+在	;kawh	0
 迶	;kbak	29
 肩	;kbih	29
-有	;kbis	49
+有	;kbis	0
 醡	;kbna	28
 醣	;kbnd	29
 郁	;kbqk	29
@@ -30316,7 +30250,7 @@ sort: by_weight
 鷏	;kkmn	19
 饽	;kkph	29
 韨	;kkqp	28
-直	;kkqs	39
+直	;vn	39
 遍	;klak	29
 扁	;klch	29
 敋	;kldg	28
@@ -30455,7 +30389,7 @@ sort: by_weight
 肈	;ktnv	19
 怷	;ktog	29
 朮	;ktop	28
-才	;ktps	47
+才	;ktps	0
 裁	;ktpy	28
 截	;ktqi	29
 饦	;ktqq	28
@@ -31328,7 +31262,7 @@ sort: by_weight
 叚	;louq	19
 玚	;lowl	29
 珱	;loyb	29
-迟	;lpak	36
+迟	;la	36
 琔	;lpao	28
 諚	;lpao	18
 琯	;lpbi	29
@@ -31391,7 +31325,7 @@ sort: by_weight
 諠	;lpuu	17
 琬	;lpvi	28
 睕	;lpvi	18
-尽	;lpvl	38
+尽	;lv	38
 瑢	;lpyg	29
 琅	;lpzg	29
 誏	;lpzg	18
@@ -31651,7 +31585,7 @@ sort: by_weight
 讟	;lwjl	28
 瓄	;lwjm	29
 讀	;lwjm	18
-现	;lwjw	47
+现	;lwjw	0
 詩	;lwkd	29
 睦	;lwmw	29
 詤	;lwoc	28
@@ -31833,7 +31767,7 @@ sort: by_weight
 绌	;mfyk	29
 噵	;mgad	28
 導	;mgak	19
-道	;mgak	48
+道	;mgak	0
 觲	;mgas	19
 觧	;mgay	19
 觓	;mgbj	29
@@ -31928,7 +31862,7 @@ sort: by_weight
 迸	;mjak	29
 迩	;mjak	18
 绡	;mjbi	29
-并	;mjcf	39
+并	;gn	39
 红	;mjgs	29
 缳	;mjip	29
 尔	;mjkd	29
@@ -32448,7 +32382,7 @@ sort: by_weight
 炩	;napf	29
 蛉	;napf	18
 烌	;narl	29
-个	;nasr	48
+个	;nasr	0
 蚮	;nati	28
 蟘	;natm	19
 燨	;natt	29
@@ -33153,7 +33087,7 @@ sort: by_weight
 郐	;nrqk	29
 蛑	;nrsn	29
 蝛	;nruy	28
-会	;nryr	47
+会	;nryr	0
 爩	;nryw	29
 蜥	;nrzj	29
 燯	;nsap	29
@@ -33487,7 +33421,7 @@ sort: by_weight
 幝	;oddk	29
 簞	;oddk	18
 幧	;oddr	19
-回	;odik	47
+回	;odik	0
 簟	;odjz	29
 圖	;odkd	29
 籔	;odkl	28
@@ -33737,7 +33671,7 @@ sort: by_weight
 幈	;olmj	29
 箳	;olmj	18
 鄪	;olmq	19
-国	;olpf	48
+国	;olpf	0
 筁	;olqu	29
 筿	;olrl	29
 篹	;olsi	19
@@ -33875,7 +33809,7 @@ sort: by_weight
 靸	;opjg	28
 笈	;opju	29
 聼	;opkg	29
-敢	;opld	38
+敢	;gj	38
 憨	;oplg	28
 饏	;oplp	19
 筦	;opoh	29
@@ -33989,7 +33923,7 @@ sort: by_weight
 飝	;otoo	18
 笫	;otot	27
 帙	;otpf	29
-那	;otqk	49
+那	;otqk	0
 箨	;otqt	29
 簥	;otsd	28
 鞽	;otsd	18
@@ -34173,7 +34107,7 @@ sort: by_weight
 宱	;pana	29
 餻	;panf	28
 襥	;paob	29
-定	;paog	47
+定	;paog	0
 饈	;paow	28
 聆	;papf	29
 袊	;papf	18
@@ -34427,7 +34361,7 @@ sort: by_weight
 寣	;pjly	19
 褡	;pjnd	29
 襤	;pjod	29
-为	;pjpf	49
+为	;pjpf	0
 聦	;pjpg	28
 饛	;pjpy	19
 袯	;pjqy	29
@@ -34494,12 +34428,12 @@ sort: by_weight
 賔	;pllm	28
 殶	;plls	29
 寳	;plmm	29
-宝	;plpf	39
+宝	;nk	39
 飲	;plqs	29
 飪	;plrs	28
 衽	;plry	29
 袶	;pltn	29
-主	;plwf	39
+主	;om	39
 寚	;plyf	29
 寶	;plym	28
 颊	;pmay	29
@@ -34571,7 +34505,7 @@ sort: by_weight
 襆	;pobc	29
 刵	;podr	28
 刮	;pods	29
-完	;pohd	39
+完	;ph	39
 冠	;pohk	29
 鵍	;pohn	19
 寇	;pohq	28
@@ -34583,7 +34517,7 @@ sort: by_weight
 裍	;porl	29
 裀	;posd	29
 耴	;potr	28
-乱	;pots	38
+乱	;pt	38
 聢	;ppao	29
 館	;ppbi	29
 饎	;ppdi	29
@@ -34854,7 +34788,7 @@ sort: by_weight
 甏	;pwww	28
 袽	;pydi	29
 裶	;pyfy	29
-容	;pygg	38
+容	;pg	38
 聭	;pygr	19
 餽	;pygs	19
 裕	;pygy	28
@@ -34869,7 +34803,7 @@ sort: by_weight
 衻	;pyor	18
 冢	;pypf	27
 袛	;pypf	18
-家	;pysg	48
+家	;pysg	0
 舐	;pyss	29
 衹	;pysy	28
 職	;pytg	29
@@ -35030,7 +34964,7 @@ sort: by_weight
 鲔	;qkbi	28
 陏	;qkbi	18
 堕	;qkbw	29
-对	;qkdy	49
+对	;qkdy	0
 鳍	;qkfo	29
 䲠	;qkfo	18
 怼	;qkgi	29
@@ -35299,8 +35233,8 @@ sort: by_weight
 隌	;qyyk	29
 鿕	;qyzf	29
 阬	;qzcj	29
-限	;qzgk	39
-艰	;qzgy	36
+限	;qg	39
+艰	;qg	36
 隮	;qzmo	29
 鲗	;qzod	29
 鳣	;qzou	28
@@ -35344,7 +35278,7 @@ sort: by_weight
 橳	;rbbj	28
 椩	;rbcn	29
 態	;rbig	28
-能	;rbii	49
+能	;rbii	0
 棬	;rbij	19
 枂	;rbil	19
 熊	;rbin	29
@@ -35378,11 +35312,11 @@ sort: by_weight
 楿	;rcfo	29
 柇	;rchl	28
 枫	;rchq	29
-枝	;rcil	38
+枝	;ri	38
 椂	;rcis	28
 㰀	;rcji	29
 樳	;rcjk	28
-机	;rcjl	39
+机	;kn	39
 桪	;rckd	29
 梼	;rckd	18
 樌	;rclm	28
@@ -35402,7 +35336,7 @@ sort: by_weight
 梆	;rcqk	29
 枤	;rcql	28
 柰	;rcsl	28
-标	;rcsl	38
+标	;rs	38
 桾	;rctd	29
 楓	;rctn	28
 槉	;rcus	29
@@ -35767,7 +35701,7 @@ sort: by_weight
 檘	;rldj	19
 枚	;rldl	29
 檂	;rlgc	28
-想	;rlgi	48
+想	;rlgi	0
 桄	;rlgl	29
 欁	;rlgr	19
 梘	;rlhd	28
@@ -36373,7 +36307,7 @@ sort: by_weight
 槒	;rzfv	28
 皙	;rzgb	29
 惁	;rzgi	28
-根	;rzgl	39
+根	;to	39
 樆	;rzhn	29
 析	;rzjl	29
 櫰	;rzjp	28
@@ -37060,7 +36994,7 @@ sort: by_weight
 犢	;swjm	29
 跱	;swkd	29
 鼭	;swkd	18
-特	;swkd	39
+特	;la	39
 踛	;swmw	29
 躊	;swok	29
 踜	;swos	28
@@ -37148,7 +37082,7 @@ sort: by_weight
 挖	;tboi	29
 帥	;tboj	28
 攁	;tbpz	29
-探	;tbrl	29
+探	;tnr	29
 拡	;tbrs	28
 攛	;tbss	29
 鴭	;tbtn	28
@@ -37161,7 +37095,7 @@ sort: by_weight
 掋	;tbyp	29
 抟	;tcas	29
 掅	;tcbi	29
-技	;tcis	39
+技	;ti	39
 撏	;tcjk	28
 凢	;tcjp	29
 挦	;tckd	29
@@ -37223,7 +37157,7 @@ sort: by_weight
 或	;tduh	39
 抽	;tdys	29
 损	;tdzb	29
-提	;tfao	39
+提	;oa	39
 捜	;tfaq	28
 抻	;tfas	29
 擝	;tfbd	19
@@ -37687,7 +37621,7 @@ sort: by_weight
 撬	;trrr	29
 摻	;trrw	19
 撪	;trsk	28
-么	;trsp	48
+么	;trsp	0
 払	;trss	19
 掺	;trsw	29
 搣	;trun	28
@@ -37762,7 +37696,7 @@ sort: by_weight
 挢	;ttso	29
 抙	;ttss	19
 鹅	;tttd	29
-我	;tttg	49
+我	;tttg	0
 鵝	;tttn	28
 鵞	;tttn	18
 掱	;ttts	19
@@ -37851,7 +37785,7 @@ sort: by_weight
 鼄	;tvoc	18
 邾	;tvqk	28
 释	;tvqt	29
-延	;tvtj	29
+延	;tmt	29
 蜑	;tvtn	28
 鴸	;tvtn	18
 甶	;tvtp	19
@@ -38322,7 +38256,7 @@ sort: by_weight
 硸	;ufhn	19
 郠	;ufhq	19
 骹	;ufhq	18
-更	;ufhq	39
+更	;kf	39
 硙	;ufij	29
 磑	;ufim	28
 趠	;ufjz	29
@@ -38619,7 +38553,7 @@ sort: by_weight
 硝	;ujbi	29
 趙	;ujbi	18
 亓	;ujch	29
-开	;ujch	39
+开	;vz	39
 磺	;ujdm	29
 趪	;ujdm	18
 礶	;ujdq	28
@@ -38732,7 +38666,7 @@ sort: by_weight
 磁	;umff	29
 礠	;umfg	19
 䃅	;umfk	19
-确	;umgy	39
+确	;ya	39
 硊	;umhi	29
 磴	;umim	29
 硑	;umjc	28
@@ -39267,7 +39201,7 @@ sort: by_weight
 畴	;vckd	29
 歵	;vclm	29
 耫	;vclm	18
-然	;vcnf	48
+然	;vcnf	0
 舤	;vcpf	29
 默	;vcqh	29
 畎	;vcqt	28
@@ -39550,7 +39484,7 @@ sort: by_weight
 艬	;vmdk	19
 舠	;vmdo	19
 糍	;vmff	29
-来	;vmfw	49
+来	;vmfw	0
 馗	;vmgo	29
 艏	;vmgo	18
 黵	;vmhl	29
@@ -40412,7 +40346,7 @@ sort: by_weight
 却	;wrqk	39
 叝	;wrqq	29
 墋	;wrrw	29
-去	;wrsh	49
+去	;wrsh	0
 埃	;wrus	29
 坛	;wryh	29
 闼	;wsak	29
@@ -40442,7 +40376,7 @@ sort: by_weight
 壋	;wsvt	29
 墒	;wsyd	29
 墑	;wsyh	28
-地	;wsyh	48
+地	;wsyh	0
 塠	;wtba	28
 垖	;wtbi	19
 埠	;wtbk	29
@@ -40667,7 +40601,7 @@ sort: by_weight
 孍	;yddl	28
 嬠	;yddr	19
 恕	;ydgi	29
-如	;ydib	47
+如	;ydib	0
 冋	;ydik	29
 嫌	;ydjb	39
 魐	;ydjg	28
@@ -40765,7 +40699,7 @@ sort: by_weight
 嫵	;yhnf	28
 嫪	;yhnw	29
 豂	;yhnw	18
-好	;yhob	48
+好	;yhob	0
 刚	;yhod	39
 嬡	;yhpl	28
 嫒	;yhpq	29
@@ -40940,7 +40874,7 @@ sort: by_weight
 媅	;ynot	28
 娸	;ynqb	29
 魌	;ynqg	28
-内	;ynrk	39
+内	;ob	39
 嬧	;ynud	28
 內	;ynuk	29
 婾	;ynuo	19
@@ -41189,7 +41123,7 @@ sort: by_weight
 鴦	;ystn	28
 罉	;ysts	29
 娖	;ysub	28
-她	;ysyb	49
+她	;ysyb	0
 谺	;ysyg	28
 嫡	;ysyh	29
 豴	;ysyh	18
@@ -41787,7 +41721,7 @@ sort: by_weight
 銳	;zmdh	18
 鋔	;zmdh	17
 鋭	;zmdh	16
-说	;zmdh	49
+说	;zmdh	0
 诏	;zmdi	29
 鉊	;zmdi	18
 釖	;zmdj	19
@@ -41931,7 +41865,7 @@ sort: by_weight
 鑞	;zooo	19
 釫	;zoot	19
 亪	;zopf	29
-变	;zoqy	39
+变	;vk	39
 栾	;zorl	29
 鏼	;zory	28
 奕	;zosd	29
@@ -42000,7 +41934,7 @@ sort: by_weight
 錿	;zqhj	29
 錐	;zqij	29
 鉀	;zqjj	29
-即	;zqkg	39
+即	;kb	39
 邤	;zqkj	29
 鎨	;zqks	28
 钀	;zqmc	29
@@ -42065,7 +41999,7 @@ sort: by_weight
 鏟	;zshm	19
 鑽	;zshm	18
 谚	;zshw	29
-该	;zshy	39
+该	;qi	39
 銕	;zsig	29
 鑐	;zsjr	28
 鏱	;zsjz	29
@@ -42266,7 +42200,7 @@ sort: by_weight
 鎑	;zwrd	28
 鉣	;zwrs	29
 赎	;zwvs	29
-读	;zwvs	39
+读	;zv	39
 诖	;zwwh	29
 銈	;zwwh	18
 鐃	;zwwh	17
@@ -42350,9 +42284,7 @@ sort: by_weight
 𬀪	;fwjo	19
 最好	;fy	38
 幺	;fyp	29
-自己	;g	46
-就是	;g	45
-白	;gbu	39
+白	;iz	39
 𫘧	;gcis	28
 辰	;gcp	29
 𬴃	;gcus	18
@@ -42397,9 +42329,7 @@ sort: by_weight
 𬴂	;gyfm	28
 的话	;gz	38
 𫠊	;gzfy	18
-子	;hou	49
-觉得	;h	46
-原来	;h	45
+子	;hou	0
 身体	;ha	38
 爪	;hap	29
 爫	;hat	29
@@ -42463,8 +42393,6 @@ sort: by_weight
 𬨂	;hysc	29
 错误	;hz	38
 𬬱	;hzjj	28
-没有	;i	46
-已经	;i	45
 导致	;ia	38
 匕	;ibo	29
 方	;ift	39
@@ -42504,9 +42432,7 @@ sort: by_weight
 毕竟	;iy	38
 比如	;iy	37
 𬇙	;izbs	29
-小	;jkp	48
-这个	;j	46
-这样	;j	45
+小	;jkp	0
 工作	;ja	38
 当你	;ja	37
 这里	;jb	38
@@ -42552,8 +42478,6 @@ sort: by_weight
 文	;jwp	39
 𬜬	;jwdi	28
 早	;jza	39
-所以	;k	46
-有点	;k	45
 即使	;ka	38
 各种	;kc	38
 寸	;kdp	29
@@ -42585,8 +42509,6 @@ sort: by_weight
 韦	;kwa	29
 酉	;kyu	29
 𫗴	;kzou	28
-现在	;l	46
-睡觉	;l	45
 他们	;la	38
 亍	;lca	29
 𬍤	;lckd	18
@@ -42608,7 +42530,7 @@ sort: by_weight
 欠	;lqp	29
 曲	;lqu	29
 壬	;lru	29
-与	;nyu	39
+与	;ls	39
 殳	;lsp	29
 𤧛	;lspo	18
 尸	;lst	29
@@ -42621,9 +42543,8 @@ sort: by_weight
 𪾢	;lwjm	17
 言	;lyu	39
 訁	;lyu	29
-生	;msu	47
-生活	;mi	46
-终于	;m	45
+生	;msu	0
+生活	;mi	0
 𬘬	;mcbi	29
 总要	;md	38
 刀	;mdt	29
@@ -42663,9 +42584,8 @@ sort: by_weight
 𬙊	;mvwh	29
 𫄷	;mygi	28
 𬙋	;mzdp	29
-人	;nrp	49
-怎么	;n	46
-其实	;np	45
+人	;nrp	0
+其实	;np	0
 其他	;na	38
 甚至	;na	37
 乍	;nau	29
@@ -42689,19 +42609,17 @@ sort: by_weight
 亼	;nru	29
 谁	;nsu	39
 全部	;ns	38
-入	;nup	39
+入	;wk	39
 𬉼	;nuhq	29
 聿	;nva	29
 肀	;nva	28
 丸	;nwp	29
-因为	;o	46
-那个	;o	45
 那里	;ob	38
 那种	;oc	38
 川	;oca	29
 巛	;oco	29
 刂	;oda	29
-者	;uqu	39
+者	;of	39
 那是	;of	38
 飞	;ofp	37
 弗	;ofa	29
@@ -42726,8 +42644,6 @@ sort: by_weight
 那些	;ov	38
 因此	;ov	37
 业	;oyu	39
-喜欢	;p	46
-容易	;p	45
 为了	;pa	38
 𫌀	;pczb	29
 夫	;pfp	39
@@ -42753,9 +42669,7 @@ sort: by_weight
 予	;pva	29
 衣	;pyp	29
 衤	;pyp	28
-又	;qyp	48
-东西	;q	46
-对方	;q	45
+又	;qyp	0
 虚假	;qa	38
 𩾌	;qbni	28
 𬮿	;qfij	28
@@ -42788,8 +42702,6 @@ sort: by_weight
 对面	;qs	38
 对于	;qu	38
 鱼	;qvu	39
-感觉	;r	46
-想要	;r	45
 相信	;ra	38
 本身	;rh	38
 𬃊	;rhkz	19
@@ -42808,10 +42720,8 @@ sort: by_weight
 戊	;rwp	29
 戉	;rwp	28
 云	;ryp	39
-大	;sdp	49
-也	;syo	48
-需要	;s	46
-大家	;s	45
+大	;sdp	0
+也	;syo	0
 达到	;sa	38
 𦒍	;sbhv	28
 𧿹	;scmu	19
@@ -42846,8 +42756,6 @@ sort: by_weight
 牙	;syt	29
 也许	;sz	38
 告诉	;sz	37
-我们	;t	46
-看到	;t	45
 我的	;tg	38
 戈	;tgp	29
 接受	;th	38
@@ -42862,10 +42770,8 @@ sort: by_weight
 𬸪	;tvvd	19
 或许	;tz	38
 失败	;tz	37
-一	;uhu	49
-不	;ubp	48
-一个	;u	46
-不是	;u	45
+一	;uhu	0
+不	;ubp	0
 长	;ucp	39
 一种	;uc	38
 齿	;uca	29
@@ -42937,8 +42843,6 @@ sort: by_weight
 开始	;uy	38
 不同	;uy	37
 无论	;uz	38
-然后	;v	46
-为什么	;v	45
 来到	;va	38
 𬷕	;vdnf	28
 此时	;vf	38
@@ -42964,8 +42868,6 @@ sort: by_weight
 未来	;vv	38
 未	;vwp	39
 止	;vwu	29
-问题	;w	46
-地方	;w	45
 见到	;wa	38
 𡐓	;wbni	19
 歹	;wdp	29
@@ -42996,8 +42898,6 @@ sort: by_weight
 尢	;wyo	29
 尤	;wyp	29
 忘记	;wz	38
-如果	;y	46
-意思	;y	45
 好像	;ya	38
 如何	;ya	36
 女	;ybu	39
@@ -43021,8 +42921,6 @@ sort: by_weight
 竟然	;yv	38
 如此	;yv	37
 音	;yyu	39
-记得	;z	46
-说话	;z	45
 贝	;zbp	39
 𬤇	;zdwh	29
 变得	;zf	38
@@ -43049,14 +42947,12 @@ sort: by_weight
 𫍣	;zyiw	18
 讠	;zyo	29
 𬣳	;zzgy	28
-了	8ala	49
-的时候	8a	48
-①	8an	48
-什么	8a	46
-但是	8af	45
+了	8ala	0
+
+
 候	8aauu	39
-任何	8aa	38
-到了	8aa	37
+
+
 羴	8aaay	29
 偦	8aabi	29
 羓	8aaby	28
@@ -43179,7 +43075,7 @@ sort: by_weight
 伷	8adyr	29
 偠	8adyb	28
 但	8afuh	39
-做出	8af	37
+
 伸	8afas	29
 侺	8afaj	28
 敒	8afal	19
@@ -43389,7 +43285,7 @@ sort: by_weight
 酓	8akyj	28
 韽	8akyy	19
 着	8almy	39
-你们	8al	38
+
 偓	8alai	28
 偅	8albl	29
 働	8albj	28
@@ -43468,7 +43364,6 @@ sort: by_weight
 佹	8amhi	28
 僜	8amim	29
 併	8amjc	28
-你	8amjk	48
 偤	8amky	29
 僔	8amkk	28
 偩	8amlm	29
@@ -43484,8 +43379,8 @@ sort: by_weight
 僧	8amvf	29
 鮺	8amvn	28
 作	8anar	39
-安	8pybg	39
-案	8pyrl	36
+
+
 羹	8anas	29
 偷	8anbo	29
 儙	8anba	28
@@ -43530,7 +43425,6 @@ sort: by_weight
 仍	8aonr	39
 僕	8aobc	29
 佪	8aodi	29
-到	8aodi	49
 佛	8aofr	29
 羛	8aofy	28
 供	8aogr	29
@@ -43641,7 +43535,7 @@ sort: by_weight
 伝	8aryr	29
 侌	8aryj	28
 美	8asdy	39
-到达	8as	38
+
 丨	8asa	29
 亅	8asa	28
 僮	8asbl	29
@@ -43685,9 +43579,8 @@ sort: by_weight
 儅	8asvt	19
 伢	8asyr	29
 倿	8asyb	28
-他	8asyr	49
 像	8atkr	39
-似乎	8at	38
+
 侐	8atdm	29
 偊	8atdn	28
 岱	8atfs	29
@@ -43724,7 +43617,7 @@ sort: by_weight
 鵄	8atyn	17
 贷	8atzb	29
 便	8aufh	39
-今天	8au	38
+
 俹	8auau	29
 僫	8auag	28
 傌	8auan	19
@@ -43787,7 +43680,7 @@ sort: by_weight
 佂	8auvw	19
 侢	8auyw	29
 留	8avtm	39
-仍然	8av	38
+
 遛	8avak	29
 佲	8avdi	29
 鹠	8avdn	28
@@ -43817,7 +43710,7 @@ sort: by_weight
 僯	8avvt	19
 佅	8avwr	29
 偻	8avyb	29
-们	8awmr	39
+
 倖	8away	29
 佶	8awdi	29
 儓	8awda	28
@@ -43838,8 +43731,8 @@ sort: by_weight
 优	8awyr	29
 侫	8awyb	28
 低	8aypf	39
-她们	8ay	38
-例如	8ay	36
+
+
 羊	8aya	29
 姜	8ayby	29
 倕	8aycr	29
@@ -43881,10 +43774,8 @@ sort: by_weight
 羶	8azou	18
 储	8azuq	29
 儨	8azzm	29
-里	8blu	49
-月	8biu	47
-应该	8b	46
-里面	8b	45
+里	8blu	0
+月	8biu	0
 府	8bakd	39
 窱	8baar	29
 肥	8babi	29
@@ -44130,7 +44021,7 @@ sort: by_weight
 庿	8bjvt	29
 朠	8bjys	29
 膵	8bjzk	29
-万	8umdh	39
+
 廋	8bkaq	29
 膄	8bkaq	18
 肘	8bkdi	29
@@ -44428,7 +44319,7 @@ sort: by_weight
 竀	8buvh	29
 窉	8buyn	29
 究	8bvjk	39
-突然	8bv	38
+
 脯	8bvfi	29
 庯	8bvfg	28
 腮	8bvgi	29
@@ -44512,10 +44403,8 @@ sort: by_weight
 廪	8bzoc	28
 廩	8bzoc	18
 廐	8bzuu	29
-几	8cjo	49
-种	8cdas	47
-几个	8c	46
-灵魂	8c	45
+几	8cjo	0
+种	8cdas	0
 专	8cap	39
 疤	8cabb	29
 稰	8cabi	28
@@ -44631,7 +44520,7 @@ sort: by_weight
 祸	8cdyn	29
 秞	8cdyh	28
 香	8cfoh	39
-②	8cf	47
+
 神	8cfas	36
 丰	8cfa	29
 馠	8cfad	28
@@ -45248,7 +45137,7 @@ sort: by_weight
 祂	8csys	19
 群	8ctda	39
 獅	8ctbo	29
-君	8ctdi	29
+君	8cyd	29
 郡	8ctdq	28
 羣	8ctda	19
 𫖳	8ctda	18
@@ -45507,9 +45396,7 @@ sort: by_weight
 瘹	8czup	29
 穊	8czuu	28
 瘿	8czzy	29
-和	8dhu	49
-只是	8d	46
-别人	8d	45
+和	8dhu	0
 吧	8dabi	39
 迚	8daak	29
 邑	8dabi	29
@@ -45535,7 +45422,7 @@ sort: by_weight
 呤	8dapf	29
 咻	8darl	29
 咃	8dasy	29
-中	8dasi	39
+
 喺	8datm	29
 喉	8dauu	29
 哶	8daun	28
@@ -45543,7 +45430,7 @@ sort: by_weight
 𬱖	8dayy	28
 嚠	8dazo	29
 叫	8dbji	39
-哪里	8db	38
+
 鹃	8dbdn	29
 胄	8dbiy	29
 肙	8dbii	28
@@ -45601,7 +45488,7 @@ sort: by_weight
 啧	8dczb	29
 品	8dddi	39
 哭	8ddcq	36
-只要	8dd	35
+
 患	8ddag	29
 串	8ddas	28
 唈	8ddab	19
@@ -45706,7 +45593,7 @@ sort: by_weight
 咄	8dfyk	29
 吆	8dfyi	28
 吗	8dgmi	39
-哪怕	8dg	38
+
 哼	8dgal	29
 嗅	8dgcq	29
 唔	8dgdi	29
@@ -45850,8 +45737,8 @@ sort: by_weight
 唢	8djzb	28
 唝	8djzb	18
 西	8dku	39
-只有	8dk	38
-吃饭	8dk	37
+
+
 嗖	8dkaq	29
 哊	8dkbi	29
 喐	8dkbq	28
@@ -45963,7 +45850,7 @@ sort: by_weight
 唤	8dmys	29
 喚	8dmys	18
 哈	8dndi	39
-只会	8dn	38
+
 咋	8dnai	29
 喻	8dnbo	29
 虽	8dnci	29
@@ -46165,7 +46052,7 @@ sort: by_weight
 嘄	8dtyr	19
 哳	8dtzj	29
 号	8duot	39
-哪一	8du	38
+
 啞	8duau	29
 噁	8duag	28
 嗎	8duan	19
@@ -46224,7 +46111,7 @@ sort: by_weight
 唗	8duwi	29
 啕	8duyf	29
 嘴	8dvig	39
-虽然	8dv	38
+
 唥	8dvap	29
 啃	8dvbi	29
 喟	8dvbi	18
@@ -46273,7 +46160,6 @@ sort: by_weight
 甉	8dwwj	19
 哤	8dwwl	19
 由	8dyu	39
-要	8dybk	47
 唾	8dyci	29
 啡	8dyfi	29
 噫	8dygi	29
@@ -46317,29 +46203,26 @@ sort: by_weight
 郧	8dzqk	18
 嘅	8dzuu	29
 嘤	8dzzy	29
-！	8ea	39
-、	8ef	39
-（	8eg	39
-）	8eh	39
-？”	8ei	39
-“	8ej	39
-”	8ek	39
-；	8el	39
-‘	8eo	39
-’	8ep	39
-：“	8eq	39
-……	8es	39
-。”	8eu	39
-？	8ew	39
-是	8faoo	49
-上	8fuhb	48
-话	8zpsy	47
-时候	8f	46
-出来	8f	45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+是	8faoo	0
+上	8fuhb	0
 题	8faay	39
-得到	8fa	38
-遇到	8fa	37
-最差	8fa	36
+
+
+
 峳	8faal	29
 迧	8faak	28
 遈	8faak	18
@@ -46382,7 +46265,7 @@ sort: by_weight
 韙	8faut	19
 嵧	8favt	29
 徉	8fayc	29
-明	8fbio	39
+
 崩	8fbbi	29
 曌	8fbbj	28
 剻	8fbbo	19
@@ -46458,7 +46341,7 @@ sort: by_weight
 崾	8fdyb	28
 峀	8fdys	18
 得	8ffuk	39
-晚点	8ff	38
+
 崼	8ffao	29
 徥	8ffao	18
 艸	8ffcc	29
@@ -46521,7 +46404,7 @@ sort: by_weight
 昢	8ffyk	29
 曓	8ffyu	28
 影	8fgjw	39
-明白	8fg	38
+
 岶	8fgbs	29
 晨	8fgco	29
 晤	8fgdi	29
@@ -46663,8 +46546,8 @@ sort: by_weight
 觊	8fiwj	29
 埊	8fiwh	28
 易	8fjuo	39
-很少	8fj	38
-出发	8fj	37
+
+
 颛	8fjay	29
 遄	8fjak	28
 逴	8fjak	18
@@ -47333,7 +47216,7 @@ sort: by_weight
 岌	8fpjs	29
 岋	8fpjs	18
 峵	8fpkr	29
-往	8fplw	37
+
 峡	8fpmf	29
 晥	8fpoh	28
 最	8fpqy	39
@@ -47387,7 +47270,7 @@ sort: by_weight
 峅	8frjc	29
 昪	8frjc	18
 杲	8frlo	29
-果	8frlo	39
+
 崧	8frmr	29
 崍	8frnn	29
 徠	8frnn	18
@@ -47578,7 +47461,7 @@ sort: by_weight
 徏	8fvjk	28
 旯	8fvjo	29
 牔	8fvkd	19
-将	8fvkd	39
+
 螀	8fvkn	19
 岁	8fvks	29
 酱	8fvky	28
@@ -47940,7 +47823,7 @@ sort: by_weight
 慌	8gjwo	29
 蹵	8gjws	19
 恾	8gjww	19
-就	8gjwy	48
+就	8gjwy	0
 愥	8gjys	29
 恠	8gkaw	28
 悷	8gkcq	29
@@ -48201,7 +48084,7 @@ sort: by_weight
 卑	8gtks	29
 覕	8gtlh	29
 怢	8gtpf	29
-必	8gtpi	39
+
 邲	8gtqk	29
 憍	8gtsd	28
 骄	8gtso	29
@@ -48241,7 +48124,7 @@ sort: by_weight
 恇	8gulw	29
 快	8gunr	39
 悽	8guny	29
-的	8gupf	49
+的	8gupf	0
 惬	8gupm	28
 衰	8gupy	29
 皌	8gurl	29
@@ -48522,7 +48405,7 @@ sort: by_weight
 镠	8hhnw	29
 孚	8hhoa	28
 剋	8hhod	19
-学	8hhod	47
+学	8hhod	0
 孖	8hhoo	19
 乳	8hhot	29
 郛	8hhqk	28
@@ -48867,7 +48750,7 @@ sort: by_weight
 厅	8hudc	29
 軀	8hudd	19
 钷	8hudi	19
-后	8hudi	48
+后	8hudi	0
 钉	8hudj	28
 劶	8hudj	18
 郈	8hudq	19
@@ -49634,7 +49517,7 @@ sort: by_weight
 浀	8ilqs	18
 涤	8ilrl	29
 浘	8ilrm	28
-没	8ilss	49
+没	8ilss	0
 漏	8ilsv	29
 涏	8iltj	28
 洚	8iltn	29
@@ -49765,7 +49648,7 @@ sort: by_weight
 滄	8inpd	28
 涻	8inps	29
 淇	8inqs	29
-以	8inrb	48
+以	8inrb	0
 氼	8inrs	28
 汄	8inrs	18
 浍	8inry	29
@@ -49778,7 +49661,7 @@ sort: by_weight
 於	8invl	28
 乻	8invo	19
 津	8invs	29
-事	8invw	47
+事	8invw	0
 堻	8inwh	29
 沴	8inwl	28
 汍	8inws	19
@@ -49872,7 +49755,7 @@ sort: by_weight
 浤	8ipkr	19
 濵	8iplm	28
 乼	8iplo	19
-注	8iplw	38
+
 浃	8ipmf	29
 泻	8ipny	29
 浣	8ipoh	29
@@ -50357,7 +50240,7 @@ sort: by_weight
 蒫	8jajg	28
 苻	8jakd	29
 边	8jakl	39
-这	8jakw	49
+这	8jakw	0
 荏	8jalr	29
 茆	8jamc	29
 莋	8jana	28
@@ -51003,7 +50886,7 @@ sort: by_weight
 紊	8jmsw	29
 虉	8jmtn	29
 莼	8jmuf	19
-药	8jmup	29
+药	8jvu	29
 葵	8jmus	28
 蘚	8jmva	28
 蘇	8jmvc	19
@@ -51253,7 +51136,7 @@ sort: by_weight
 蘧	8jqya	29
 婜	8jqyb	19
 臤	8jqyc	19
-发	8jqyc	47
+发	8jqyc	0
 蘼	8jqyf	28
 鋻	8jqzj	29
 罷	8jrbi	29
@@ -51673,10 +51556,10 @@ sort: by_weight
 鄋	8kaqq	19
 叟	8kaqy	29
 馏	8kavt	29
-在	8kawh	48
+在	8kawh	0
 迶	8kbak	29
 肩	8kbih	29
-有	8kbis	49
+有	8kbis	0
 醡	8kbna	28
 醣	8kbnd	29
 郁	8kbqk	29
@@ -51836,7 +51719,7 @@ sort: by_weight
 鷏	8kkmn	19
 饽	8kkph	29
 韨	8kkqp	28
-直	8kkqs	39
+
 遍	8klak	29
 扁	8klch	29
 敋	8kldg	28
@@ -51975,7 +51858,7 @@ sort: by_weight
 肈	8ktnv	19
 怷	8ktog	29
 朮	8ktop	28
-才	8ktps	47
+才	8ktps	0
 裁	8ktpy	28
 截	8ktqi	29
 饦	8ktqq	28
@@ -52848,7 +52731,7 @@ sort: by_weight
 叚	8louq	19
 玚	8lowl	29
 珱	8loyb	29
-迟	8lpak	36
+
 琔	8lpao	28
 諚	8lpao	18
 琯	8lpbi	29
@@ -52911,7 +52794,7 @@ sort: by_weight
 諠	8lpuu	17
 琬	8lpvi	28
 睕	8lpvi	18
-尽	8lpvl	38
+
 瑢	8lpyg	29
 琅	8lpzg	29
 誏	8lpzg	18
@@ -53171,7 +53054,7 @@ sort: by_weight
 讟	8lwjl	28
 瓄	8lwjm	29
 讀	8lwjm	18
-现	8lwjw	47
+现	8lwjw	0
 詩	8lwkd	29
 睦	8lwmw	29
 詤	8lwoc	28
@@ -53353,7 +53236,7 @@ sort: by_weight
 绌	8mfyk	29
 噵	8mgad	28
 導	8mgak	19
-道	8mgak	48
+道	8mgak	0
 觲	8mgas	19
 觧	8mgay	19
 觓	8mgbj	29
@@ -53448,7 +53331,7 @@ sort: by_weight
 迸	8mjak	29
 迩	8mjak	18
 绡	8mjbi	29
-并	8mjcf	39
+
 红	8mjgs	29
 缳	8mjip	29
 尔	8mjkd	29
@@ -53968,7 +53851,7 @@ sort: by_weight
 炩	8napf	29
 蛉	8napf	18
 烌	8narl	29
-个	8nasr	48
+个	8nasr	0
 蚮	8nati	28
 蟘	8natm	19
 燨	8natt	29
@@ -54673,7 +54556,7 @@ sort: by_weight
 郐	8nrqk	29
 蛑	8nrsn	29
 蝛	8nruy	28
-会	8nryr	47
+会	8nryr	0
 爩	8nryw	29
 蜥	8nrzj	29
 燯	8nsap	29
@@ -55007,7 +54890,7 @@ sort: by_weight
 幝	8oddk	29
 簞	8oddk	18
 幧	8oddr	19
-回	8odik	47
+回	8odik	0
 簟	8odjz	29
 圖	8odkd	29
 籔	8odkl	28
@@ -55257,7 +55140,7 @@ sort: by_weight
 幈	8olmj	29
 箳	8olmj	18
 鄪	8olmq	19
-国	8olpf	48
+国	8olpf	0
 筁	8olqu	29
 筿	8olrl	29
 篹	8olsi	19
@@ -55395,7 +55278,7 @@ sort: by_weight
 靸	8opjg	28
 笈	8opju	29
 聼	8opkg	29
-敢	8opld	38
+
 憨	8oplg	28
 饏	8oplp	19
 筦	8opoh	29
@@ -55509,7 +55392,7 @@ sort: by_weight
 飝	8otoo	18
 笫	8otot	27
 帙	8otpf	29
-那	8otqk	49
+那	8otqk	0
 箨	8otqt	29
 簥	8otsd	28
 鞽	8otsd	18
@@ -55693,7 +55576,7 @@ sort: by_weight
 宱	8pana	29
 餻	8panf	28
 襥	8paob	29
-定	8paog	47
+定	8paog	0
 饈	8paow	28
 聆	8papf	29
 袊	8papf	18
@@ -55947,7 +55830,7 @@ sort: by_weight
 寣	8pjly	19
 褡	8pjnd	29
 襤	8pjod	29
-为	8pjpf	49
+为	8pjpf	0
 聦	8pjpg	28
 饛	8pjpy	19
 袯	8pjqy	29
@@ -56014,12 +55897,12 @@ sort: by_weight
 賔	8pllm	28
 殶	8plls	29
 寳	8plmm	29
-宝	8plpf	39
+
 飲	8plqs	29
 飪	8plrs	28
 衽	8plry	29
 袶	8pltn	29
-主	8plwf	39
+
 寚	8plyf	29
 寶	8plym	28
 颊	8pmay	29
@@ -56091,7 +55974,7 @@ sort: by_weight
 襆	8pobc	29
 刵	8podr	28
 刮	8pods	29
-完	8pohd	39
+
 冠	8pohk	29
 鵍	8pohn	19
 寇	8pohq	28
@@ -56103,7 +55986,7 @@ sort: by_weight
 裍	8porl	29
 裀	8posd	29
 耴	8potr	28
-乱	8pots	38
+
 聢	8ppao	29
 館	8ppbi	29
 饎	8ppdi	29
@@ -56374,7 +56257,7 @@ sort: by_weight
 甏	8pwww	28
 袽	8pydi	29
 裶	8pyfy	29
-容	8pygg	38
+
 聭	8pygr	19
 餽	8pygs	19
 裕	8pygy	28
@@ -56389,7 +56272,7 @@ sort: by_weight
 衻	8pyor	18
 冢	8pypf	27
 袛	8pypf	18
-家	8pysg	48
+家	8pysg	0
 舐	8pyss	29
 衹	8pysy	28
 職	8pytg	29
@@ -56550,7 +56433,7 @@ sort: by_weight
 鲔	8qkbi	28
 陏	8qkbi	18
 堕	8qkbw	29
-对	8qkdy	49
+对	8qkdy	0
 鳍	8qkfo	29
 䲠	8qkfo	18
 怼	8qkgi	29
@@ -56819,8 +56702,8 @@ sort: by_weight
 隌	8qyyk	29
 鿕	8qyzf	29
 阬	8qzcj	29
-限	8qzgk	39
-艰	8qzgy	36
+
+
 隮	8qzmo	29
 鲗	8qzod	29
 鳣	8qzou	28
@@ -56864,7 +56747,7 @@ sort: by_weight
 橳	8rbbj	28
 椩	8rbcn	29
 態	8rbig	28
-能	8rbii	49
+能	8rbii	0
 棬	8rbij	19
 枂	8rbil	19
 熊	8rbin	29
@@ -56898,11 +56781,11 @@ sort: by_weight
 楿	8rcfo	29
 柇	8rchl	28
 枫	8rchq	29
-枝	8rcil	38
+
 椂	8rcis	28
 㰀	8rcji	29
 樳	8rcjk	28
-机	8rcjl	39
+
 桪	8rckd	29
 梼	8rckd	18
 樌	8rclm	28
@@ -56922,7 +56805,7 @@ sort: by_weight
 梆	8rcqk	29
 枤	8rcql	28
 柰	8rcsl	28
-标	8rcsl	38
+
 桾	8rctd	29
 楓	8rctn	28
 槉	8rcus	29
@@ -57287,7 +57170,7 @@ sort: by_weight
 檘	8rldj	19
 枚	8rldl	29
 檂	8rlgc	28
-想	8rlgi	48
+想	8rlgi	0
 桄	8rlgl	29
 欁	8rlgr	19
 梘	8rlhd	28
@@ -57893,7 +57776,7 @@ sort: by_weight
 槒	8rzfv	28
 皙	8rzgb	29
 惁	8rzgi	28
-根	8rzgl	39
+
 樆	8rzhn	29
 析	8rzjl	29
 櫰	8rzjp	28
@@ -58580,7 +58463,7 @@ sort: by_weight
 犢	8swjm	29
 跱	8swkd	29
 鼭	8swkd	18
-特	8swkd	39
+
 踛	8swmw	29
 躊	8swok	29
 踜	8swos	28
@@ -58668,7 +58551,7 @@ sort: by_weight
 挖	8tboi	29
 帥	8tboj	28
 攁	8tbpz	29
-探	8tbrl	29
+探	8tnr	29
 拡	8tbrs	28
 攛	8tbss	29
 鴭	8tbtn	28
@@ -58681,7 +58564,7 @@ sort: by_weight
 掋	8tbyp	29
 抟	8tcas	29
 掅	8tcbi	29
-技	8tcis	39
+
 撏	8tcjk	28
 凢	8tcjp	29
 挦	8tckd	29
@@ -58743,7 +58626,7 @@ sort: by_weight
 或	8tduh	39
 抽	8tdys	29
 损	8tdzb	29
-提	8tfao	39
+
 捜	8tfaq	28
 抻	8tfas	29
 擝	8tfbd	19
@@ -59207,7 +59090,7 @@ sort: by_weight
 撬	8trrr	29
 摻	8trrw	19
 撪	8trsk	28
-么	8trsp	48
+么	8trsp	0
 払	8trss	19
 掺	8trsw	29
 搣	8trun	28
@@ -59282,7 +59165,7 @@ sort: by_weight
 挢	8ttso	29
 抙	8ttss	19
 鹅	8tttd	29
-我	8tttg	49
+我	8tttg	0
 鵝	8tttn	28
 鵞	8tttn	18
 掱	8ttts	19
@@ -59371,7 +59254,7 @@ sort: by_weight
 鼄	8tvoc	18
 邾	8tvqk	28
 释	8tvqt	29
-延	8tvtj	29
+延	8tmt	29
 蜑	8tvtn	28
 鴸	8tvtn	18
 甶	8tvtp	19
@@ -59842,7 +59725,7 @@ sort: by_weight
 硸	8ufhn	19
 郠	8ufhq	19
 骹	8ufhq	18
-更	8ufhq	39
+
 硙	8ufij	29
 磑	8ufim	28
 趠	8ufjz	29
@@ -60139,7 +60022,7 @@ sort: by_weight
 硝	8ujbi	29
 趙	8ujbi	18
 亓	8ujch	29
-开	8ujch	39
+
 磺	8ujdm	29
 趪	8ujdm	18
 礶	8ujdq	28
@@ -60252,7 +60135,7 @@ sort: by_weight
 磁	8umff	29
 礠	8umfg	19
 䃅	8umfk	19
-确	8umgy	39
+
 硊	8umhi	29
 磴	8umim	29
 硑	8umjc	28
@@ -60787,7 +60670,7 @@ sort: by_weight
 畴	8vckd	29
 歵	8vclm	29
 耫	8vclm	18
-然	8vcnf	48
+然	8vcnf	0
 舤	8vcpf	29
 默	8vcqh	29
 畎	8vcqt	28
@@ -61070,7 +60953,7 @@ sort: by_weight
 艬	8vmdk	19
 舠	8vmdo	19
 糍	8vmff	29
-来	8vmfw	49
+来	8vmfw	0
 馗	8vmgo	29
 艏	8vmgo	18
 黵	8vmhl	29
@@ -61932,7 +61815,7 @@ sort: by_weight
 却	8wrqk	39
 叝	8wrqq	29
 墋	8wrrw	29
-去	8wrsh	49
+去	8wrsh	0
 埃	8wrus	29
 坛	8wryh	29
 闼	8wsak	29
@@ -61962,7 +61845,7 @@ sort: by_weight
 壋	8wsvt	29
 墒	8wsyd	29
 墑	8wsyh	28
-地	8wsyh	48
+地	8wsyh	0
 塠	8wtba	28
 垖	8wtbi	19
 埠	8wtbk	29
@@ -62187,7 +62070,7 @@ sort: by_weight
 孍	8yddl	28
 嬠	8yddr	19
 恕	8ydgi	29
-如	8ydib	47
+如	8ydib	0
 冋	8ydik	29
 嫌	8ydjb	39
 魐	8ydjg	28
@@ -62285,7 +62168,7 @@ sort: by_weight
 嫵	8yhnf	28
 嫪	8yhnw	29
 豂	8yhnw	18
-好	8yhob	48
+好	8yhob	0
 刚	8yhod	39
 嬡	8yhpl	28
 嫒	8yhpq	29
@@ -62460,7 +62343,7 @@ sort: by_weight
 媅	8ynot	28
 娸	8ynqb	29
 魌	8ynqg	28
-内	8ynrk	39
+
 嬧	8ynud	28
 內	8ynuk	29
 婾	8ynuo	19
@@ -62709,7 +62592,7 @@ sort: by_weight
 鴦	8ystn	28
 罉	8ysts	29
 娖	8ysub	28
-她	8ysyb	49
+她	8ysyb	0
 谺	8ysyg	28
 嫡	8ysyh	29
 豴	8ysyh	18
@@ -63307,7 +63190,7 @@ sort: by_weight
 銳	8zmdh	18
 鋔	8zmdh	17
 鋭	8zmdh	16
-说	8zmdh	49
+说	8zmdh	0
 诏	8zmdi	29
 鉊	8zmdi	18
 釖	8zmdj	19
@@ -63451,7 +63334,7 @@ sort: by_weight
 鑞	8zooo	19
 釫	8zoot	19
 亪	8zopf	29
-变	8zoqy	39
+
 栾	8zorl	29
 鏼	8zory	28
 奕	8zosd	29
@@ -63520,7 +63403,7 @@ sort: by_weight
 錿	8zqhj	29
 錐	8zqij	29
 鉀	8zqjj	29
-即	8zqkg	39
+
 邤	8zqkj	29
 鎨	8zqks	28
 钀	8zqmc	29
@@ -63585,7 +63468,7 @@ sort: by_weight
 鏟	8zshm	19
 鑽	8zshm	18
 谚	8zshw	29
-该	8zshy	39
+
 銕	8zsig	29
 鑐	8zsjr	28
 鏱	8zsjz	29
@@ -63786,7 +63669,7 @@ sort: by_weight
 鎑	8zwrd	28
 鉣	8zwrs	29
 赎	8zwvs	29
-读	8zwvs	39
+
 诖	8zwwh	29
 銈	8zwwh	18
 鐃	8zwwh	17
@@ -63851,7 +63734,7 @@ sort: by_weight
 鑕	8zzzm	19
 𬀩	8fkwo	29
 𪩘	8fkyc	28
-出现	8fl	38
+
 六	8flp	29
 𪨰	8flqs	28
 日	8fou	39
@@ -63859,68 +63742,64 @@ sort: by_weight
 丬	8fpa	29
 片	8fpo	29
 山	8fsa	39
-时刻	8fs	38
+
 𪨶	8fshc	28
-明天	8fu	38
-昨天	8fu	37
-上来	8fv	38
-很多	8fv	37
-时间	8fw	38
-最坏	8fw	37
+
+
+
+
+
+
 𬀪	8fwjo	19
-最好	8fy	38
+
 幺	8fyp	29
-自己	8g	46
-就是	8g	45
-白	8gbu	39
+
 𫘧	8gcis	28
 辰	8gcp	29
 𬴃	8gcus	18
-可是	8gf	38
+
 𫘨	8gfao	18
 高	8ggu	39
-慢慢	8gg	38
+
 𫘬	8ghfs	18
 𫘪	8ghgj	19
 心	8gip	39
-可以	8gi	38
-的事	8gi	37
+
+
 忄	8gia	29
 𫘜	8gjwm	19
 可	8gka	39
 马	8gmu	39
-整个	8gn	38
-的人	8gn	37
-就会	8gn	36
+
+
+
 𬳿	8gnch	18
 自	8gou	39
-就算	8go	38
+
 皮	8gpp	29
 齐	8gqa	29
-可能	8gr	38
-就能	8gr	37
+
+
 束	8gsp	39
 𬳽	8gshd	28
-熟悉	8gt	38
-自我	8gt	37
+
+
 𫘝	8gunr	28
 五	8guu	29
 𬳵	8guuh	17
 𫘦	8guyf	28
-自然	8gv	38
-情况	8gv	37
+
+
 𬴊	8gvvt	18
-必须	8gw	38
+
 用	8gya	39
-就好	8gy	38
+
 𬳶	8gydi	29
 𬴂	8gyfm	28
-的话	8gz	38
+
 𫠊	8gzfy	18
-子	8hou	49
-觉得	8h	46
-原来	8h	45
-身体	8ha	38
+子	8hou	0
+
 爪	8hap	29
 爫	8hat	29
 𬭤	8hauu	18
@@ -63932,13 +63811,13 @@ sort: by_weight
 𫓶	8hdbi	29
 𬬹	8hfas	28
 𬬻	8hfls	18
-爱情	8hg	38
+
 𬭚	8hgho	28
 古	8hgu	29
-故事	8hi	38
+
 𫖯	8hiay	28
 𬭛	8higp	19
-反而	8hj	38
+
 𨱑	8hjdm	18
 𨱏	8hjnd	29
 钅	8hjo	29
@@ -63952,10 +63831,10 @@ sort: by_weight
 𬭩	8hmrh	29
 𫟦	8hmya	29
 𬭼	8hmya	18
-学会	8hn	38
+
 𬬭	8hnib	18
 𫓹	8hnqj	28
-原因	8ho	38
+
 𫟹	8hogj	28
 孑	8hou	29
 𬭳	8hpdi	29
@@ -63967,11 +63846,11 @@ sort: by_weight
 𬬸	8hrpf	28
 𬭊	8hrwh	19
 身	8hst	39
-后面	8hs	38
+
 𫟼	8hsak	29
 𬬩	8htij	29
 𫔍	8htvv	28
-后天	8hu	38
+
 𬬮	8hucj	29
 𫐄	8huhd	28
 𬒈	8husd	18
@@ -63981,56 +63860,52 @@ sort: by_weight
 𬭯	8hwld	28
 𫓯	8hwwh	18
 𬨂	8hysc	29
-错误	8hz	38
+
 𬬱	8hzjj	28
-没有	8i	46
-已经	8i	45
-导致	8ia	38
+
 匕	8ibo	29
 方	8ift	39
-每日	8if	38
-事情	8ig	38
+
+
 弓	8igo	29
 甘	8igu	29
-以后	8ih	38
-比较	8ih	37
+
+
 已	8iio	39
 𬸦	8iiud	19
 己	8ijo	39
-弱小	8ij	38
-放在	8ik	38
+
+
 𣸣	8ikjz	19
 𣲗	8ikws	18
-以前	8im	38
-每个	8in	38
+
+
 廿	8inu	29
 𬇹	8iolp	19
 𬍡	8iowp	19
-以为	8ip	38
+
 水	8isp	39
-强大	8is	38
-异常	8is	37
+
+
 巳	8iso	29
 乑	8isp	29
 氺	8isp	28
 氵	8isu	29
-每天	8iu	38
+
 𫸩	8iuhq	18
 𬇕	8iumd	28
 𣲘	8iuus	19
-世界	8iv	38
-以来	8iv	37
-复杂	8iv	36
-毕竟	8iy	38
-比如	8iy	37
+
+
+
+
+
 𬇙	8izbs	29
-小	8jkp	48
-这个	8j	46
-这样	8j	45
-工作	8ja	38
-当你	8ja	37
-这里	8jb	38
-这种	8jc	38
+小	8jkp	0
+
+
+
+
 艹	8jca	29
 丌	8jca	28
 廾	8jca	27
@@ -64038,20 +63913,20 @@ sort: by_weight
 臣	8jco	29
 𬜯	8jdlc	28
 𦭜	8jdmf	19
-这是	8jf	37
-而是	8jf	36
-力量	8jf	35
-早点	8jf	34
+
+
+
+
 工	8jgu	39
-恐怖	8jg	38
-这就	8jg	37
-而已	8ji	38
-办法	8ji	37
-而且	8jk	38
+
+
+
+
+
 辛	8jka	29
 力	8jlt	39
-发现	8jl	38
-发生	8jm	38
+
+
 𬟁	8jmdn	19
 𦰡	8jotq	19
 𫇭	8jpjp	19
@@ -64059,212 +63934,202 @@ sort: by_weight
 而	8jra	39
 四	8jsu	39
 罒	8jsu	29
-这么	8jt	38
-当我	8jt	37
-这一	8ju	38
-带走	8ju	37
+
+
+
+
 勿	8jut	29
 𨭉	8jutz	18
-这些	8jv	38
-当然	8jv	37
-带来	8jv	36
+
+
+
 𬞟	8jvja	19
 文	8jwp	39
 𬜬	8jwdi	28
 早	8jza	39
-所以	8k	46
-有点	8k	45
-即使	8ka	38
-各种	8kc	38
+
+
 寸	8kdp	29
-有时	8kf	38
+
 各	8kgu	39
-真的	8kg	38
+
 𫗧	8kgss	29
 户	8kht	29
 戶	8khu	29
 臼	8kju	29
-所有	8kk	38
+
 老	8klo	39
 耂	8klt	29
-十分	8km	38
+
 𬪩	8kppy	29
-考虑	8kq	38
+
 且	8kqu	29
-才能	8kr	38
+
 十	8ksa	39
 饣	8kso	29
-直接	8kt	38
+
 兔	8ktp	29
-真正	8ku	38
-过于	8ku	37
-有些	8kv	38
-过来	8kv	37
+
+
+
+
 维	8kwu	39
-过去	8kw	38
+
 韦	8kwa	29
 酉	8kyu	29
 𫗴	8kzou	28
-现在	8l	46
-睡觉	8l	45
-他们	8la	38
+
 亍	8lca	29
 𬍤	8lckd	18
 册	8lcu	29
 冊	8lcu	28
 攵	8ldp	29
-光明	8lf	38
+
 光	8lgo	39
-他的	8lg	38
-你的	8lg	37
+
+
 𫞩	8ljdl	18
 𤩽	8lkyc	28
-眼睛	8ll	38
+
 𤫉	8llnq	28
 𨟠	8llqq	18
 目	8lmu	39
-尽管	8lo	38
+
 千	8lqa	39
 欠	8lqp	29
 曲	8lqu	29
 壬	8lru	29
-与	8nyu	39
+
 殳	8lsp	29
 𤧛	8lspo	18
 尸	8lst	29
 夂	8ltp	29
 夊	8ltp	28
-属于	8lu	38
+
 𬍛	8lujk	28
-居然	8lv	37
+
 王	8lwu	39
 𪾢	8lwjm	17
 言	8lyu	39
 訁	8lyu	29
-生	8msu	47
-生活	8mi	46
-终于	8m	45
+生	8msu	0
+
 𬘬	8mcbi	29
-总要	8md	38
+
 刀	8mdt	29
-总是	8mf	38
-结果	8mf	37
+
+
 八	8mfp	29
 癶	8mfp	28
 丷	8mft	29
-结束	8mg	38
+
 鬲	8mga	29
 𬘯	8mgho	29
 𫟅	8mgjk	18
 𬱟	8mhia	28
 𫄨	8mhko	29
-并且	8mk	38
+
 𬘩	8mltj	28
 𫄸	8mlvh	29
-曾经	8mm	38
-纷纷	8mm	37
+
+
 𬘓	8mocs	29
 𬘡	8mosd	29
 𬘘	8mphd	29
 𬘫	8mpoh	29
 𬙂	8mpum	28
-普通	8mr	38
-总想	8mr	37
+
+
 𬘭	8mrrl	18
-经常	8ms	38
-前面	8ms	37
+
+
 𦈡	8msjr	29
 糸	8msp	29
 纟	8msu	29
 𫄧	8mtvt	29
-前天	8mu	38
-解决	8mv	38
-判断	8mv	37
+
+
+
 𬙊	8mvwh	29
 𫄷	8mygi	28
 𬙋	8mzdp	29
-人	8nrp	49
-怎么	8n	46
-其实	8np	45
-其他	8na	38
-甚至	8na	37
+人	8nrp	0
+
+
+
 乍	8nau	29
 𬊈	8nckd	29
 虫	8ncp	29
 火	8nfp	39
-平时	8nf	38
+
 灬	8nfp	29
 干	8nga	29
 句	8nju	39
 井	8nja	29
 乡	8nkt	29
-人生	8nm	38
+
 𬊤	8nmfk	18
-与其	8nn	38
-众人	8nn	37
+
+
 禸	8nnp	29
-其它	8np	38
+
 其	8nqp	39
 𬟽	8nqjk	18
 亼	8nru	29
 谁	8nsu	39
-全部	8ns	38
-入	8nup	39
+
+
 𬉼	8nuhq	29
 聿	8nva	29
 肀	8nva	28
 丸	8nwp	29
-因为	8o	46
-那个	8o	45
-那里	8ob	38
-那种	8oc	38
+
+
 川	8oca	29
 巛	8oco	29
 刂	8oda	29
-者	8uqu	39
-那是	8of	38
+
+
 飞	8ofp	37
 弗	8ofa	29
 共	8ogp	39
-迅速	8og	38
-那就	8og	37
+
+
 革	8oga	29
 乙	8oio	29
 巾	8oja	29
 𬕂	8ojzb	29
 囗	8oku	29
-简单	8om	38
+
 乃	8ont	29
 二	8oru	39
-那样	8or	38
-困难	8or	37
-那么	8ot	38
+
+
+
 乚	8oto	29
 乛	8oto	28
-那一	8ou	38
+
 竹	8oua	29
-那些	8ov	38
-因此	8ov	37
+
+
 业	8oyu	39
-喜欢	8p	46
-容易	8p	45
-为了	8pa	38
+
 𫌀	8pczb	29
 夫	8pfp	39
 丶	8pfp	29
 乀	8pfp	28
 乁	8pfp	27
-害怕	8pg	37
+
 宀	8pgo	29
 冖	8pgo	28
 及	8pjp	39
-实力	8pj	38
-适当	8pj	37
-完全	8pn	38
-适合	8pn	37
-永远	8po	38
+
+
+
+
+
 耳	8pru	39
-完成	8pr	38
+
 𬸣	8psdn	28
 食	8psp	29
 飠	8psp	28
@@ -64273,16 +64138,14 @@ sort: by_weight
 予	8pva	29
 衣	8pyp	29
 衤	8pyp	28
-又	8qyp	48
-东西	8q	46
-对方	8q	45
-虚假	8qa	38
+又	8qyp	0
+
 𩾌	8qbni	28
 𬮿	8qfij	28
 𬶠	8qgmf	29
 𬶟	8qgod	29
 𬯀	8qgqk	28
-对错	8qh	38
+
 𬶐	8qhis	28
 虎	8qho	29
 虍	8qho	28
@@ -64291,12 +64154,12 @@ sort: by_weight
 阝	8qka	29
 卩	8qka	28
 𨺙	8qkhd	18
-陌生	8qm	38
+
 𬶭	8qmcs	18
 𩾃	8qmdh	28
 𬶏	8qmhi	18
 麻	8qmp	29
-麻烦	8qn	38
+
 𬶋	8qnjv	28
 𬯎	8qnzb	29
 𫚭	8qooo	18
@@ -64305,168 +64168,158 @@ sort: by_weight
 𬶍	8qpib	18
 𩽾	8qpyb	29
 七	8qqo	29
-对面	8qs	38
-对于	8qu	38
+
+
 鱼	8qvu	39
-感觉	8r	46
-想要	8r	45
-相信	8ra	38
-本身	8rh	38
+
+
 𬃊	8rhkz	19
-成功	8rj	38
+
 𨚕	8rjqk	16
 木	8rlp	29
 朩	8rlp	28
 毛	8rmo	39
 难	8rnu	39
-能够	8rn	38
-成为	8rp	38
+
+
 𬂩	8rpmf	28
 𣗋	8rshd	18
 厶	8rsp	29
-本来	8rv	38
+
 戊	8rwp	29
 戉	8rwp	28
 云	8ryp	39
-大	8sdp	49
-也	8syo	48
-需要	8s	46
-大家	8s	45
-达到	8sa	38
+大	8sdp	0
+也	8syo	0
+
 𦒍	8sbhv	28
 𧿹	8scmu	19
-特别	8sd	38
-也是	8sf	38
-特点	8sf	37
-路上	8sf	36
-之后	8sh	38
+
+
+
+
+
 亥	8shp	29
 之	8sip	39
-太少	8sj	38
-也有	8sk	38
+
+
 立	8slu	39
 面	8smu	39
-之前	8sm	38
-面前	8sm	37
+
+
 牛	8sna	39
-足够	8sn	38
+
 𬌗	8sndi	18
 牜	8snu	29
 气	8sqo	39
-面对	8sq	38
-，露台	8sr	38
-大概	8sr	37
-立刻	8ss	38
+
+
+
+
 鼠	8sso	29
 尚	8ssu	29
-选择	8st	38
+
 足	8sup	39
-太多	8sv	38
+
 雨	8svp	29
 牙	8syt	29
-也许	8sz	38
-告诉	8sz	37
-我们	8t	46
-看到	8t	45
-我的	8tg	38
+
+
+
 戈	8tgp	29
-接受	8th	38
+
 弋	8tip	29
 廴	8tjp	29
 象	8tkp	39
-拒绝	8tm	38
+
 丿	8tpt	29
 手	8tsa	39
 扌	8tsu	29
-或者	8tu	38
+
 𬸪	8tvvd	19
-或许	8tz	38
-失败	8tz	37
-一	8uhu	49
-不	8ubp	48
-一个	8u	46
-不是	8u	45
+
+
+一	8uhu	0
+不	8ubp	0
 长	8ucp	39
-一种	8uc	38
+
 齿	8uca	29
 镸	8ucp	29
-不要	8ud	38
-还要	8ud	37
+
+
 丁	8uda	29
 𥔲	8uddo	18
 𥖨	8uddr	18
-还是	8uf	38
-一点	8uf	37
-于是	8uf	36
-都是	8uf	35
+
+
+
+
 𬸘	8ufyd	19
-不怕	8ug	38
-不懂	8ug	37
-不必	8ug	36
+
+
+
 骨	8ugu	29
-不错	8uh	38
-无法	8ui	38
-无比	8ui	37
-不少	8uj	38
-更加	8uj	37
-更少	8uj	36
-还有	8uk	38
-一直	8uk	37
-都有	8uk	36
-都在	8uk	35
+
+
+
+
+
+
+
+
+
+
 𫠜	8ukhd	28
 匚	8uko	29
 勹	8uko	28
 匸	8uko	27
-知道	8um	38
-不够	8un	38
-长期	8un	37
-短期	8un	36
-不与	8un	35
+
+
+
+
+
 𬹼	8unod	16
-不敢	8uo	38
+
 𬒗	8uoow	28
-一定	8up	38
-确实	8up	37
-确定	8up	36
-一切	8uq	38
-一样	8ur	38
-不能	8ur	37
-不想	8ur	36
+
+
+
+
+
+
+
 𬺓	8urra	18
-正常	8us	38
-不跟	8us	37
+
+
 𬺈	8usgk	18
 矢	8usp	29
 石	8usu	29
 无	8uuo	39
-一起	8uu	38
-正确	8uu	37
-不再	8uu	36
+
+
+
 𥕢	8uulf	19
 旡	8uuo	29
-一些	8uv	38
-一般	8uv	37
-起来	8uv	36
-下来	8uv	35
-更多	8uv	34
-不止	8uv	33
+
+
+
+
+
+
 𬒔	8uvbi	29
 走	8uwp	39
-再见	8uw	38
-开始	8uy	38
-不同	8uy	37
-无论	8uz	38
-然后	8v	46
-为什么	8v	45
-来到	8va	38
+
+
+
+
+
 𬷕	8vdnf	28
-此时	8vf	38
-黑暗	8vf	37
+
+
 甫	8vfp	29
 黑	8vhp	39
 𫚖	8viqv	28
-然而	8vj	38
+
 九	8vjo	29
 夕	8vkp	29
 鹿	8vlo	29
@@ -64475,77 +64328,71 @@ sort: by_weight
 米	8vmp	39
 豸	8vmt	29
 舟	8vop	29
-名字	8vp	38
+
 𥻗	8vrfu	28
-外面	8vs	38
-此刻	8vs	37
+
+
 田	8vtu	39
-多么	8vt	38
-未来	8vv	38
+
+
 未	8vwp	39
 止	8vwu	29
-问题	8w	46
-地方	8w	45
-见到	8wa	38
+
 𡐓	8wbni	19
 歹	8wdp	29
 歺	8wdp	28
 𬮱	8wdwh	18
-却将	8wf	38
+
 瓜	8wgp	29
 𫔶	8wgrl	29
 土	8whu	39
 𪤗	8whnw	28
-增强	8wi	38
+
 见	8wjo	39
 𫭼	8wjpj	29
 𡎚	8wklc	29
 彡	8wlt	29
 门	8wmo	39
 𫮃	8wmfk	17
-尤其	8wn	38
+
 𫭢	8wnib	28
 士	8wsu	39
-却把	8wt	38
+
 𫭟	8wuhq	28
 𪣻	8wvyb	29
 亡	8wwo	29
 亾	8wwo	28
 瓦	8wwp	29
-声音	8wy	38
+
 尢	8wyo	29
 尤	8wyp	29
-忘记	8wz	38
-如果	8y	46
-意思	8y	45
-好像	8ya	38
-如何	8ya	36
+
+
+
 女	8ybu	39
 垂	8ycu	29
 非	8yfu	39
-同时	8yf	38
+
 缶	8yfa	29
-她的	8yg	38
+
 鬼	8ygp	29
 谷	8ygu	29
-逐渐	8yi	38
+
 凵	8yka	29
 冂	8yko	29
-始终	8ym	38
+
 𫰛	8yqjg	28
-同样	8yr	38
+
 三	8ysu	39
-非常	8ys	38
+
 氏	8yso	29
 豕	8ysp	29
-竟然	8yv	38
-如此	8yv	37
+
+
 音	8yyu	39
-记得	8z	46
-说话	8z	45
 贝	8zbp	39
 𬤇	8zdwh	29
-变得	8zf	38
+
 𬤊	8zfao	18
 亠	8zfu	29
 艮	8zgp	29
@@ -64556,15 +64403,15 @@ sort: by_weight
 𫍲	8zkaq	18
 民	8zmo	39
 𬣞	8zpuh	18
-变成	8zr	38
+
 𫍯	8zriw	18
-离开	8zu	38
+
 𬤝	8zufg	18
 𬣙	8zuks	17
 𬶨	8zuqv	19
 𬣡	8zutg	18
-许多	8zv	38
-既然	8zv	37
+
+
 𠅤	8zvgi	18
 𫍣	8zyiw	18
 讠	8zyo	29

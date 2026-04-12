@@ -46,7 +46,7 @@ end
 
 ---@param env AbbrevEnv
 function abbrev_translator.fini(env)
-    env.memory:disconnect()
+    -- env.memory:disconnect()
     env.memory = nil
     LutaiesToFullReference = LutaiesToFullReference - 1
     if LutaiesToFullReference == 0 then

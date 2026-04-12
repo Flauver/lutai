@@ -1,5 +1,5 @@
 --- 露台・二四顶・造词删词处理器
---- 负责将 8a+( 8a+) 的造词编码生成略码并加入 lutaiesToFull.txt 中，或删除记录中的略码
+--- 负责将 8a+( 8a+) 的造词编码生成略码并加入 lutaies_to_full.userdb 中，或删除记录中的略码
 
 local snow = require "lutai.snow"
 

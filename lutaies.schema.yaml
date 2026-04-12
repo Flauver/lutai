@@ -64,16 +64,24 @@ translator:
   enable_user_dict: true
   enable_completion: false
   disable_user_dict_for_patterns:
-    - '(?!^..[qw]$|^[qwrtyuiopasdfghjklzcvbnm]{4}$)^.*$'
+    - '(?!^..[qw]$)^.*$'
+  disable_postpone_pattern: '^[a-z]{2}$'
 
 speller:
   alphabet: "qwrtyuiopasdfghjklzcvbnmex_/;8"
   auto_select: true
   auto_select_pattern: ^e.+
   algebra:
-    - derive/^(..)_.$/$1q/
-    - derive ^/(..)..$ $1q 
-    - derive/^;(..).*$/$1w/
+      - derive/^([a-z].)..?$/$1/
+      - derive/^([a-z].)..?$/$1_/
+      - derive/^([a-z].)(.).?$/$1_$2/
+      - derive/^([a-z].)_.$/$1q/
+      - derive ^/([a-z].)..$ $1q 
+      - xform ^([a-z]{4})$ /$1 
+
+      - derive/^;(..)..?$/;$1/
+      - derive/^;(...).$/;$1/
+      - derive/^;(..).*$/$1w/
   popping:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{2}[rtyuiopasdfghjklzcvbnm]"
       accept: "[^qwrtyuiopasdfghjklzcvbnm]"
