@@ -13320,8 +13320,8 @@ sort: by_weight
 聛	pgtk	0
 袐	pgtp	0
 飶	pgtp	0
-完	ph	536396
-字	phog	416621
+字	phog	536396
+完	ph	416621
 义	phqf	399975
 军	phcg	368023
 宠	phlg	29822
@@ -21377,10 +21377,10 @@ sort: by_weight
 𬣙	zuks	0
 錷	zufo	0
 襃	zuup	0
-读	zv	154625
-谓	zvbi	87745
-许多	zv	26780
-既然	zv	8926
+谓	zvbi	154625
+许多	zv	87745
+既然	zv	26780
+读	zv	8926
 亩	zvtf	544
 谜	zvak	141
 谡	zvos	110
@@ -34841,8 +34841,8 @@ sort: by_weight
 聛	;pgtk	0
 袐	;pgtp	0
 飶	;pgtp	0
-完	;ph	536396
-字	;phog	416621
+字	;phog	536396
+完	;ph	416621
 义	;phqf	399975
 军	;phcg	368023
 宠	;phlg	29822
@@ -42898,10 +42898,10 @@ sort: by_weight
 𬣙	;zuks	0
 錷	;zufo	0
 襃	;zuup	0
-读	;zv	154625
-谓	;zvbi	87745
-许多	;zv	26780
-既然	;zv	8926
+谓	;zvbi	154625
+许多	;zv	87745
+既然	;zv	26780
+读	;zv	8926
 亩	;zvtf	544
 谜	;zvak	141
 谡	;zvos	110
@@ -56362,8 +56362,8 @@ sort: by_weight
 聛	8pgtk	0
 袐	8pgtp	0
 飶	8pgtp	0
+字	8phog	536396
 
-字	8phog	416621
 义	8phqf	399975
 军	8phcg	368023
 宠	8phlg	29822
@@ -64419,8 +64419,8 @@ sort: by_weight
 𬣙	8zuks	0
 錷	8zufo	0
 襃	8zuup	0
+谓	8zvbi	154625
 
-谓	8zvbi	87745
 
 
 亩	8zvtf	544
