@@ -15,8 +15,11 @@ switches:
   - name: ascii_mode
     reset: 0
     states: ["中文", "西文"]
+  - name: simplify
+    states: ["保持", "简化"]
+    reset: 1
   - name: traditionalize
-    states: ["汉字", "漢字"]
+    states: ["保持", "繁化"]
   - name: full_shape
     states: ["半角", "全角"]
 
@@ -49,7 +52,7 @@ engine:
     - table_translator@cangjie_lutai_lookup
   filters:
     - reverse_lookup_filter@reverse_lookup
-    - simplifier
+    - simplifier@simp
 
 
 translator:
@@ -92,8 +95,12 @@ speller:
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 23456789]"
 
-simplifier:
-  opencc_config: s2t.json
+simp:
+  opencc_config: t2s.json
+  option_name: simplify
+
+trad:
+  opencc_config: s2one_t.json
   option_name: traditionalize
 
 recognizer:

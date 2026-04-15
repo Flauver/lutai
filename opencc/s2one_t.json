@@ -1,0 +1,19 @@
+{
+  "name": "Simplified Chinese to Traditional Chinese",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "s2one_t.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "s2one_t.txt"
+      }]
+    }
+  }]
+}
