@@ -49,6 +49,7 @@ engine:
   translators:
     - echo_translator
     - punct_translator
+    - lua_translator@*lutai.quick_switch_simp_or_trad
     - script_translator
     - lua_translator@*lutai.abbrev_translator
     - script_translator@sipin_lutai_lookup
