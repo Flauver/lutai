@@ -17,6 +17,7 @@ schema:
 engine:
   processors:
     - ascii_composer
+    - lua_processor@*lutai.quick_char
     - lua_processor@*lutai.mix_popping
     - recognizer
     - lua_processor@*lutai.add_word_temp*proc
