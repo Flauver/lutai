@@ -15,9 +15,13 @@ function this.init(env)
         for _, entry in ctx.commit_history:iter() do
             for _, code in utf8.codes(entry.text) do
                 for partial_code in env.reverse:lookup(utf8.char(code)):gmatch("[^ ]+") do
+                    if partial_code == nil then
+                        break
+                    end
                     data[partial_code:sub(1, 1)] = utf8.char(code)
                 end
             end
+            break
         end
     end)
 end
