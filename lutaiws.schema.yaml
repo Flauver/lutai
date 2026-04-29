@@ -21,7 +21,7 @@ switches:
     states: ["保持", "简化"]
     reset: 1
   - name: traditionalize
-    state: ["保持", "繁化"]
+    states: ["保持", "繁化"]
   - name: full_shape
     states: ["半角", "全角"]
 
