@@ -32,7 +32,7 @@ function this.func(key_event, env)
     local context = env.engine.context
     local input = snow.current(context)
     if key_event:repr() == "8" then
-        context:commit()
+        env.engine:process_key(KeyEvent("space"))
         context:push_input("8")
         return snow.kAccepted
     end
