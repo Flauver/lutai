@@ -1186,6 +1186,7 @@
 倎	ayjm
 𠙶	ayk
 𠙶	aykl
+信	ayl
 們	ayo
 僩	ayob
 僴	ayof
@@ -1233,9 +1234,10 @@
 储	azuq
 儨	azz
 儨	azzm
-月	b
-①	b
 里	b
+①	b
+月	b
+应该	b
 里面	b
 府	ba
 窱	baa
@@ -3751,6 +3753,7 @@
 ①	dd
 ②	dd
 哭	dd
+只要	dd
 患	dda
 唈	ddab
 嚣	ddad
@@ -19824,6 +19827,7 @@
 虔	qjw
 虔	qjwh
 随	qk
+附	qk
 阝	qka
 卩	qka
 堕	qkb
@@ -20895,7 +20899,7 @@
 欗	rjym
 楧	rjys
 格	rk
-栫	rka
+运	rka
 栫	rkah
 栯	rkb
 栯	rkbi
@@ -23877,7 +23881,7 @@
 手	ts
 接	ts
 ①	ts
-接	ts
+拉	ts
 手	tsa
 挞	tsak
 撞	tsb
@@ -28175,7 +28179,7 @@
 嫞	ybnb
 嫝	ybni
 女	ybu
-妇	yc
+退	yc
 婧	ycb
 婧	ycbi
 妦	ycf
@@ -28186,7 +28190,7 @@
 妓	ycib
 鬾	ycig
 娽	ycis
-嫧	ycl
+妇	ycl
 妇	yclb
 嫧	yclm
 罆	yclm
@@ -29236,6 +29240,7 @@
 说	z
 ①	z
 ②	z
+记得	z
 说话	z
 近	za
 鎀	zaa
@@ -29860,7 +29865,7 @@
 鉖	zlv
 鑂	zlvh
 鉖	zlvl
-民	zm
+近	zm
 劑	zma
 銫	zmab
 齋	zmac
