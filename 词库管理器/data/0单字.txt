@@ -1214,8 +1214,8 @@
 储	azuq
 儨	azz
 儨	azzm
-里	b	3
-月	b
+里	b
+月	b	3
 府	ba
 窱	baa
 窱	baar
@@ -20606,7 +20606,7 @@
 欗	rjym
 楧	rjys
 格	rk
-栫	rka
+栫
 栫	rkah
 栯	rkb
 栯	rkbi
@@ -27761,7 +27761,6 @@
 嫞	ybnb
 嫝	ybni
 女	ybu
-妇	yc
 婧	ycb
 婧	ycbi
 妦	ycf
@@ -27772,7 +27771,7 @@
 妓	ycib
 鬾	ycig
 娽	ycis
-嫧	ycl
+妇	ycl
 妇	yclb
 嫧	yclm
 罆	yclm
@@ -29433,7 +29432,6 @@
 鉖	zlv
 鑂	zlvh
 鉖	zlvl
-民	zm
 劑	zma
 銫	zmab
 齋	zmac
