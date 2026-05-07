@@ -27886,7 +27886,7 @@
 采	hrl
 釉	tvd
 释	tvq
-里	b
+里	b	3
 重	lb
 理	lbl
 野	bp
@@ -28905,7 +28905,7 @@
 现	l
 道	m
 生	m
-种	c
+种	c	3
 一	uhu
 万	umdh
 丈	kpfs

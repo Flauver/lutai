@@ -1,8 +1,10 @@
-哭	dd
-臂	ld
-壁	ld
+哭	dd	4
+臂	ld	4
+壁	ld	5
 幕	jf
-神	cf
+神	cf	4
 春	kf	3
 飞	of	3
 比	ii
+接	ts
+接	ts	4
