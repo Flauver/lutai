@@ -32,7 +32,7 @@
 标	rs
 完	ph
 限	qg
-艰	qg
+艰	qg	4
 宝	nk
 枝	ri
 技	ti
@@ -42,7 +42,7 @@
 容	pg
 乱	pt
 安	an
-案	an
+案	an	4
 往	fl	3
 探	tnr
 延	tmt

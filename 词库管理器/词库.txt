@@ -1233,10 +1233,9 @@
 储	azuq
 儨	azz
 儨	azzm
-里	b
-①	b
 月	b
-应该	b
+①	b
+里	b
 里面	b
 府	ba
 窱	baa
@@ -3752,7 +3751,6 @@
 ①	dd
 ②	dd
 哭	dd
-只要	dd
 患	dda
 唈	ddab
 嚣	ddad
@@ -23877,6 +23875,9 @@
 拺	tryk
 抎	trys
 手	ts
+接	ts
+①	ts
+接	ts
 手	tsa
 挞	tsak
 撞	tsb
@@ -29235,7 +29236,6 @@
 说	z
 ①	z
 ②	z
-记得	z
 说话	z
 近	za
 鎀	zaa
