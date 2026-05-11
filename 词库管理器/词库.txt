@@ -16572,11 +16572,11 @@
 烂	nmo
 焍	nmof
 烂	nmor
-炂	nmr
+蚣	nmr
 焧	nmrg
 螉	nmrh
-炂	nmrs
 蚣	nmrs
+炂	nmrs
 綦	nms
 綦	nmsq
 熷	nmv
