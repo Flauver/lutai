@@ -109,6 +109,7 @@ el	；
 eo	‘
 ep	’
 eq	：“
+er	~
 es	……
 eu	。”
 ew	？
@@ -141,7 +142,7 @@ g	的 就 ① 自己 就是
 ga	速
 gb	白
 gc	情
-gd	必
+gd	唇 必
 gf	慢 可是
 gg	高 慢慢
 gh	熟
@@ -322,7 +323,7 @@ ng	怎
 nh	剑
 ni	创
 nj	句
-nk	宝
+nk	乡 宝
 nl	全
 nm	平 人生
 nn	从 与其 众人
@@ -397,7 +398,7 @@ qg	阿 限 ① 艰
 qh	阵 对错
 qi	该
 qj	东
-qk	随
+qk	随 附
 ql	欢
 qm	切 陌生
 qn	队 麻烦
@@ -480,7 +481,7 @@ to	根
 tp	失
 tq	报
 tr	抬
-ts	手
+ts	手 接 ① 拉
 tt	找
 tu	打 或者
 tv	翻
@@ -565,7 +566,7 @@ wz	闹 忘记
 y	她 好 如 如果 意思
 ya	确 好像 ① 如何
 yb	女
-yc	妇
+yc	退
 yd	嫌
 yf	非 同时
 yg	意 她的
@@ -599,7 +600,7 @@ zi	记
 zj	金
 zk	计
 zl	设
-zm	民
+zm	近
 zn	认
 zo	市
 zp	议

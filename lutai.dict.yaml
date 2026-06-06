@@ -124,6 +124,9 @@ sort: original
 俬	acrs
 伊	act
 侰	actd
+鿘	actd
+鿙	acth
+鿚	actk
 偑	actn
 伊	actp
 佩	acu
@@ -619,7 +622,7 @@ sort: original
 儋	amhl
 僜	ami
 僜	amim
-您	amj
+併	amj
 併	amjc
 您	amjg
 你	amjk
@@ -631,6 +634,8 @@ sort: original
 份	amm
 羒	ammd
 份	ammd
+鿇	amn
+鿇	amnv
 俤	amo
 俤	amof
 仞	amp
@@ -730,10 +735,8 @@ sort: original
 伺	aoiw
 傯	aol
 傯	aolg
-仍	aon
 仍	aonr
-偽	aoo
-偽	aoon
+儠	aoo
 儠	aooo
 疋	aop
 仁	aor
@@ -741,8 +744,6 @@ sort: original
 羗	aors
 羌	aot
 羌	aoty
-僶	aou
-僶	aouc
 羞	aow
 羞	aowh
 佞	aoy
@@ -800,6 +801,7 @@ sort: original
 僿	apsw
 侘	apt
 僪	aptd
+偽	aptn
 鴒	aptn
 侘	aptq
 伫	apu
@@ -1210,6 +1212,8 @@ sort: original
 仨	ays
 佒	aysd
 仨	aysr
+僶	ayu
+僶	ayuc
 倜	ayw
 倜	aywd
 偣	ayy
@@ -1623,6 +1627,7 @@ sort: original
 肳	bjui
 臅	bjun
 窍	bjuo
+鿮	bjuo
 庿	bjv
 庿	bjvt
 朠	bjy
@@ -1754,6 +1759,7 @@ sort: original
 廯	bmv
 廯	bmva
 鮝	bmvn
+鯗	bmvn
 邃	bmy
 邃	bmya
 脸	bn
@@ -1970,7 +1976,7 @@ sort: original
 庆	bsdg
 窖	bsdi
 廍	bsdq
-庵	bsf
+腌	bsf
 腌	bsfo
 庵	bsfo
 胲	bsh
@@ -2139,8 +2145,7 @@ sort: original
 肜	bwli
 廧	bwn
 廧	bwnd
-竈	bwo
-竈	bwoc
+庱	bwo
 庱	bwos
 庒	bwp
 庒	bwpf
@@ -2156,7 +2161,8 @@ sort: original
 胿	bwwh
 膮	bwwh
 庬	bwwl
-肬	bwy
+竈	bwy
+竈	bwyc
 肬	bwyi
 底	by
 遯	bya
@@ -2755,6 +2761,7 @@ sort: original
 狢	ckgq
 猊	ckh
 猊	ckhd
+痲	ckhh
 痚	ckho
 彟	ckj
 獖	ckjm
@@ -2774,6 +2781,7 @@ sort: original
 癥	cklw
 焘	ckn
 焘	cknf
+穥	cknm
 瘐	cknr
 祖	ckq
 疽	ckqb
@@ -2783,11 +2791,10 @@ sort: original
 秡	ckqp
 狙	ckqq
 祖	ckqs
+鿆	ckqy
 犲	ckt
-痲	ckto
 犲	cktp
 习	cku
-穥	ckum
 獡	ckun
 祎	ckw
 祎	ckws
@@ -2802,6 +2809,7 @@ sort: original
 獄	clcq
 癖	cld
 癖	cldj
+鿺	cldn
 𫛭	cldn
 癴	clf
 癵	clfn
@@ -3069,6 +3077,8 @@ sort: original
 凧	coj
 凧	cojj
 帇	cojl
+鿟	com
+鿟	comj
 秀	con
 疓	conb
 秀	conh
@@ -3086,6 +3096,7 @@ sort: original
 礼	cot
 礼	cots
 狮	cou
+鿠	couh
 頺	coum
 狮	couo
 疡	cow
@@ -3214,14 +3225,16 @@ sort: original
 穇	crrw
 私	crs
 私	crsh
-瘆	crsw
 䅟	crsw
+瘆	crsw
 狘	crw
 狘	crwq
 凨	cry
 秐	cryh
 凨	cryj
 示	cs
+鿅	csa
+鿅	csap
 獞	csb
 獞	csbl
 穜	csbl
@@ -3368,6 +3381,7 @@ sort: original
 獑	cufz
 猾	cug
 凮	cugb
+頍	cugm
 獿	cugo
 猾	cugq
 疱	cui
@@ -3403,7 +3417,6 @@ sort: original
 祏	cuss
 獶	cut
 獶	cutl
-頍	cutm
 鳳	cutn
 毋	cuu
 狉	cuuh
@@ -3459,8 +3472,8 @@ sort: original
 猥	cvu
 猥	cvup
 移	cvv
-移	cvvk
 痑	cvvk
+移	cvvk
 癳	cvvm
 獜	cvvt
 祉	cvw
@@ -3502,7 +3515,7 @@ sort: original
 稑	cwmw
 穡	cwn
 穡	cwnd
-禱	cwo
+祾	cwo
 禱	cwok
 祾	cwos
 稜	cwos
@@ -3690,6 +3703,7 @@ sort: original
 哩	dbl
 哩	dbli
 嘃	dbn
+鿽	dbna
 嘃	dbnb
 剈	dbo
 剈	dbod
@@ -4111,8 +4125,8 @@ sort: original
 吵	djtp
 吻	dju
 吻	djui
+嘩	djuk
 噣	djun
-嘩	djut
 喵	djv
 啰	djvk
 喵	djvt
@@ -4326,7 +4340,6 @@ sort: original
 吤	dnod
 啸	dnom
 啿	dnot
-嘨	dnov
 啥	dnp
 嗆	dnpd
 啥	dnps
@@ -4335,6 +4348,8 @@ sort: original
 雖	dnqi
 哙	dnr
 哙	dnry
+嘨	dnt
+嘨	dnta
 鸟	dnu
 嚍	dnud
 叺	dnui
@@ -4580,6 +4595,8 @@ sort: original
 廸	dtjy
 呼	dtm
 呼	dtmk
+別	dto
+別	dtoo
 呹	dtp
 呹	dtpf
 吒	dtq
@@ -4637,6 +4654,7 @@ sort: original
 咟	dugb
 嗗	dugi
 嗄	dugl
+頔	dugm
 嘎	dugt
 呕	duh
 呕	duhq
@@ -4654,7 +4672,6 @@ sort: original
 吷	dunr
 啛	duny
 哑	duo
-別	duod
 鸮	duod
 𫫇	duog
 咂	duoj
@@ -4673,7 +4690,6 @@ sort: original
 吴	dusd
 嘠	dut
 嚘	dutl
-頔	dutm
 嘠	dutt
 乌	duu
 噆	duuf
@@ -4765,6 +4781,7 @@ sort: original
 哤	dwwl
 甄	dwww
 由	dy
+要	dyb
 要	dybk
 唾	dyc
 唾	dyci
@@ -5056,6 +5073,7 @@ sort: original
 曐	fffm
 顯	fffm
 㬎	fffn
+蠿	fffn
 晶	fffo
 晿	fffo
 曑	fffw
@@ -5110,7 +5128,10 @@ sort: original
 崵	ffuj
 暘	ffuj
 得	ffuk
-蠿	ffun
+幑	fful
+鰴	fful
+黴	fful
+龧	ffuq
 嵑	ffuw
 暍	ffuw
 斷	ffuz
@@ -5173,6 +5194,7 @@ sort: original
 牌	fgtk
 鷐	fgtn
 暅	fgu
+鿉	fguc
 暅	fguu
 交	fh
 遢	fha
@@ -5380,13 +5402,13 @@ sort: original
 鵫	fjtn
 鶍	fjtn
 曙	fju
+曄	fjuk
+曅	fjuk
 顓	fjum
 昒	fjuo
 易	fjuo
 曙	fjuq
 岉	fjus
-曄	fjut
-曅	fjut
 嶈	fjv
 嶈	fjvk
 嶧	fjw
@@ -5431,6 +5453,7 @@ sort: original
 峔	fkls
 炭	fkn
 炭	fknf
+嶼	fknm
 徂	fkq
 徂	fkqc
 岨	fkqs
@@ -5438,8 +5461,6 @@ sort: original
 旪	fkso
 嶻	fkt
 嶻	fktq
-嶼	fku
-嶼	fkum
 牖	fkv
 牖	fkvf
 𬀩	fkw
@@ -5499,6 +5520,7 @@ sort: original
 暇	floq
 徦	floq
 六	flp
+鿈	flpf
 欥	flq
 欥	flqo
 𪨰	flqs
@@ -5894,6 +5916,7 @@ sort: original
 嶫	fomv
 曗	fomv
 屷	fon
+繍	fona
 繡	fona
 繾	fona
 給	fond
@@ -5910,12 +5933,10 @@ sort: original
 屷	fons
 纖	fonu
 緃	fonv
-繍	fonv
 紈	fonw
 紾	fonw
 糺	foo
 紃	fooc
-繩	fooc
 絗	food
 縕	food
 紼	foof
@@ -6077,6 +6098,7 @@ sort: original
 显	foy
 繝	foyb
 綞	foyc
+繩	foyc
 絅	foyd
 綗	foyd
 綢	foyd
@@ -6390,6 +6412,8 @@ sort: original
 嶄	fufz
 忐	fug
 忐	fugi
+崸	fugm
+暊	fugm
 巎	fugo
 旦	fuh
 上	fuhb
@@ -6402,12 +6426,12 @@ sort: original
 暱	fujd
 惄	fujg
 尗	fujk
+崋	fujk
 督	fujl
 敭	fujl
 裻	fujp
 叔	fujq
 敊	fujq
-崋	fujt
 昜	fuju
 錖	fujz
 旴	fuk
@@ -6418,7 +6442,6 @@ sort: original
 蚩	func
 仧	funr
 徑	fuo
-鼂	fuoc
 徑	fuoj
 昁	fuoj
 彴	fup
@@ -6434,9 +6457,7 @@ sort: original
 岩	fus
 昊	fusd
 岩	fuss
-崸	fut
-崸	futm
-暊	futm
+鴠	fut
 鴠	futn
 岠	fuu
 嶜	fuuf
@@ -6463,6 +6484,7 @@ sort: original
 曷	fuww
 妛	fuy
 妛	fuyb
+鼂	fuyc
 昞	fuyn
 昺	fuyn
 将	fv
@@ -6728,6 +6750,7 @@ sort: original
 𬴃	gcus
 惯	gcz
 惯	gczb
+唇	gd
 必	gd
 忡	gda
 悒	gdab
@@ -7045,7 +7068,7 @@ sort: original
 鶁	gjtn
 鶒	gjtn
 皣	gju
-皣	gjut
+皣	gjuk
 慌	gjw
 懌	gjwa
 鹫	gjwd
@@ -7089,6 +7112,7 @@ sort: original
 惧	gkmf
 恢	gkn
 恢	gknf
+懙	gknm
 怖	gko
 怖	gkoj
 悖	gkp
@@ -7102,8 +7126,6 @@ sort: original
 皁	gksb
 懴	gkt
 懴	gktu
-懙	gku
-懙	gkum
 整	gl
 遑	gla
 遑	glak
@@ -7286,7 +7308,6 @@ sort: original
 揧	gots
 慖	gotu
 自	gou
-憴	gouc
 忸	gow
 忸	gowh
 亮	gp
@@ -7527,6 +7548,8 @@ sort: original
 慚	gufz
 愲	gug
 愲	gugi
+頗	gugm
+頼	gugm
 驱	guh
 驱	guhq
 怄	guhq
@@ -7552,8 +7575,6 @@ sort: original
 愜	gusn
 懮	gut
 懮	gutl
-頗	gutm
-頼	gutm
 五	guu
 憯	guuf
 兜	guuh
@@ -7562,6 +7583,7 @@ sort: original
 怃	guui
 怇	guuk
 怔	guv
+龾	guvm
 怔	guvw
 怲	guy
 𫘦	guyf
@@ -7595,6 +7617,8 @@ sort: original
 忰	gvk
 愽	gvkd
 忰	gvks
+栆	gvl
+栆	gvls
 骡	gvm
 骡	gvms
 皫	gvn
@@ -7625,7 +7649,7 @@ sort: original
 恃	gwkd
 懎	gwn
 懎	gwnd
-懗	gwo
+㥄	gwo
 懤	gwok
 懗	gwoo
 㥄	gwos
@@ -7665,6 +7689,7 @@ sort: original
 怏	gysd
 忯	gysi
 齑	gyu
+憴	gyuc
 齑	gyuh
 惆	gyw
 惆	gywd
@@ -7963,7 +7988,7 @@ sort: original
 軅	hhaq
 厍	hhc
 厍	hhcc
-克	hhd
+锰	hhd
 克	hhdg
 锰	hhdm
 轱	hhg
@@ -7985,6 +8010,7 @@ sort: original
 尅	hhkd
 嗠	hhkg
 爼	hhkq
+兙	hhks
 锧	hhkz
 兛	hhl
 厐	hhlc
@@ -8009,6 +8035,7 @@ sort: original
 铩	hhrl
 兞	hhrm
 锾	hhu
+兡	hhug
 锾	hhuq
 翪	hhy
 翪	hhyl
@@ -8596,6 +8623,7 @@ sort: original
 躽	hufy
 厦	hug
 厦	hugl
+頨	hugm
 躯	huh
 𫐄	huhd
 躯	huhq
@@ -8627,9 +8655,7 @@ sort: original
 䶮	husd
 𬒈	husd
 砻	husl
-頨	hut
 钱	hutg
-頨	hutm
 钜	huu
 钜	huuk
 钧	huv
@@ -8812,10 +8838,9 @@ sort: original
 泭	iakd
 泖	iam
 泖	iams
-栆	ian
+溔	ian
 溔	ianf
 溣	ianl
-栆	ianv
 濮	iao
 濮	iaob
 溬	iaor
@@ -8989,8 +9014,8 @@ sort: original
 湂	iddo
 澡	iddr
 燕	idf
-燕	idfn
 鷰	idfn
+燕	idfn
 渑	idfo
 酀	idfq
 嬊	idfy
@@ -9364,7 +9389,6 @@ sort: original
 旌	iims
 旗	iin
 旝	iinf
-弻	iini
 旗	iinq
 泤	iinr
 淤	iinv
@@ -9510,12 +9534,12 @@ sort: original
 娑	ijty
 沕	iju
 満	ijuf
+澕	ijuk
 澒	ijum
 頮	ijum
 濁	ijun
 濖	ijuq
 沕	ijus
-澕	ijut
 淽	ijv
 渵	ijvt
 淽	ijvw
@@ -9562,6 +9586,7 @@ sort: original
 湼	ikjg
 瀚	ikjh
 濣	ikjk
+鿰	ikjk
 濆	ikjm
 澣	ikjn
 漧	ikjo
@@ -9734,6 +9759,7 @@ sort: original
 弥	imj
 洴	imjc
 豇	imjg
+鿲	imjj
 弥	imjk
 沵	imjk
 渆	imjo
@@ -9758,6 +9784,7 @@ sort: original
 涩	imp
 涊	impg
 豌	impi
+鿄	impr
 涩	impv
 澀	impv
 郖	imq
@@ -9830,7 +9857,7 @@ sort: original
 泙	inm
 泙	inmf
 濝	inms
-淡	inn
+澇	inn
 瀯	innd
 淡	innf
 濴	inni
@@ -9928,7 +9955,6 @@ sort: original
 滥	iood
 刉	iood
 匘	iooh
-溈	ioon
 污	ioot
 汚	ioot
 澉	iop
@@ -9945,7 +9971,6 @@ sort: original
 世	iotn
 漍	iotu
 亜	iou
-澠	iouc
 悪	ioug
 亜	iouh
 汈	iouh
@@ -10031,6 +10056,7 @@ sort: original
 活	ipss
 渘	ipt
 潏	iptd
+溈	iptn
 渘	iptr
 瀋	iptv
 演	ipu
@@ -10203,7 +10229,6 @@ sort: original
 濳	ishf
 漺	ishh
 滻	ishm
-濓	ishm
 灒	ishm
 鍌	ishz
 洟	isi
@@ -10344,6 +10369,8 @@ sort: original
 滑	iug
 洦	iugb
 弼	iugi
+湏	iugm
+頃	iugm
 滑	iugs
 沤	iuh
 弖	iuhg
@@ -10377,6 +10404,7 @@ sort: original
 淒	iuny
 沛	iuo
 溍	iuof
+弻	iuoi
 沛	iuoj
 弳	iuoj
 沞	iuoj
@@ -10406,8 +10434,6 @@ sort: original
 浅	iut
 浅	iutg
 瀀	iutl
-湏	iutm
-頃	iutm
 渠	iuu
 潛	iuuf
 弡	iuuk
@@ -10606,7 +10632,8 @@ sort: original
 汦	iyss
 旘	iyt
 旘	iytg
-瀦	iyu
+澠	iyu
+澠	iyuc
 瀦	iyuq
 淍	iyw
 淍	iywd
@@ -10621,10 +10648,12 @@ sort: original
 𬇙	izbs
 沆	izc
 沆	izcj
-瀼	izd
+濓	izd
 瀼	izdp
+濓	izdt
 弦	izf
 汴	izfb
+鿌	izfj
 湣	izfo
 峾	izfs
 滀	izfv
@@ -10738,9 +10767,11 @@ sort: original
 蒥	javt
 茌	jaw
 茌	jaws
+龿	jaww
 项	jay
 葁	jayb
 颐	jayc
+鿒	jayc
 项	jayg
 牂	jayp
 藰	jaz
@@ -10874,7 +10905,7 @@ sort: original
 萪	jcv
 萪	jcvk
 莸	jcw
-薐	jcwl
+薐	jcwo
 莸	jcwy
 萎	jcy
 萎	jcyb
@@ -10943,6 +10974,7 @@ sort: original
 黊	jdmw
 茑	jdn
 茑	jdnc
+嗧	jdnl
 鸸	jdnr
 乫	jdo
 乫	jdoi
@@ -11037,6 +11069,7 @@ sort: original
 藴	jfod
 蘊	jfod
 蒓	jfof
+鿡	jfoh
 羄	jfoj
 葒	jfoj
 葤	jfok
@@ -11331,8 +11364,9 @@ sort: original
 蒅	jivr
 葍	jivt
 蒻	jivv
+鿊	jivw
 茫	jiw
-蔆	jiwl
+蔆	jiwo
 茫	jiww
 媐	jiy
 媐	jiyb
@@ -11454,6 +11488,7 @@ sort: original
 萹	jklc
 藢	jklw
 萸	jkn
+藇	jknm
 萸	jknr
 小	jkp
 荸	jkph
@@ -11468,7 +11503,6 @@ sort: original
 菟	jktc
 菶	jkts
 蕮	jku
-藇	jkum
 蕮	jkun
 苇	jkw
 苇	jkwc
@@ -11735,7 +11769,6 @@ sort: original
 蓖	joh
 芫	johd
 蓖	johi
-莵	johp
 艺	joic
 辨	joj
 芇	jojc
@@ -11755,7 +11788,6 @@ sort: original
 苬	jonr
 蓝	joo
 蓝	jood
-蒍	joon
 芌	joot
 萾	joq
 萾	joqd
@@ -11782,6 +11814,7 @@ sort: original
 薗	jowp
 鍳	joz
 鍳	jozj
+龩	jozj
 带	jp
 蓿	jpa
 蓿	jpag
@@ -11851,6 +11884,7 @@ sort: original
 藆	jpst
 爿	jpt
 蓩	jptj
+蒍	jptn
 鶜	jptn
 茅	jptp
 罞	jptp
@@ -11902,7 +11936,7 @@ sort: original
 豎	jqim
 茎	jqj
 茎	jqjg
-节	jqk
+邛	jqk
 节	jqkc
 邛	jqkg
 卭	jqkg
@@ -12095,6 +12129,7 @@ sort: original
 糵	jtbv
 罭	jtd
 萭	jtdn
+莵	jtdp
 罭	jtdu
 菗	jtdy
 戕	jtg
@@ -12179,6 +12214,10 @@ sort: original
 蔪	jufz
 蓇	jug
 蓇	jugc
+項	jugm
+頣	jugm
+頤	jugm
+鿓	jugm
 蘷	jugo
 虁	jugo
 丗	juh
@@ -12189,10 +12228,10 @@ sort: original
 蔔	juiv
 荆	juj
 茾	jujc
+華	jujk
 鷨	jujn
 荆	jujo
 荊	jujo
-華	jujt
 芋	juk
 芋	juks
 蓸	jul
@@ -12231,9 +12270,6 @@ sort: original
 菾	jusn
 勿	jut
 贇	jutm
-項	jutm
-頣	jutm
-頤	jutm
 斌	jutv
 赟	jutz
 𨭉	jutz
@@ -12243,6 +12279,7 @@ sort: original
 蘙	juuh
 苣	juuk
 丣	juuk
+鿀	juuk
 茚	juuq
 藞	juuu
 菊	juv
@@ -12333,7 +12370,7 @@ sort: original
 芷	jvwc
 苿	jvwc
 薼	jvwh
-蓤	jvwl
+蓤	jvwo
 薮	jvy
 蒌	jvyb
 薮	jvyl
@@ -12375,6 +12412,7 @@ sort: original
 莰	jwlq
 耏	jwlr
 彣	jwlw
+蔷	jwm
 蔷	jwmd
 爇	jwmn
 蓺	jwmn
@@ -12468,6 +12506,7 @@ sort: original
 茋	jypf
 芪	jys
 芪	jysc
+鿦	jysc
 英	jysd
 鶧	jysn
 蒛	jyu
@@ -12549,6 +12588,7 @@ sort: original
 叟	kaqy
 馏	kav
 馏	kavt
+在	kaw
 在	kawh
 即	kb
 迶	kba
@@ -12677,6 +12717,9 @@ sort: original
 醪	khnw
 孝	kho
 孝	khol
+怷	khp
+朮	khpf
+怷	khpg
 饭	khq
 郳	khqk
 饭	khqy
@@ -12785,6 +12828,7 @@ sort: original
 醳	kjwa
 贲	kjz
 贲	kjzb
+龺	kjzs
 真	kk
 所有	kk
 馊	kka
@@ -12875,10 +12919,16 @@ sort: original
 韧	kmpf
 徽	kms
 徽	kmsw
-鰴	kmv
-鰴	kmvn
 机	kn
 酢	kna
+轝	knak
+歟	knal
+譽	knal
+與	knam
+鸒	knan
+擧	knat
+舉	knat
+礜	knau
 酢	knay
 蚀	knc
 馀	knch
@@ -12926,7 +12976,6 @@ sort: original
 帍	kojh
 帠	kojj
 布	kojs
-幑	kojw
 醞	kon
 醞	kond
 酬	koo
@@ -13046,7 +13095,6 @@ sort: original
 哉	ktd
 哉	ktdi
 啔	ktdi
-载	kth
 载	kthc
 酨	ktk
 酨	ktky
@@ -13056,9 +13104,6 @@ sort: original
 蛓	ktnc
 烖	ktnf
 肈	ktnv
-怷	kto
-怷	ktog
-朮	ktop
 兔	ktp
 才	ktps
 裁	ktpy
@@ -13101,6 +13146,7 @@ sort: original
 饨	kufc
 輿	kufm
 夓	kug
+頟	kugm
 夓	kugo
 馉	kugs
 饱	kui
@@ -13111,14 +13157,6 @@ sort: original
 醩	kulf
 舄	kun
 舄	kunf
-轝	kunk
-歟	kunl
-譽	kunl
-與	kunm
-鸒	kunn
-擧	kunt
-舉	kunt
-礜	kunu
 酽	kuo
 耉	kuod
 酽	kuot
@@ -13131,7 +13169,6 @@ sort: original
 奏	kusd
 饯	kut
 饯	kutg
-頟	kutm
 醄	kuy
 醄	kuyf
 博	kv
@@ -13143,8 +13180,6 @@ sort: original
 酩	kvdi
 酺	kvf
 酺	kvfy
-黴	kvh
-黴	kvhw
 舅	kvj
 舅	kvjl
 戽	kvk
@@ -13220,6 +13255,7 @@ sort: original
 遅	laak
 諝	lab
 諝	labi
+鿱	labw
 琀	lad
 琀	ladi
 誝	ladi
@@ -13514,6 +13550,7 @@ sort: original
 蠻	lfon
 鸞	lfon
 矊	lfoo
+龻	lfoo
 欒	lfor
 奱	lfos
 攣	lfot
@@ -13826,9 +13863,9 @@ sort: original
 眇	ljtp
 訬	ljtp
 璍	lju
-璍	ljut
-瞱	ljut
-譁	ljut
+璍	ljuk
+瞱	ljuk
+譁	ljuk
 瞄	ljv
 瞄	ljvt
 玟	ljw
@@ -13882,8 +13919,9 @@ sort: original
 諞	lklc
 歃	lklq
 珯	lklw
-詼	lkn
+璵	lkn
 詼	lknf
+璵	lknm
 諛	lknr
 誖	lkp
 誖	lkph
@@ -13896,8 +13934,6 @@ sort: original
 琫	lkt
 睵	lktd
 琫	lkts
-璵	lku
-璵	lkum
 玮	lkw
 玮	lkww
 諵	lky
@@ -14241,6 +14277,7 @@ sort: original
 珙	log
 珙	logw
 諽	logy
+鿁	logy
 盶	loh
 盶	lohd
 玩	lohd
@@ -14274,9 +14311,8 @@ sort: original
 珚	losd
 玌	lot
 玌	lotw
-鼎	lou
+遐	lou
 遐	loua
-譝	louc
 叚	louq
 玚	low
 玚	lowl
@@ -14615,6 +14651,8 @@ sort: original
 珣	lufo
 眴	lufo
 詢	lufo
+頊	lug
+頊	lugm
 眍	luh
 眍	luhq
 詾	luhy
@@ -14651,7 +14689,6 @@ sort: original
 眜	lurl
 珷	lut
 瓇	lutl
-頊	lutm
 鷵	lutn
 珷	lutv
 詎	luu
@@ -14828,6 +14865,7 @@ sort: original
 識	lytg
 訁	lyu
 言	lyu
+譝	lyuc
 珃	lyw
 琱	lywd
 睭	lywd
@@ -15395,7 +15433,6 @@ sort: original
 𬘘	mphd
 级	mpjs
 歰	mpm
-鯗	mpmn
 歰	mpmv
 𬘫	mpo
 𬘫	mpoh
@@ -15631,6 +15668,7 @@ sort: original
 鯾	mvnh
 鰨	mvnh
 鱙	mvnh
+鿩	mvnh
 魢	mvni
 魤	mvni
 魮	mvni
@@ -15649,6 +15687,7 @@ sort: original
 鰥	mvni
 鱇	mvni
 鱵	mvni
+鿳	mvni
 魟	mvnj
 魩	mvnj
 魰	mvnj
@@ -15678,6 +15717,7 @@ sort: original
 鱓	mvnk
 鱘	mvnk
 鱡	mvnk
+鿐	mvnk
 鯩	mvnl
 鯼	mvnl
 鯿	mvnl
@@ -15717,7 +15757,6 @@ sort: original
 鷠	mvnn
 魝	mvno
 魪	mvno
-鯪	mvno
 魳	mvno
 鮄	mvno
 鮬	mvno
@@ -15730,6 +15769,7 @@ sort: original
 鯏	mvno
 鯑	mvno
 鯞	mvno
+鯪	mvno
 鯯	mvno
 鯻	mvno
 鰂	mvno
@@ -15837,6 +15877,7 @@ sort: original
 纸	my
 遂	mya
 遂	myak
+鿪	myan
 缍	myc
 缍	mycs
 䌹	myd
@@ -15889,6 +15930,7 @@ sort: original
 爔	nac
 爔	nact
 蛜	nact
+鿗	nacu
 焓	nad
 焓	nadi
 蛿	nadi
@@ -15911,11 +15953,12 @@ sort: original
 蟮	namd
 蜣	nao
 蜣	naot
-炩	nap
-炩	napf
+蛉	nap
 蛉	napf
+炩	napf
 烌	nar
 烌	narl
+个	nas
 个	nasr
 燨	nat
 蚮	nati
@@ -15940,9 +15983,9 @@ sort: original
 焩	nbbi
 焿	nbc
 焿	nbcn
-燫	nbd
-燫	nbdj
+蠊	nbd
 蠊	nbdj
+燫	nbdj
 蜷	nbi
 蚏	nbic
 焪	nbig
@@ -15957,9 +16000,9 @@ sort: original
 爌	nbjm
 蝷	nbm
 蝷	nbmf
-煻	nbn
-煻	nbnd
+螗	nbn
 螗	nbnd
+煻	nbnd
 愈	nbo
 逾	nboa
 俞	nbod
@@ -15997,7 +16040,6 @@ sort: original
 𬊈	nckd
 煅	ncl
 敘	ncld
-仺	nclr
 煅	ncls
 螦	ncm
 螦	ncms
@@ -16035,9 +16077,9 @@ sort: original
 焆	ndb
 焆	ndbi
 蜎	ndbi
-熛	ndc
-熛	ndcs
+螵	ndc
 螵	ndcs
+熛	ndcs
 盒	ndd
 龢	nddc
 煰	nddd
@@ -16101,6 +16143,7 @@ sort: original
 拿	ndts
 搻	ndtt
 蜈	ndu
+鿖	nduh
 頜	ndum
 蜈	ndus
 畣	ndv
@@ -16138,15 +16181,15 @@ sort: original
 焜	nfii
 蜫	nfii
 螘	nfim
-焬	nfj
+蜴	nfj
 熚	nfjk
+爗	nfjk
 蚴	nfjl
 熳	nfjq
 蟃	nfjq
 煓	nfjr
-爗	nfjt
-焬	nfju
 蜴	nfju
+焬	nfju
 焯	nfjz
 烆	nfl
 烆	nflc
@@ -16226,9 +16269,9 @@ sort: original
 蛴	ngqc
 燺	ngr
 燺	ngrl
-焷	ngt
-焷	ngtk
+蜱	ngt
 蜱	ngtk
+焷	ngtk
 㶲	ngy
 㶲	ngyf
 剑	nh
@@ -16247,9 +16290,9 @@ sort: original
 熠	nhgb
 蛄	nhgc
 螈	nhgj
-烰	nhh
-烰	nhho
+蜉	nhh
 蜉	nhho
+烰	nhho
 烑	nhi
 蚅	nhij
 蟵	nhik
@@ -16275,7 +16318,7 @@ sort: original
 剑	nhod
 燰	nhp
 燰	nhpl
-炍	nhq
+燿	nhq
 螔	nhqh
 燿	nhqi
 蠗	nhqi
@@ -16349,25 +16392,25 @@ sort: original
 煏	nivt
 句	nj
 井	nja
-焇	njb
-焇	njbi
+蛸	njb
 蛸	njbi
+焇	njbi
 蟒	njc
 灷	njcf
 烥	njcf
 蟒	njcj
 螨	njd
 螨	njdl
-熿	njdm
 蟥	njdm
+熿	njdm
 爟	njdq
 蠸	njdq
-焟	njf
-爡	njfn
+蜡	njf
 燤	njfn
+爡	njfn
 蠇	njfn
-焟	njfo
 蜡	njfo
+焟	njfo
 蟆	njfs
 虹	njg
 虹	njgc
@@ -16411,21 +16454,22 @@ sort: original
 炒	njt
 炒	njtp
 句	nju
+燁	njuk
 燭	njun
 蠋	njun
 烵	njup
-燁	njut
 蚊	njw
 燡	njwa
 蠌	njwa
 蚊	njwc
 炆	njwf
-焫	njy
+煐	njy
 爤	njym
 焫	njyn
 蜹	njyn
 煐	njys
 蝧	njys
+乡	nk
 宝	nk
 螋	nka
 螋	nkaq
@@ -16455,9 +16499,9 @@ sort: original
 燌	nkjm
 蟦	nkjm
 蝙	nkl
+蝙	nklc
 煸	nklc
 蛯	nklc
-蝙	nklc
 烣	nkn
 烣	nknf
 蛆	nkq
@@ -16473,9 +16517,9 @@ sort: original
 烤	nkuo
 炜	nkw
 炜	nkwf
-煵	nky
-煵	nkya
+蝻	nky
 蝻	nkya
+煵	nkya
 全	nl
 煄	nlb
 煄	nlbl
@@ -16500,19 +16544,19 @@ sort: original
 蚭	nlib
 爥	nlin
 蠾	nlin
-爠	nll
+蠼	nll
 煝	nllm
 蝞	nllm
-蠷	nllq
-爠	nllq
 蠼	nllq
+爠	nllq
+蠷	nllq
 蛽	nlm
 遺	nlma
 蛽	nlmf
 貴	nlmf
 贏	nlmf
 蠳	nlmy
-焗	nlo
+煆	nlo
 焗	nlod
 煆	nloq
 蝦	nloq
@@ -16573,8 +16617,8 @@ sort: original
 蜭	nmkj
 燇	nmkk
 伞	nmks
-煪	nmky
 蝤	nmky
+煪	nmky
 蝜	nml
 蝜	nmlm
 刱	nmm
@@ -16589,9 +16633,11 @@ sort: original
 蚣	nmrs
 炂	nmrs
 綦	nms
+烪	nmsd
 綦	nmsq
 熷	nmv
 熷	nmvf
+龽	nmvn
 焕	nmy
 燧	nmya
 焕	nmys
@@ -16650,22 +16696,22 @@ sort: original
 爞	nnnn
 飊	nnnn
 爃	nnnr
-众	nnnr
 燊	nnnr
 蠑	nnnr
+众	nnnr
 剡	nno
 熽	nnoa
 蟰	nnoa
-炌	nnod
 剡	nnod
 蚧	nnod
+炌	nnod
 煁	nnot
 禸	nnp
 膋	nnpb
 焭	nnpc
 禜	nnpc
-營	nnpd
 熗	nnpd
+營	nnpd
 螥	nnpd
 嵤	nnpf
 憥	nnpg
@@ -16774,11 +16820,9 @@ sort: original
 兦	notu
 蟈	notu
 蛳	nou
-蠅	nouc
 蛳	nouo
 斟	nov
 斟	novk
-粛	novm
 夦	novv
 炀	now
 炄	nowh
@@ -16791,15 +16835,15 @@ sort: original
 蝊	npao
 螛	npc
 螛	npcd
-熍	npd
+熺	npd
 熍	npdd
 熺	npdi
 蟢	npdi
 蟶	npdl
 蚨	npf
 蚨	npfc
-熐	npff
 螟	npff
+熐	npff
 丼	npfj
 亽	npfr
 蚁	nph
@@ -16807,7 +16851,7 @@ sort: original
 蛇	npi
 蛇	npib
 炨	npib
-炷	npl
+蛀	npl
 倉	npld
 飮	npll
 鶬	npln
@@ -16829,7 +16873,7 @@ sort: original
 爎	npsj
 飨	npsk
 舍	npsr
-烢	npt
+煣	npt
 燏	nptd
 鵨	nptn
 烢	nptq
@@ -16878,7 +16922,7 @@ sort: original
 其	nqp
 蝃	nqq
 蝃	nqqq
-爈	nqv
+爐	nqv
 爐	nqvd
 蠦	nqvd
 爈	nqvg
@@ -16951,6 +16995,7 @@ sort: original
 蛺	nsnn
 蟐	nso
 蟐	nsoj
+龦	nsoj
 螃	nsp
 螃	nspi
 㸌	nsq
@@ -16962,8 +17007,8 @@ sort: original
 蟷	nsvt
 螳	nsw
 螳	nswh
-煃	nsww
 蝰	nsww
+煃	nsww
 熵	nsy
 蚜	nsyc
 虵	nsyc
@@ -16998,19 +17043,20 @@ sort: original
 烧	ntuh
 蛲	ntuh
 蛛	ntv
+粛	ntva
 蟋	ntvg
-烻	ntvt
 蜒	ntvt
-燔	ntvv
+烻	ntvt
 蟠	ntvv
+燔	ntvv
 蛛	ntvw
 燠	nty
+熓	ntyn
+螐	ntyn
 鳰	ntyn
 鳱	ntyn
 鴝	ntyn
 鸁	ntyn
-熓	ntyn
-螐	ntyn
 蟂	ntyr
 燠	ntys
 炿	ntyz
@@ -17029,7 +17075,6 @@ sort: original
 熰	nudd
 灯	nudf
 蜘	nudi
-盡	nudm
 虾	nuf
 虾	nufb
 炖	nufc
@@ -17039,10 +17084,13 @@ sort: original
 烜	nufu
 蝘	nufy
 螹	nufz
-蛨	nug
+煩	nug
 蛨	nugb
 螖	nugc
 衋	nugd
+煩	nugm
+蝢	nugm
+頇	nugm
 𬉼	nuh
 𬉼	nuhq
 炮	nui
@@ -17057,6 +17105,7 @@ sort: original
 螬	nul
 螬	nulf
 炔	nun
+盡	nund
 賮	nunm
 炔	nunr
 蚗	nunr
@@ -17072,12 +17121,9 @@ sort: original
 炻	nus
 炻	nusf
 碁	nusq
-煩	nut
-頇	nutm
-煩	nutm
-蝢	nutm
 炬	nuu
 熸	nuuf
+仺	nuuh
 蚽	nuuh
 蠮	nuuh
 炬	nuuk
@@ -17111,10 +17157,10 @@ sort: original
 糴	nvhq
 蟕	nvi
 蟕	nvig
-炓	nvk
+蚪	nvk
 煿	nvkd
-炓	nvks
 蚪	nvks
+炓	nvks
 仒	nvl
 螰	nvlc
 熝	nvlf
@@ -17174,8 +17220,8 @@ sort: original
 蛙	nww
 虻	nwwc
 蛙	nwwh
-烓	nwwh
 燒	nwwh
+烓	nwwh
 蟯	nwwh
 蛖	nwwl
 蚘	nwy
@@ -17224,6 +17270,7 @@ sort: original
 熾	nytg
 蟙	nytg
 与	nyu
+蠅	nyuc
 蚺	nyw
 蜩	nywd
 蚺	nywh
@@ -17232,9 +17279,9 @@ sort: original
 烿	nyzw
 斯	nz
 遗	nza
+遗	nzak
 煺	nzak
 螁	nzak
-遗	nzak
 焲	nzap
 贵	nzb
 贵	nzbc
@@ -17347,9 +17394,9 @@ sort: original
 簲	obg
 簲	obgk
 圈	obi
+圈	obij
 圏	obij
 箞	obij
-圈	obij
 筋	obj
 箜	objg
 鞚	objg
@@ -17420,6 +17467,7 @@ sort: original
 幝	oddk
 簞	oddk
 幧	oddr
+回	odi
 回	odik
 簟	odj
 簟	odjz
@@ -17450,9 +17498,9 @@ sort: original
 籈	odww
 笛	ody
 笛	odyu
-圆	odz
-圆	odzb
+筼	odz
 筼	odzb
+圆	odzb
 者	of
 那是	of
 飞	of
@@ -17587,7 +17635,6 @@ sort: original
 幠	ohnf
 箏	ohnv
 孕	oho
-黿	ohoc
 刓	ohod
 囝	ohok
 厳	ohol
@@ -17597,6 +17644,7 @@ sort: original
 籊	ohqi
 囟	ohqk
 邧	ohqk
+龱	ohqk
 兘	ohr
 兘	ohrd
 篯	ohu
@@ -17607,6 +17655,7 @@ sort: original
 坖	ohwh
 鞖	ohy
 鞖	ohyb
+黿	ohyc
 司	oi
 靷	oia
 靷	oias
@@ -17722,7 +17771,7 @@ sort: original
 簚	ojto
 笏	oju
 囫	ojuk
-鞾	ojut
+鞾	ojuk
 笏	ojuu
 箩	ojv
 箩	ojvk
@@ -17750,7 +17799,8 @@ sort: original
 簳	okjn
 篇	okl
 篇	oklc
-蝨	okn
+籅	okn
+籅	oknm
 蝨	oknn
 帗	okq
 靻	okqg
@@ -17763,7 +17813,6 @@ sort: original
 团	oktp
 籖	oktu
 囗	oku
-籅	okum
 簙	okv
 簙	okvk
 围	okw
@@ -17785,7 +17834,7 @@ sort: original
 悤	olgi
 筧	olh
 筧	olhd
-筭	olj
+鼐	olj
 筭	oljc
 算	oljc
 鼐	oljf
@@ -17799,7 +17848,7 @@ sort: original
 幈	olmj
 箳	olmj
 鄪	olmq
-鼐	olo
+国	olp
 国	olpf
 筁	olq
 筁	olqu
@@ -17912,7 +17961,6 @@ sort: original
 箫	ono
 簫	onoa
 箫	onom
-簘	onov
 篬	onp
 篬	onpd
 箕	onq
@@ -17922,6 +17970,7 @@ sort: original
 囚	onrk
 乆	onrt
 乃	ont
+簘	onta
 鞬	ontj
 筆	onv
 筆	onvu
@@ -17964,11 +18013,8 @@ sort: original
 帼	ool
 幒	oolg
 帼	oolp
-夀	oon
-夀	oonk
 篮	ooo
 篮	oood
-為	ooon
 笝	ooq
 笝	ooqy
 竺	oor
@@ -18254,6 +18300,8 @@ sort: original
 筍	oufo
 帞	oug
 帞	ougb
+幁	ougm
+順	ougm
 凸	ouh
 靰	ouhd
 凸	ouhn
@@ -18293,11 +18341,8 @@ sort: original
 笶	ousu
 笺	out
 笺	outg
-幁	outm
-順	outm
 簪	ouu
 簪	ouuf
-鄳	ouuq
 戼	ouuu
 鞠	ouv
 笉	ouvl
@@ -18464,7 +18509,6 @@ sort: original
 寑	pacq
 褓	pad
 褓	padr
-室	pai
 室	paig
 衿	paj
 褨	pajg
@@ -18929,6 +18973,8 @@ sort: original
 寘	pkkm
 褊	pkl
 褊	pklc
+襷	pkn
+襷	pknt
 餑	pkp
 餑	pkph
 宜	pkq
@@ -18949,7 +18995,6 @@ sort: original
 額	pkum
 冩	pkun
 寫	pkun
-襷	pkut
 袆	pkw
 袆	pkwy
 主	pl
@@ -18967,6 +19012,7 @@ sort: original
 鬹	plhm
 槼	plhr
 嫢	plhy
+鼏	plj
 鼏	pljf
 聽	plk
 聽	plkg
@@ -18975,7 +19021,6 @@ sort: original
 殶	plls
 寳	plm
 寳	plmm
-鼏	plo
 宝	plp
 宝	plpf
 飲	plq
@@ -19127,6 +19172,7 @@ sort: original
 館	ppbi
 饎	ppd
 饎	ppdi
+鿋	ppdi
 替	ppf
 替	ppfo
 衭	ppfy
@@ -19175,6 +19221,7 @@ sort: original
 鹤	pqd
 鹤	pqdn
 裭	pqh
+鿣	pqhh
 裭	pqhy
 聚	pqi
 寉	pqig
@@ -19187,6 +19234,7 @@ sort: original
 宻	pqm
 宻	pqmf
 焣	pqn
+鿢	pqnd
 焣	pqnf
 衩	pqp
 衩	pqpf
@@ -19198,6 +19246,7 @@ sort: original
 褬	pqqr
 聂	pqqy
 棸	pqr
+鿤	pqrk
 棸	pqrl
 襍	pqrl
 鶴	pqt
@@ -19341,6 +19390,8 @@ sort: original
 鍪	ptlz
 蟊	ptn
 蟊	ptnn
+為	pto
+為	pton
 矛	ptp
 袟	ptpf
 矛	ptpv
@@ -19407,6 +19458,8 @@ sort: original
 褗	pufy
 袹	pug
 袹	pugb
+預	pugm
+頢	pugm
 餶	pugs
 袍	pui
 袍	puis
@@ -19438,8 +19491,6 @@ sort: original
 袥	pusy
 寡	put
 寡	putm
-預	putm
-頢	putm
 寕	putu
 壴	puu
 壾	puuk
@@ -19499,6 +19550,7 @@ sort: original
 襒	pwld
 彭	pwlu
 衫	pwly
+褹	pwm
 鬶	pwmg
 褹	pwmn
 蟚	pwn
@@ -19590,6 +19642,7 @@ sort: original
 襢	pzou
 饘	pzou
 郎	pzq
+鿥	pzqh
 郎	pzqk
 郞	pzqk
 宾	pzu
@@ -19907,7 +19960,10 @@ sort: original
 降	qlt
 降	qltn
 隆	qlu
+鿧	qluh
 隆	qlum
+鿴	qlv
+鿴	qlvl
 切	qm
 陌生	qm
 陥	qma
@@ -19979,6 +20035,7 @@ sort: original
 鲙	qnr
 队	qnrk
 鲙	qnry
+雠	qns
 雠	qnsi
 鷦	qnt
 鷦	qntn
@@ -20030,6 +20087,8 @@ sort: original
 叉	qpf
 卪	qpfk
 叉	qpfy
+鿹	qpg
+鿹	qpgf
 陀	qpi
 陀	qpib
 𬶍	qpib
@@ -20046,6 +20105,8 @@ sort: original
 黀	qpqy
 𩽾	qpy
 𩽾	qpyb
+鿶	qpz
+鿶	qpzg
 双	qq
 虤	qqh
 虤	qqhh
@@ -20181,6 +20242,7 @@ sort: original
 隁	qufy
 陌	qug
 陌	qugb
+顀	qugm
 阢	quh
 阢	quhd
 卫	quhk
@@ -20196,7 +20258,6 @@ sort: original
 磨	qusm
 陿	qusn
 陚	qut
-顀	qutm
 陚	qutv
 䲟	quu
 䲟	quuq
@@ -20231,6 +20292,8 @@ sort: original
 阧	qvks
 糜	qvm
 糜	qvmm
+鿸	qvp
+鿸	qvpi
 鱼	qvu
 隈	qvup
 鳂	qvup
@@ -20243,12 +20306,15 @@ sort: original
 观	qw
 鲒	qwd
 鲒	qwdi
+鿵	qwg
+鿵	qwgi
 圣	qwh
 塺	qwhm
 圣	qwhy
 观	qwjy
 彪	qwl
 彪	qwlh
+陸	qwm
 陸	qwmw
 陵	qwo
 隯	qwok
@@ -20294,6 +20360,7 @@ sort: original
 鲷	qywd
 隌	qyy
 隌	qyyk
+鿷	qyyv
 鿕	qyz
 鿕	qyzf
 限	qz
@@ -20592,6 +20659,7 @@ sort: original
 鶇	rft
 鶇	rftn
 戚	rfu
+桛	rfuf
 慼	rfug
 皶	rfug
 柦	rfuh
@@ -20849,6 +20917,7 @@ sort: original
 楛	rjhg
 楞	rji
 楞	rjif
+鿝	rjih
 欂	rjik
 檈	rjip
 栛	rjj
@@ -20898,7 +20967,7 @@ sort: original
 櫣	rjua
 櫙	rjud
 槆	rjuf
-樺	rjut
+樺	rjuk
 桺	rjuu
 椤	rjv
 椤	rjvk
@@ -20910,6 +20979,7 @@ sort: original
 欗	rjym
 楧	rjys
 格	rk
+栫	rka
 运	rka
 栫	rkah
 栯	rkb
@@ -20952,8 +21022,11 @@ sort: original
 楰	rkn
 槱	rknf
 楰	rknr
-柨	rko
+櫸	rknt
+欅	rknt
+枾	rko
 柨	rkoj
+枾	rkou
 杖	rkp
 杖	rkpf
 桲	rkph
@@ -20967,8 +21040,6 @@ sort: original
 栲	rku
 栲	rkuo
 楱	rkus
-櫸	rkut
-欅	rkut
 楠	rky
 楠	rkya
 梄	rkyl
@@ -21203,7 +21274,6 @@ sort: original
 逡	roa
 棩	roaa
 逡	roak
-枾	roao
 欉	roaq
 圅	roay
 樸	rob
@@ -21754,6 +21824,7 @@ sort: original
 杉	rwl
 杉	rwll
 毝	rwlm
+樯	rwm
 樯	rwmd
 槸	rwmn
 檣	rwn
@@ -21895,7 +21966,7 @@ sort: original
 夿	sabd
 跁	sabu
 犧	sac
-犧	saco
+犧	sact
 踗	sag
 踗	sagi
 跮	sai
@@ -22077,8 +22148,8 @@ sort: original
 站	sfdi
 氲	sfdm
 躖	sff
+躖	sffa
 霷	sffj
-躖	sffu
 跤	sfh
 跤	sfhq
 蹋	sfhv
@@ -22192,8 +22263,7 @@ sort: original
 蹶	shml
 剷	shmo
 産	shms
-亷	shn
-亷	shnm
+蹘	shn
 蹘	shnw
 亥	shp
 気	shq
@@ -22286,6 +22356,7 @@ sort: original
 竎	sjcl
 蹒	sjd
 跏	sjdi
+鿼	sjdi
 蹒	sjdl
 踖	sjf
 踖	sjfo
@@ -22307,6 +22378,8 @@ sort: original
 贛	sjlm
 牞	sjln
 赣	sjlz
+鿯	sjn
+鿯	sjnv
 靀	sjp
 靀	sjpy
 鄣	sjq
@@ -22362,6 +22435,8 @@ sort: original
 犏	sklc
 犋	skm
 犋	skmf
+鿻	sko
+鿻	skoj
 跋	skq
 跋	skqp
 鼥	skqp
@@ -22809,6 +22884,7 @@ sort: original
 奭	sug
 竡	sugb
 奭	sugg
+頦	sugm
 奁	suh
 奁	suhq
 跑	sui
@@ -22843,7 +22919,6 @@ sort: original
 雼	susv
 践	sut
 践	sutg
-頦	sutm
 距	suu
 距	suuk
 奆	suuk
@@ -22885,6 +22960,8 @@ sort: original
 奋	svtd
 當	svts
 雷	svtv
+鿨	svu
+鿨	svuh
 奓	svv
 奓	svvk
 跢	svvk
@@ -22910,7 +22987,7 @@ sort: original
 特	swkd
 踛	swm
 踛	swmw
-躊	swo
+踜	swo
 躊	swok
 踜	swos
 䣘	swq
@@ -23435,9 +23512,9 @@ sort: original
 抄	tjtp
 毮	tjtr
 撶	tju
+撶	tjuk
 擉	tjun
 擆	tjuq
-撶	tjut
 描	tjv
 摪	tjvk
 描	tjvt
@@ -23479,6 +23556,7 @@ sort: original
 揙	tklc
 拻	tkn
 拻	tknf
+攑	tknt
 刋	tko
 刋	tkod
 抪	tkoj
@@ -23498,7 +23576,6 @@ sort: original
 揍	tku
 拷	tkuo
 揍	tkus
-攑	tkut
 圱	tkw
 圱	tkwh
 揇	tky
@@ -23611,6 +23688,7 @@ sort: original
 掷	tms
 系	tmsp
 掷	tmsq
+拌	tmt
 延	tmt
 拌	tmts
 揆	tmu
@@ -23692,6 +23770,7 @@ sort: original
 撲	tobc
 划	tod
 划	todg
+夀	todk
 拂	tof
 摷	tofr
 拂	tofs
@@ -23951,6 +24030,7 @@ sort: original
 鴔	tstn
 撑	tsts
 扌	tsu
+鿜	tsuh
 撦	tsuq
 捉	tsus
 擂	tsv
@@ -23982,8 +24062,8 @@ sort: original
 抶	ttpf
 托	ttq
 虦	ttqh
-托	ttqq
 扥	ttqq
+托	ttqq
 挢	tts
 扷	ttsd
 撟	ttsd
@@ -24015,8 +24095,8 @@ sort: original
 抔	tubs
 攦	tubv
 拜	tuc
-拜	tucf
 拝	tucf
+拜	tucf
 捷	tucv
 摳	tud
 摳	tudd
@@ -24116,7 +24196,6 @@ sort: original
 摞	tvms
 攟	tvo
 攟	tvoc
-鼄	tvoc
 释	tvq
 邾	tvqk
 释	tvqt
@@ -24147,6 +24226,7 @@ sort: original
 抺	tvws
 搂	tvy
 搂	tvyb
+鼄	tvyc
 搖	tvyf
 擞	tvyl
 持	tw
@@ -24347,6 +24427,7 @@ sort: original
 韜	uadk
 韟	uadk
 韠	uadk
+韡	uadk
 韥	uadm
 韣	uadn
 韚	uado
@@ -24359,7 +24440,6 @@ sort: original
 韖	uadr
 韘	uadr
 韋	uadt
-韡	uadt
 韝	uadw
 趝	uag
 趝	uagi
@@ -24459,6 +24539,7 @@ sort: original
 駱	uatk
 騨	uatk
 驆	uatk
+驊	uatk
 驒	uatk
 駇	uatl
 駐	uatl
@@ -24501,6 +24582,8 @@ sort: original
 騟	uato
 驉	uato
 驥	uato
+龭	uato
+龮	uato
 馰	uatp
 馺	uatp
 駄	uatp
@@ -24532,7 +24615,6 @@ sort: original
 駳	uatt
 騀	uatt
 騝	uatt
-驊	uatt
 驎	uatt
 駈	uatu
 駏	uatu
@@ -24684,14 +24766,13 @@ sort: original
 盃	udmb
 鹘	udn
 鹘	udng
-鼅	udo
-鼅	udoc
 聟	udp
 聟	udpr
 叀	udr
 叀	udrs
 嫑	udy
 嫑	udyb
+鼅	udyc
 下	uf
 还是	uf
 一点	uf
@@ -24829,12 +24910,14 @@ sort: original
 軥	ufkn
 輛	ufkn
 輧	ufkn
+龫	ufkn
+鿂	ufkn
 軋	ufko
 軶	ufko
 輁	ufko
 輒	ufko
-輸	ufko
 輘	ufko
+輸	ufko
 軓	ufkp
 軔	ufkp
 軚	ufkp
@@ -24973,6 +25056,8 @@ sort: original
 夏	ugl
 夏	uglt
 码	ugm
+頁	ugmf
+顨	ugmj
 码	ugms
 破	ugp
 骳	ugpg
@@ -25196,6 +25281,7 @@ sort: original
 硓	ukls
 幵	ukn
 幵	ukng
+礖	uknm
 郉	uknq
 栞	uknr
 匚	uko
@@ -25209,7 +25295,6 @@ sort: original
 趄	ukqw
 于	uksh
 磶	uku
-礖	ukum
 磶	ukun
 遭	ul
 龌	ula
@@ -25360,6 +25445,7 @@ sort: original
 勽	unr
 勽	unrk
 夬	unrk
+龪	unrw
 鴂	unt
 鴂	untn
 肆	unv
@@ -25485,6 +25571,7 @@ sort: original
 唘	uqd
 唘	uqdi
 雉	uqi
+龨	uqik
 雉	uqis
 碓	uqis
 趡	uqiw
@@ -25626,9 +25713,7 @@ sort: original
 骮	uti
 骮	utig
 貮	utl
-顨	utlj
 貮	utlm
-頁	utlm
 刬	uto
 刬	utod
 靣	utod
@@ -25695,6 +25780,9 @@ sort: original
 匭	uufv
 悘	uug
 悘	uugi
+碩	uugm
+頂	uugm
+顝	uugm
 磆	uugs
 丕	uuh
 丕	uuhb
@@ -25749,9 +25837,6 @@ sort: original
 医	uusk
 砳	uuss
 碔	uut
-碩	uutm
-頂	uutm
-顝	uutm
 碔	uutv
 矩	uuu
 矩	uuuk
@@ -26073,6 +26158,7 @@ sort: original
 歵	vcl
 歵	vclm
 耫	vclm
+然	vcn
 然	vcnf
 舤	vcp
 舤	vcpf
@@ -26457,6 +26543,7 @@ sort: original
 麚	vloq
 耒	vlp
 粎	vlpf
+鿑	vlpf
 餈	vlps
 褩	vlpy
 欫	vlq
@@ -26465,8 +26552,8 @@ sort: original
 粬	vlqm
 欫	vlqw
 艉	vlr
-槃	vlrl
 栥	vlrl
+槃	vlrl
 艉	vlrm
 般	vls
 般	vlso
@@ -26554,6 +26641,7 @@ sort: original
 豻	vngm
 舱	vni
 舱	vnij
+鿿	vnis
 耕	vnj
 耕	vnjl
 豿	vnjm
@@ -26603,7 +26691,6 @@ sort: original
 齦	vnnz
 齭	vnnz
 界	vno
-畍	vno
 畍	vnod
 界	vnod
 糂	vnot
@@ -26839,6 +26926,10 @@ sort: original
 貊	vug
 貊	vugb
 粨	vugb
+頄	vugm
+頉	vugm
+頛	vugm
+頪	vugm
 䝙	vuh
 䝙	vuhq
 麅	vui
@@ -26858,10 +26949,6 @@ sort: original
 粖	vurl
 耰	vut
 耰	vutl
-頄	vutm
-頉	vutm
-頛	vutm
-頪	vutm
 歫	vuu
 糣	vuuf
 豾	vuuh
@@ -26956,6 +27043,7 @@ sort: original
 艢	vwnd
 凌	vwo
 冽	vwod
+鿛	vwoh
 疇	vwok
 凌	vwos
 未	vwp
@@ -26985,8 +27073,8 @@ sort: original
 黯	vyyh
 开	vz
 航	vzc
-粇	vzcj
 航	vzcj
+粇	vzcj
 舷	vzf
 舷	vzfy
 懇	vzg
@@ -27087,6 +27175,7 @@ sort: original
 坹	wbkh
 埋	wbl
 埋	wblh
+瓼	wblw
 望	wblw
 塘	wbn
 墉	wbnb
@@ -27162,6 +27251,8 @@ sort: original
 殞	wdlm
 欯	wdlq
 埕	wdlw
+壷	wdo
+壷	wdou
 歹	wdp
 歺	wdp
 臺	wdpa
@@ -27228,6 +27319,8 @@ sort: original
 塷	wfo
 间	wfom
 塷	wfop
+龼	wfp
+龼	wfpl
 墔	wfq
 墔	wfqi
 堁	wfr
@@ -27284,6 +27377,8 @@ sort: original
 堩	wgu
 堩	wguv
 土	wh
+甅	whb
+甅	whbl
 壢	whc
 壢	whcv
 圥	whd
@@ -27404,8 +27499,8 @@ sort: original
 圽	wju
 歾	wjud
 圽	wjuh
+墷	wjuk
 墸	wjuq
-墷	wjut
 堽	wjuv
 坟	wjw
 墿	wjwa
@@ -27450,6 +27545,8 @@ sort: original
 坺	wkqp
 闳	wkr
 闳	wkrs
+瓧	wks
+瓧	wksw
 闭	wkt
 堍	wkth
 闭	wktp
@@ -27509,7 +27606,6 @@ sort: original
 蟞	wln
 蟞	wlnc
 幣	wlo
-鼈	wloc
 幣	wloj
 坎	wlq
 歼	wlqd
@@ -27535,6 +27631,7 @@ sort: original
 尪	wlwy
 嫳	wly
 嫳	wlyb
+鼈	wlyc
 訚	wlym
 鐅	wlz
 鐅	wlzj
@@ -27565,10 +27662,10 @@ sort: original
 壿	wmkk
 坋	wmm
 坋	wmmd
+瓰	wmmd
 埩	wmn
 埩	wmnv
 门	wmo
-鼀	wmoc
 啬	wmod
 丧	wmp
 丧	wmpy
@@ -27596,6 +27693,9 @@ sort: original
 鵱	wmwn
 槷	wmwr
 摰	wmwt
+龳	wmww
+鼀	wmy
+鼀	wmyc
 闪	wn
 尤其	wn
 堬	wnb
@@ -27696,7 +27796,6 @@ sort: original
 圬	woot
 裂	wop
 逺	wopa
-赱	wopf
 阚	wopl
 裂	wopy
 郝	woq
@@ -27712,6 +27811,7 @@ sort: original
 圠	woth
 鴷	wotn
 赭	wou
+鿞	wouh
 頳	woum
 赭	wouq
 赫	wow
@@ -27744,6 +27844,7 @@ sort: original
 飱	wps
 飱	wpsd
 垞	wpt
+赱	wptp
 垞	wptq
 坾	wpu
 坾	wpud
@@ -27762,6 +27863,7 @@ sort: original
 阆	wpzg
 埌	wpzg
 殡	wpzm
+鿾	wpzq
 餐	wq
 堆	wqi
 堆	wqih
@@ -27810,8 +27912,8 @@ sort: original
 刧	wrm
 刧	wrmd
 刼	wrmp
+瓱	wrmw
 城	wro
-鼁	wroc
 刦	wrod
 墭	wrod
 埈	wros
@@ -27825,6 +27927,7 @@ sort: original
 埃	wru
 埃	wrus
 坛	wry
+鼁	wryc
 坛	wryh
 士	ws
 闼	wsa
@@ -27926,8 +28029,13 @@ sort: original
 殉	wufo
 垣	wufu
 堰	wufy
-尳	wug
+嬃	wug
 瓸	wugb
+盨	wugd
+澃	wugi
+頾	wugi
+須	wugm
+嬃	wugy
 尳	wugy
 闩	wuh
 闩	wuhm
@@ -27968,13 +28076,8 @@ sort: original
 坧	wush
 垁	wush
 残	wut
-盨	wutd
 残	wutg
-澃	wuti
-頾	wuti
 鷇	wutl
-須	wutm
-嬃	wuty
 坯	wuu
 坯	wuuh
 轂	wuul
@@ -28040,7 +28143,6 @@ sort: original
 墻	wwnd
 亡	wwo
 亾	wwo
-鼃	wwoc
 刲	wwod
 壔	wwok
 堎	wwos
@@ -28060,6 +28162,8 @@ sort: original
 翹	wwwh
 顤	wwwm
 壵	wwws
+鼃	wwy
+鼃	wwyc
 境	wy
 声音	wy
 妄	wyb
@@ -28076,8 +28180,6 @@ sort: original
 境	wyhd
 垌	wyi
 垌	wyiw
-壷	wyj
-壷	wyjc
 凷	wyk
 凷	wykh
 埛	wym
@@ -28240,7 +28342,7 @@ sort: original
 冋	ydi
 如	ydib
 冋	ydik
-嫌	ydj
+罈	ydj
 嫌	ydjb
 魐	ydjg
 罈	ydjz
@@ -28390,6 +28492,7 @@ sort: original
 嫵	yhnf
 嫪	yhnw
 豂	yhnw
+好	yho
 好	yhob
 刚	yhod
 嫒	yhp
@@ -28492,7 +28595,7 @@ sort: original
 媆	yjsd
 妙	yjtp
 嬅	yju
-嬅	yjut
+嬅	yjuk
 媌	yjv
 媌	yjvt
 斐	yjw
@@ -28526,6 +28629,8 @@ sort: original
 媥	yklc
 嬔	ykm
 嬔	ykms
+嬩	ykn
+嬩	yknm
 冂	yko
 豟	ykoi
 魃	ykq
@@ -28539,8 +28644,6 @@ sort: original
 氒	ykss
 婏	ykt
 婏	yktb
-嬩	yku
-嬩	ykum
 婻	yky
 婻	ykya
 嬹	ykym
@@ -28695,8 +28798,6 @@ sort: original
 媼	yon
 奶	yonb
 媼	yond
-媯	yoo
-媯	yoon
 豃	yop
 豃	yopl
 冃	yor
@@ -28864,6 +28965,7 @@ sort: original
 姡	ypsb
 餥	ypsf
 姹	ypt
+媯	yptn
 鴟	yptn
 姹	yptq
 媃	yptr
@@ -29097,6 +29199,7 @@ sort: original
 黽	yuuc
 嫕	yuug
 姖	yuuk
+鄳	yuuq
 韵	yuv
 韵	yuvl
 婅	yuvm
@@ -29171,7 +29274,7 @@ sort: original
 嫱	ywmd
 嬙	ywn
 嬙	ywnd
-嬦	ywo
+婈	ywo
 嬦	ywok
 婈	ywos
 娴	ywr
@@ -29327,6 +29430,8 @@ sort: original
 鉱	zbrs
 鑹	zbs
 鑹	zbss
+龲	zbu
+龲	zbuk
 赃	zbw
 赃	zbwh
 请	zc
@@ -29424,6 +29529,8 @@ sort: original
 銱	zdoj
 鍓	zdp
 鍓	zdpr
+亷	zdt
+亷	zdtp
 误	zdu
 误	zdus
 鋘	zdus
@@ -29742,10 +29849,10 @@ sort: original
 鈔	zjtp
 釒	zju
 金	zju
+鏵	zjuk
 斶	zjun
 鐲	zjun
 鐯	zjuq
-鏵	zjut
 鎠	zjuv
 錨	zjv
 鏘	zjvk
@@ -29841,6 +29948,7 @@ sort: original
 鈮	zli
 鈮	zlib
 钃	zlin
+鐤	zlj
 鐤	zljf
 鍤	zlk
 鍤	zlkj
@@ -30275,6 +30383,7 @@ sort: original
 诶	zrus
 鉞	zrw
 鉞	zrwj
+龯	zrwj
 该	zs
 鐘	zsb
 鐘	zsbl
@@ -30426,6 +30535,8 @@ sort: original
 鏩	zufz
 銆	zug
 銆	zugb
+頎	zugm
+顉	zugm
 丘	zuh
 丘	zuhj
 讴	zuhq
@@ -30479,8 +30590,6 @@ sort: original
 贱	zut
 贱	zutg
 𬣡	zutg
-頎	zutm
-顉	zutm
 乒	zutp
 赋	zutv
 錻	zutv
@@ -30582,7 +30691,7 @@ sort: original
 褻	zwm
 褻	zwmp
 錴	zwmw
-鑄	zwo
+錂	zwo
 鑄	zwok
 錂	zwos
 鉣	zwr
@@ -30620,6 +30729,7 @@ sort: original
 錪	zyjm
 鋼	zym
 鋼	zymf
+龬	zymw
 讷	zyn
 讷	zynr
 鈉	zynr
@@ -30756,6 +30866,9 @@ sort: original
 伏	fjacqr
 俬	fjacrs
 侰	fjactd
+鿘	fjactd
+鿙	fjacth
+鿚	fjactk
 偑	fjactn
 伊	fjactp
 佩	fjacuo
@@ -31095,6 +31208,7 @@ sort: original
 偩	fjamlm
 羒	fjammd
 份	fjammd
+鿇	fjamnv
 俤	fjamof
 仞	fjampf
 仭	fjampf
@@ -31159,12 +31273,10 @@ sort: original
 伺	fjaoiw
 傯	fjaolg
 仍	fjaonr
-偽	fjaoon
 儠	fjaooo
 仁	fjaorr
 羗	fjaors
 羌	fjaoty
-僶	fjaouc
 羞	fjaowh
 佞	fjaoyb
 领	fjapay
@@ -31203,6 +31315,7 @@ sort: original
 佸	fjapsr
 僿	fjapsw
 僪	fjaptd
+偽	fjaptn
 鴒	fjaptn
 侘	fjaptq
 佇	fjapud
@@ -31467,6 +31580,7 @@ sort: original
 伮	fjayqy
 佒	fjaysd
 仨	fjaysr
+僶	fjayuc
 倜	fjaywd
 偣	fjayyr
 贪	fjazbj
@@ -31725,6 +31839,7 @@ sort: original
 肳	fjbjui
 臅	fjbjun
 窍	fjbjuo
+鿮	fjbjuo
 庿	fjbjvt
 朠	fjbjys
 膵	fjbjzk
@@ -31805,6 +31920,7 @@ sort: original
 肹	fjbmuo
 廯	fjbmva
 鮝	fjbmvn
+鯗	fjbmvn
 邃	fjbmya
 胙	fjbnai
 窄	fjbnak
@@ -32051,7 +32167,6 @@ sort: original
 庤	fjbwkd
 肜	fjbwli
 廧	fjbwnd
-竈	fjbwoc
 庱	fjbwos
 庒	fjbwpf
 廅	fjbwrd
@@ -32063,6 +32178,7 @@ sort: original
 胿	fjbwwh
 膮	fjbwwh
 庬	fjbwwl
+竈	fjbwyc
 肬	fjbwyi
 遯	fjbyak
 肗	fjbybi
@@ -32465,6 +32581,7 @@ sort: original
 寻	fjckdl
 狢	fjckgq
 猊	fjckhd
+痲	fjckhh
 痚	fjckho
 獖	fjckjm
 彟	fjckjq
@@ -32480,6 +32597,7 @@ sort: original
 狫	fjcklq
 癥	fjcklw
 焘	fjcknf
+穥	fjcknm
 瘐	fjcknr
 疽	fjckqb
 租	fjckqh
@@ -32487,9 +32605,8 @@ sort: original
 秡	fjckqp
 狙	fjckqq
 祖	fjckqs
-痲	fjckto
+鿆	fjckqy
 犲	fjcktp
-穥	fjckum
 獡	fjckun
 祎	fjckws
 逛	fjclak
@@ -32498,6 +32615,7 @@ sort: original
 鸑	fjclcn
 獄	fjclcq
 癖	fjcldj
+鿺	fjcldn
 癵	fjclfn
 癴	fjclft
 癑	fjclgc
@@ -32692,6 +32810,7 @@ sort: original
 祠	fjcoiw
 凧	fjcojj
 帇	fjcojl
+鿟	fjcomj
 疓	fjconb
 秀	fjconh
 礽	fjcons
@@ -32703,6 +32822,7 @@ sort: original
 秵	fjcosd
 犁	fjcosn
 礼	fjcots
+鿠	fjcouh
 頺	fjcoum
 狮	fjcouo
 峱	fjcowf
@@ -32784,11 +32904,12 @@ sort: original
 瘮	fjcrrw
 穇	fjcrrw
 私	fjcrsh
-瘆	fjcrsw
 䅟	fjcrsw
+瘆	fjcrsw
 狘	fjcrwq
 秐	fjcryh
 凨	fjcryj
+鿅	fjcsap
 獞	fjcsbl
 穜	fjcsbl
 祰	fjcsdi
@@ -32900,6 +33021,7 @@ sort: original
 狟	fjcufu
 獑	fjcufz
 凮	fjcugb
+頍	fjcugm
 獿	fjcugo
 猾	fjcugq
 疱	fjcuis
@@ -32926,7 +33048,6 @@ sort: original
 砉	fjcusf
 祏	fjcuss
 獶	fjcutl
-頍	fjcutm
 鳳	fjcutn
 狉	fjcuuh
 秠	fjcuuh
@@ -32963,8 +33084,8 @@ sort: original
 獩	fjcvrj
 穢	fjcvrj
 猥	fjcvup
-移	fjcvvk
 痑	fjcvvk
+移	fjcvvk
 癳	fjcvvm
 獜	fjcvvt
 癦	fjcvwh
@@ -33116,6 +33237,7 @@ sort: original
 叫	fjdbji
 嚝	fjdbjm
 哩	fjdbli
+鿽	fjdbna
 嘃	fjdbnb
 剈	fjdbod
 嘢	fjdbpv
@@ -33396,8 +33518,8 @@ sort: original
 鷣	fjdjtn
 吵	fjdjtp
 吻	fjdjui
+嘩	fjdjuk
 噣	fjdjun
-嘩	fjdjut
 啰	fjdjvk
 喵	fjdjvt
 呅	fjdjwi
@@ -33535,12 +33657,12 @@ sort: original
 吤	fjdnod
 啸	fjdnom
 啿	fjdnot
-嘨	fjdnov
 嗆	fjdnpd
 啥	fjdnps
 唭	fjdnqi
 雖	fjdnqi
 哙	fjdnry
+嘨	fjdnta
 嚍	fjdnud
 叺	fjdnui
 喩	fjdnuo
@@ -33694,6 +33816,7 @@ sort: original
 廼	fjdtjk
 廸	fjdtjy
 呼	fjdtmk
+別	fjdtoo
 呹	fjdtpf
 吒	fjdtqq
 嘺	fjdtsd
@@ -33735,6 +33858,7 @@ sort: original
 咟	fjdugb
 嗗	fjdugi
 嗄	fjdugl
+頔	fjdugm
 嘎	fjdugt
 呕	fjduhq
 哅	fjduhy
@@ -33745,7 +33869,6 @@ sort: original
 哐	fjdulw
 吷	fjdunr
 啛	fjduny
-別	fjduod
 鸮	fjduod
 咂	fjduoj
 啢	fjduon
@@ -33760,7 +33883,6 @@ sort: original
 嘟	fjduqk
 吴	fjdusd
 嚘	fjdutl
-頔	fjdutm
 嘠	fjdutt
 噆	fjduuf
 呸	fjduuh
@@ -33990,6 +34112,7 @@ sort: original
 曐	fjfffm
 顯	fjfffm
 㬎	fjfffn
+蠿	fjfffn
 晶	fjfffo
 晿	fjfffo
 曑	fjfffw
@@ -34031,7 +34154,10 @@ sort: original
 崵	fjffuj
 暘	fjffuj
 得	fjffuk
-蠿	fjffun
+幑	fjfful
+鰴	fjfful
+黴	fjfful
+龧	fjffuq
 嵑	fjffuw
 暍	fjffuw
 斷	fjffuz
@@ -34074,6 +34200,7 @@ sort: original
 崥	fjfgtk
 牌	fjfgtk
 鷐	fjfgtn
+鿉	fjfguc
 暅	fjfguu
 遢	fjfhak
 衚	fjfhbl
@@ -34218,13 +34345,13 @@ sort: original
 鴢	fjfjtn
 鵫	fjfjtn
 鶍	fjfjtn
+曄	fjfjuk
+曅	fjfjuk
 顓	fjfjum
 昒	fjfjuo
 易	fjfjuo
 曙	fjfjuq
 岉	fjfjus
-曄	fjfjut
-曅	fjfjut
 嶈	fjfjvk
 嶧	fjfjwa
 曎	fjfjwa
@@ -34255,11 +34382,11 @@ sort: original
 牑	fjfklc
 峔	fjfkls
 炭	fjfknf
+嶼	fjfknm
 徂	fjfkqc
 岨	fjfkqs
 旪	fjfkso
 嶻	fjfktq
-嶼	fjfkum
 牖	fjfkvf
 暔	fjfkya
 颅	fjflay
@@ -34297,6 +34424,7 @@ sort: original
 巊	fjflmy
 暇	fjfloq
 徦	fjfloq
+鿈	fjflpf
 欥	fjflqo
 毷	fjflrm
 卢	fjflsb
@@ -34633,6 +34761,7 @@ sort: original
 嶪	fjfomv
 嶫	fjfomv
 曗	fjfomv
+繍	fjfona
 繡	fjfona
 繾	fjfona
 給	fjfond
@@ -34649,11 +34778,9 @@ sort: original
 屷	fjfons
 纖	fjfonu
 緃	fjfonv
-繍	fjfonv
 紈	fjfonw
 紾	fjfonw
 紃	fjfooc
-繩	fjfooc
 絗	fjfood
 縕	fjfood
 紼	fjfoof
@@ -34805,6 +34932,7 @@ sort: original
 紌	fjfowy
 繝	fjfoyb
 綞	fjfoyc
+繩	fjfoyc
 絅	fjfoyd
 綗	fjfoyd
 綢	fjfoyd
@@ -35025,6 +35153,8 @@ sort: original
 嶃	fjfufz
 嶄	fjfufz
 忐	fjfugi
+崸	fjfugm
+暊	fjfugm
 巎	fjfugo
 上	fjfuhb
 屼	fjfuhd
@@ -35035,19 +35165,18 @@ sort: original
 暱	fjfujd
 惄	fjfujg
 尗	fjfujk
+崋	fjfujk
 督	fjfujl
 敭	fjfujl
 裻	fjfujp
 叔	fjfujq
 敊	fjfujq
-崋	fjfujt
 昜	fjfuju
 錖	fjfujz
 旴	fjfuks
 嶆	fjfulf
 蚩	fjfunc
 仧	fjfunr
-鼂	fjfuoc
 徑	fjfuoj
 昁	fjfuoj
 彴	fjfupf
@@ -35059,8 +35188,6 @@ sort: original
 昩	fjfurl
 昊	fjfusd
 岩	fjfuss
-崸	fjfutm
-暊	fjfutm
 鴠	fjfutn
 嶜	fjfuuf
 岯	fjfuuh
@@ -35083,6 +35210,7 @@ sort: original
 毼	fjfuwr
 曷	fjfuww
 妛	fjfuyb
+鼂	fjfuyc
 昞	fjfuyn
 昺	fjfuyn
 晡	fjfvfo
@@ -35447,7 +35575,7 @@ sort: original
 驷	fjgjsm
 鶁	fjgjtn
 鶒	fjgjtn
-皣	fjgjut
+皣	fjgjuk
 懌	fjgjwa
 鹫	fjgjwd
 忟	fjgjwi
@@ -35476,6 +35604,7 @@ sort: original
 恅	fjgkli
 惧	fjgkmf
 恢	fjgknf
+懙	fjgknm
 怖	fjgkoj
 懥	fjgkpa
 悖	fjgkph
@@ -35484,7 +35613,6 @@ sort: original
 驵	fjgkqm
 皁	fjgksb
 懴	fjgktu
-懙	fjgkum
 遑	fjglak
 遫	fjglak
 遬	fjglak
@@ -35596,7 +35724,6 @@ sort: original
 臫	fjgoto
 揧	fjgots
 慖	fjgotu
-憴	fjgouc
 忸	fjgowh
 悺	fjgpbi
 稁	fjgpch
@@ -35747,6 +35874,8 @@ sort: original
 愝	fjgufy
 慚	fjgufz
 愲	fjgugi
+頗	fjgugm
+頼	fjgugm
 驱	fjguhq
 怄	fjguhq
 恟	fjguhy
@@ -35763,13 +35892,12 @@ sort: original
 悿	fjgusn
 愜	fjgusn
 懮	fjgutl
-頗	fjgutm
-頼	fjgutm
 憯	fjguuf
 兜	fjguuh
 怌	fjguuh
 怃	fjguui
 怇	fjguuk
+龾	fjguvm
 怔	fjguvw
 怲	fjguyn
 悑	fjgvfi
@@ -35793,6 +35921,7 @@ sort: original
 齃	fjgvjw
 愽	fjgvkd
 忰	fjgvks
+栆	fjgvls
 骡	fjgvms
 皫	fjgvnf
 畠	fjgvtb
@@ -35829,6 +35958,7 @@ sort: original
 怓	fjgyqy
 怏	fjgysd
 忯	fjgysi
+憴	fjgyuc
 齑	fjgyuh
 惆	fjgywd
 皗	fjgywd
@@ -36028,6 +36158,7 @@ sort: original
 尅	fjhhkd
 嗠	fjhhkg
 爼	fjhhkq
+兙	fjhhks
 锧	fjhhkz
 厐	fjhhlc
 敩	fjhhld
@@ -36045,6 +36176,7 @@ sort: original
 钣	fjhhqy
 铩	fjhhrl
 兞	fjhhrm
+兡	fjhhug
 锾	fjhhuq
 翪	fjhhyl
 逃	fjhiak
@@ -36393,6 +36525,7 @@ sort: original
 钙	fjhufo
 躽	fjhufy
 厦	fjhugl
+頨	fjhugm
 躯	fjhuhq
 卮	fjhuij
 孢	fjhuis
@@ -36413,7 +36546,6 @@ sort: original
 䶮	fjhusd
 砻	fjhusl
 钱	fjhutg
-頨	fjhutm
 钜	fjhuuk
 钧	fjhuvl
 躹	fjhuvm
@@ -36518,7 +36650,6 @@ sort: original
 泖	fjiams
 溔	fjianf
 溣	fjianl
-栆	fjianv
 濮	fjiaob
 溬	fjiaor
 泠	fjiapf
@@ -36640,8 +36771,8 @@ sort: original
 鹢	fjiddn
 湂	fjiddo
 澡	fjiddr
-燕	fjidfn
 鷰	fjidfn
+燕	fjidfn
 渑	fjidfo
 酀	fjidfq
 嬊	fjidfy
@@ -36913,7 +37044,6 @@ sort: original
 浢	fjiimf
 旌	fjiims
 旝	fjiinf
-弻	fjiini
 旗	fjiinq
 泤	fjiinr
 淤	fjiinv
@@ -37027,12 +37157,12 @@ sort: original
 硰	fjijtu
 娑	fjijty
 満	fjijuf
+澕	fjijuk
 澒	fjijum
 頮	fjijum
 濁	fjijun
 濖	fjijuq
 沕	fjijus
-澕	fjijut
 渵	fjijvt
 淽	fjijvw
 澤	fjijwa
@@ -37065,6 +37195,7 @@ sort: original
 湼	fjikjg
 瀚	fjikjh
 濣	fjikjk
+鿰	fjikjk
 濆	fjikjm
 澣	fjikjn
 漧	fjikjo
@@ -37191,6 +37322,7 @@ sort: original
 澄	fjimim
 洴	fjimjc
 豇	fjimjg
+鿲	fjimjj
 弥	fjimjk
 沵	fjimjk
 渆	fjimjo
@@ -37210,6 +37342,7 @@ sort: original
 湴	fjimoy
 涊	fjimpg
 豌	fjimpi
+鿄	fjimpr
 涩	fjimpv
 澀	fjimpv
 郖	fjimqk
@@ -37334,7 +37467,6 @@ sort: original
 滥	fjiood
 刉	fjiood
 匘	fjiooh
-溈	fjioon
 污	fjioot
 汚	fjioot
 澉	fjiopl
@@ -37345,7 +37477,6 @@ sort: original
 洇	fjiosd
 世	fjiotn
 漍	fjiotu
-澠	fjiouc
 悪	fjioug
 亜	fjiouh
 汈	fjiouh
@@ -37406,6 +37537,7 @@ sort: original
 瀽	fjipss
 活	fjipss
 潏	fjiptd
+溈	fjiptn
 渘	fjiptr
 瀋	fjiptv
 泞	fjipud
@@ -37526,7 +37658,6 @@ sort: original
 濳	fjishf
 漺	fjishh
 滻	fjishm
-濓	fjishm
 灒	fjishm
 鍌	fjishz
 洟	fjisig
@@ -37626,6 +37757,8 @@ sort: original
 漸	fjiufz
 洦	fjiugb
 弼	fjiugi
+湏	fjiugm
+頃	fjiugm
 滑	fjiugs
 弖	fjiuhg
 沤	fjiuhq
@@ -37649,6 +37782,7 @@ sort: original
 肄	fjiunv
 淒	fjiuny
 溍	fjiuof
+弻	fjiuoi
 沛	fjiuoj
 弳	fjiuoj
 沞	fjiuoj
@@ -37673,8 +37807,6 @@ sort: original
 沰	fjiuss
 浅	fjiutg
 瀀	fjiutl
-湏	fjiutm
-頃	fjiutm
 潛	fjiuuf
 弡	fjiuuk
 洰	fjiuuk
@@ -37810,6 +37942,7 @@ sort: original
 泱	fjiysd
 汦	fjiyss
 旘	fjiytg
+澠	fjiyuc
 瀦	fjiyuq
 淍	fjiywd
 湆	fjiyys
@@ -37817,7 +37950,9 @@ sort: original
 液	fjizap
 沆	fjizcj
 瀼	fjizdp
+濓	fjizdt
 汴	fjizfb
+鿌	fjizfj
 湣	fjizfo
 峾	fjizfs
 滀	fjizfv
@@ -37893,8 +38028,10 @@ sort: original
 罶	fjjavt
 蒥	fjjavt
 茌	fjjaws
+龿	fjjaww
 葁	fjjayb
 颐	fjjayc
+鿒	fjjayc
 项	fjjayg
 牂	fjjayp
 藰	fjjazo
@@ -37987,7 +38124,7 @@ sort: original
 蕏	fjjcuq
 蒺	fjjcus
 萪	fjjcvk
-薐	fjjcwl
+薐	fjjcwo
 莸	fjjcwy
 萎	fjjcyb
 藱	fjjcyg
@@ -38039,6 +38176,7 @@ sort: original
 鷬	fjjdmn
 黊	fjjdmw
 茑	fjjdnc
+嗧	fjjdnl
 鸸	fjjdnr
 乫	fjjdoi
 葺	fjjdpr
@@ -38104,6 +38242,7 @@ sort: original
 藴	fjjfod
 蘊	fjjfod
 蒓	fjjfof
+鿡	fjjfoh
 羄	fjjfoj
 葒	fjjfoj
 葤	fjjfok
@@ -38323,7 +38462,8 @@ sort: original
 蒅	fjjivr
 葍	fjjivt
 蒻	fjjivv
-蔆	fjjiwl
+鿊	fjjivw
+蔆	fjjiwo
 茫	fjjiww
 媐	fjjiyb
 莦	fjjjbi
@@ -38411,6 +38551,7 @@ sort: original
 荖	fjjklc
 萹	fjjklc
 藢	fjjklw
+藇	fjjknm
 萸	fjjknr
 荸	fjjkph
 葧	fjjkpj
@@ -38421,7 +38562,6 @@ sort: original
 苃	fjjkqy
 菟	fjjktc
 菶	fjjkts
-藇	fjjkum
 蕮	fjjkun
 苇	fjjkwc
 罱	fjjkya
@@ -38612,7 +38752,6 @@ sort: original
 羁	fjjogm
 芫	fjjohd
 蓖	fjjohi
-莵	fjjohp
 艺	fjjoic
 芇	fjjojc
 覽	fjjojh
@@ -38627,7 +38766,6 @@ sort: original
 蒕	fjjond
 苬	fjjonr
 蓝	fjjood
-蒍	fjjoon
 芌	fjjoot
 萾	fjjoqd
 囬	fjjors
@@ -38645,6 +38783,7 @@ sort: original
 菑	fjjovt
 薗	fjjowp
 鍳	fjjozj
+龩	fjjozj
 蓿	fjjpag
 萣	fjjpao
 蓣	fjjpay
@@ -38694,6 +38833,7 @@ sort: original
 荦	fjjpsn
 藆	fjjpst
 蓩	fjjptj
+蒍	fjjptn
 鶜	fjjptn
 茅	fjjptp
 罞	fjjptp
@@ -38865,6 +39005,7 @@ sort: original
 躠	fjjtbs
 糵	fjjtbv
 萭	fjjtdn
+莵	fjjtdp
 罭	fjjtdu
 菗	fjjtdy
 戕	fjjtgp
@@ -38926,6 +39067,10 @@ sort: original
 荁	fjjufu
 蔪	fjjufz
 蓇	fjjugc
+項	fjjugm
+頣	fjjugm
+頤	fjjugm
+鿓	fjjugm
 蘷	fjjugo
 虁	fjjugo
 丗	fjjuhc
@@ -38933,10 +39078,10 @@ sort: original
 苞	fjjuis
 蔔	fjjuiv
 茾	fjjujc
+華	fjjujk
 鷨	fjjujn
 荆	fjjujo
 荊	fjjujo
-華	fjjujt
 芋	fjjuks
 蓸	fjjulf
 薾	fjjumh
@@ -38965,9 +39110,6 @@ sort: original
 芶	fjjurs
 菾	fjjusn
 贇	fjjutm
-項	fjjutm
-頣	fjjutm
-頤	fjjutm
 斌	fjjutv
 赟	fjjutz
 芜	fjjuuc
@@ -38975,6 +39117,7 @@ sort: original
 蘙	fjjuuh
 苣	fjjuuk
 丣	fjjuuk
+鿀	fjjuuk
 茚	fjjuuq
 藞	fjjuuu
 葡	fjjuvf
@@ -39039,7 +39182,7 @@ sort: original
 芷	fjjvwc
 苿	fjjvwc
 薼	fjjvwh
-蓤	fjjvwl
+蓤	fjjvwo
 蒌	fjjvyb
 薮	fjjvyl
 薘	fjjwaa
@@ -39139,6 +39282,7 @@ sort: original
 蔅	fjjyoy
 茋	fjjypf
 芪	fjjysc
+鿦	fjjysc
 英	fjjysd
 鶧	fjjysn
 韮	fjjyuh
@@ -39261,6 +39405,8 @@ sort: original
 教	fjkhld
 醪	fjkhnw
 孝	fjkhol
+朮	fjkhpf
+怷	fjkhpg
 郳	fjkhqk
 饭	fjkhqy
 鶂	fjkhtn
@@ -39332,6 +39478,7 @@ sort: original
 韓	fjkjut
 醳	fjkjwa
 贲	fjkjzb
+龺	fjkjzs
 馊	fjkkaq
 醙	fjkkaq
 酭	fjkkbi
@@ -39382,7 +39529,14 @@ sort: original
 醗	fjkmoh
 韧	fjkmpf
 徽	fjkmsw
-鰴	fjkmvn
+轝	fjknak
+歟	fjknal
+譽	fjknal
+與	fjknam
+鸒	fjknan
+擧	fjknat
+舉	fjknat
+礜	fjknau
 酢	fjknay
 馀	fjknch
 酴	fjknch
@@ -39414,7 +39568,6 @@ sort: original
 帍	fjkojh
 帠	fjkojj
 布	fjkojs
-幑	fjkojw
 醞	fjkond
 酬	fjkooc
 兂	fjkoot
@@ -39488,8 +39641,6 @@ sort: original
 蛓	fjktnc
 烖	fjktnf
 肈	fjktnv
-怷	fjktog
-朮	fjktop
 才	fjktps
 裁	fjktpy
 截	fjktqi
@@ -39517,20 +39668,13 @@ sort: original
 酊	fjkudy
 饨	fjkufc
 輿	fjkufm
+頟	fjkugm
 夓	fjkugo
 馉	fjkugs
 饱	fjkuis
 酑	fjkuks
 醩	fjkulf
 舄	fjkunf
-轝	fjkunk
-歟	fjkunl
-譽	fjkunl
-與	fjkunm
-鸒	fjkunn
-擧	fjkunt
-舉	fjkunt
-礜	fjkunu
 耉	fjkuod
 酽	fjkuot
 考	fjkuot
@@ -39538,12 +39682,10 @@ sort: original
 醏	fjkuqy
 奏	fjkusd
 饯	fjkutg
-頟	fjkutm
 醄	fjkuyf
 醚	fjkvak
 酩	fjkvdi
 酺	fjkvfy
-黴	fjkvhw
 舅	fjkvjl
 馎	fjkvkd
 博	fjkvkd
@@ -39582,6 +39724,7 @@ sort: original
 羼	fjlaaa
 遅	fjlaak
 諝	fjlabi
+鿱	fjlabw
 琀	fjladi
 誝	fjladi
 諗	fjlagi
@@ -39796,6 +39939,7 @@ sort: original
 蠻	fjlfon
 鸞	fjlfon
 矊	fjlfoo
+龻	fjlfoo
 欒	fjlfor
 奱	fjlfos
 攣	fjlfot
@@ -40022,9 +40166,9 @@ sort: original
 屫	fjljtd
 眇	fjljtp
 訬	fjljtp
-璍	fjljut
-瞱	fjljut
-譁	fjljut
+璍	fjljuk
+瞱	fjljuk
+譁	fjljuk
 瞄	fjljvt
 譯	fjljwa
 瓂	fjljwd
@@ -40064,6 +40208,7 @@ sort: original
 歃	fjlklq
 珯	fjlklw
 詼	fjlknf
+璵	fjlknm
 諛	fjlknr
 誖	fjlkph
 詙	fjlkqp
@@ -40072,7 +40217,6 @@ sort: original
 計	fjlksy
 睵	fjlktd
 琫	fjlkts
-璵	fjlkum
 玮	fjlkww
 諵	fjlkya
 琶	fjllab
@@ -40336,6 +40480,7 @@ sort: original
 璅	fjlofr
 珙	fjlogw
 諽	fjlogy
+鿁	fjlogy
 盶	fjlohd
 玩	fjlohd
 詞	fjloiw
@@ -40359,7 +40504,6 @@ sort: original
 珚	fjlosd
 玌	fjlotw
 遐	fjloua
-譝	fjlouc
 叚	fjlouq
 玚	fjlowl
 珱	fjloyb
@@ -40599,6 +40743,7 @@ sort: original
 珣	fjlufo
 眴	fjlufo
 詢	fjlufo
+頊	fjlugm
 眍	fjluhq
 詾	fjluhy
 玸	fjluis
@@ -40623,7 +40768,6 @@ sort: original
 諸	fjluqy
 眜	fjlurl
 瓇	fjlutl
-頊	fjlutm
 鷵	fjlutn
 珷	fjlutv
 譖	fjluuf
@@ -40744,6 +40888,7 @@ sort: original
 詇	fjlysd
 眂	fjlysm
 識	fjlytg
+譝	fjlyuc
 琱	fjlywd
 睭	fjlywd
 調	fjlywd
@@ -41080,7 +41225,6 @@ sort: original
 刄	fjmpfd
 忍	fjmpgi
 级	fjmpjs
-鯗	fjmpmn
 歰	fjmpmv
 丒	fjmpuh
 纻	fjmpuh
@@ -41246,6 +41390,7 @@ sort: original
 鯾	fjmvnh
 鰨	fjmvnh
 鱙	fjmvnh
+鿩	fjmvnh
 魢	fjmvni
 魤	fjmvni
 魮	fjmvni
@@ -41264,6 +41409,7 @@ sort: original
 鰥	fjmvni
 鱇	fjmvni
 鱵	fjmvni
+鿳	fjmvni
 魟	fjmvnj
 魩	fjmvnj
 魰	fjmvnj
@@ -41293,6 +41439,7 @@ sort: original
 鱓	fjmvnk
 鱘	fjmvnk
 鱡	fjmvnk
+鿐	fjmvnk
 鯩	fjmvnl
 鯼	fjmvnl
 鯿	fjmvnl
@@ -41332,7 +41479,6 @@ sort: original
 鷠	fjmvnn
 魝	fjmvno
 魪	fjmvno
-鯪	fjmvno
 魳	fjmvno
 鮄	fjmvno
 鮬	fjmvno
@@ -41345,6 +41491,7 @@ sort: original
 鯏	fjmvno
 鯑	fjmvno
 鯞	fjmvno
+鯪	fjmvno
 鯯	fjmvno
 鯻	fjmvno
 鰂	fjmvno
@@ -41441,6 +41588,7 @@ sort: original
 绫	fjmwos
 续	fjmwvs
 遂	fjmyak
+鿪	fjmyan
 缍	fjmycs
 䌹	fjmydi
 绯	fjmyfs
@@ -41465,6 +41613,7 @@ sort: original
 蝑	fjnabi
 爔	fjnact
 蛜	fjnact
+鿗	fjnacu
 焓	fjnadi
 蛿	fjnadi
 焾	fjnagi
@@ -41480,8 +41629,8 @@ sort: original
 込	fjnaku
 蟮	fjnamd
 蜣	fjnaot
-炩	fjnapf
 蛉	fjnapf
+炩	fjnapf
 烌	fjnarl
 个	fjnasr
 蚮	fjnati
@@ -41499,8 +41648,8 @@ sort: original
 遣	fjnbak
 焩	fjnbbi
 焿	fjnbcn
-燫	fjnbdj
 蠊	fjnbdj
+燫	fjnbdj
 蚏	fjnbic
 焪	fjnbig
 蜷	fjnbij
@@ -41512,8 +41661,8 @@ sort: original
 焢	fjnbjg
 爌	fjnbjm
 蝷	fjnbmf
-煻	fjnbnd
 螗	fjnbnd
+煻	fjnbnd
 逾	fjnboa
 俞	fjnbod
 愈	fjnbog
@@ -41538,7 +41687,6 @@ sort: original
 燖	fjncjk
 蟳	fjncjk
 敘	fjncld
-仺	fjnclr
 煅	fjncls
 螦	fjncms
 煍	fjncnf
@@ -41563,8 +41711,8 @@ sort: original
 颌	fjnday
 焆	fjndbi
 蜎	fjndbi
-熛	fjndcs
 螵	fjndcs
+熛	fjndcs
 龢	fjnddc
 煰	fjnddd
 龤	fjnddg
@@ -41615,6 +41763,7 @@ sort: original
 鴿	fjndtn
 拿	fjndts
 搻	fjndtt
+鿖	fjnduh
 頜	fjndum
 蜈	fjndus
 畣	fjndvt
@@ -41641,13 +41790,13 @@ sort: original
 蜫	fjnfii
 螘	fjnfim
 熚	fjnfjk
+爗	fjnfjk
 蚴	fjnfjl
 熳	fjnfjq
 蟃	fjnfjq
 煓	fjnfjr
-爗	fjnfjt
-焬	fjnfju
 蜴	fjnfju
+焬	fjnfju
 焯	fjnfjz
 烆	fjnflc
 熀	fjnflg
@@ -41700,8 +41849,8 @@ sort: original
 蠔	fjngpy
 蛴	fjngqc
 燺	fjngrl
-焷	fjngtk
 蜱	fjngtk
+焷	fjngtk
 㶲	fjngyf
 蝴	fjnhbi
 煳	fjnhbi
@@ -41713,8 +41862,8 @@ sort: original
 熠	fjnhgb
 蛄	fjnhgc
 螈	fjnhgj
-烰	fjnhho
 蜉	fjnhho
+烰	fjnhho
 蚅	fjnhij
 蟵	fjnhik
 烑	fjnhis
@@ -41781,21 +41930,21 @@ sort: original
 蟝	fjniur
 蝠	fjnivt
 煏	fjnivt
-焇	fjnjbi
 蛸	fjnjbi
+焇	fjnjbi
 灷	fjnjcf
 烥	fjnjcf
 蟒	fjnjcj
 螨	fjnjdl
-熿	fjnjdm
 蟥	fjnjdm
+熿	fjnjdm
 爟	fjnjdq
 蠸	fjnjdq
-爡	fjnjfn
 燤	fjnjfn
+爡	fjnjfn
 蠇	fjnjfn
-焟	fjnjfo
 蜡	fjnjfo
+焟	fjnjfo
 蟆	fjnjfs
 虹	fjnjgc
 灴	fjnjgf
@@ -41827,10 +41976,10 @@ sort: original
 蝡	fjnjsd
 蠎	fjnjsj
 炒	fjnjtp
+燁	fjnjuk
 燭	fjnjun
 蠋	fjnjun
 烵	fjnjup
-燁	fjnjut
 燡	fjnjwa
 蠌	fjnjwa
 蚊	fjnjwc
@@ -41858,9 +42007,9 @@ sort: original
 燬	fjnkjl
 燌	fjnkjm
 蟦	fjnkjm
+蝙	fjnklc
 煸	fjnklc
 蛯	fjnklc
-蝙	fjnklc
 烣	fjnknf
 蛆	fjnkqc
 炦	fjnkqp
@@ -41870,8 +42019,8 @@ sort: original
 蜯	fjnkts
 烤	fjnkuo
 炜	fjnkwf
-煵	fjnkya
 蝻	fjnkya
+煵	fjnkya
 煄	fjnlbl
 蝩	fjnlbl
 熢	fjnlca
@@ -41890,9 +42039,9 @@ sort: original
 蠾	fjnlin
 煝	fjnllm
 蝞	fjnllm
-蠷	fjnllq
-爠	fjnllq
 蠼	fjnllq
+爠	fjnllq
+蠷	fjnllq
 遺	fjnlma
 蛽	fjnlmf
 貴	fjnlmf
@@ -41939,8 +42088,8 @@ sort: original
 蜭	fjnmkj
 燇	fjnmkk
 伞	fjnmks
-煪	fjnmky
 蝤	fjnmky
+煪	fjnmky
 蝜	fjnmlm
 蚡	fjnmmd
 刱	fjnmmf
@@ -41950,8 +42099,10 @@ sort: original
 螉	fjnmrh
 蚣	fjnmrs
 炂	fjnmrs
+烪	fjnmsd
 綦	fjnmsq
 熷	fjnmvf
+龽	fjnmvn
 燧	fjnmya
 焕	fjnmys
 煥	fjnmys
@@ -41994,20 +42145,20 @@ sort: original
 爞	fjnnnn
 飊	fjnnnn
 爃	fjnnnr
-众	fjnnnr
 燊	fjnnnr
 蠑	fjnnnr
+众	fjnnnr
 熽	fjnnoa
 蟰	fjnnoa
-炌	fjnnod
 剡	fjnnod
 蚧	fjnnod
+炌	fjnnod
 煁	fjnnot
 膋	fjnnpb
 焭	fjnnpc
 禜	fjnnpc
-營	fjnnpd
 熗	fjnnpd
+營	fjnnpd
 螥	fjnnpd
 嵤	fjnnpf
 憥	fjnnpg
@@ -42092,10 +42243,8 @@ sort: original
 甚	fjnotq
 兦	fjnotu
 蟈	fjnotu
-蠅	fjnouc
 蛳	fjnouo
 斟	fjnovk
-粛	fjnovm
 夦	fjnovv
 炄	fjnowh
 炀	fjnowl
@@ -42107,8 +42256,8 @@ sort: original
 蟢	fjnpdi
 蟶	fjnpdl
 蚨	fjnpfc
-熐	fjnpff
 螟	fjnpff
+熐	fjnpff
 丼	fjnpfj
 亽	fjnpfr
 蚁	fjnphq
@@ -42210,14 +42359,15 @@ sort: original
 蟟	fjnsmj
 蛺	fjnsnn
 蟐	fjnsoj
+龦	fjnsoj
 螃	fjnspi
 㸌	fjnsqi
 爣	fjnsvh
 熂	fjnsvm
 蟷	fjnsvt
 螳	fjnswh
-煃	fjnsww
 蝰	fjnsww
+煃	fjnsww
 蚜	fjnsyc
 虵	fjnsyc
 熵	fjnsyd
@@ -42239,18 +42389,19 @@ sort: original
 蛾	fjnttt
 烧	fjntuh
 蛲	fjntuh
+粛	fjntva
 蟋	fjntvg
-烻	fjntvt
 蜒	fjntvt
-燔	fjntvv
+烻	fjntvt
 蟠	fjntvv
+燔	fjntvv
 蛛	fjntvw
+熓	fjntyn
+螐	fjntyn
 鳰	fjntyn
 鳱	fjntyn
 鴝	fjntyn
 鸁	fjntyn
-熓	fjntyn
-螐	fjntyn
 蟂	fjntyr
 燠	fjntys
 炿	fjntyz
@@ -42264,7 +42415,6 @@ sort: original
 熰	fjnudd
 灯	fjnudf
 蜘	fjnudi
-盡	fjnudm
 虾	fjnufb
 炖	fjnufc
 煼	fjnuff
@@ -42276,6 +42426,9 @@ sort: original
 蛨	fjnugb
 螖	fjnugc
 衋	fjnugd
+煩	fjnugm
+蝢	fjnugm
+頇	fjnugm
 炮	fjnuis
 蚫	fjnuis
 蚈	fjnujc
@@ -42283,6 +42436,7 @@ sort: original
 煹	fjnujw
 虶	fjnuks
 螬	fjnulf
+盡	fjnund
 賮	fjnunm
 炔	fjnunr
 蚗	fjnunr
@@ -42294,10 +42448,8 @@ sort: original
 蝫	fjnuqc
 炻	fjnusf
 碁	fjnusq
-頇	fjnutm
-煩	fjnutm
-蝢	fjnutm
 熸	fjnuuf
+仺	fjnuuh
 蚽	fjnuuh
 蠮	fjnuuh
 炬	fjnuuk
@@ -42322,8 +42474,8 @@ sort: original
 糴	fjnvhq
 蟕	fjnvig
 煿	fjnvkd
-炓	fjnvks
 蚪	fjnvks
+炓	fjnvks
 螰	fjnvlc
 熝	fjnvlf
 蠀	fjnvlm
@@ -42363,8 +42515,8 @@ sort: original
 蜐	fjnwrj
 虻	fjnwwc
 蛙	fjnwwh
-烓	fjnwwh
 燒	fjnwwh
+烓	fjnwwh
 蟯	fjnwwh
 蛖	fjnwwl
 蚘	fjnwyc
@@ -42398,13 +42550,14 @@ sort: original
 烼	fjnysf
 熾	fjnytg
 蟙	fjnytg
+蠅	fjnyuc
 蜩	fjnywd
 蚺	fjnywh
 蚒	fjnyzf
 烿	fjnyzw
+遗	fjnzak
 煺	fjnzak
 螁	fjnzak
-遗	fjnzak
 焲	fjnzap
 贵	fjnzbc
 赢	fjnzbi
@@ -42476,9 +42629,9 @@ sort: original
 菐	fjobcy
 簾	fjobdj
 簲	fjobgk
+圈	fjobij
 圏	fjobij
 箞	fjobij
-圈	fjobij
 箜	fjobjg
 鞚	fjobjg
 筋	fjobjl
@@ -42541,8 +42694,8 @@ sort: original
 筽	fjodus
 籈	fjodww
 笛	fjodyu
-圆	fjodzb
 筼	fjodzb
+圆	fjodzb
 鞮	fjofao
 帖	fjofdi
 笘	fjofdi
@@ -42628,7 +42781,6 @@ sort: original
 笼	fjohlu
 幠	fjohnf
 箏	fjohnv
-黿	fjohoc
 刓	fjohod
 囝	fjohok
 厳	fjohol
@@ -42637,12 +42789,14 @@ sort: original
 籊	fjohqi
 囟	fjohqk
 邧	fjohqk
+龱	fjohqk
 兘	fjohrd
 頑	fjohum
 篯	fjohut
 箛	fjohwg
 坖	fjohwh
 鞖	fjohyb
+黿	fjohyc
 靷	fjoias
 簜	fjoifj
 鞜	fjoifo
@@ -42725,7 +42879,7 @@ sort: original
 箵	fjojtl
 簚	fjojto
 囫	fjojuk
-鞾	fjojut
+鞾	fjojuk
 笏	fjojuu
 箩	fjojvk
 圛	fjojwa
@@ -42740,6 +42894,7 @@ sort: original
 幩	fjokjm
 簳	fjokjn
 篇	fjoklc
+籅	fjoknm
 蝨	fjoknn
 靻	fjokqg
 帗	fjokqp
@@ -42748,7 +42903,6 @@ sort: original
 鳵	fjoktn
 团	fjoktp
 籖	fjoktu
-籅	fjokum
 簙	fjokvk
 帏	fjokwj
 围	fjokwk
@@ -42847,12 +43001,12 @@ sort: original
 籤	fjonnu
 簫	fjonoa
 箫	fjonom
-簘	fjonov
 篬	fjonpd
 帺	fjonqj
 箕	fjonqu
 囚	fjonrk
 乆	fjonrt
+簘	fjonta
 鞬	fjontj
 筆	fjonvu
 簊	fjonwh
@@ -42881,9 +43035,7 @@ sort: original
 簕	fjoojl
 幒	fjoolg
 帼	fjoolp
-夀	fjoonk
 篮	fjoood
-為	fjooon
 笝	fjooqy
 亖	fjoorr
 竺	fjooru
@@ -43067,6 +43219,8 @@ sort: original
 簐	fjoufl
 筍	fjoufo
 帞	fjougb
+幁	fjougm
+順	fjougm
 靰	fjouhd
 凸	fjouhn
 刁	fjouht
@@ -43094,10 +43248,7 @@ sort: original
 篋	fjousn
 笶	fjousu
 笺	fjoutg
-幁	fjoutm
-順	fjoutm
 簪	fjouuf
-鄳	fjouuq
 戼	fjouuu
 笉	fjouvl
 鞠	fjouvm
@@ -43498,6 +43649,7 @@ sort: original
 饙	fjpkjm
 寘	fjpkkm
 褊	fjpklc
+襷	fjpknt
 餑	fjpkph
 宜	fjpkqg
 冝	fjpkqg
@@ -43513,7 +43665,6 @@ sort: original
 額	fjpkum
 冩	fjpkun
 寫	fjpkun
-襷	fjpkut
 袆	fjpkwy
 迬	fjplak
 褈	fjplbl
@@ -43621,6 +43772,7 @@ sort: original
 聢	fjppao
 館	fjppbi
 饎	fjppdi
+鿋	fjppdi
 替	fjppfo
 衭	fjppfy
 聹	fjppgu
@@ -43653,6 +43805,7 @@ sort: original
 农	fjppyg
 餏	fjppys
 鹤	fjpqdn
+鿣	fjpqhh
 裭	fjpqhy
 寉	fjpqig
 隺	fjpqig
@@ -43661,6 +43814,7 @@ sort: original
 邞	fjpqkf
 耶	fjpqkr
 宻	fjpqmf
+鿢	fjpqnd
 焣	fjpqnf
 衩	fjpqpf
 颞	fjpqqa
@@ -43669,6 +43823,7 @@ sort: original
 餟	fjpqqq
 褬	fjpqqr
 聂	fjpqqy
+鿤	fjpqrk
 棸	fjpqrl
 襍	fjpqrl
 鶴	fjpqtn
@@ -43764,6 +43919,7 @@ sort: original
 婺	fjptly
 鍪	fjptlz
 蟊	fjptnn
+為	fjpton
 袟	fjptpf
 矛	fjptpv
 宅	fjptqq
@@ -43815,6 +43971,8 @@ sort: original
 宣	fjpufu
 褗	fjpufy
 袹	fjpugb
+預	fjpugm
+頢	fjpugm
 餶	fjpugs
 袍	fjpuis
 飽	fjpuis
@@ -43835,8 +43993,6 @@ sort: original
 聅	fjpusr
 袥	fjpusy
 寡	fjputm
-預	fjputm
-頢	fjputm
 寕	fjputu
 壾	fjpuuk
 袀	fjpuvl
@@ -43933,6 +44089,7 @@ sort: original
 剆	fjpzod
 襢	fjpzou
 饘	fjpzou
+鿥	fjpzqh
 郎	fjpzqk
 郞	fjpzqk
 宾	fjpzum
@@ -44105,7 +44262,9 @@ sort: original
 欢	fjqlqy
 鲦	fjqlrl
 降	fjqltn
+鿧	fjqluh
 隆	fjqlum
+鿴	fjqlvl
 陥	fjqmaf
 隐	fjqmcg
 獻	fjqmcq
@@ -44170,6 +44329,7 @@ sort: original
 虚	fjqoyh
 卪	fjqpfk
 叉	fjqpfy
+鿹	fjqpgf
 陀	fjqpib
 陕	fjqpmf
 蚤	fjqpnc
@@ -44178,6 +44338,7 @@ sort: original
 陬	fjqpqy
 鲰	fjqpqy
 黀	fjqpqy
+鿶	fjqpzg
 虤	fjqqhh
 雐	fjqqih
 雔	fjqqii
@@ -44265,6 +44426,7 @@ sort: original
 塦	fjqufw
 隁	fjqufy
 陌	fjqugb
+顀	fjqugm
 阢	fjquhd
 卫	fjquhk
 鲍	fjquis
@@ -44273,7 +44435,6 @@ sort: original
 陼	fjquqk
 磨	fjqusm
 陿	fjqusn
-顀	fjqutm
 陚	fjqutv
 䲟	fjquuq
 陱	fjquvm
@@ -44296,6 +44457,7 @@ sort: original
 騭	fjqvjn
 阧	fjqvks
 糜	fjqvmm
+鿸	fjqvpi
 隈	fjqvup
 鳂	fjqvup
 陊	fjqvvk
@@ -44303,6 +44465,7 @@ sort: original
 隣	fjqvvt
 阯	fjqvwk
 鲒	fjqwdi
+鿵	fjqwgi
 塺	fjqwhm
 圣	fjqwhy
 观	fjqwjy
@@ -44333,6 +44496,7 @@ sort: original
 豦	fjqysh
 鲷	fjqywd
 隌	fjqyyk
+鿷	fjqyyv
 鿕	fjqyzf
 阬	fjqzcj
 限	fjqzgk
@@ -44527,6 +44691,7 @@ sort: original
 棵	fjrfrl
 杣	fjrfsl
 鶇	fjrftn
+桛	fjrfuf
 慼	fjrfug
 皶	fjrfug
 柦	fjrfuh
@@ -44706,6 +44871,7 @@ sort: original
 杢	fjrjgl
 楛	fjrjhg
 楞	fjrjif
+鿝	fjrjih
 欂	fjrjik
 檈	fjrjip
 檧	fjrjjg
@@ -44742,7 +44908,7 @@ sort: original
 櫣	fjrjua
 櫙	fjrjud
 槆	fjrjuf
-樺	fjrjut
+樺	fjrjuk
 桺	fjrjuu
 椤	fjrjvk
 檡	fjrjwa
@@ -44780,7 +44946,10 @@ sort: original
 椇	fjrkmf
 槱	fjrknf
 楰	fjrknr
+櫸	fjrknt
+欅	fjrknt
 柨	fjrkoj
+枾	fjrkou
 杖	fjrkpf
 桲	fjrkph
 柤	fjrkql
@@ -44790,8 +44959,6 @@ sort: original
 棒	fjrkts
 栲	fjrkuo
 楱	fjrkus
-櫸	fjrkut
-欅	fjrkut
 楠	fjrkya
 梄	fjrkyl
 楃	fjrlai
@@ -44959,7 +45126,6 @@ sort: original
 檎	fjrnzn
 棩	fjroaa
 逡	fjroak
-枾	fjroao
 欉	fjroaq
 圅	fjroay
 樸	fjrobc
@@ -45434,7 +45600,7 @@ sort: original
 樱	fjrzzy
 夿	fjsabd
 跁	fjsabu
-犧	fjsaco
+犧	fjsact
 踗	fjsagi
 跮	fjsaiu
 蹉	fjsajg
@@ -45551,8 +45717,8 @@ sort: original
 跕	fjsfdi
 站	fjsfdi
 氲	fjsfdm
+躖	fjsffa
 霷	fjsffj
-躖	fjsffu
 跤	fjsfhq
 蹋	fjsfhv
 蹕	fjsfjk
@@ -45629,7 +45795,6 @@ sort: original
 蹶	fjshml
 剷	fjshmo
 産	fjshms
-亷	fjshnm
 蹘	fjshnw
 蹏	fjshqh
 鼶	fjshqh
@@ -45693,6 +45858,7 @@ sort: original
 霰	fjsjbl
 竎	fjsjcl
 跏	fjsjdi
+鿼	fjsjdi
 蹒	fjsjdl
 踖	fjsjfo
 惣	fjsjgi
@@ -45709,6 +45875,7 @@ sort: original
 贛	fjsjlm
 牞	fjsjln
 赣	fjsjlz
+鿯	fjsjnv
 靀	fjsjpy
 鄣	fjsjqk
 犤	fjsjri
@@ -45744,6 +45911,7 @@ sort: original
 蹁	fjsklc
 犏	fjsklc
 犋	fjskmf
+鿻	fjskoj
 跋	fjskqp
 鼥	fjskqp
 跙	fjskqu
@@ -46036,6 +46204,7 @@ sort: original
 鼴	fjsufy
 竡	fjsugb
 奭	fjsugg
+頦	fjsugm
 奁	fjsuhq
 雹	fjsuis
 靤	fjsuis
@@ -46058,7 +46227,6 @@ sort: original
 跖	fjsusu
 雼	fjsusv
 践	fjsutg
-頦	fjsutm
 距	fjsuuk
 奆	fjsuuk
 霊	fjsuuo
@@ -46081,6 +46249,7 @@ sort: original
 奋	fjsvtd
 當	fjsvts
 雷	fjsvtv
+鿨	fjsvuh
 奓	fjsvvk
 跢	fjsvvk
 蹸	fjsvvt
@@ -46429,9 +46598,9 @@ sort: original
 挘	fjtjtj
 抄	fjtjtp
 毮	fjtjtr
+撶	fjtjuk
 擉	fjtjun
 擆	fjtjuq
-撶	fjtjut
 摪	fjtjvk
 描	fjtjvt
 睾	fjtjwa
@@ -46459,6 +46628,7 @@ sort: original
 攧	fjtkkm
 揙	fjtklc
 拻	fjtknf
+攑	fjtknt
 刋	fjtkod
 抪	fjtkoj
 扙	fjtkpf
@@ -46472,7 +46642,6 @@ sort: original
 捧	fjtkts
 拷	fjtkuo
 揍	fjtkus
-攑	fjtkut
 圱	fjtkwh
 揇	fjtkya
 擜	fjtkyc
@@ -46598,6 +46767,7 @@ sort: original
 擒	fjtnzn
 撲	fjtobc
 划	fjtodg
+夀	fjtodk
 摷	fjtofr
 拂	fjtofs
 拱	fjtogs
@@ -46770,6 +46940,7 @@ sort: original
 鴁	fjtstn
 鴔	fjtstn
 撑	fjtsts
+鿜	fjtsuh
 撦	fjtsuq
 捉	fjtsus
 攩	fjtsvh
@@ -46790,8 +46961,8 @@ sort: original
 剗	fjttod
 抶	fjttpf
 虦	fjttqh
-托	fjttqq
 扥	fjttqq
+托	fjttqq
 扷	fjttsd
 撟	fjttsd
 抸	fjttsi
@@ -46813,8 +46984,8 @@ sort: original
 掗	fjtuau
 抔	fjtubs
 攦	fjtubv
-拜	fjtucf
 拝	fjtucf
+拜	fjtucf
 捷	fjtucv
 摳	fjtudd
 打	fjtuds
@@ -46884,7 +47055,6 @@ sort: original
 釆	fjtvmp
 摞	fjtvms
 攟	fjtvoc
-鼄	fjtvoc
 邾	fjtvqk
 释	fjtvqt
 延	fjtvtj
@@ -46908,6 +47078,7 @@ sort: original
 扯	fjtvws
 抺	fjtvws
 搂	fjtvyb
+鼄	fjtvyc
 搖	fjtvyf
 擞	fjtvyl
 撻	fjtwaa
@@ -47047,6 +47218,7 @@ sort: original
 韜	fjuadk
 韟	fjuadk
 韠	fjuadk
+韡	fjuadk
 韥	fjuadm
 韣	fjuadn
 韚	fjuado
@@ -47059,7 +47231,6 @@ sort: original
 韖	fjuadr
 韘	fjuadr
 韋	fjuadt
-韡	fjuadt
 韝	fjuadw
 趝	fjuagi
 磋	fjuajg
@@ -47150,6 +47321,7 @@ sort: original
 駱	fjuatk
 騨	fjuatk
 驆	fjuatk
+驊	fjuatk
 驒	fjuatk
 駇	fjuatl
 駐	fjuatl
@@ -47192,6 +47364,8 @@ sort: original
 騟	fjuato
 驉	fjuato
 驥	fjuato
+龭	fjuato
+龮	fjuato
 馰	fjuatp
 馺	fjuatp
 駄	fjuatp
@@ -47223,7 +47397,6 @@ sort: original
 駳	fjuatt
 騀	fjuatt
 騝	fjuatt
-驊	fjuatt
 驎	fjuatt
 駈	fjuatu
 駏	fjuatu
@@ -47331,10 +47504,10 @@ sort: original
 磒	fjudlm
 盃	fjudmb
 鹘	fjudng
-鼅	fjudoc
 聟	fjudpr
 叀	fjudrs
 嫑	fjudyb
+鼅	fjudyc
 硶	fjufaj
 迍	fjufak
 迿	fjufak
@@ -47457,12 +47630,14 @@ sort: original
 軥	fjufkn
 輛	fjufkn
 輧	fjufkn
+龫	fjufkn
+鿂	fjufkn
 軋	fjufko
 軶	fjufko
 輁	fjufko
 輒	fjufko
-輸	fjufko
 輘	fjufko
+輸	fjufko
 軓	fjufkp
 軔	fjufkp
 軚	fjufkp
@@ -47578,6 +47753,8 @@ sort: original
 礉	fjugil
 砢	fjugks
 夏	fjuglt
+頁	fjugmf
+顨	fjugmj
 码	fjugms
 骳	fjugpg
 破	fjugps
@@ -47721,6 +47898,7 @@ sort: original
 碥	fjuklc
 硓	fjukls
 幵	fjukng
+礖	fjuknm
 郉	fjuknq
 栞	fjuknr
 砨	fjukoi
@@ -47729,7 +47907,6 @@ sort: original
 砠	fjukqs
 趄	fjukqw
 于	fjuksh
-礖	fjukum
 磶	fjukun
 龌	fjulai
 礔	fjuldj
@@ -47828,6 +48005,7 @@ sort: original
 碪	fjunot
 勽	fjunrk
 夬	fjunrk
+龪	fjunrw
 鴂	fjuntn
 肆	fjunvc
 硉	fjunvs
@@ -47906,6 +48084,7 @@ sort: original
 髌	fjupzm
 迎	fjuqak
 唘	fjuqdi
+龨	fjuqik
 雉	fjuqis
 碓	fjuqis
 趡	fjuqiw
@@ -47993,9 +48172,7 @@ sort: original
 龋	fjutdn
 戋	fjutgh
 骮	fjutig
-顨	fjutlj
 貮	fjutlm
-頁	fjutlm
 刬	fjutod
 靣	fjutod
 弐	fjutor
@@ -48045,6 +48222,9 @@ sort: original
 朁	fjuufo
 匭	fjuufv
 悘	fjuugi
+碩	fjuugm
+頂	fjuugm
+顝	fjuugm
 磆	fjuugs
 丕	fjuuhb
 矹	fjuuhd
@@ -48085,9 +48265,6 @@ sort: original
 砞	fjuurl
 医	fjuusk
 砳	fjuuss
-碩	fjuutm
-頂	fjuutm
-顝	fjuutm
 碔	fjuutv
 矩	fjuuuk
 榘	fjuuur
@@ -48556,14 +48733,15 @@ sort: original
 貑	fjvloq
 麚	fjvloq
 粎	fjvlpf
+鿑	fjvlpf
 餈	fjvlps
 褩	fjvlpy
 次	fjvlql
 粁	fjvlqm
 粬	fjvlqm
 欫	fjvlqw
-槃	fjvlrl
 栥	fjvlrl
+槃	fjvlrl
 艉	fjvlrm
 般	fjvlso
 邎	fjvlta
@@ -48617,6 +48795,7 @@ sort: original
 麃	fjvnfl
 豻	fjvngm
 舱	fjvnij
+鿿	fjvnis
 耕	fjvnjl
 豿	fjvnjm
 畊	fjvnjt
@@ -48810,6 +48989,10 @@ sort: original
 貆	fjvufu
 貊	fjvugb
 粨	fjvugb
+頄	fjvugm
+頉	fjvugm
+頛	fjvugm
+頪	fjvugm
 䝙	fjvuhq
 麅	fjvuis
 耩	fjvujw
@@ -48821,10 +49004,6 @@ sort: original
 畏	fjvupy
 粖	fjvurl
 耰	fjvutl
-頄	fjvutm
-頉	fjvutm
-頛	fjvutm
-頪	fjvutm
 糣	fjvuuf
 豾	fjvuuh
 黖	fjvuuh
@@ -48894,6 +49073,7 @@ sort: original
 畤	fjvwkd
 艢	fjvwnd
 冽	fjvwod
+鿛	fjvwoh
 疇	fjvwok
 凌	fjvwos
 黩	fjvwvs
@@ -48909,8 +49089,8 @@ sort: original
 凋	fjvywd
 畘	fjvywh
 黯	fjvyyh
-粇	fjvzcj
 航	fjvzcj
+粇	fjvzcj
 舷	fjvzfy
 懇	fjvzgi
 貇	fjvzgm
@@ -48970,6 +49150,7 @@ sort: original
 壙	fjwbjm
 坹	fjwbkh
 埋	fjwblh
+瓼	fjwblw
 望	fjwblw
 墉	fjwbnb
 塘	fjwbnd
@@ -49016,6 +49197,7 @@ sort: original
 殞	fjwdlm
 欯	fjwdlq
 埕	fjwdlw
+壷	fjwdou
 臺	fjwdpa
 遠	fjwdpa
 袁	fjwdpy
@@ -49059,6 +49241,7 @@ sort: original
 堣	fjwfnn
 间	fjwfom
 塷	fjwfop
+龼	fjwfpl
 墔	fjwfqi
 堁	fjwfrl
 圸	fjwfsh
@@ -49093,6 +49276,7 @@ sort: original
 殐	fjwgsd
 埤	fjwgtk
 堩	fjwguv
+甅	fjwhbl
 壢	fjwhcv
 圥	fjwhdh
 売	fjwhdh
@@ -49165,8 +49349,8 @@ sort: original
 堧	fjwjsd
 歾	fjwjud
 圽	fjwjuh
+墷	fjwjuk
 墸	fjwjuq
-墷	fjwjut
 堽	fjwjuv
 墿	fjwjwa
 殬	fjwjwa
@@ -49196,6 +49380,7 @@ sort: original
 邿	fjwkqk
 坺	fjwkqp
 闳	fjwkrs
+瓧	fjwksw
 堍	fjwkth
 闭	fjwktp
 埲	fjwkts
@@ -49240,7 +49425,6 @@ sort: original
 鱉	fjwlmn
 盲	fjwlmw
 蟞	fjwlnc
-鼈	fjwloc
 幣	fjwloj
 歼	fjwlqd
 坎	fjwlqh
@@ -49260,6 +49444,7 @@ sort: original
 闰	fjwlwm
 尪	fjwlwy
 嫳	fjwlyb
+鼈	fjwlyc
 訚	fjwlym
 鐅	fjwlzj
 阅	fjwmdh
@@ -49279,8 +49464,8 @@ sort: original
 墫	fjwmkk
 壿	fjwmkk
 坋	fjwmmd
+瓰	fjwmmd
 埩	fjwmnv
-鼀	fjwmoc
 啬	fjwmod
 丧	fjwmpy
 塕	fjwmrh
@@ -49301,6 +49486,8 @@ sort: original
 鵱	fjwmwn
 槷	fjwmwr
 摰	fjwmwt
+龳	fjwmww
+鼀	fjwmyc
 堬	fjwnbo
 闽	fjwncm
 垥	fjwndi
@@ -49367,7 +49554,6 @@ sort: original
 堖	fjwooh
 圬	fjwoot
 逺	fjwopa
-赱	fjwopf
 阚	fjwopl
 裂	fjwopy
 郝	fjwoqk
@@ -49378,6 +49564,7 @@ sort: original
 夌	fjwosh
 圠	fjwoth
 鴷	fjwotn
+鿞	fjwouh
 頳	fjwoum
 赭	fjwouq
 场	fjwowl
@@ -49397,6 +49584,7 @@ sort: original
 垸	fjwpoh
 闻	fjwprm
 飱	fjwpsd
+赱	fjwptp
 垞	fjwptq
 坾	fjwpud
 堚	fjwpuk
@@ -49411,6 +49599,7 @@ sort: original
 阆	fjwpzg
 埌	fjwpzg
 殡	fjwpzm
+鿾	fjwpzq
 堆	fjwqih
 闸	fjwqjm
 壭	fjwqks
@@ -49441,7 +49630,7 @@ sort: original
 杗	fjwrlw
 刧	fjwrmd
 刼	fjwrmp
-鼁	fjwroc
+瓱	fjwrmw
 刦	fjwrod
 墭	fjwrod
 埈	fjwros
@@ -49451,6 +49640,7 @@ sort: original
 墋	fjwrrw
 去	fjwrsh
 埃	fjwrus
+鼁	fjwryc
 坛	fjwryh
 闼	fjwsak
 垯	fjwsak
@@ -49519,6 +49709,11 @@ sort: original
 垣	fjwufu
 堰	fjwufy
 瓸	fjwugb
+盨	fjwugd
+澃	fjwugi
+頾	fjwugi
+須	fjwugm
+嬃	fjwugy
 尳	fjwugy
 闩	fjwuhm
 彀	fjwuil
@@ -49546,13 +49741,8 @@ sort: original
 槖	fjwurl
 坧	fjwush
 垁	fjwush
-盨	fjwutd
 残	fjwutg
-澃	fjwuti
-頾	fjwuti
 鷇	fjwutl
-須	fjwutm
-嬃	fjwuty
 坯	fjwuuh
 轂	fjwuul
 均	fjwuvl
@@ -49590,7 +49780,6 @@ sort: original
 尨	fjwwly
 墙	fjwwmd
 墻	fjwwnd
-鼃	fjwwoc
 刲	fjwwod
 壔	fjwwok
 堎	fjwwos
@@ -49606,6 +49795,7 @@ sort: original
 翹	fjwwwh
 顤	fjwwwm
 壵	fjwwws
+鼃	fjwwyc
 妄	fjwybw
 埵	fjwych
 坰	fjwydi
@@ -49614,7 +49804,6 @@ sort: original
 塊	fjwygh
 境	fjwyhd
 垌	fjwyiw
-壷	fjwyjc
 凷	fjwykh
 埛	fjwymd
 堈	fjwymf
@@ -49864,7 +50053,7 @@ sort: original
 頀	fjyjqq
 媆	fjyjsd
 妙	fjyjtp
-嬅	fjyjut
+嬅	fjyjuk
 媌	fjyjvt
 嬕	fjyjwa
 妏	fjyjwb
@@ -49885,6 +50074,7 @@ sort: original
 姥	fjyklb
 媥	fjyklc
 嬔	fjykms
+嬩	fjyknm
 豟	fjykoi
 姐	fjykqb
 魃	fjykqp
@@ -49893,7 +50083,6 @@ sort: original
 谹	fjykrs
 氒	fjykss
 婏	fjyktb
-嬩	fjykum
 婻	fjykya
 嬹	fjykym
 媉	fjylai
@@ -49992,7 +50181,6 @@ sort: original
 帋	fjyojs
 奶	fjyonb
 媼	fjyond
-媯	fjyoon
 豃	fjyopl
 冃	fjyork
 冄	fjyork
@@ -50139,6 +50327,7 @@ sort: original
 娵	fjypqy
 姡	fjypsb
 餥	fjypsf
+媯	fjyptn
 鴟	fjyptn
 姹	fjyptq
 媃	fjyptr
@@ -50295,6 +50484,7 @@ sort: original
 黽	fjyuuc
 嫕	fjyuug
 姖	fjyuuk
+鄳	fjyuuq
 韵	fjyuvl
 婅	fjyuvm
 嫣	fjyuvn
@@ -50434,6 +50624,7 @@ sort: original
 裏	fjzbpy
 鉱	fjzbrs
 鑹	fjzbss
+龲	fjzbuk
 赃	fjzbwh
 迒	fjzcak
 颃	fjzcay
@@ -50499,6 +50690,7 @@ sort: original
 识	fjzdmf
 銱	fjzdoj
 鍓	fjzdpr
+亷	fjzdtp
 误	fjzdus
 鋘	fjzdus
 鈾	fjzdyj
@@ -50717,10 +50909,10 @@ sort: original
 鏗	fjzjqw
 鑶	fjzjrj
 鈔	fjzjtp
+鏵	fjzjuk
 斶	fjzjun
 鐲	fjzjun
 鐯	fjzjuq
-鏵	fjzjut
 鎠	fjzjuv
 鏘	fjzjvk
 錨	fjzjvt
@@ -51085,6 +51277,7 @@ sort: original
 銊	fjzruh
 诶	fjzrus
 鉞	fjzrwj
+龯	fjzrwj
 鐘	fjzsbl
 鑨	fjzsby
 錼	fjzscs
@@ -51192,6 +51385,8 @@ sort: original
 暨	fjzufu
 鏩	fjzufz
 銆	fjzugb
+頎	fjzugm
+顉	fjzugm
 丘	fjzuhj
 讴	fjzuhq
 袌	fjzuip
@@ -51229,8 +51424,6 @@ sort: original
 鉃	fjzusj
 鉐	fjzusj
 贱	fjzutg
-頎	fjzutm
-顉	fjzutm
 乒	fjzutp
 赋	fjzutv
 錻	fjzutv
@@ -51322,6 +51515,7 @@ sort: original
 銅	fjzyiw
 錪	fjzyjm
 鋼	fjzymf
+龬	fjzymw
 讷	fjzynr
 鈉	fjzynr
 鐹	fjzyoa
@@ -51477,7 +51671,6 @@ sort: original
 鄯	amd
 𫢸	amf
 佹	amh
-併	amj
 僔	amk
 羒	amm
 倊	amr
@@ -51497,7 +51690,6 @@ sort: original
 羛	aof
 個	aoh
 伺	aoi
-儠	aoo
 羗	aor
 倧	apc
 鸰	apd
@@ -51680,7 +51872,6 @@ sort: original
 窚	bro
 朧	bsb
 窖	bsd
-腌	bsf
 臢	bsh
 竂	bsm
 窂	bsn
@@ -51705,9 +51896,9 @@ sort: original
 窲	bvv
 窊	bwg
 肚	bwh
-庱	bwo
 胠	bwr
 窐	bww
+肬	bwy
 腓	byf
 廆	byg
 朒	byn
@@ -51804,16 +51995,15 @@ sort: original
 黧	cjv
 癓	ckc
 寿	ckd
-痚	ckh
+痲	ckh
 獖	ckj
 稹	ckk
 猵	ckl
 瘐	ckn
 租	ckq
-痲	ckt
-穥	cku
+獡	cku
 鸑	clc
-𫛭	cld
+鿺	cld
 癵	clf
 禮	cli
 稺	clj
@@ -51862,7 +52052,7 @@ sort: original
 疓	con
 疞	coo
 秵	cos
-頺	cou
+鿠	cou
 狃	cow
 鋫	coz
 猽	cpf
@@ -51882,7 +52072,7 @@ sort: original
 猍	crn
 狻	cro
 瘮	crr
-瘆	crs
+䅟	crs
 秐	cry
 禶	csh
 獳	csj
@@ -51903,21 +52093,21 @@ sort: original
 剨	cuo
 瘏	cuq
 祆	cus
-頍	cut
+鳳	cut
 狉	cuu
 秿	cvf
 犰	cvj
 猼	cvk
 瘰	cvm
 禩	cvo
-癳	cvv
+痑	cvv
 癦	cvw
 夙	cwd
 書	cwf
 痣	cwg
 諬	cwl
 稑	cwm
-祾	cwo
+禱	cwo
 痫	cwr
 畫	cwv
 獟	cww
@@ -51949,6 +52139,7 @@ sort: original
 𬱖	day
 肙	dbi
 嚝	dbj
+鿽	dbn
 嘒	dcc
 翲	dch
 凫	dcj
@@ -52017,7 +52208,7 @@ sort: original
 唠	djp
 嚿	djq
 鷣	djt
-噣	dju
+嘩	dju
 啰	djv
 囈	djw
 唢	djz
@@ -52171,6 +52362,7 @@ sort: original
 晾	fgj
 岥	fgp
 崥	fgt
+鿉	fgu
 嶍	fhg
 嶾	fhj
 崤	fhk
@@ -52199,13 +52391,14 @@ sort: original
 歂	fjl
 崂	fjp
 昻	fjq
-顓	fju
+曄	fju
 旻	fjw
 暎	fjy
 晲	fkh
 徳	fkj
 憄	fkk
 徧	fkl
+嶼	fkn
 岨	fkq
 𪩘	fky
 嶎	flc
@@ -52216,6 +52409,7 @@ sort: original
 鼑	flj
 衢	fll
 遉	flm
+鿈	flp
 𪨰	flq
 役	fls
 峂	flv
@@ -52251,7 +52445,7 @@ sort: original
 絠	fok
 縫	fol
 絕	fom
-繡	fon
+繍	fon
 紃	foo
 綻	fop
 纑	foq
@@ -52296,18 +52490,16 @@ sort: original
 衛	fua
 鼌	fud
 峋	fuf
-巎	fug
+崸	fug
 岖	fuh
 督	fuj
 仧	fun
-鼂	fuo
 暑	fuq
 昊	fus
-鴠	fut
 嶜	fuu
 惩	fuv
 歇	fuw
-昞	fuy
+鼂	fuy
 峬	fvf
 徏	fvj
 酱	fvk
@@ -52344,7 +52536,7 @@ sort: original
 悒	gda
 憚	gdd
 怳	gdh
-唇	gdi
+吢	gdi
 憛	gdj
 慺	gdk
 敔	gdl
@@ -52394,6 +52586,7 @@ sort: original
 骟	gkh
 惰	gkj
 恅	gkl
+懙	gkn
 懥	gkp
 怚	gkq
 敀	gld
@@ -52421,7 +52614,6 @@ sort: original
 惱	goo
 斉	gor
 癿	got
-憴	gou
 稁	gpc
 恽	gph
 怺	gpi
@@ -52459,12 +52651,13 @@ sort: original
 骊	gub
 慪	gud
 恂	guf
+頗	gug
 恟	guh
 慒	gul
 𫘝	gun
 惬	gup
-頗	gut
 兜	guu
+龾	guv
 𫘦	guy
 劓	gvj
 愽	gvk
@@ -52476,7 +52669,7 @@ sort: original
 魄	gyg
 憫	gyo
 忯	gys
-懹	gzd
+憴	gyu
 惽	gzf
 懐	gzj
 懠	gzm
@@ -52523,7 +52716,6 @@ sort: original
 翫	hgo
 锿	hgp
 軅	hha
-锰	hhd
 钴	hhg
 兣	hhh
 铫	hhi
@@ -52533,6 +52725,7 @@ sort: original
 孚	hho
 郛	hhq
 兞	hhr
+兡	hhu
 𫖯	hia
 镪	hid
 钳	hig
@@ -52609,6 +52802,7 @@ sort: original
 巵	hua
 钉	hud
 钙	huf
+頨	hug
 𫐄	huh
 卮	hui
 钘	huj
@@ -52638,7 +52832,7 @@ sort: original
 盄	iad
 沎	iai
 溠	iaj
-溔	ian
+溣	ian
 溬	iao
 漾	iap
 渼	ias
@@ -52835,7 +53029,7 @@ sort: original
 溫	ion
 污	ioo
 枼	ior
-澠	iou
+悪	iou
 烫	iow
 勚	ioz
 滪	ipa
@@ -52940,6 +53134,8 @@ sort: original
 澺	iyg
 濄	iyo
 汦	iys
+瀦	iyu
+瀼	izd
 汴	izf
 灕	izh
 瀤	izj
@@ -52957,6 +53153,7 @@ sort: original
 菿	jao
 葰	jar
 莅	jas
+龿	jaw
 颐	jay
 萉	jba
 蒯	jbb
@@ -53066,10 +53263,10 @@ sort: original
 蕡	jkj
 蒖	jkk
 藢	jkl
+藇	jkn
 荸	jkp
 苴	jkq
 菶	jkt
-藇	jku
 莤	jky
 薫	jlb
 蔚	jlc
@@ -53113,7 +53310,7 @@ sort: original
 芇	joj
 覧	jol
 蒕	jon
-蒍	joo
+芌	joo
 蒽	jos
 廽	jot
 蘜	jou
@@ -53141,7 +53338,7 @@ sort: original
 蔭	jqa
 萀	jqh
 萑	jqi
-邛	jqk
+舊	jqk
 蔴	jqm
 蒢	jqn
 罬	jqq
@@ -53191,7 +53388,7 @@ sort: original
 萐	juc
 蓲	jud
 荀	juf
-蘷	jug
+項	jug
 苉	juh
 蔔	jui
 茾	juj
@@ -53224,7 +53421,7 @@ sort: original
 塟	jwi
 苋	jwj
 莰	jwl
-蔷	jwm
+爇	jwm
 牆	jwn
 菱	jwo
 薞	jwp
@@ -53264,6 +53461,7 @@ sort: original
 亁	kfn
 嶨	khh
 酹	khk
+朮	khp
 郳	khq
 鶂	kht
 舆	khu
@@ -53282,6 +53480,7 @@ sort: original
 斡	kjn
 縣	kjt
 尭	kju
+龺	kjz
 酎	kkd
 惪	kkg
 顛	kkm
@@ -53291,6 +53490,7 @@ sort: original
 悳	klo
 棨	klr
 鶣	klt
+轝	kna
 馀	knc
 饸	knd
 惥	kng
@@ -53313,7 +53513,6 @@ sort: original
 厷	krs
 醽	ksd
 蛓	ktn
-朮	kto
 裁	ktp
 饦	ktq
 饫	kts
@@ -53323,10 +53522,8 @@ sort: original
 釃	kub
 醧	kud
 輿	kuf
-馉	kug
-轝	kun
+頟	kug
 耉	kuo
-頟	kut
 馎	kvk
 畞	kvv
 遖	kya
@@ -53334,6 +53531,7 @@ sort: original
 爨	kyi
 𫗴	kzo
 遅	laa
+鿱	lab
 訛	lai
 瑳	laj
 詂	lak
@@ -53421,7 +53619,7 @@ sort: original
 誟	lkh
 謿	lkj
 諞	lkl
-諛	lkn
+詼	lkn
 詙	lkq
 睵	lkt
 𤩽	lky
@@ -53476,7 +53674,7 @@ sort: original
 諽	log
 殿	lol
 瑙	loo
-遐	lou
+叚	lou
 琔	lpa
 琮	lpc
 瞦	lpd
@@ -53555,6 +53753,7 @@ sort: original
 譩	lyg
 瞯	lyo
 眏	lys
+譝	lyu
 琱	lyw
 玣	lzf
 詪	lzg
@@ -53624,7 +53823,6 @@ sort: original
 鞷	mog
 缆	moo
 绽	mpa
-鯗	mpm
 𬙂	mpu
 翁	mrh
 缭	msm
@@ -53637,11 +53835,13 @@ sort: original
 鬴	mvf
 鮮	mvn
 兾	mvo
+鿪	mya
 𫄷	myg
 烉	mym
 夐	myn
 螩	naa
 蝑	nab
+鿗	nac
 蛭	nai
 蚹	nak
 蚮	nat
@@ -53668,7 +53868,7 @@ sort: original
 蛊	ndm
 郃	ndq
 鴿	ndt
-頜	ndu
+鿖	ndu
 蚰	ndy
 虲	nfb
 煴	nfd
@@ -53706,7 +53906,7 @@ sort: original
 虼	nio
 氽	nis
 灷	njc
-熿	njd
+蟥	njd
 蟆	njf
 仝	njg
 蠉	nji
@@ -53717,14 +53917,13 @@ sort: original
 蠓	njp
 熦	njq
 蠎	njs
-燭	nju
+燁	nju
 燡	njw
 爤	njy
 蜧	nkc
 蛒	nkg
 煽	nkh
 燬	nkj
-煸	nkl
 炦	nkq
 蠘	nkt
 熢	nlc
@@ -53733,7 +53932,7 @@ sort: original
 蚭	nli
 煝	nll
 遺	nlm
-煆	nlo
+焗	nlo
 蚇	nlp
 炊	nlq
 燻	nlv
@@ -53745,6 +53944,8 @@ sort: original
 蚡	nmm
 焍	nmo
 焧	nmr
+烪	nms
+龽	nmv
 燧	nmy
 蚱	nna
 蜍	nnc
@@ -53771,12 +53972,11 @@ sort: original
 鹔	nom
 煾	nos
 戡	not
-蠅	nou
-粛	nov
+夦	nov
 炄	now
-熺	npd
-熐	npf
-蛀	npl
+熍	npd
+螟	npf
+倉	npl
 舘	npp
 蛞	nps
 燏	npt
@@ -53786,7 +53986,7 @@ sort: original
 蜼	nqi
 烃	nqj
 邩	nqk
-爐	nqv
+爈	nqv
 蝀	nrf
 熥	nrg
 蚞	nrl
@@ -53800,22 +54000,21 @@ sort: original
 蠕	nsj
 蝒	nsm
 爣	nsv
-煃	nsw
+蝰	nsw
 蚜	nsy
 烅	ntd
-蟋	ntv
-鳰	nty
+蜒	ntv
+熓	nty
 螞	nua
 炋	nub
 蜘	nud
 炖	nuf
-螖	nug
+蛨	nug
 蚈	nuj
-賮	nun
+盡	nun
 蜽	nuo
 灼	nup
 碁	nus
-頇	nut
 熸	nuu
 蚐	nuv
 蜪	nuy
@@ -53839,9 +54038,10 @@ sort: original
 肏	nyn
 燗	nyo
 蚔	nys
+蠅	nyu
 蜩	nyw
 蚒	nyz
-煺	nza
+焲	nza
 赢	nzb
 蟀	nzf
 蚚	nzj
@@ -53858,7 +54058,6 @@ sort: original
 篌	oau
 凿	oay
 籘	obb
-圏	obi
 箜	obj
 簶	occ
 鞂	och
@@ -53896,6 +54095,7 @@ sort: original
 囟	ohq
 頑	ohu
 箛	ohw
+黿	ohy
 簜	oif
 箥	oig
 筚	oii
@@ -53920,13 +54120,13 @@ sort: original
 囫	oju
 簄	okd
 筯	okj
+蝨	okn
 靻	okq
 鳵	okt
-籅	oku
 帏	okw
 笧	olc
 圞	olf
-篎	olj
+筭	olj
 籰	oll
 筫	olm
 纂	ols
@@ -53947,7 +54147,7 @@ sort: original
 簫	ono
 帺	onq
 乆	onr
-鞬	ont
+簘	ont
 簊	onw
 簛	onz
 迃	ooa
@@ -53957,7 +54157,6 @@ sort: original
 邋	ooh
 簕	ooj
 幒	ool
-為	ooo
 亖	oor
 乜	oot
 斲	oou
@@ -53999,6 +54198,7 @@ sort: original
 箑	ouc
 靪	oud
 筻	ouf
+幁	oug
 刁	ouh
 笄	ouj
 囙	ouk
@@ -54006,8 +54206,7 @@ sort: original
 靮	oup
 帾	ouq
 篋	ous
-幁	out
-鄳	ouu
+戼	ouu
 笉	ouv
 鞆	ouy
 箅	ovj
@@ -54127,9 +54326,12 @@ sort: original
 餂	pps
 褌	ppu
 餏	ppy
+鿣	pqh
 鄹	pqi
 邞	pqk
+鿢	pqn
 裰	pqq
+鿤	pqr
 寯	pqy
 毦	prm
 裗	pro
@@ -54158,7 +54360,7 @@ sort: original
 餦	pua
 耵	pud
 褳	puf
-餶	pug
+預	pug
 賓	puj
 褄	pun
 宕	pus
@@ -54183,6 +54385,7 @@ sort: original
 饟	pzd
 飰	pzf
 襢	pzo
+鿥	pzq
 進	qak
 𩾌	qbn
 穈	qch
@@ -54214,6 +54417,7 @@ sort: original
 鲅	qkq
 鳚	qlc
 讎	qlq
+鿧	qlu
 獻	qmc
 𩾃	qmd
 鬳	qmg
@@ -54224,7 +54428,6 @@ sort: original
 阦	qnf
 𬶋	qnj
 隤	qnl
-雠	qns
 顦	qnu
 鲴	qoh
 覷	qol
@@ -54245,8 +54448,8 @@ sort: original
 隖	qty
 阫	qub
 鲀	quf
+顀	qug
 陿	qus
-顀	qut
 陱	quv
 陋	quy
 鸕	qvd
@@ -54255,10 +54458,10 @@ sort: original
 隈	qvu
 陊	qvv
 塺	qwh
-陸	qwm
 隯	qwo
 鲱	qyf
 阺	qyp
+鿷	qyy
 鳣	qzo
 樤	raa
 楈	rab
@@ -54351,7 +54554,7 @@ sort: original
 档	rjc
 枷	rjd
 橗	rjf
-欂	rji
+鿝	rji
 檧	rjj
 楉	rjk
 樥	rjl
@@ -54364,7 +54567,6 @@ sort: original
 櫣	rju
 檡	rjw
 檌	rjy
-栫	rka
 棙	rkc
 槴	rkd
 棿	rkh
@@ -54373,6 +54575,7 @@ sort: original
 樁	rkk
 楄	rkl
 槱	rkn
+柨	rko
 桲	rkp
 柭	rkq
 棒	rkt
@@ -54510,7 +54713,7 @@ sort: original
 梽	rwg
 櫝	rwj
 毝	rwl
-樯	rwm
+槸	rwm
 栵	rwo
 榼	rwr
 杧	rww
@@ -54573,7 +54776,6 @@ sort: original
 犡	shj
 踬	shk
 剷	shm
-蹘	shn
 蹏	shq
 兟	shs
 躌	shv
@@ -54673,14 +54875,13 @@ sort: original
 趵	sup
 踷	suq
 鼫	sus
-頦	sut
 霊	suu
 蹗	svl
 霬	svo
 當	svt
 蹸	svv
 牡	swh
-踜	swo
+躊	swo
 牻	sww
 適	syh
 犅	sym
@@ -54767,6 +54968,7 @@ sort: original
 掜	tkh
 揑	tkj
 摏	tkk
+攑	tkn
 抪	tko
 扙	tkp
 抯	tkq
@@ -54787,7 +54989,6 @@ sort: original
 掐	tmk
 掰	tmm
 挮	tmo
-拌	tmt
 換	tmy
 鸷	tnd
 抡	tni
@@ -54800,6 +55001,7 @@ sort: original
 垫	tnw
 攍	tny
 擒	tnz
+夀	tod
 摷	tof
 攥	tol
 擶	tom
@@ -54923,6 +55125,7 @@ sort: original
 叵	udi
 磹	udj
 尀	udk
+鼅	udy
 砷	ufa
 磞	ufb
 颪	ufc
@@ -54939,6 +55142,7 @@ sort: original
 郾	ufy
 磭	ugb
 髇	ugg
+頁	ugm
 骳	ugp
 趚	ugs
 戛	ugt
@@ -54975,10 +55179,9 @@ sort: original
 硌	ukg
 𫠜	ukh
 硓	ukl
-郉	ukn
+礖	ukn
 砨	uko
 龃	ukq
-礖	uku
 镼	ulf
 碿	ulj
 邼	ulq
@@ -54996,6 +55199,7 @@ sort: original
 碖	unl
 磱	unn
 磡	uno
+龪	unr
 硉	unv
 骫	unw
 鶈	uny
@@ -55017,7 +55221,7 @@ sort: original
 硡	upk
 礗	upu
 硠	upz
-趡	uqi
+龨	uqi
 硁	uqj
 邒	uqk
 髍	uqm
@@ -55036,7 +55240,6 @@ sort: original
 礌	usv
 匜	usy
 龋	utd
-顨	utl
 弐	uto
 趃	utp
 砭	uts
@@ -55045,7 +55248,7 @@ sort: original
 鴀	uty
 礟	uua
 砘	uuf
-磆	uug
+碩	uug
 矹	uuh
 砾	uuj
 硏	uuk
@@ -55055,7 +55258,6 @@ sort: original
 砸	uuo
 邳	uuq
 砳	uus
-碩	uut
 磊	uuu
 礓	uuv
 骩	uvj
@@ -55161,7 +55363,7 @@ sort: original
 鞶	vlo
 粎	vlp
 粁	vlq
-槃	vlr
+栥	vlr
 邎	vlt
 磐	vlu
 垐	vlw
@@ -55173,9 +55375,10 @@ sort: original
 畔	vmt
 黭	vnd
 麃	vnf
+鿿	vni
 豿	vnj
 齷	vnn
-糂	vno
+畍	vno
 粸	vnq
 糩	vnv
 麕	voc
@@ -55202,8 +55405,8 @@ sort: original
 慿	vua
 貙	vud
 黗	vuf
+頄	vug
 豹	vup
-頄	vut
 糣	vuu
 粷	vuv
 糐	vvk
@@ -55218,7 +55421,6 @@ sort: original
 冽	vwo
 甿	vww
 畘	vyw
-粇	vzc
 貇	vzg
 耲	vzj
 艩	vzm
@@ -55227,6 +55429,7 @@ sort: original
 媭	way
 埢	wbi
 壙	wbj
+瓼	wbl
 墉	wbn
 慤	wcl
 塐	wcm
@@ -55283,12 +55486,11 @@ sort: original
 坭	wli
 瞥	wll
 垻	wlm
-鼈	wlo
 歼	wlq
 殁	wls
 龞	wlt
 斃	wlw
-訚	wly
+鼈	wly
 阐	wmf
 埆	wmg
 墱	wmi
@@ -55317,9 +55519,10 @@ sort: original
 阚	wop
 赧	woq
 鴷	wot
-頳	wou
+鿞	wou
 壶	woy
 塓	wpf
+赱	wpt
 堚	wpu
 塎	wpy
 阆	wpz
@@ -55331,7 +55534,8 @@ sort: original
 弆	wrj
 杗	wrl
 刼	wrm
-鼁	wro
+刦	wro
+鼁	wry
 壠	wsb
 垓	wsh
 壖	wsj
@@ -55349,14 +55553,14 @@ sort: original
 瑴	wul
 殌	wuo
 阇	wuq
-盨	wut
+鷇	wut
 轂	wuu
 墕	wuv
 辵	wvw
 坬	wwg
 殰	wwj
 幇	wwk
-鼃	wwo
+刲	wwo
 邽	wwq
 遶	www
 堈	wym
@@ -55450,7 +55654,7 @@ sort: original
 氐	ypf
 娵	ypq
 餥	yps
-鴟	ypt
+媯	ypt
 嬪	ypu
 妤	ypv
 裴	ypy
@@ -55495,7 +55699,7 @@ sort: original
 嫾	yvv
 嬯	ywd
 䎃	ywh
-婈	ywo
+嬦	ywo
 甀	yww
 婓	yyb
 婔	yyf
@@ -55580,7 +55784,7 @@ sort: original
 鎝	zjn
 鑬	zjo
 鑦	zjq
-斶	zju
+鏵	zju
 鏘	zjv
 鐸	zjw
 钄	zjy
@@ -55598,7 +55802,6 @@ sort: original
 銧	zlg
 鋸	zlh
 钃	zli
-鐤	zlj
 鑺	zll
 鋇	zlm
 鍜	zlo
@@ -55688,6 +55891,7 @@ sort: original
 鐚	zua
 鏂	zud
 询	zuf
+頎	zug
 讴	zuh
 鉋	zui
 鉶	zuj
@@ -55713,11 +55917,12 @@ sort: original
 鋕	zwg
 釷	zwh
 錴	zwm
-錂	zwo
+鑄	zwo
 鎑	zwr
 釯	zww
 錉	zyf
 鐿	zyg
+龬	zym
 鐹	zyo
 裵	zyp
 鑲	zzd
