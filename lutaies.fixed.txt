@@ -142,7 +142,7 @@ g	的 就 ① 自己 就是
 ga	速
 gb	白
 gc	情
-gd	唇 必
+gd	必
 gf	慢 可是
 gg	高 慢慢
 gh	熟
@@ -323,7 +323,7 @@ ng	怎
 nh	剑
 ni	创
 nj	句
-nk	乡 宝
+nk	宝
 nl	全
 nm	平 人生
 nn	从 与其 众人

@@ -6654,7 +6654,6 @@
 𬴃	gcus
 惯	gcz
 惯	gczb
-唇	gd
 忡	gda
 悒	gdab
 逜	gdak
@@ -6672,7 +6671,7 @@
 驶	gdh
 怳	gdhd
 驶	gdhq
-吾	gdi
+唇	gdi
 唇	gdic
 吢	gdii
 吾	gdiu
@@ -16227,7 +16226,6 @@
 蜹	njyn
 煐	njys
 蝧	njys
-乡	nk
 螋	nka
 螋	nkaq
 烠	nkb
@@ -20677,7 +20675,6 @@
 欗	rjym
 楧	rjys
 格	rk
-栫	rka
 栫	rkah
 栯	rkb
 栯	rkbi
@@ -23352,7 +23349,6 @@
 掷	tms
 系	tmsp
 掷	tmsq
-拌	tmt
 拌	tmts
 揆	tmu
 揆	tmus
