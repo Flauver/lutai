@@ -47,17 +47,9 @@ engine:
     - lua_filter@*lutai.pop52tips
     - simplifier
 
-history:
-  input: '['
-  size: 1
-
 __patch:
   - patch
   - lutaimix.custom:/patch?
 
 patch:
-  speller/alphabet: "qwrtyuiopasdfghjklzcvbnmex["
-  speller/popping/+:
-    - match: ".*"
-      accept: "["
   translator/dk_select: false

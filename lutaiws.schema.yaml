@@ -32,6 +32,7 @@ engine:
     - lua_processor@*lutai.key_binder
     - key_binder
     - lua_processor@*lutai.popping
+    - lua_processor@*lutai.add_word_temp*proc
     - speller
     - punctuator
     - selector
@@ -40,15 +41,17 @@ engine:
   segmentors:
     - abc_segmentor
     - matcher
-    - affix_segmentor@jdh_lutai_lookup
+    - affix_segmentor@sipin_lutai_lookup
     - affix_segmentor@stroke_lutai_lookup
     - affix_segmentor@cangjie_lutai_lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - history_translator@history
+    - lua_translator@*lutai.add_word_temp*tran
     - punct_translator
     - table_translator
-    - script_translator@jdh_lutai_lookup
+    - script_translator@sipin_lutai_lookup
     - table_translator@stroke_lutai_lookup
     - table_translator@cangjie_lutai_lookup
   filters:
@@ -57,7 +60,7 @@ engine:
     - simplifier@trad
 
 speller:
-  alphabet: "qwrtyuiopasdfghjklzcvbnmex"
+  alphabet: "qwrtyuiopasdfghjklzcvbnmex["
   auto_select: true
   auto_select_pattern: '^e.+'
   popping:
@@ -66,6 +69,8 @@ speller:
       prefix: 3
     - match: "fj[qwrtyuiopasdfghjklzcvbnm]{4}"
       accept: "[^ 2345]"
+    - match: ".+"
+      accept: '\['
 
 recognizer:
   patterns:
@@ -73,21 +78,25 @@ recognizer:
     stroke_lutai_lookup: "^xb[a-z]*$"
     cangjie_lutai_lookup: "^xc[a-z]*$"
 
+history:
+  input: '['
+  size: 1
+
 key_binder:
   bindings:
-    - match: '[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
+    - match: '[qwrtyuiopasdfghjklzcvbnm]{1,3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
       accept: " "
       send_sequence: " "
-    - match: '[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
+    - match: '[qwrtyuiopasdfghjklzcvbnm]{1,3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
       accept: "e"
       send_sequence: "2"
-    - match: '[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
+    - match: '[qwrtyuiopasdfghjklzcvbnm]{1,3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
       accept: "x"
       send_sequence: "3"
-    - match: '[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
+    - match: '[qwrtyuiopasdfghjklzcvbnm]{1,3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
       accept: ";"
       send_sequence: "4"
-    - match: '[qwrtyuiopasdfghjklzcvbnm]{1, 3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
+    - match: '[qwrtyuiopasdfghjklzcvbnm]{1,3}|fj[qwrtyuiopasdfghjklzcvbnm]{4}'
       accept: "'"
       send_sequence: "5"
     - match: "[qwrtyuiopasdfghjklzcvbnm]{4}"
